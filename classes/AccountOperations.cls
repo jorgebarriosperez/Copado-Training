@@ -3,4 +3,12 @@ public class AccountOperations {
          a.Description = 'Default Description';
          return a;
     }
+    public static Account setDefaultPhone(Account a){ //Dev01
+    	a.Phone	= '987654321';
+        return a;
+    }
+    public static Account setDefaultURL(Account a){//Dev02
+        a.Website = 'www.copado.com';//Dev02
+        return a;
+    }
 }
