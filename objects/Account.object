@@ -169,6 +169,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Integration_Off2__c</fullName>
+        <externalId>false</externalId>
+        <label>Integration_Off2</label>
+        <length>41</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Jhon_Hancock__c</fullName>
         <description>Requiered by JH.</description>
         <externalId>false</externalId>
