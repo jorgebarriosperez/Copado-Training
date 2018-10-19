@@ -194,6 +194,11 @@
                     <default>false</default>
                     <label>COSENTINO</label>
                 </value>
+                <value>
+                    <fullName>SANITAS</fullName>
+                    <default>false</default>
+                    <label>SANITAS</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>MADRID</controllingFieldValue>
@@ -208,10 +213,6 @@
                 <valueName>SABA</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>BARCELONA</controllingFieldValue>
-                <valueName>GT</valueName>
-            </valueSettings>
-            <valueSettings>
                 <controllingFieldValue>SANTIAGO</controllingFieldValue>
                 <valueName>FINSA</valueName>
             </valueSettings>
@@ -222,6 +223,10 @@
             <valueSettings>
                 <controllingFieldValue>ALMERIA</controllingFieldValue>
                 <valueName>COSENTINO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>ALMERIA</controllingFieldValue>
+                <valueName>SANITAS</valueName>
             </valueSettings>
         </valueSet>
     </fields>
