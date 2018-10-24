@@ -309,6 +309,17 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>TEXTO_1__c</fullName>
+        <externalId>false</externalId>
+        <label>TEXTO 1</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TotalOpportunityQuantity</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
