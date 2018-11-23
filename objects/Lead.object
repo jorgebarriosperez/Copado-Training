@@ -88,6 +88,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CleanStatus</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Company</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -235,6 +239,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Prueba_ejemplo__c</fullName>
+        <externalId>false</externalId>
+        <label>Prueba_ejemplo</label>
+        <length>20</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Rating</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Picklist</type>
@@ -273,12 +287,6 @@
         <label>All Open Leads</label>
     </listViews>
     <listViews>
-        <fullName>InternationalLeads</fullName>
-        <filterScope>Queue</filterScope>
-        <label>International Leads</label>
-        <queue>InternationalLeads</queue>
-    </listViews>
-    <listViews>
         <fullName>MyUnreadLeads</fullName>
         <filterScope>Mine</filterScope>
         <filters>
@@ -297,12 +305,6 @@
             <value>TODAY</value>
         </filters>
         <label>Today&apos;s Leads</label>
-    </listViews>
-    <listViews>
-        <fullName>USLeads</fullName>
-        <filterScope>Queue</filterScope>
-        <label>US Leads</label>
-        <queue>USLeads</queue>
     </listViews>
     <listViews>
         <fullName>ViewCustom1</fullName>
