@@ -148,6 +148,15 @@
         <fullName>IsActive</fullName>
     </fields>
     <fields>
+        <fullName>Modificacion_Masiva__c</fullName>
+        <externalId>false</externalId>
+        <label>Modificacion Masiva</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
     </fields>
     <fields>
