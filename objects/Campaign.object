@@ -118,6 +118,15 @@
         <fullName>Name</fullName>
     </fields>
     <fields>
+        <fullName>No_mover__c</fullName>
+        <externalId>false</externalId>
+        <label>No mover</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>NumberOfContacts</fullName>
     </fields>
     <fields>
