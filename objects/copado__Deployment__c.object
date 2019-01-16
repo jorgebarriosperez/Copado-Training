@@ -624,9 +624,9 @@ copado__SUM_Deployed__c / copado__Deployment_Jobs_Count__c,
         <columns>NAME</columns>
         <columns>copado__Date__c</columns>
         <columns>copado__Status__c</columns>
+        <columns>copado__From_Org__c</columns>
         <columns>copado__Deployed__c</columns>
         <columns>copado__Completed__c</columns>
-        <columns>copado__From_Org__c</columns>
         <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
