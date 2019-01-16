@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
     <applicationVisibilities>
+        <application>Copado_Integrations</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
         <application>Force_com</application>
         <default>false</default>
         <visible>false</visible>
@@ -75,6 +80,70 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>CallIterable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoCCMutilities</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CopadoMockHttpResponseGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CustomIterable</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ExecuteUserStoryUpsert</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>IIntegration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>IntegrationFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>JiraIntegration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Listado</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>Method</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ScheduleUserStoryFetch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>SyncUserStoriesController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>TestIntegration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>UserStoryHandler</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>VSTSIntegration</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>nana</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -84,6 +153,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_External_id__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -130,6 +204,11 @@
         <editable>true</editable>
         <field>Account.Industry</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.IsExcludedFromRealign</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -225,6 +304,11 @@
         <editable>true</editable>
         <field>Account.Type</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Unit_of_Measure__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -345,6 +429,31 @@
         <editable>true</editable>
         <field>AssetRelationship.RelationshipType</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Callout_Log__c.Project__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Callout_Log__c.Response_Body__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Callout_Log__c.Status_Code__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Callout_Log__c.Status__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Callout_Log__c.User_Story__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -707,6 +816,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Contact.Loan_Amount__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Contact.MailingAddress</field>
         <readable>true</readable>
@@ -855,6 +969,21 @@
         <editable>true</editable>
         <field>Event.WhoId</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Field_Mapping__c.Exclude_from_su__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Field_Mapping__c.Exclude_from_tpu__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Field_Mapping__c.Target_Field_Type__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1022,6 +1151,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Dependencia_1__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.Dependencia_2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Opportunity.Description</field>
         <readable>true</readable>
@@ -1104,6 +1243,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>OpportunityLineItem.Subtotal</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>OpportunityLineItem.Test_picklist_opp__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2878,6 +3022,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__Project__c.Enable_Logs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Project__c.JQL_Extended_Filter__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Project__c.Project_External_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__Project__c.Workspace_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__Project__c.copado__Deployment_Flow__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4128,6 +4292,21 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>copado__User_Story__c.Enable_Logs__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.External_Id__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>copado__User_Story__c.JIRA_key__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>copado__User_Story__c.copado__Acceptance_Criteria_Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -4456,6 +4635,9 @@
         <layout>AssetRelationship-Asset Relationship Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Callout_Log__c-Callout Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4483,6 +4665,9 @@
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Copado_Integration_Setting__c-Copado Integration Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>DandBCompany-D%26B Company Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4493,6 +4678,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-Event Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Field_Mapping__c-Field Mapping Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
@@ -4513,6 +4701,10 @@
         <layout>Lead-Lead Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.prueba_lead</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Macro-Macro Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4528,6 +4720,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>MetricDataLink-Metric Data Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -4573,6 +4768,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Model-Territory Model Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Territory2Type-Territory Type Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -4664,9 +4865,18 @@
         <object>Product2</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <pageAccesses>
+        <apexPage>SyncUserStories</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.prueba_lead</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -4744,6 +4954,10 @@
         <recordType>copado__User_Story__c.copado__User_Story</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Copado_Integration_Setting__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Account</tab>
         <visibility>DefaultOn</visibility>
@@ -4837,6 +5051,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <userLicense>Authenticated Website</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
