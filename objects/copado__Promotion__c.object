@@ -496,6 +496,8 @@
         <columns>copado__Project__c</columns>
         <columns>copado__Release__c</columns>
         <columns>copado__Source_Environment__c</columns>
+        <columns>copado__Source_Org_Credential__c</columns>
+        <columns>copado__Destination_Org_Credential__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
         <language>en_US</language>
