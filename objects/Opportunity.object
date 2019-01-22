@@ -373,6 +373,17 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>RequeridoTurbo__c</fullName>
+        <externalId>false</externalId>
+        <label>RequeridoTurbo</label>
+        <length>20</length>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>StageName</fullName>
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
