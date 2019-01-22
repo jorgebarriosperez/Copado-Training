@@ -1137,6 +1137,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Opportunity.RequeridoDespues__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Opportunity.TEXTO_1__c</field>
         <readable>true</readable>
     </fieldPermissions>
