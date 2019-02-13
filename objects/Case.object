@@ -129,6 +129,67 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Gradiente__c</fullName>
+        <externalId>false</externalId>
+        <label>Gradiente</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Old</fullName>
+                    <default>false</default>
+                    <label>Old</label>
+                </value>
+                <value>
+                    <fullName>Evaluate</fullName>
+                    <default>false</default>
+                    <label>Evaluate</label>
+                </value>
+                <value>
+                    <fullName>Ansiety</fullName>
+                    <default>false</default>
+                    <label>Ansiety</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Gradiente_sin_Restrict__c</fullName>
+        <externalId>false</externalId>
+        <label>Gradiente sin Restrict</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One</fullName>
+                    <default>false</default>
+                    <label>One</label>
+                </value>
+                <value>
+                    <fullName>Two</fullName>
+                    <default>false</default>
+                    <label>Two</label>
+                </value>
+                <value>
+                    <fullName>Three</fullName>
+                    <default>false</default>
+                    <label>Three</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>IsClosedOnCreate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
@@ -412,6 +473,43 @@
         <label>US - Silver/Bronze</label>
         <queue>USSilverBronze</queue>
     </listViews>
+    <recordTypes>
+        <fullName>RT_Investigation</fullName>
+        <active>true</active>
+        <businessProcess>Case Process TE</businessProcess>
+        <description>Investigation</description>
+        <label>RT Investigation</label>
+        <picklistValues>
+            <picklist>Gradiente__c</picklist>
+            <values>
+                <fullName>Ansiety</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Evaluate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Old</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Gradiente_sin_Restrict__c</picklist>
+            <values>
+                <fullName>One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
