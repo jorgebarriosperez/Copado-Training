@@ -177,6 +177,16 @@
                     <default>false</default>
                     <label>Ansiety</label>
                 </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
@@ -206,6 +216,16 @@
                     <fullName>Three</fullName>
                     <default>false</default>
                     <label>Three</label>
+                </value>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Maybe</fullName>
+                    <default>false</default>
+                    <label>Maybe</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -511,12 +531,20 @@
                 <default>false</default>
             </values>
             <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Old</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
         <picklistValues>
             <picklist>Gradiente_sin_Restrict__c</picklist>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
             <values>
                 <fullName>One</fullName>
                 <default>false</default>
