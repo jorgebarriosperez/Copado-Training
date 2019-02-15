@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>community-content-account (a3x1t000000gVT0AAM)</members>
+        <members>community-content-detail (a3x1t000000gVT1AAM)</members>
+        <members>community-content-frame (a3x1t000000gVT2AAM)</members>
+        <members>community-flyout-grid (a3x1t000000gVT3AAM)</members>
+        <members>community-flyout-grid-actions (a3x1t000000gVT4AAM)</members>
+        <members>community-flyout-grid-items (a3x1t000000gVT5AAM)</members>
+        <members>list-card-slds (a3x1t000000gVTbAAM)</members>
+        <members>list-table (a3x1t000000gVTcAAM)</members>
+        <members>list-table-card (a3x1t000000gVTdAAM)</members>
+        <members>offer-card-active-slds (a3x1t000000gVTeAAM)</members>
+        <members>xom-opv-item-modal (a3x1t000000gVScAAM)</members>
+        <name>VlocityUITemplate</name>
+    </types>
+    <version>44.0</version>
+</Package>
