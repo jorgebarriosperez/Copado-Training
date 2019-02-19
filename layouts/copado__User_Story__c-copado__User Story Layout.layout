@@ -346,7 +346,7 @@
                 <page>copado__AddTestClasses</page>
                 <showLabel>false</showLabel>
                 <showScrollbars>false</showScrollbars>
-                <width>100%</width>
+                <width>0</width>
             </layoutItems>
             <layoutItems>
                 <height>500</height>
@@ -606,7 +606,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h0Y000000UiJj</masterLabel>
+        <masterLabel>00h1t000001zcFk</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

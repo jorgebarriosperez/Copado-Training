@@ -20,5 +20,6 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-Case</tabs>
     <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-OmniSupervisorLightning</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

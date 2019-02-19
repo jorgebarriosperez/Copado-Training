@@ -389,6 +389,15 @@
         <label>My Open Cases</label>
     </listViews>
     <listViews>
+        <fullName>Omni_channel_queue_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Omni channel queue</label>
+        <queue>Omni_channel_queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
         <fullName>PartnerRelations</fullName>
         <filterScope>Queue</filterScope>
         <label>Partner Relations</label>
