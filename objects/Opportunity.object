@@ -342,7 +342,6 @@
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>MultiselectPicklist</type>
-        <visibleLines>4</visibleLines>
         <valueSet>
             <restricted>true</restricted>
             <valueSetDefinition>
@@ -379,7 +378,7 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-
+<visibleLines>4</visibleLines>
     </fields>
     <fields>
         <fullName>Name</fullName>
