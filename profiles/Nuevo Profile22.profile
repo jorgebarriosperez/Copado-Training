@@ -15,6 +15,10 @@
         <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>        
         <enabled>true</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
