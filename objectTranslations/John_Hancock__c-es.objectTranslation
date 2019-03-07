@@ -8,5 +8,5 @@
         <plural>true</plural>
         <value>John Hancock</value>
     </caseValues>
-    <gender>Neuter</gender>
+    <gender>Feminine</gender>
 </CustomObjectTranslation>
