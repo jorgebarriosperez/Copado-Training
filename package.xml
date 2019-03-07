@@ -4,10 +4,5 @@
         <members>John_Hancock__c-es</members>
         <name>CustomObjectTranslation</name>
     </types>
-    <types>
-        <members>de</members>
-        <members>en_US</members>
-        <name>Translations</name>
-    </types>
     <version>44.0</version>
 </Package>
