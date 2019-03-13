@@ -5,8 +5,7 @@
         <description>Email alerta de prueba</description>
         <protected>false</protected>
         <recipients>
-            <recipient>jbarrios@dev1copa.do</recipient>
-            <type>user</type>
+            <type>owner</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
