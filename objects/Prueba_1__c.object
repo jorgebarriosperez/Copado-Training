@@ -53,6 +53,19 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Mu__c</fullName>
+        <externalId>false</externalId>
+        <label>MultiPicklist_Value_SET</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SuperPicklist</valueSetName>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
         <fullName>Numero_Requerido__c</fullName>
         <externalId>false</externalId>
         <label>Numero_Requerido</label>
