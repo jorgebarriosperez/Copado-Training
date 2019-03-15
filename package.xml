@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>entititle_tes_v1</members>
-        <name>EntitlementProcess</name>
+        <members>Prueba_1__c.Picklist_Value_SET__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>Milestone_1</members>
-        <name>MilestoneType</name>
+        <members>SuperPicklist</members>
+        <name>GlobalValueSet</name>
     </types>
     <types>
-        <members>Case.Email_alerta_de_prueba</members>
-        <name>WorkflowAlert</name>
+        <members>Prueba_1__c.El_Creador</members>
+        <name>RecordType</name>
     </types>
     <version>44.0</version>
 </Package>

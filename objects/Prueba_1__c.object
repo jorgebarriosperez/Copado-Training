@@ -63,6 +63,19 @@
         <type>Number</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Picklist_Value_SET__c</fullName>
+        <description>Picklist_Value_SET</description>
+        <externalId>false</externalId>
+        <label>Picklist_Value_SET</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>SuperPicklist</valueSetName>
+        </valueSet>
+    </fields>
     <gender>Masculine</gender>
     <label>Prueba_1</label>
     <listViews>
@@ -75,6 +88,42 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Prueba_1</pluralLabel>
+    <recordTypes>
+        <fullName>El_Creador</fullName>
+        <active>true</active>
+        <label>El Creador</label>
+        <picklistValues>
+            <picklist>Picklist_Value_SET__c</picklist>
+            <values>
+                <fullName>Close with Several Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>End</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Release</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Release in the Future</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Super Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <massQuickActions>Gradiente</massQuickActions>
     </searchLayouts>
