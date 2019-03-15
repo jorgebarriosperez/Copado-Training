@@ -35,6 +35,11 @@
         <default>false</default>
         <label>End</label>
     </customValue>
+    <customValue>
+        <fullName>Viejo Fallo</fullName>
+        <default>false</default>
+        <label>Viejo Fallo</label>
+    </customValue>
     <description>Mi global value set</description>
     <masterLabel>SuperPicklist</masterLabel>
     <sorted>false</sorted>
