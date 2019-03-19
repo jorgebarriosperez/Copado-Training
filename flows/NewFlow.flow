@@ -37,8 +37,8 @@
     <screens>
         <name>prueba</name>
         <label>prueba</label>
-        <locationX>655</locationX>
-        <locationY>235</locationY>
+        <locationX>701</locationX>
+        <locationY>161</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -49,6 +49,13 @@
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
             <scale>0</scale>
+        </fields>
+        <fields>
+            <name>checkboxflow</name>
+            <dataType>Boolean</dataType>
+            <fieldText>checkboxflow</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
         </fields>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
