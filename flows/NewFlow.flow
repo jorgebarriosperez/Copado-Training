@@ -61,5 +61,5 @@
         <showHeader>true</showHeader>
     </screens>
     <startElementReference>Nuevo</startElementReference>
-    <status>Obsolete</status>
+    <status>Active</status>
 </Flow>
