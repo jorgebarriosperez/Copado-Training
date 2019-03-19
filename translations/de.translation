@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinitions>
+        <flows>
+            <fullName>NewFlow-4</fullName>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>NewFlow</fullName>
+    </flowDefinitions>
+</Translations>
