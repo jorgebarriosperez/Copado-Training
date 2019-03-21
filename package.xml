@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>NewFlow</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>NewFlow</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>de</members>
-        <members>en_US</members>
-        <members>it</members>
-        <name>Translations</name>
+        <members>CFO</members>
+        <name>Role</name>
     </types>
     <version>44.0</version>
 </Package>
