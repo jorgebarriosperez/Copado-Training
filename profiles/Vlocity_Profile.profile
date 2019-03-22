@@ -30076,8 +30076,4 @@
         <enabled>false</enabled>
         <name>ManageSurveys</name>
     </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>RecordVisibilityAPI</name>
-    </userPermissions>
 </Profile>
