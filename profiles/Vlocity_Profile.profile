@@ -28449,11 +28449,6 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
-        <recordType>vlocity_cmt__OrchestrationItemDefinition__c.vlocity_cmt__ManualTask</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <default>true</default>
         <recordType>vlocity_cmt__OrchestrationItemDefinition__c.vlocity_cmt__Milestone</recordType>
         <visible>true</visible>
