@@ -8625,11 +8625,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contract.vlocity_cmt__ParentContractId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Contract.vlocity_cmt__PriceListId__c</field>
         <readable>true</readable>
     </fieldPermissions>
