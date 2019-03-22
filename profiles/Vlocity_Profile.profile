@@ -29913,10 +29913,6 @@
         <name>ViewSetup</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>WorkCalibrationUser</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>false</enabled>
         <name>ModifyAllData</name>
     </userPermissions>
