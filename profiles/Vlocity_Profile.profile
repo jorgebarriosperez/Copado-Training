@@ -28457,11 +28457,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Account.vlocity_cmt__Consumer</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Account.vlocity_cmt__MobilePhoneAccount</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
