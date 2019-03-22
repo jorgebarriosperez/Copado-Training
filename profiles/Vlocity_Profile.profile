@@ -29382,10 +29382,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ContentAdministrator</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ContentWorkspaces</name>
     </userPermissions>
     <userPermissions>
