@@ -28450,11 +28450,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__Datastore__c.vlocity_cmt__ProductHierarchy</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__FulfilmentRequest__c.vlocity_cmt__FulfilmentRequest</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
