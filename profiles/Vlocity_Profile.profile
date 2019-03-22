@@ -8435,11 +8435,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Case.vlocity_cmt__StatementLineItemId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.vlocity_cmt__StatusImageName__c</field>
         <readable>true</readable>
     </fieldPermissions>
