@@ -8815,11 +8815,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.vlocity_cmt__FrameContractId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.vlocity_cmt__IsContractRequired__c</field>
         <readable>true</readable>
     </fieldPermissions>
