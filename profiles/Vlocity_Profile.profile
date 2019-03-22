@@ -8850,11 +8850,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.vlocity_cmt__EffectiveOneTimeLoyaltyTotal__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OpportunityLineItem.vlocity_cmt__EffectiveOneTimeTotal__c</field>
         <readable>true</readable>
     </fieldPermissions>
