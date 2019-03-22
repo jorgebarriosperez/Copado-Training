@@ -8625,11 +8625,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contract.vlocity_cmt__TerminationType__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Contract.vlocity_cmt__TotalMonthlyDiscount__c</field>
         <readable>true</readable>
     </fieldPermissions>
