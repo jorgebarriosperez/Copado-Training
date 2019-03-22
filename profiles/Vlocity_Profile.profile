@@ -8655,11 +8655,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Event.vlocity_cmt__EventStatus__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Event.vlocity_cmt__FollowUpTo__c</field>
         <readable>true</readable>
     </fieldPermissions>
