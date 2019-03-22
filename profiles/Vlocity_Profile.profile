@@ -8815,11 +8815,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.vlocity_cmt__AccountSLA__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.vlocity_cmt__DefaultCurrencyPaymentMode__c</field>
         <readable>true</readable>
     </fieldPermissions>
