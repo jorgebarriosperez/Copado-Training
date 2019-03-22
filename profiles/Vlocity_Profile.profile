@@ -28453,11 +28453,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Case.vlocity_cmt__Billing</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Case.vlocity_cmt__MobilePhoneCase</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
