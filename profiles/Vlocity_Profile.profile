@@ -678,10 +678,6 @@
         <name>CreateTopics</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>CreateWorkBadgeDefinition</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>CreateWorkspaces</name>
     </userPermissions>
