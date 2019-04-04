@@ -5,6 +5,10 @@
         <name>ApexClass</name>
     </types>
     <types>
+        <members>Asset.UsageEndDate</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>MarketingProfile</members>
         <name>Profile</name>
     </types>
