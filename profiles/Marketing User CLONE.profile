@@ -8850,11 +8850,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.vlocity_cmt__ProductHierarchyPath__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OpportunityLineItem.vlocity_cmt__ProvisioningStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
