@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__FulfilmentRequest__c.vlocity_cmt__ServiceQualificationRequest</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__Household__c.vlocity_cmt__Group</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
