@@ -8540,11 +8540,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Contact.vlocity_cmt__EmploymentStatus__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Contact.vlocity_cmt__Image__c</field>
         <readable>true</readable>
     </fieldPermissions>
