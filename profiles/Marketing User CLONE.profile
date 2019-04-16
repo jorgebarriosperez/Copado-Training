@@ -8815,11 +8815,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.vlocity_cmt__ShippingPostalCode__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Opportunity.vlocity_cmt__ShippingState__c</field>
         <readable>true</readable>
     </fieldPermissions>
