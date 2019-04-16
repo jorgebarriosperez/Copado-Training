@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>campaign-add-member (a3x1t000000gVSEAA2)</members>
-        <members>campaign-add-member-Jorge (a3x1t000000gd8jAAA)</members>
-        <name>VlocityUITemplate</name>
+        <members>Marketing User CLONE</members>
+        <name>Profile</name>
     </types>
-    <version>44.0</version>
+    <version>45.0</version>
 </Package>
