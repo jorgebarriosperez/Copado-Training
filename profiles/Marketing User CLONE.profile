@@ -8335,11 +8335,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CampaignMember.vlocity_cmt__EmailTemplate__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CampaignMember.vlocity_cmt__LastCallDate__c</field>
         <readable>true</readable>
     </fieldPermissions>
