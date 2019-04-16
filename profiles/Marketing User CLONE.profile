@@ -28475,11 +28475,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Case.vlocity_cmt__Service</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Contact.vlocity_cmt__MobilePhoneContact</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
