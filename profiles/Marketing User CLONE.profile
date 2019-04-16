@@ -29588,10 +29588,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ViewAllForecasts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ApiUserOnly</name>
     </userPermissions>
     <userPermissions>
