@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__InventoryItem__c.vlocity_cmt__InventoryItem</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__InventoryItem__c.vlocity_cmt__ServiceQualificationResult</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
