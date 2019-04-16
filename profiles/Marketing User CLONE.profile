@@ -29932,10 +29932,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>EnableSOS</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ManageSandboxes</name>
     </userPermissions>
     <userPermissions>
