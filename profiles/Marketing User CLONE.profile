@@ -28475,11 +28475,6 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Contract.vlocity_cmt__Contract</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Contract.vlocity_cmt__ReadOnlyContract</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
