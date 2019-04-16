@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Product2.vlocity_cmt__ProductTemplate</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>Task.vlocity_cmt__MobilePhoneTask</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
