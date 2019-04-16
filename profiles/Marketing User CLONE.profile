@@ -8335,11 +8335,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Campaign.vlocity_cmt__MassEmailContent__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Campaign.vlocity_cmt__MassEmailSubject__c</field>
         <readable>true</readable>
     </fieldPermissions>
