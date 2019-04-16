@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__OperatingHoursEntry__c.vlocity_cmt__Exception</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__OperatingHoursEntry__c.vlocity_cmt__Standard</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
