@@ -30092,10 +30092,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>RecordVisibilityAPI</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>EinsteinAssistantUser</name>
     </userPermissions>
     <userPermissions>
