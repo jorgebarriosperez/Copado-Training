@@ -8335,11 +8335,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CampaignMember.vlocity_cmt__CampaignOmniScriptURL__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CampaignMember.vlocity_cmt__CampaignStatus__c</field>
         <readable>true</readable>
     </fieldPermissions>
