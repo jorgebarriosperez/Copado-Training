@@ -8850,11 +8850,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OpportunityLineItem.vlocity_cmt__PricingLogData__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OpportunityLineItem.vlocity_cmt__Product2Id__c</field>
         <readable>true</readable>
     </fieldPermissions>
