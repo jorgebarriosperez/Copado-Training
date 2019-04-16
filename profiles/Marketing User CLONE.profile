@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__AssessmentQuestion__c.vlocity_cmt__QuestionTableMultiSelect</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__AssessmentQuestion__c.vlocity_cmt__QuestionTableSingleSelect</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
