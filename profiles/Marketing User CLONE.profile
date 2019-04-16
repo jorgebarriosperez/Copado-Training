@@ -8335,11 +8335,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Campaign.vlocity_cmt__ProcessSubType__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Campaign.vlocity_cmt__ProcessType__c</field>
         <readable>true</readable>
     </fieldPermissions>
