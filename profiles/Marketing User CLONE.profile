@@ -29820,10 +29820,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>WorkCalibrationUser</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>WorkDotComUserPerm</name>
     </userPermissions>
     <userPermissions>
