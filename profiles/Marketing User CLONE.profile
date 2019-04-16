@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__OrchestrationItemDefinition__c.vlocity_cmt__SubPlan</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__PricingComponent__c.vlocity_cmt__Alteration</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
