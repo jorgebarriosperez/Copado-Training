@@ -8170,11 +8170,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Asset.vlocity_cmt__ProvisioningStatus__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Asset.vlocity_cmt__RecurringCalculatedPrice__c</field>
         <readable>true</readable>
     </fieldPermissions>
