@@ -8955,11 +8955,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Order.vlocity_cmt__TotalMonthlyDiscount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Order.vlocity_cmt__TotalOneTimeDiscount__c</field>
         <readable>true</readable>
     </fieldPermissions>
