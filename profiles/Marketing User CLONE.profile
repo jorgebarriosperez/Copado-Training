@@ -8070,11 +8070,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.vlocity_cmt__AutoPaymentMethodId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Account.vlocity_cmt__BillDeliveryMethod__c</field>
         <readable>true</readable>
     </fieldPermissions>
