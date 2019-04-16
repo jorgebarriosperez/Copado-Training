@@ -8755,11 +8755,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Lead.vlocity_cmt__PremisesId__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Lead.vlocity_cmt__ProductInterest__c</field>
         <readable>true</readable>
     </fieldPermissions>
