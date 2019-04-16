@@ -28472,11 +28472,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>vlocity_cmt__Household__c.vlocity_cmt__Household</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>vlocity_cmt__IntegrationRetryPolicy__c.vlocity_cmt__MonotonousForeverRetryPolicy</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
