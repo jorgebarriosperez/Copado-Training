@@ -28478,11 +28478,6 @@
         <enabled>true</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Account.vlocity_cmt__Billing</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
         <default>false</default>
         <recordType>Account.vlocity_cmt__BillingAggregator</recordType>
         <visible>true</visible>
