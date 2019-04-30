@@ -22,7 +22,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AllowUniversalSearch</name>
+        <name>AllowUniversalSearch_ww</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
