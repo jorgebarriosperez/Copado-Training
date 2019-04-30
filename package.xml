@@ -4,5 +4,9 @@
         <members>Opportunity.Field_test_1__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Jorge Profile</members>
+        <name>Profile</name>
+    </types>
     <version>45.0</version>
 </Package>
