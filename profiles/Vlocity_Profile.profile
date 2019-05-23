@@ -2726,10 +2726,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>vlocity_cmt__VlocityUITemplateDesigner</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>vlocity_cmt__VlocityXOMAdministration</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
