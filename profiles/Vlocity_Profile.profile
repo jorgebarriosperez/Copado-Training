@@ -2726,10 +2726,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>vlocity_cmt__DataPacks</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>vlocity_cmt__DataRaptor</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
