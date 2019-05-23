@@ -2726,10 +2726,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>vlocity_cmt__VlocityDocumentClauses</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>vlocity_cmt__VlocityIndustryConsole</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
