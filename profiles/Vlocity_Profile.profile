@@ -2726,10 +2726,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>vlocity_cmt__Assigned_To_Me</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>vlocity_cmt__CMTAdmin</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
