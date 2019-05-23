@@ -2726,10 +2726,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>vlocity_cmt__VlocityAdministration</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>vlocity_cmt__VlocityAttributeCategory</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
