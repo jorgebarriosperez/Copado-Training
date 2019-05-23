@@ -3491,10 +3491,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ManageEncryptionKeys</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ApiUserOnly</name>
     </userPermissions>
     <userPermissions>
