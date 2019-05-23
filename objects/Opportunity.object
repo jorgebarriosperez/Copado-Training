@@ -305,6 +305,18 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Field_test_1__c</fullName>
+        <description>Test para John Hancock</description>
+        <externalId>false</externalId>
+        <label>Field_test_1</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>IqScore</fullName>
         <trackTrending>false</trackTrending>
     </fields>
