@@ -3527,10 +3527,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>WorkDotComUserPerm</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>GovernNetworks</name>
     </userPermissions>
     <userPermissions>
