@@ -53,6 +53,39 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>CampoPicklist1234__c</fullName>
+        <externalId>false</externalId>
+        <label>CampoPicklist1234</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Letra1</fullName>
+                    <default>false</default>
+                    <label>Letra1</label>
+                </value>
+                <value>
+                    <fullName>Letra2</fullName>
+                    <default>false</default>
+                    <label>Letra2</label>
+                </value>
+                <value>
+                    <fullName>Letra3</fullName>
+                    <default>false</default>
+                    <label>Letra3</label>
+                </value>
+                <value>
+                    <fullName>Letra4</fullName>
+                    <default>false</default>
+                    <label>Letra4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Campo_Profile__c</fullName>
         <externalId>false</externalId>
         <label>Campo_Profile</label>
