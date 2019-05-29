@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Event.GroupEventType</members>
+        <members>Event.test_22__c</members>
+        <members>Prueba_1__c.CampoPicklist1234__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Activity-de</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>EventType-de</members>
+        <name>StandardValueSetTranslation</name>
+    </types>
+    <types>
         <members>de</members>
         <name>Translations</name>
     </types>
