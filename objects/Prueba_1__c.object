@@ -54,8 +54,9 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>CampoPicklist1234__c</fullName>
-        <description>jbarrios@dev1copa.do</description>
+        <description>&apos;jbarrios@dev1copa.do&apos;</description>
         <externalId>false</externalId>
+        <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
         <label>CampoPicklist1234</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
