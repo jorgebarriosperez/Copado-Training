@@ -54,7 +54,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>CampoPicklist1234__c</fullName>
-        <description>&apos;jbarrios@dev1copa.do&apos;</description>
+        <description>{!Environment.HELL_VARIABLE_HEAVEN}</description>
         <externalId>false</externalId>
         <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
         <label>CampoPicklist1234</label>
