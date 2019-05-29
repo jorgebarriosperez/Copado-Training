@@ -54,6 +54,7 @@
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
         <fullName>CampoPicklist1234__c</fullName>
+        <description>jbarrios@dev1copa.do</description>
         <externalId>false</externalId>
         <label>CampoPicklist1234</label>
         <required>false</required>
