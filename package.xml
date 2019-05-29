@@ -7,6 +7,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>EventType-de</members>
+        <name>StandardValueSetTranslation</name>
+    </types>
+    <types>
         <members>de</members>
         <name>Translations</name>
     </types>
