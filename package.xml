@@ -4,5 +4,15 @@
         <members>Prueba_1__c.CampoPicklist1234__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>CustomLabels</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>de</members>
+        <members>en_US</members>
+        <members>it</members>
+        <name>Translations</name>
+    </types>
     <version>45.0</version>
 </Package>
