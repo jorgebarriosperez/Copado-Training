@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Update</fullName>
+        <default>false</default>
+        <label>Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Super Update</fullName>
+        <default>false</default>
+        <label>Super Update</label>
+    </customValue>
+    <customValue>
+        <fullName>Release</fullName>
+        <default>false</default>
+        <label>Release</label>
+    </customValue>
+    <customValue>
+        <fullName>Release in the Future</fullName>
+        <default>false</default>
+        <label>Release in the Future</label>
+    </customValue>
+    <customValue>
+        <fullName>Close with Several Error</fullName>
+        <default>false</default>
+        <label>Close with Several Error</label>
+    </customValue>
+    <customValue>
+        <fullName>End</fullName>
+        <default>false</default>
+        <label>End</label>
+    </customValue>
+    <customValue>
+        <fullName>Viejo Fallo</fullName>
+        <default>false</default>
+        <label>Viejo Fallo</label>
+    </customValue>
+    <description>Mi global value set</description>
+    <masterLabel>SuperPicklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
