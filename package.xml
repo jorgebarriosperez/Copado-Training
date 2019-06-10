@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Vlocity_Profile</members>
-        <name>Profile</name>
+        <members>vlocity_cmt__RelationshipGraphComponent</members>
+        <members>vlocity_cmt__StoryComponent</members>
+        <members>vlocity_cmt__defaultTokens</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <version>45.0</version>
 </Package>
