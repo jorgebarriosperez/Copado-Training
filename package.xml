@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Individual-Formato Persona</members>
+        <members>LightningService_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>CaseClose-Close Case Layout</members>
         <name>Layout</name>
     </types>
     <types>
