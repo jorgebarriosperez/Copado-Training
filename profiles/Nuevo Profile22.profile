@@ -2518,7 +2518,6 @@
         <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
     </userPermissions>
