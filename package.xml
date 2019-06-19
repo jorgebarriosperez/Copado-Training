@@ -5,6 +5,10 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>Label_test</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
         <members>CaseClose-Close Case Layout</members>
         <name>Layout</name>
     </types>
