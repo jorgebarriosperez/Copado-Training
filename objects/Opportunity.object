@@ -303,7 +303,7 @@
     <fields>
         <fullName>EL_TRACTOR__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>DESCRIPCION DIEGO XXXXXXXXXXXX</description>
+        <description>DESCRIPCION DIEGO</description>
         <externalId>false</externalId>
         <inlineHelpText>MUERTE</inlineHelpText>
         <label>EL_TRACTOR</label>
