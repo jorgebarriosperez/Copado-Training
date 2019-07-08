@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Pricebook2.Price_book_field__c</members>
         <members>PricebookEntry.Price_Book_Entries_fieldtes__c</members>
         <name>CustomField</name>
     </types>
