@@ -35,7 +35,7 @@
     </fields>
     <fields>
         <fullName>Price_Book_Entries_fieldtes__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Price Book Entries fieldtes</label>
         <length>122</length>
         <required>false</required>
