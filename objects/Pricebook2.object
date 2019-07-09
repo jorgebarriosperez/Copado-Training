@@ -54,6 +54,16 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <fields>
+        <fullName>Price_book_field__c</fullName>
+        <externalId>true</externalId>
+        <label>Price book field</label>
+        <length>121</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <searchLayouts>
         <customTabListAdditionalFields>PRICEBOOK2.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>PRICEBOOK2.DESCRIPTION</customTabListAdditionalFields>
