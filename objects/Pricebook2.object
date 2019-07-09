@@ -56,7 +56,7 @@
     </fields>
     <fields>
         <fullName>Price_book_field__c</fullName>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Price book field</label>
         <length>121</length>
         <required>false</required>
