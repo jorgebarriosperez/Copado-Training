@@ -149,7 +149,7 @@
     <recordTypes>
         <fullName>El_Creador</fullName>
         <active>true</active>
-        <label>El Creador</label>
+        <label>El Creador22</label>
         <picklistValues>
             <picklist>Picklist_Value_SET__c</picklist>
             <values>
