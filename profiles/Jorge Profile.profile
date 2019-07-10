@@ -6,6 +6,11 @@
         <field>Prueba_1__c.Campo_Profile__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Prueba_1__c.El_Creador</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
