@@ -6,6 +6,11 @@
         <field>Opportunity.Field_test_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Prueba_1__c.El_Creador</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -17,7 +22,7 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>AllowUniversalSearch_xx</name>
+        <name>AllowUniversalSearch</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
