@@ -5,6 +5,6 @@
     <contactAccessLevel>Edit</contactAccessLevel>
     <name>Cataluna</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentTerritory>Nuevo_territory</parentTerritory>
+    <parentTerritory>Nuevo_2_Territory</parentTerritory>
     <territory2Type>Espana</territory2Type>
 </Territory2>
