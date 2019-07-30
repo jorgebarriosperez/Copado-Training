@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>agf__ADM_AcceptanceCriterionCloner</members>
-        <members>agf__ADM_AddWorkToPrioritizerExtension</members>
-        <members>agf__ADM_AddWorkToPrioritizerExtensionTest</members>
-        <name>ApexClass</name>
+        <members>Espana_model.Nuevo_2_Territory</members>
+        <name>Territory2</name>
     </types>
     <version>45.0</version>
 </Package>
