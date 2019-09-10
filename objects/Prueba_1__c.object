@@ -186,6 +186,12 @@
         <massQuickActions>Gradiente</massQuickActions>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>VR1</fullName>
+        <active>true</active>
+        <errorConditionFormula>Campo_Profile__c	= NULL</errorConditionFormula>
+        <errorMessage>JORGE VALIDATION RULE XXXX</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
     <webLinks>
         <fullName>Boton_Magico</fullName>
