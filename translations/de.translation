@@ -1,7 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
+        <label>Ichs Heist</label>
+        <name>Gran_Label</name>
+    </customLabels>
+    <customLabels>
         <label>Ich möchte ein Eis</label>
         <name>Label_test</name>
     </customLabels>
+    <customLabels>
+        <label><!-- Bugs --></label>
+        <name>agf__ADM_Bugs</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>agf__ADM_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Work has already been committed to this sprint --></label>
+        <name>agf__ADM_Commitment_Exists_On_Sprint</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Definition of Ready Met --></label>
+        <name>agf__ADM_Definition_of_Ready_Met</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error --></label>
+        <name>agf__ADM_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Investigations --></label>
+        <name>agf__ADM_Investigations</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OK --></label>
+        <name>agf__ADM_OK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Would you like to proceed message on Sprint Commitment modal --></label>
+        <name>agf__ADM_Sprint_Commitment_Proceed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Your sprint contains work items with the following statuses: --></label>
+        <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Message shown on commitment modal if sprint contains non-velocity statuses --></label>
+        <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Total Work Count --></label>
+        <name>agf__ADM_Sprint_Commitment_Total_Work_Count</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Days Left --></label>
+        <name>agf__ADM_Sprint_VirtualWall_Header_Days_Left</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Story Points --></label>
+        <name>agf__ADM_Story_Points</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- To Do --></label>
+        <name>agf__ADM_To_Do</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- User Stories --></label>
+        <name>agf__ADM_User_Stories</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- App Page --></label>
+        <name>App_Page</name>
+    </customTabs>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
 </Translations>

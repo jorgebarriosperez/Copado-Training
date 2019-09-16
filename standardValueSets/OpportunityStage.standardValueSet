@@ -94,10 +94,11 @@
     <standardValue>
         <fullName>Only for test</fullName>
         <default>false</default>
+        <description>Only for test</description>
         <label>Only for test</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>15</probability>
+        <forecastCategory>Omitted</forecastCategory>
+        <probability>10</probability>
         <won>false</won>
     </standardValue>
 </StandardValueSet>

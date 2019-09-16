@@ -20,7 +20,7 @@
         <minutesToComplete>30</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>Case.Email_alerta_de_prueba</name>
+                <name>Email_alerta_de_prueba</name>
                 <type>Alert</type>
             </actions>
             <timeLength>0</timeLength>

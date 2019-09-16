@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>John Hancock</value>
     </caseValues>
+    <fields>
+        <label><!-- Backend URL --></label>
+        <name>Backend_URL__c</name>
+    </fields>
     <gender>Neuter</gender>
 </CustomObjectTranslation>

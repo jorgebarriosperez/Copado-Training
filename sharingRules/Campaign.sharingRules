@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingOwnerRules>
-        <fullName>SharingRuleTest1</fullName>
-        <accessLevel>Read</accessLevel>
-        <description>SharingRuleTest1</description>
-        <label>SharingRuleTest1</label>
+        <fullName>SharingRuleTest2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SharingRuleTest2</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>

@@ -4,6 +4,10 @@
     <fieldOverrides>
         <field>ToIds</field>
     </fieldOverrides>
+    <fieldOverrides>
+        <field>ValidatedFromAddress</field>
+        <formula>$User.Email</formula>
+    </fieldOverrides>
     <optionsCreateFeedItem>true</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>

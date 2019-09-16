@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prueba_1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prueba_1</value>
+    </caseValues>
+    <fields>
+        <help><!-- 1234PAMPAM --></help>
+        <label><!-- CampoPicklist1234 --></label>
+        <name>CampoPicklist1234__c</name>
+        <picklistValues>
+            <masterLabel>Letra1-Modify</masterLabel>
+            <translation><!-- Letra1-Modify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra2</masterLabel>
+            <translation><!-- Letra2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra3</masterLabel>
+            <translation><!-- Letra3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra4</masterLabel>
+            <translation><!-- Letra4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campo_Profile --></label>
+        <name>Campo_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiPicklist_Value_SET --></label>
+        <name>Mu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero_Requerido --></label>
+        <name>Numero_Requerido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist_Value_SET --></label>
+        <name>Picklist_Value_SET__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <recordTypes>
+        <label><!-- El Creador22 --></label>
+        <name>El_Creador</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- JORGE VALIDATION RULE XXXX --></errorMessage>
+        <name>VR1</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Boton_Magico --></label>
+        <name>Boton_Magico</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Button_1 --></label>
+        <name>Button_1</name>
+    </webLinks>
+</CustomObjectTranslation>

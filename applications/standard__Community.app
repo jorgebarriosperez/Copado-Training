@@ -8,6 +8,9 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Idea</tabs>
+    <tabs>standard-IdeaTheme</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Prueba_1__c</tabs>
+    <tabs>Prueba_Tab_2__c</tabs>
 </CustomApplication>

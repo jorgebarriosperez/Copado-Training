@@ -179,7 +179,15 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Prueba_1__c</tabs>
+    <tabs>Prueba_Tab_2__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Prueba_1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Prueba_Tab_2__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
