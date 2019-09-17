@@ -17,7 +17,7 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>John Hancock</label>
-    <license>Salesforce</license>
+    <license></license>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
