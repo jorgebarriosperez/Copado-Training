@@ -11685,10 +11685,10 @@
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ConsumptionRate-Formato Índice de consumo</layout>
+        <layout>ConsumptionRate-Formato &#205;ndice de consumo</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ConsumptionSchedule-Formato Programación de consumo</layout>
+        <layout>ConsumptionSchedule-Formato Programaci&#243;n de consumo</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact %28Support%29 Layout</layout>
@@ -11776,7 +11776,7 @@
         <recordType>Mert_Object__c.Mert_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Metric-Formato de medición de finalización</layout>
+        <layout>Metric-Formato de medici&#243;n de finalizaci&#243;n</layout>
         <recordType>Metric.Completion</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11815,7 +11815,7 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProductConsumptionSchedule-Formato Programación de consumo de producto</layout>
+        <layout>ProductConsumptionSchedule-Formato Programaci&#243;n de consumo de producto</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
