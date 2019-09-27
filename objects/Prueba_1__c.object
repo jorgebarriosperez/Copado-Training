@@ -155,6 +155,16 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>CASE_LABEL__c</fullName>
+        <externalId>false</externalId>
+        <label>CASE-LABELдфуы</label>
+        <length>12</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CampoPicklist1234__c</fullName>
         <description>8888HELL8888</description>
         <externalId>false</externalId>
