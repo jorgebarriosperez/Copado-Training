@@ -166,9 +166,9 @@
     </fields>
     <fields>
         <fullName>CampoPicklist1234__c</fullName>
-        <description>8888HELL8888</description>
+        <description>{!Environment.HELL_VARIABLE_HEAVEN}</description>
         <externalId>false</externalId>
-        <inlineHelpText>1234PAMPAM</inlineHelpText>
+        <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
         <label>CampoPicklist1234</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
