@@ -435,10 +435,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>InstallMultiforce</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>IotUser</name>
     </userPermissions>
     <userPermissions>
