@@ -210,6 +210,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>MOVERyBORRAR__c</fullName>
+        <externalId>false</externalId>
+        <label>MOVERyBORRAR</label>
+        <length>12</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Mu__c</fullName>
         <externalId>false</externalId>
         <label>MultiPicklist_Value_SET</label>
