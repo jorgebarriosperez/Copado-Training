@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Email JORGE</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>email_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>first_name_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Secondo nome JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>middle_name_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Secondo nome (locale) JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>middle_name_local_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label>Lenguage ITA</label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label>level ITA</label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>
