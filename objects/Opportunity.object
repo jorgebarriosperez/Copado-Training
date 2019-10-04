@@ -477,6 +477,17 @@
         <type>Checkbox</type>
     </fields>
     <fields>
+        <fullName>El_TURRON__c</fullName>
+        <externalId>false</externalId>
+        <label>El TURRON</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ExpectedRevenue</fullName>
         <trackTrending>false</trackTrending>
     </fields>
