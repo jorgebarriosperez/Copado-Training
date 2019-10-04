@@ -160,9 +160,6 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Prueba_1</pluralLabel>
-    <searchLayouts>
-        <massQuickActions>Gradiente</massQuickActions>
-    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
