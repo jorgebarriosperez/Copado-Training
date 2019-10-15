@@ -542,7 +542,6 @@
         <searchResultsAdditionalFields>OPPORTUNITY.PRIVATE</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>OPPORTUNITY.CLOSED</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>OPPORTUNITY.WON</searchResultsAdditionalFields>
-        <searchResultsCustomButtons>Search_Layout</searchResultsCustomButtons>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <webLinks>
