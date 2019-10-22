@@ -153,6 +153,39 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>Picklist22__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist22</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <listViews>
@@ -174,6 +207,31 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Prueba_Tab_2</pluralLabel>
+    <recordTypes>
+        <fullName>ElCabezon</fullName>
+        <active>true</active>
+        <description>ElCabezon</description>
+        <label>ElCabezon</label>
+        <picklistValues>
+            <picklist>Picklist22__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts>
         <massQuickActions>Gradiente_num_2</massQuickActions>
     </searchLayouts>
