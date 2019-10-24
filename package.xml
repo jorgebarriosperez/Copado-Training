@@ -1,55 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Prueba_1__c.CASE_LABEL__c</members>
-        <members>Prueba_1__c.CampoPicklist1234__c</members>
-        <members>Prueba_1__c.Campo_Profile__c</members>
-        <members>Prueba_1__c.Lookup_Account__c</members>
-        <members>Prueba_1__c.MOVERyBORRAR__c</members>
-        <members>Prueba_1__c.Mu__c</members>
-        <members>Prueba_1__c.Numero_Requerido__c</members>
-        <members>Prueba_1__c.Picklist_Siemens__c</members>
-        <members>Prueba_1__c.Picklist_Value_SET__c</members>
-        <members>Prueba_1__c.siemens_picklist10__c</members>
-        <members>Prueba_1__c.siemens_picklist11__c</members>
-        <members>Prueba_1__c.siemens_picklist12__c</members>
-        <members>Prueba_1__c.siemens_picklist13__c</members>
-        <members>Prueba_1__c.siemens_picklist14__c</members>
-        <members>Prueba_1__c.siemens_picklist15__c</members>
-        <members>Prueba_1__c.siemens_picklist16__c</members>
-        <members>Prueba_1__c.siemens_picklist17__c</members>
-        <members>Prueba_1__c.siemens_picklist18__c</members>
-        <members>Prueba_1__c.siemens_picklist19__c</members>
-        <members>Prueba_1__c.siemens_picklist20__c</members>
-        <members>Prueba_1__c.siemens_picklist21__c</members>
-        <members>Prueba_1__c.siemens_picklist22__c</members>
-        <members>Prueba_1__c.siemens_picklist23__c</members>
-        <members>Prueba_1__c.siemens_picklist24__c</members>
-        <members>Prueba_1__c.siemens_picklist25__c</members>
-        <members>Prueba_1__c.siemens_picklist26__c</members>
-        <members>Prueba_1__c.siemens_picklist27__c</members>
-        <members>Prueba_1__c.siemens_picklist2__c</members>
-        <members>Prueba_1__c.siemens_picklist3__c</members>
-        <members>Prueba_1__c.siemens_picklist4__c</members>
-        <members>Prueba_1__c.siemens_picklist5__c</members>
-        <members>Prueba_1__c.siemens_picklist6__c</members>
-        <members>Prueba_1__c.siemens_picklist7__c</members>
-        <members>Prueba_1__c.siemens_picklist8__c</members>
-        <members>Prueba_1__c.siemens_picklist9__c</members>
-        <members>Prueba_1__c.siemens_picklist__c</members>
+        <members>Prueba_Tab_2__c.Pick666__c</members>
+        <members>Prueba_Tab_2__c.Picklist22__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Prueba_1__c</members>
+        <members>Prueba_Tab_2__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Picklist_Siemens</members>
-        <name>GlobalValueSet</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.ElSenor</members>
-        <members>Prueba_1__c.El_Creador</members>
+        <members>Prueba_Tab_2__c.ElCabezon</members>
         <name>RecordType</name>
     </types>
     <version>46.0</version>
