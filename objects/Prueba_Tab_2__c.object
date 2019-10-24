@@ -154,6 +154,39 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>Jor_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Jor_Picklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SI</fullName>
+                    <default>false</default>
+                    <label>SI</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>TU</fullName>
+                    <default>false</default>
+                    <label>TU</label>
+                </value>
+                <value>
+                    <fullName>EL</fullName>
+                    <default>false</default>
+                    <label>EL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Pick666__c</fullName>
         <externalId>false</externalId>
         <label>Pick666</label>
@@ -219,7 +252,6 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <listViews>
         <fullName>All</fullName>
@@ -245,6 +277,25 @@
         <active>true</active>
         <description>ElCabezon</description>
         <label>ElCabezon</label>
+        <picklistValues>
+            <picklist>Jor_Picklist__c</picklist>
+            <values>
+                <fullName>EL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Pick666__c</picklist>
             <values>
@@ -284,9 +335,6 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts>
-        <massQuickActions>Gradiente_num_2</massQuickActions>
-    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
