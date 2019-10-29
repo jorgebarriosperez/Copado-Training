@@ -121,7 +121,6 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
-    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <listViews>
         <fullName>All</fullName>
@@ -177,9 +176,6 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts>
-        <massQuickActions>Gradiente_num_2</massQuickActions>
-    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
