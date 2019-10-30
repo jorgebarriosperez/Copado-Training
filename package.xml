@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>JORGE</members>
-        <name>AccountRelationshipShareRule</name>
+        <members>CaseStatus-it</members>
+        <name>StandardValueSetTranslation</name>
     </types>
     <version>46.0</version>
 </Package>
