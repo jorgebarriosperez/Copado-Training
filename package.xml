@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.texto__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
+        <members>Contact.Picklist_Volvo__c</members>
         <name>CustomField</name>
+    </types>
+    <types>
+        <members>Contact-en_US</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <version>46.0</version>
 </Package>
