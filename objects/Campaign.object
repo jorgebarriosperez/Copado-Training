@@ -64,6 +64,39 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Campaign_Normal_33__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Normal 33</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Description</fullName>
     </fields>
     <fields>
@@ -113,6 +146,15 @@
     </fields>
     <fields>
         <fullName>IsActive</fullName>
+    </fields>
+    <fields>
+        <fullName>Modificacion_Masiva__c</fullName>
+        <externalId>false</externalId>
+        <label>Modificacion Masiva</label>
+        <length>50</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Name</fullName>
