@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <fields>
+        <help><!-- {!Environment.JORGE_REPLACEMENT_VARIABLE} --></help>
+        <label><!-- CampoPicklist1234 --></label>
+        <name>CampoPicklist1234__c</name>
+        <picklistValues>
+            <masterLabel>Letra1-Modify</masterLabel>
+            <translation>Letrá 1-Itañ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra2</masterLabel>
+            <translation>letra 2 italiano</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra3</masterLabel>
+            <translation><!-- Letra3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra4</masterLabel>
+            <translation>letra 4 italiano</translation>
+        </picklistValues>
+    </fields>
+    <gender><!-- Masculine --></gender>
+    <nameFieldLabel><!-- Prueba_1 Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>
