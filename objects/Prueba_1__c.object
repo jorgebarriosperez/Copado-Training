@@ -194,7 +194,7 @@
                 <value>
                     <fullName>Letra4</fullName>
                     <default>false</default>
-                    <label>Letra4</label>
+                    <label>Letra4top</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
