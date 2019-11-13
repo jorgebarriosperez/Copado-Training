@@ -8,7 +8,7 @@
     </fieldPermissions>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
