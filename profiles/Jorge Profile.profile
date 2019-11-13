@@ -13089,7 +13089,7 @@
     </objectPermissions>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>agf__ADM_AddWorkToPrioritizer</apexPage>
