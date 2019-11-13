@@ -17,7 +17,7 @@
     </objectPermissions>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
