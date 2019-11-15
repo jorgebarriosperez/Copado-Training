@@ -852,6 +852,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Contact.Picklist_Volvo__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Contact.ReportsToId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1762,6 +1767,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Opportunity.GVL_Picklist2__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Opportunity.GVL_Picklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Opportunity.IsPrivate</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -2303,6 +2318,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Prueba_1__c.siemens_picklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_Tab_2__c.Jor_Picklist__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_Tab_2__c.Pick666__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_Tab_2__c.Picklist22__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3207,7 +3237,47 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Cloud_Lead__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Cloud__c.agf__Cloud_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Escalation_Security_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Primary_Security_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Secondary_Security_Contact__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Security_Approval_Group_Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Security_Guidance__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Security_Guidence__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Cloud__c.agf__Tertiary_Security_Contact__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3227,6 +3297,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Column_History__c.agf__Column_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Column_History__c.agf__Duration_By_Work_Days__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3242,6 +3317,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Column_Status_Assignment__c.agf__Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Column__c.agf__Active__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -3253,6 +3333,21 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Column__c.agf__Parent_Column__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Column__c.agf__PreId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Column__c.agf__Pre_ParentId__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Column__c.agf__Type__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4862,6 +4957,46 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Alternate_Roster_Owner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Cloud_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Finance_Business_Partner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Legal_Representative__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Parent_Cloud_Type__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Roster_Enabled__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Roster_Owner__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Parent_Cloud__c.agf__Senior_Engineering_Leader__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Parent_Work__c.agf__Child_Scheduled_Build__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6117,6 +6252,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Exclude_Capacity_Reports__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Scrum_Team__c.agf__External_ID__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -6132,12 +6272,22 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Include_Lightning_Platform_Freeze__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Kanban__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Lock_Report__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Number_of_new_org62_Cases__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -6158,6 +6308,11 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Scrum_Team__c.agf__Parent_Cloud__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Scrum_Team__c.agf__Prefer_Board_Column_Auto_Update__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7398,6 +7553,16 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>agf__ADM_Work__c.agf__Backburner_Rank__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work__c.agf__Board_Column_Rank__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>agf__ADM_Work__c.agf__Board_Column__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
