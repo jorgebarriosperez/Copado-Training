@@ -72,6 +72,28 @@
         <label></label>
         <name>App_Page</name>
     </customTabs>
+    <flowDefinitions>
+        <flows>
+            <fullName>NewFlow-4</fullName>
+            <label>Versioncita</label>
+            <screens>
+                <fields>
+                    <fieldText>cheboxito</fieldText>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <fieldText>currencia italiana 2</fieldText>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <fieldText>flechabanbino</fieldText>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>NewFlow</fullName>
+    </flowDefinitions>
     <quickActions>
         <label></label>
         <name>LogACall</name>
