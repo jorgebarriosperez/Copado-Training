@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Library_Get Account Data_English</members>
-        <members>Library_Save Contact Data_English</members>
-        <members>Sample_Account Change Address_English</members>
+        <members>XOM_DecomposeOrder_Italian</members>
         <name>OmniScript</name>
     </types>
     <version>46.0</version>
