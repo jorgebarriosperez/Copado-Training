@@ -16447,10 +16447,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PreventClassicExperience</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
