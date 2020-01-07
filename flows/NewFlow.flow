@@ -10,7 +10,6 @@
     </constants>
     <description>NewFlow</description>
     <interviewLabel>NewFlow {!$Flow.CurrentDateTime}</interviewLabel>
-    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>NewFlow</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -50,6 +49,23 @@
             <fieldType>InputField</fieldType>
             <isRequired>false</isRequired>
             <scale>0</scale>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>fechaflow</leftValueReference>
+                    <operator>NotEqualTo</operator>
+                    <rightValue>
+                        <elementReference>fechaflow</elementReference>
+                    </rightValue>
+                </conditions>
+                <conditions>
+                    <leftValueReference>fechaflow</leftValueReference>
+                    <operator>GreaterThanOrEqualTo</operator>
+                    <rightValue>
+                        <elementReference>fechaflow</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
         </fields>
         <fields>
             <name>checkboxflow</name>
