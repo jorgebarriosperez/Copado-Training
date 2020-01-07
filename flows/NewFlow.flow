@@ -10,6 +10,7 @@
     </constants>
     <description>NewFlow</description>
     <interviewLabel>NewFlow {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
     <label>NewFlow</label>
     <processMetadataValues>
         <name>BuilderType</name>
@@ -67,6 +68,12 @@
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
-    <startElementReference>Nuevo</startElementReference>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Nuevo</targetReference>
+        </connector>
+    </start>
     <status>Active</status>
 </Flow>
