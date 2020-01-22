@@ -132,6 +132,8 @@
         <filterScope>Everything</filterScope>
         <label>All Assets</label>
     </listViews>
+    <profileSearchLayouts>
+    </profileSearchLayouts>
     <searchLayouts>
         <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
