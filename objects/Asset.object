@@ -211,9 +211,6 @@
         <filterScope>Everything</filterScope>
         <label>All Assets</label>
     </listViews>
-    <profileSearchLayouts>	
-        <profileName>Admin</profileName>	
-    </profileSearchLayouts>
     <searchLayouts>
         <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
