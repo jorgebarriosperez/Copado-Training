@@ -12132,10 +12132,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.RT_Volvo</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
+        <recordType>Contact.RT_Volvo</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ContentVersion-Content Version Layout</layout>
@@ -12250,11 +12250,11 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
-        <recordType>Prueba_1__c.ElSenor</recordType>
+        <recordType>Prueba_1__c.El_Creador</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
-        <recordType>Prueba_1__c.El_Creador</recordType>
+        <recordType>Prueba_1__c.ElSenor</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_Tab_2__c-Prueba_Tab_2 Layout</layout>
@@ -12324,9 +12324,9 @@
         <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
     <loginIpRanges>
-        <description>test jorge</description>
+        <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
-        <startAddress>62.97.100.250</startAddress>
+        <startAddress>62.97.1.250</startAddress>
     </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
