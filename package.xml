@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Asset.AccountId</members>
         <members>Asset.ContactId</members>
+        <members>Asset.Product2Id</members>
+        <members>Asset.ProductCode</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>Asset.AllAssets</members>
-        <name>ListView</name>
     </types>
     <version>47.0</version>
 </Package>
