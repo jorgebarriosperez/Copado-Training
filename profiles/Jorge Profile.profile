@@ -12193,10 +12193,10 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
+        <recordType>Account.Business_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-        <recordType>Account.Business_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>AccountBrand-Account Brand Layout</layout>
@@ -12218,10 +12218,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
+        <recordType>Case.RT_Investigation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Case Layout</layout>
-        <recordType>Case.RT_Investigation</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
@@ -12322,10 +12322,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mert_Object__c-Mert_Object Layout</layout>
-        <recordType>Mert_Object__c.Mert_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mert_Object__c-Mert_Object Layout</layout>
+        <recordType>Mert_Object__c.Mert_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Metric-Formato de medición de finalización</layout>
@@ -12371,7 +12371,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
-        <recordType>Prueba_1__c.ElSenor</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
@@ -12379,13 +12378,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Prueba_Tab_2__c-Prueba_Tab_2 Layout</layout>
+        <recordType>Prueba_1__c.ElSenor</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_Tab_2__c-Prueba_Tab_2 Layout</layout>
         <recordType>Prueba_Tab_2__c.ElCabezon</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Prueba_Tab_2__c-Prueba_Tab_2 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>QuickText-Quick Text Layout</layout>
@@ -12469,9 +12469,9 @@
         <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
     <loginIpRanges>
-        <description>test jorge</description>
+        <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
-        <startAddress>62.97.100.250</startAddress>
+        <startAddress>62.97.1.250</startAddress>
     </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
