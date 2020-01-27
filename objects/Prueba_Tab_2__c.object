@@ -252,6 +252,17 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>exist_FB__c</fullName>
+        <externalId>false</externalId>
+        <label>exist_FB</label>
+        <length>12</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <listViews>
         <fullName>All</fullName>
@@ -335,6 +346,9 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts>
+        <massQuickActions>Gradiente_num_2</massQuickActions>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
