@@ -8458,6 +8458,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_Tab_2__c.text_No_FLS__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>agf__ADM_Solution_Overview__c.agf__Marketing_Tag_Line__c</field>
         <readable>true</readable>
