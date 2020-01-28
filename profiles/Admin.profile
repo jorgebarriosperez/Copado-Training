@@ -4168,6 +4168,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_Tab_2__c.text_No_FLS__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>ServiceContract.AccountId</field>
         <readable>true</readable>
@@ -4415,6 +4420,16 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>User.agf__Work_User_Interface__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Volvo_Object__c.VOL_FIELD1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Volvo_Object__c.VOL_FIELD2__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -8458,11 +8473,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Prueba_Tab_2__c.text_No_FLS__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>agf__ADM_Solution_Overview__c.agf__Marketing_Tag_Line__c</field>
         <readable>true</readable>
@@ -11811,10 +11821,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
-        <recordType>Opportunity.RT_default</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
+        <recordType>Opportunity.RT_default</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
@@ -11839,10 +11849,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
-        <recordType>Prueba_1__c.El_Creador</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
+        <recordType>Prueba_1__c.El_Creador</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_Tab_2__c-Prueba_Tab_2 Layout</layout>
@@ -12439,6 +12449,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Test_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Volvo_Object__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
