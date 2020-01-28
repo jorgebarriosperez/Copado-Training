@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Prueba_Tab_2__c.Jor_Picklist__c</members>
-        <members>Prueba_Tab_2__c.Picklist22__c</members>
-        <members>Prueba_Tab_2__c.exist_FB__c</members>
+        <members>Prueba_Tab_2__c.text_No_FLS__c</members>
         <name>CustomField</name>
     </types>
     <types>
