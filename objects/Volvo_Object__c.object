@@ -154,6 +154,44 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Case__c</fullName>
+        <description>description</description>
+        <externalId>false</externalId>
+        <label>Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Volvo_Objects</relationshipLabel>
+        <relationshipName>Volvo_Objects</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Prueba_Tab_2__c</fullName>
+        <description>tesx</description>
+        <externalId>false</externalId>
+        <label>Prueba_Tab_2</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Value does not exist or does not match filter criteria. JORGE</errorMessage>
+            <filterItems>
+                <field>Prueba_Tab_2__c.Jor_Picklist__c</field>
+                <operation>equals</operation>
+                <value>SI</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Prueba_Tab_2__c</referenceTo>
+        <relationshipLabel>Volvo_Objects</relationshipLabel>
+        <relationshipName>Volvo_Objects</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
         <fullName>VOL_FIELD1__c</fullName>
         <externalId>false</externalId>
         <label>VOL_FIELD1</label>
