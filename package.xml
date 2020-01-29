@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Jorge Profile</members>
+        <members>Contact.Picklist_Volvo__c</members>
+        <members>Volvo_Object__c.Case__c</members>
+        <members>Volvo_Object__c.Prueba_Tab_2__c</members>
+        <members>Volvo_Object__c.VOL_FIELD1__c</members>
+        <members>Volvo_Object__c.VOL_FIELD2__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Admin</members>
         <name>Profile</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>
