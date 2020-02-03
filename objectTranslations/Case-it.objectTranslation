@@ -9,59 +9,59 @@
         <name>Gradiente__c</name>
         <picklistValues>
             <masterLabel>Ansiety</masterLabel>
-            <translation><!-- Ansiety --></translation>
+            <translation>Ansiedade ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Evaluate</masterLabel>
-            <translation><!-- Evaluate --></translation>
+            <translation>Evaluatione ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation>quizadiii ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
+            <translation>nuevito ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Old</masterLabel>
-            <translation><!-- Old --></translation>
+            <translation>viejicto ita</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Gradiente sin Restrict --></label>
+        <label></label>
         <name>Gradiente_sin_Restrict__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation>maybe ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
+            <translation>new ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>One</masterLabel>
-            <translation><!-- One --></translation>
+            <translation>one ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Three</masterLabel>
-            <translation><!-- Three --></translation>
+            <translation>trhreee ita</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Two</masterLabel>
-            <translation><!-- Two --></translation>
+            <translation>two ita</translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Potential Liability --></label>
+        <label></label>
         <name>PotentialLiability__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
@@ -69,65 +69,81 @@
         <name>Product__c</name>
         <picklistValues>
             <masterLabel>GC1020</masterLabel>
-            <translation><!-- GC1020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC1040</masterLabel>
-            <translation><!-- GC1040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC1060</masterLabel>
-            <translation><!-- GC1060 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3020</masterLabel>
-            <translation><!-- GC3020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3040</masterLabel>
-            <translation><!-- GC3040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3060</masterLabel>
-            <translation><!-- GC3060 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5020</masterLabel>
-            <translation><!-- GC5020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5040</masterLabel>
-            <translation><!-- GC5040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5060</masterLabel>
-            <translation><!-- GC5060 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- SLA Violation --></label>
+        <label></label>
         <name>SLAViolation__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
         <label>Trabajo Ita</label>
         <name>agf__ADM_Work__c</name>
-        <relationshipLabel><!-- Cases --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>jorge_picklist1__c</name>
+        <picklistValues>
+            <masterLabel>texto1</masterLabel>
+            <translation>textito Ital 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto2</masterLabel>
+            <translation>textito Ital 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto3</masterLabel>
+            <translation>textito Ital 3</translation>
+        </picklistValues>
     </fields>
     <recordTypes>
-        <description><!-- Investigation --></description>
-        <label><!-- RT Investigation --></label>
+        <description></description>
+        <label></label>
         <name>RT_Investigation</name>
     </recordTypes>
     <webLinks>
-        <label><!-- UpsellCrosssellOpportunity --></label>
+        <label></label>
         <name>UpsellCrosssellOpportunity</name>
     </webLinks>
 </CustomObjectTranslation>
