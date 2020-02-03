@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label>Gradiente Ita</label>
+        <name>Gradiente__c</name>
+        <picklistValues>
+            <masterLabel>Ansiety</masterLabel>
+            <translation>Ansiedade ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluate</masterLabel>
+            <translation>Evaluatione ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation>quizadiii ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>nuevito ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Old</masterLabel>
+            <translation>viejicto ita</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gradiente sin Restrict --></label>
+        <name>Gradiente_sin_Restrict__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation>maybe ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation>new ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One</masterLabel>
+            <translation>one ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Three</masterLabel>
+            <translation>trhreee ita</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Two</masterLabel>
+            <translation>two ita</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- jorge:picklist1 --></label>
+        <name>jorge_picklist1__c</name>
+        <picklistValues>
+            <masterLabel>texto1</masterLabel>
+            <translation>textito Ital 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto2</masterLabel>
+            <translation>textito Ital 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto3</masterLabel>
+            <translation>textito Ital 3</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>
