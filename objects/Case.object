@@ -313,6 +313,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>jorge_picklist1__c</controllingField>
             <restricted>true</restricted>
             <valueSetDefinition>
                 <sorted>false</sorted>
@@ -342,6 +343,27 @@
                     <label>Maybe</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>texto1</controllingFieldValue>
+                <valueName>Old</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>texto1</controllingFieldValue>
+                <controllingFieldValue>texto2</controllingFieldValue>
+                <valueName>Evaluate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>texto2</controllingFieldValue>
+                <valueName>Ansiety</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>texto2</controllingFieldValue>
+                <valueName>New</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>texto3</controllingFieldValue>
+                <valueName>Maybe</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -354,6 +376,7 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
+            <controllingField>Gradiente__c</controllingField>
             <valueSetDefinition>
                 <sorted>false</sorted>
                 <value>
@@ -382,6 +405,35 @@
                     <label>Maybe</label>
                 </value>
             </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Old</controllingFieldValue>
+                <controllingFieldValue>Maybe</controllingFieldValue>
+                <valueName>One</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Old</controllingFieldValue>
+                <controllingFieldValue>Evaluate</controllingFieldValue>
+                <controllingFieldValue>Maybe</controllingFieldValue>
+                <valueName>Two</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Evaluate</controllingFieldValue>
+                <controllingFieldValue>Ansiety</controllingFieldValue>
+                <controllingFieldValue>Maybe</controllingFieldValue>
+                <valueName>Three</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Evaluate</controllingFieldValue>
+                <controllingFieldValue>Ansiety</controllingFieldValue>
+                <controllingFieldValue>Maybe</controllingFieldValue>
+                <valueName>New</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Ansiety</controllingFieldValue>
+                <controllingFieldValue>New</controllingFieldValue>
+                <controllingFieldValue>Maybe</controllingFieldValue>
+                <valueName>Maybe</valueName>
+            </valueSettings>
         </valueSet>
     </fields>
     <fields>
@@ -634,6 +686,36 @@
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>jorge_picklist1__c</fullName>
+        <externalId>false</externalId>
+        <label>jorge:picklist1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>texto1</fullName>
+                    <default>false</default>
+                    <label>texto1</label>
+                </value>
+                <value>
+                    <fullName>texto2</fullName>
+                    <default>false</default>
+                    <label>texto2</label>
+                </value>
+                <value>
+                    <fullName>texto3</fullName>
+                    <default>false</default>
+                    <label>texto3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
