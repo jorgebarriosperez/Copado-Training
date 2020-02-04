@@ -3,10 +3,10 @@
     <types>
         <members>AccountOperations</members>
         <members>AccountOperationsTest</members>
-        <members>agf__ADM_AcceptanceCriterionCloner</members>
-        <members>agf__ADM_ChangelistDetailAccumulator</members>
         <members>agf__ADM_ReleaseDetailAccumulator</members>
         <members>agf__ADM_ReleasedInDetailAccumulator</members>
+        <members>agf__RemoteTKController</members>
+        <members>agf__RemoteTKControllerTest</members>
         <name>ApexClass</name>
     </types>
     <version>47.0</version>
