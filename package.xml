@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Jorge Profile</members>
-        <name>Profile</name>
+        <members>AccountOperations</members>
+        <members>AccountOperationsTest</members>
+        <members>agf__ADM_ReleaseDetailAccumulator</members>
+        <members>agf__ADM_ReleasedInDetailAccumulator</members>
+        <members>agf__RemoteTKController</members>
+        <members>agf__RemoteTKControllerTest</members>
+        <name>ApexClass</name>
     </types>
-    <version>46.0</version>
+    <version>47.0</version>
 </Package>
