@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>TEST_APP</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.Field_test_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <loginIpRanges>
+        <description>test no jorge</description>
+        <endAddress>62.255.100.250</endAddress>
+        <startAddress>62.97.1.250</startAddress>
+    </loginIpRanges>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
         <enabled>true</enabled>
@@ -138,10 +148,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>MassInlineEdit</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PreventClassicExperience</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
