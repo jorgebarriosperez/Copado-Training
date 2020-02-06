@@ -6,7 +6,11 @@
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value>John Hancock</value>
+        <value>John_Hancock</value>
     </caseValues>
-    <gender>Feminine</gender>
+    <fields>
+        <label><!-- Backend URL --></label>
+        <name>Backend_URL__c</name>
+    </fields>
+    <gender>Neuter</gender>
 </CustomObjectTranslation>

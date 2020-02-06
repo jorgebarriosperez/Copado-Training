@@ -36,4 +36,9 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
+    <standardValue>
+        <fullName>Residential</fullName>
+        <default>false</default>
+        <label>Residential</label>
+    </standardValue>
 </StandardValueSet>

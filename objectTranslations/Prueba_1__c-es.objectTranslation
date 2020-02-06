@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prueba_1</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prueba_1</value>
+    </caseValues>
+    <fields>
+        <help><!-- 1234PAMPAM --></help>
+        <label><!-- CampoPicklist1234 --></label>
+        <name>CampoPicklist1234__c</name>
+        <picklistValues>
+            <masterLabel>Letra1-Modify</masterLabel>
+            <translation><!-- Letra1-Modify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra2</masterLabel>
+            <translation><!-- Letra2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra3</masterLabel>
+            <translation><!-- Letra3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra4top</masterLabel>
+            <translation><!-- Letra4top --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campo_Profile --></label>
+        <name>Campo_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOVERyBORRAR --></label>
+        <name>MOVERyBORRAR__c</name>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

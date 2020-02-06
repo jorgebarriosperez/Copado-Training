@@ -9,7 +9,7 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-AdvForecast</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Order</tabs>
     <tabs>standard-Case</tabs>
@@ -17,5 +17,4 @@
     <tabs>standard-Product2</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>standard-OmniSupervisor</tabs>
 </CustomApplication>
