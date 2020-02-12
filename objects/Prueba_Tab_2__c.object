@@ -56,39 +56,6 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
-        <fullName>Pick666__c</fullName>
-        <externalId>false</externalId>
-        <label>Pick666</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>a</fullName>
-                    <default>false</default>
-                    <label>a</label>
-                </value>
-                <value>
-                    <fullName>b</fullName>
-                    <default>false</default>
-                    <label>b</label>
-                </value>
-                <value>
-                    <fullName>c</fullName>
-                    <default>false</default>
-                    <label>c</label>
-                </value>
-                <value>
-                    <fullName>d</fullName>
-                    <default>false</default>
-                    <label>d</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Picklist22__c</fullName>
         <externalId>false</externalId>
         <label>Picklist22</label>
@@ -137,25 +104,6 @@
         <active>true</active>
         <description>ElCabezon</description>
         <label>ElCabezon</label>
-        <picklistValues>
-            <picklist>Pick666__c</picklist>
-            <values>
-                <fullName>a</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>b</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>c</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>d</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>Picklist22__c</picklist>
             <values>
