@@ -28,7 +28,6 @@
             <translation><!-- d --></translation>
         </picklistValues>
     </fields>
-    <gender><!-- Masculine --></gender>
     <nameFieldLabel><!-- Prueba_Tab_2 Name --></nameFieldLabel>
     <startsWith><!-- Consonant --></startsWith>
 </CustomObjectTranslation>
