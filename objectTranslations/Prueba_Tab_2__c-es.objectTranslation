@@ -8,5 +8,25 @@
         <plural>true</plural>
         <value>Prueba_Tab_2</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>Pick666__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
     <gender>Masculine</gender>
 </CustomObjectTranslation>
