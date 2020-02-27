@@ -2,14 +2,14 @@
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <caseValues>
         <plural>false</plural>
-        <value><!-- Prueba_Tab_2 --></value>
+        <value>Prueba Tab 2</value>
     </caseValues>
     <caseValues>
         <plural>true</plural>
-        <value><!-- Prueba_Tab_2 --></value>
+        <value>Prueba Tab 2</value>
     </caseValues>
     <fields>
-        <label><!-- Picklist22 --></label>
+        <label></label>
         <name>Picklist22__c</name>
         <picklistValues>
             <masterLabel>1</masterLabel>
@@ -17,7 +17,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>2</masterLabel>
-            <translation>22</translation>
+            <translation>22 Diego no tiene razon</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>3</masterLabel>
@@ -25,8 +25,9 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>4</masterLabel>
-            <translation><!-- 4 --></translation>
+            <translation>turbooooooooooooooooo</translation>
         </picklistValues>
     </fields>
-    <nameFieldLabel><!-- Prueba_Tab_2 Name --></nameFieldLabel>
+    <nameFieldLabel></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
