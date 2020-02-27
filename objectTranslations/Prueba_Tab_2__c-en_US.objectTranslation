@@ -8,6 +8,14 @@
         <plural>true</plural>
         <value></value>
     </caseValues>
+    <caseValues>
+        <plural>false</plural>
+        <value>Prueba Tab 2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prueba Tab 2</value>
+    </caseValues>
     <fields>
         <label></label>
         <name>Pick666__c</name>
@@ -37,7 +45,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>2</masterLabel>
-            <translation>22</translation>
+            <translation>22 Diego no tiene razon</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>3</masterLabel>
@@ -45,8 +53,9 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>4</masterLabel>
-            <translation></translation>
+            <translation>turbooooooooooooooooo</translation>
         </picklistValues>
     </fields>
     <nameFieldLabel></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
