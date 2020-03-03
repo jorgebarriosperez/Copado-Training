@@ -21,6 +21,15 @@
         <endAddress>62.255.100.250</endAddress>
         <startAddress>62.97.1.250</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Prueba_1__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
         <enabled>true</enabled>
