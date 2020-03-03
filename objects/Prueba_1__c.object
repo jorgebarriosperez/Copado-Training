@@ -171,6 +171,7 @@
         <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
         <label>CampoPicklist1234</label>
         <required>false</required>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -205,6 +206,7 @@
         <label>Campo_Profile</label>
         <length>12</length>
         <required>false</required>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
