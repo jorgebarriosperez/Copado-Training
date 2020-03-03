@@ -10,7 +10,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Admin</members>
         <members>Jorge Profile</members>
         <name>Profile</name>
     </types>
