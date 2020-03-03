@@ -47,9 +47,9 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
@@ -71,6 +71,7 @@
         <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
         <label>CampoPicklist1234</label>
         <required>false</required>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -94,7 +95,7 @@
                 <value>
                     <fullName>Letra4</fullName>
                     <default>false</default>
-                    <label>Letra4</label>
+                    <label>Letra4top</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -105,6 +106,7 @@
         <label>Campo_Profile</label>
         <length>12</length>
         <required>false</required>
+        <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -514,9 +516,11 @@
     </listViews>
     <nameField>
         <label>Prueba_1 Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Prueba_1</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>ElSenor</fullName>
         <active>true</active>
