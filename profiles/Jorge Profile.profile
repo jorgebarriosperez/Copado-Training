@@ -6,6 +6,21 @@
         <field>Opportunity.Field_test_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prueba_1__c.CampoPicklist1234__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prueba_1__c.Campo_Profile__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <loginIpRanges>
+        <description>test no jorge</description>
+        <endAddress>62.255.100.250</endAddress>
+        <startAddress>62.97.1.250</startAddress>
+    </loginIpRanges>
     <pageAccesses>
         <apexPage>Jorge_test</apexPage>
         <enabled>true</enabled>
@@ -141,10 +156,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PreventClassicExperience</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
@@ -178,10 +189,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
