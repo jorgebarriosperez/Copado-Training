@@ -2220,7 +2220,7 @@
         <apexClass>agf__Sample_Email2GUS</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <custom>true</custom>
+    <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AccountNumber</field>
