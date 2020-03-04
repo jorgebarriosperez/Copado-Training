@@ -154,6 +154,39 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
+        <fullName>Jor_Picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>Jor_Picklist</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SI</fullName>
+                    <default>false</default>
+                    <label>SI</label>
+                </value>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>TU</fullName>
+                    <default>false</default>
+                    <label>TU</label>
+                </value>
+                <value>
+                    <fullName>EL</fullName>
+                    <default>false</default>
+                    <label>EL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Pick666__c</fullName>
         <externalId>false</externalId>
         <label>Pick666</label>
