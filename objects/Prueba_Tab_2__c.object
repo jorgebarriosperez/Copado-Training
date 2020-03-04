@@ -187,6 +187,39 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Pick666__c</fullName>
+        <externalId>false</externalId>
+        <label>Pick666</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>a</fullName>
+                    <default>false</default>
+                    <label>a</label>
+                </value>
+                <value>
+                    <fullName>b</fullName>
+                    <default>false</default>
+                    <label>b</label>
+                </value>
+                <value>
+                    <fullName>c</fullName>
+                    <default>false</default>
+                    <label>c</label>
+                </value>
+                <value>
+                    <fullName>d</fullName>
+                    <default>false</default>
+                    <label>d</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Picklist22__c</fullName>
         <externalId>false</externalId>
         <label>Picklist22</label>
@@ -218,16 +251,6 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
-    </fields>
-    <fields>
-        <fullName>exist_FB__c</fullName>
-        <externalId>false</externalId>
-        <label>exist_FB</label>
-        <length>12</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
     </fields>
     <fields>
         <fullName>text_No_FLS__c</fullName>
