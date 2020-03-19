@@ -3,7 +3,7 @@
     <sharingOwnerRules>
         <fullName>SharingRuleTest1</fullName>
         <accessLevel>Read</accessLevel>
-        <description>SharingRuleTest1</description>
+        <description>SharingRuleTest-TURBOBALLS</description>
         <label>SharingRuleTest1</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
