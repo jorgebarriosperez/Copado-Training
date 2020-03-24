@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Campaign.SharingRuleTest2</members>
-        <name>SharingOwnerRule</name>
+        <members>Prueba_1__c.text_to_phone__c</members>
+        <name>CustomField</name>
     </types>
     <version>48.0</version>
 </Package>
