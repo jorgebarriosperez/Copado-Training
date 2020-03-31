@@ -10,16 +10,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-        <fieldPermissions>
-        <editable>true</editable>
-        <field>agf__QA_Question__c.agf__Obsolete__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-        <userPermissions>
-        <enabled>true</enabled>
-        <name>TransactionalEmailSend</name>
-    </userPermissions>
-    <custom>true</custom>
     <applicationVisibilities>
         <application>standard__AppLauncher</application>
         <default>false</default>
