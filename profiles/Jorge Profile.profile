@@ -5,10 +5,6 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
-        <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewSetup</name>
-    </userPermissions>
     <applicationVisibilities>
         <application>agf__Agile_Accelerator_LEX</application>
         <default>false</default>
