@@ -5,8 +5,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case</members>
-        <name>CustomObject</name>
+        <members>Jorge_Turbo</members>
+        <name>PermissionSet</name>
     </types>
     <version>48.0</version>
 </Package>
