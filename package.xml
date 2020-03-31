@@ -4,5 +4,9 @@
         <members>Case.moverFiedl__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Jorge Profile</members>
+        <name>Profile</name>
+    </types>
     <version>48.0</version>
 </Package>
