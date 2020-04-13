@@ -10518,10 +10518,6 @@
         <name>QueryAllFiles</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>RecordVisibilityAPI</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
