@@ -9526,10 +9526,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>copado__Pull_Request__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>copado__Release__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
