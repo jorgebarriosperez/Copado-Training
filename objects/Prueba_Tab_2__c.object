@@ -42,7 +42,14 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CompactLayout2</fullName>
+        <fields>CreatedById</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>LastModifiedById</fields>
+        <label>CompactLayout2</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description n1:nil="true" />
     <enableActivities>false</enableActivities>
@@ -154,6 +161,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <listViews>
         <fullName>All</fullName>
@@ -168,8 +176,47 @@
     <recordTypes>
         <fullName>ElCabezon</fullName>
         <active>true</active>
+        <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
         <description>ElCabezon</description>
         <label>ElCabezon</label>
+        <picklistValues>
+            <picklist>Jor_Picklist__c</picklist>
+            <values>
+                <fullName>EL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pick666__c</picklist>
+            <values>
+                <fullName>a</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>b</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>c</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>d</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Picklist22__c</picklist>
             <values>
@@ -190,6 +237,9 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts>
+        <massQuickActions>Gradiente_num_2</massQuickActions>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
