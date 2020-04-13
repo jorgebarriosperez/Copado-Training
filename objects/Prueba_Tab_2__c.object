@@ -141,7 +141,14 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CompactLayout2</fullName>
+        <fields>CreatedById</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>LastModifiedById</fields>
+        <label>CompactLayout2</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -286,8 +293,28 @@
     <recordTypes>
         <fullName>ElCabezon</fullName>
         <active>true</active>
+        <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
         <description>ElCabezon</description>
         <label>ElCabezon</label>
+        <picklistValues>
+            <picklist>Pick666__c</picklist>
+            <values>
+                <fullName>a</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>b</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>c</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>d</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Jor_Picklist__c</picklist>
             <values>
