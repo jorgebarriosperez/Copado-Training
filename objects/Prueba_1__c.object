@@ -41,15 +41,22 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CompactLayout</fullName>
+        <fields>CreatedById</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>LastModifiedById</fields>
+        <label>CompactLayout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Prueba para mover un objeto con Tab.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
@@ -523,9 +530,11 @@
     </listViews>
     <nameField>
         <label>Prueba_1 Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Prueba_1</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
         <fullName>ElSenor</fullName>
         <active>true</active>
@@ -58500,6 +58509,7 @@
     <recordTypes>
         <fullName>El_Creador</fullName>
         <active>true</active>
+        <compactLayoutAssignment>CompactLayout</compactLayoutAssignment>
         <label>El Creador22</label>
         <picklistValues>
             <picklist>CampoPicklist1234__c</picklist>
