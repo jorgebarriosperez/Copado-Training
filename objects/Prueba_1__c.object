@@ -141,7 +141,14 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CompactLayout</fullName>
+        <fields>CreatedById</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>LastModifiedById</fields>
+        <label>CompactLayout</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Prueba para mover un objeto con Tab.</description>
     <enableActivities>false</enableActivities>
@@ -58622,6 +58629,7 @@
     <recordTypes>
         <fullName>El_Creador</fullName>
         <active>true</active>
+        <compactLayoutAssignment>CompactLayout</compactLayoutAssignment>
         <label>El Creador22</label>
         <picklistValues>
             <picklist>CampoPicklist1234__c</picklist>
