@@ -10190,10 +10190,6 @@
         <name>EnableNotifications</name>
     </userPermissions>
     <userPermissions>
-        <enabled>false</enabled>
-        <name>EnableSOS</name>
-    </userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
