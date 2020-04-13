@@ -141,7 +141,14 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>CompactLayout2</fullName>
+        <fields>CreatedById</fields>
+        <fields>CurrencyIsoCode</fields>
+        <fields>LastModifiedById</fields>
+        <label>CompactLayout2</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -219,6 +226,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <nameField>
         <label>Prueba_Tab_2 Name</label>
@@ -228,8 +236,28 @@
     <recordTypes>
         <fullName>ElCabezon</fullName>
         <active>true</active>
+        <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
         <description>ElCabezon</description>
         <label>ElCabezon</label>
+        <picklistValues>
+            <picklist>Jor_Picklist__c</picklist>
+            <values>
+                <fullName>EL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
         <picklistValues>
             <picklist>Pick666__c</picklist>
             <values>
@@ -269,6 +297,9 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts>
+        <massQuickActions>Gradiente_num_2</massQuickActions>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
