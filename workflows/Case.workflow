@@ -10,4 +10,13 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <rules>
+        <fullName>WF_test22</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.case_text1__c</field>
+            <operation>contains</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
 </Workflow>
