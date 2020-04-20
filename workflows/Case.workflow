@@ -7,7 +7,7 @@
             <field>Case.case_text1__c</field>
             <operation>contains</operation>
         </criteriaItems>
-        <description>descripcion corruptaaaaa</description>
+        <description>descripcion corrupta22222aaaa</description>
         <triggerType>onCreateOnly</triggerType>
     </rules>
 </Workflow>
