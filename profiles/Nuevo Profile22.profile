@@ -11685,10 +11685,10 @@
         <layout>CommunityMemberLayout-Community Member Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ConsumptionRate-Formato &#205;ndice de consumo</layout>
+        <layout>ConsumptionRate-Formato Índice de consumo</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ConsumptionSchedule-Formato Programaci&#243;n de consumo</layout>
+        <layout>ConsumptionSchedule-Formato Programación de consumo</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact %28Support%29 Layout</layout>
@@ -11776,7 +11776,7 @@
         <recordType>Mert_Object__c.Mert_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Metric-Formato de medici&#243;n de finalizaci&#243;n</layout>
+        <layout>Metric-Formato de medición de finalización</layout>
         <recordType>Metric.Completion</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -11815,7 +11815,7 @@
         <layout>Product2-Product Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ProductConsumptionSchedule-Formato Programaci&#243;n de consumo de producto</layout>
+        <layout>ProductConsumptionSchedule-Formato Programación de consumo de producto</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
@@ -14124,10 +14124,6 @@
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ActivateOrder</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
@@ -14248,6 +14244,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
@@ -14277,6 +14277,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PreventClassicExperience</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -14333,10 +14337,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewGlobalHeader</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
