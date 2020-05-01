@@ -15,7 +15,6 @@
         <name>AllowViewKnowledge</name>
     </userPermissions>
     <userPermissions>
-    <userPermissions>
         <enabled>true</enabled>
         <name>ApexRestServices</name>
     </userPermissions>        
