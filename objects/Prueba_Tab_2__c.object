@@ -297,6 +297,25 @@
         <description>ElCabezon</description>
         <label>ElCabezon</label>
         <picklistValues>
+            <picklist>Jor_Picklist__c</picklist>
+            <values>
+                <fullName>EL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TU</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Pick666__c</picklist>
             <values>
                 <fullName>a</fullName>
@@ -346,10 +365,6 @@
             </values>
             <values>
                 <fullName>3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>4</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
