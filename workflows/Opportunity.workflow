@@ -11,6 +11,24 @@
         <template>unfiled$public/MarketingProductInquiryResponse</template>
     </alerts>
     <rules>
+        <fullName>WF_Jorge</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Description</field>
+            <operation>notContain</operation>
+        </criteriaItems>
+        <description>WF_Jorge</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_alerta_de_prueba123</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
         <fullName>Workflow_Opp_Rule</fullName>
         <actions>
             <name>Email_alerta_de_prueba123</name>
