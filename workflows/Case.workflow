@@ -12,7 +12,7 @@
     </alerts>
     <rules>
         <fullName>WF_test22</fullName>
-        <active>false</active>
+        <active>true</active>
         <criteriaItems>
             <field>Case.case_text1__c</field>
             <operation>contains</operation>
@@ -23,5 +23,13 @@
         </criteriaItems>
         <description>descripcion corruptaaaaa</description>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_alerta_de_prueba</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
     </rules>
 </Workflow>
