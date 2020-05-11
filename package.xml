@@ -8,9 +8,5 @@
         <members>Opportunity.WF_Jorge</members>
         <name>WorkflowRule</name>
     </types>
-    <types>
-        <members>Prueba_1__c.El_Creador</members>
-        <name>RecordType</name>
-    </types>
     <version>48.0</version>
 </Package>
