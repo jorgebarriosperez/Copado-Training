@@ -10,6 +10,16 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <alerts>
+        <fullName>Email_alerta_de_prueba2</fullName>
+        <description>Email alerta de prueba2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
     <rules>
         <fullName>WF_test22</fullName>
         <active>true</active>
