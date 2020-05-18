@@ -11,6 +11,17 @@
         <field>Opportunity.Field_test_1__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.recordtype1</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.recordtype2</recordType>
+    </layoutAssignments>
     <loginIpRanges>
         <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
@@ -31,12 +42,12 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Lead.recordtype3</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Lead.recordtype4</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
