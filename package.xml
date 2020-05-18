@@ -11,5 +11,12 @@
         <members>Opportunity.Workflow_Opp_Rule</members>
         <name>WorkflowRule</name>
     </types>
+    <types>
+        <members>Lead.recordtype1</members>
+        <members>Lead.recordtype2</members>
+        <members>Lead.recordtype3</members>
+        <members>Lead.recordtype4</members>
+        <name>RecordType</name>
+    </types>
     <version>48.0</version>
 </Package>
