@@ -22,6 +22,26 @@
     </pageAccesses>
     <recordTypeVisibilities>
         <default>true</default>
+        <recordType>Lead.recordtype1</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.recordtype2</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.recordtype3</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Lead.recordtype4</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
         <recordType>Prueba_1__c.El_Creador</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
