@@ -73,6 +73,27 @@
         <type>Default</type>
     </actionOverrides>
     <businessProcesses>
+        <fullName>Lead Process TE</fullName>
+        <description>Lead Process TE</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed - Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Not Converted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open - Not Contacted</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Working - Contacted</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
         <fullName>Prueba</fullName>
         <isActive>true</isActive>
         <values>
