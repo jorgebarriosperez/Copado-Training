@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>agf__ADM_Backbone</members>
-        <members>agf__ADM_CaseRelatedList</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>agf__ADM_PriorityMatrix</members>
-        <members>agf__ADM_Work</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>agf__admTasks</members>
-        <members>agf__admTasksEvents</members>
-        <members>agf__admUtils</members>
-        <name>LightningComponentBundle</name>
+        <members>AppleWatch</members>
+        <members>AppleWatch2</members>
+        <members>AppleWatchTest</members>
+        <members>AppleWatchTest2</members>
+        <name>ApexClass</name>
     </types>
     <version>48.0</version>
 </Package>
