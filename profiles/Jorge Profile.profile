@@ -22,14 +22,6 @@
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.recordtype2</recordType>
     </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-        <recordType>Lead.recordtype3</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Lead-Lead Layout</layout>
-        <recordType>Lead.recordtype4</recordType>
-    </layoutAssignments>
     <loginIpRanges>
         <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
