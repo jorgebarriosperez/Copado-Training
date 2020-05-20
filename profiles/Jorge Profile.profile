@@ -22,6 +22,14 @@
         <layout>Lead-Lead Layout</layout>
         <recordType>Lead.recordtype2</recordType>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.recordtype3</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead Layout</layout>
+        <recordType>Lead.recordtype4</recordType>
+    </layoutAssignments>
     <loginIpRanges>
         <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
@@ -37,7 +45,7 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>true</default>
+        <default>false</default>
         <recordType>Lead.recordtype2</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
