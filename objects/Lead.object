@@ -428,37 +428,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>Picklist_for_RT__c</fullName>
-        <description>Picklist the prueba hasta UAT</description>
-        <externalId>false</externalId>
-        <inlineHelpText>Picklist the prueba hasta UAT</inlineHelpText>
-        <label>Picklist for RT</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-        <valueSet>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>1</fullName>
-                    <default>false</default>
-                    <label>1</label>
-                </value>
-                <value>
-                    <fullName>2</fullName>
-                    <default>false</default>
-                    <label>2</label>
-                </value>
-                <value>
-                    <fullName>3</fullName>
-                    <default>false</default>
-                    <label>3</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>Primary__c</fullName>
         <externalId>false</externalId>
         <label>Primary</label>
@@ -661,21 +630,6 @@
         <businessProcess>Lead Process TE</businessProcess>
         <description>recordtype1</description>
         <label>recordtype1</label>
-        <picklistValues>
-            <picklist>Picklist_for_RT__c</picklist>
-            <values>
-                <fullName>1</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>2</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>3</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
         <picklistValues>
             <picklist>Industry</picklist>
             <values>
