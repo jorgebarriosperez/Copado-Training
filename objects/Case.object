@@ -221,6 +221,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Campo_Auto__c</fullName>
+        <description>text v15</description>
+        <externalId>false</externalId>
+        <label>Campo_Auto</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
@@ -261,6 +275,20 @@
         <fullName>EngineeringReqNumber__c</fullName>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hotfix_text__c</fullName>
+        <description>test</description>
+        <externalId>false</externalId>
+        <inlineHelpText>super help</inlineHelpText>
+        <label>Hotfix_text</label>
         <length>12</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

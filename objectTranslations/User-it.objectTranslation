@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Seleziona questa casella per consentire agli altri utenti in questa organizzazione Salesforce di inviare accordi Adobe Sign a nome di questo utente.</help>
+        <label><!-- Adobe Sign Allow Sending As Other Users --></label>
+        <name>echosign_dev1__EchoSign_Allow_Delegated_Sending__c</name>
+    </fields>
+    <fields>
+        <help>Questa casella indica che l&apos;indirizzo e-mail dell&apos;utente è stato convalidato nelle API di Adobe Sign.</help>
+        <label><!-- Adobe Sign Email Verified --></label>
+        <name>echosign_dev1__EchoSign_Email_Verified__c</name>
+    </fields>
+    <webLinks>
+        <label><!-- Sync_EchoSign_User --></label>
+        <name>echosign_dev1__Sync_EchoSign_User</name>
+    </webLinks>
+</CustomObjectTranslation>
