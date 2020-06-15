@@ -547,16 +547,4 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWriteTransfer</sharingModel>
-    <webLinks>
-        <fullName>echosign_dev1__Send_to_EchoSign</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <height>600</height>
-        <linkType>url</linkType>
-        <masterLabel>Send for Signature</masterLabel>
-        <openType>sidebar</openType>
-        <protected>false</protected>
-        <url>{! URLFOR(&apos;/apex/echosign_dev1__AgreementTemplateProcess&apos;, null, [masterId=Lead.Id]) }</url>
-    </webLinks>
 </CustomObject>
