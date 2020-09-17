@@ -616,6 +616,7 @@
     </fields>
     <fields>
         <fullName>text_to_phone__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>text_to_phone</label>
         <required>false</required>
@@ -649,6 +650,7 @@
         </sharedTo>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Prueba_1 Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
