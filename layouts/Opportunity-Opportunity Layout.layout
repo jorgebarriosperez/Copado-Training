@@ -57,7 +57,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NextStep</field>
+                <field>NextStep22</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
