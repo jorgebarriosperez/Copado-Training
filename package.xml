@@ -3,6 +3,10 @@
     <types>
         <members>AccountOperations</members>
         <members>AccountOperationsTest</members>
+        <members>AppleWatch</members>
+        <members>AppleWatch2</members>
+        <members>AppleWatchTest</members>
+        <members>AppleWatchTest2</members>
         <name>ApexClass</name>
     </types>
     <version>49.0</version>
