@@ -102,11 +102,6 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>encryptedfield__c</field>
-            <table>Opportunity</table>
-        </columns>
-        <columns>
-            <checkedByDefault>false</checkedByDefault>
             <field>Error_Layout__c</field>
             <table>Opportunity</table>
         </columns>
