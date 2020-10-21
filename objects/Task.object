@@ -421,6 +421,14 @@
         <picklistValues>
             <picklist>VUELING3__c</picklist>
             <values>
+                <fullName>NUEVO1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NUEVO2</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>VUELING3%2E1</fullName>
                 <default>false</default>
             </values>
