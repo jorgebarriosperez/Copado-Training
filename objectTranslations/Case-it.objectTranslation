@@ -25,7 +25,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Gradiente sin Restrict --></label>
+        <label></label>
         <name>Gradiente_sin_Restrict__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
@@ -49,7 +49,7 @@
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- jorge:picklist1 --></label>
+        <label></label>
         <name>jorge_picklist1__c</name>
         <picklistValues>
             <masterLabel>texto1</masterLabel>
