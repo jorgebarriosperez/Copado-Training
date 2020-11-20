@@ -328,6 +328,36 @@
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>jorge_picklist1__c</fullName>
+        <externalId>false</externalId>
+        <label>jorge:picklist1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>texto1</fullName>
+                    <default>false</default>
+                    <label>texto1</label>
+                </value>
+                <value>
+                    <fullName>texto2</fullName>
+                    <default>false</default>
+                    <label>texto2</label>
+                </value>
+                <value>
+                    <fullName>texto3</fullName>
+                    <default>false</default>
+                    <label>texto3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllClosedCases</fullName>
         <columns>CASES.CASE_NUMBER</columns>

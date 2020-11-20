@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- jorge:picklist1 --></label>
+        <name>jorge_picklist1__c</name>
+        <picklistValues>
+            <masterLabel>texto1</masterLabel>
+            <translation>textito Ital 1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto2</masterLabel>
+            <translation>textito Ital 2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto3</masterLabel>
+            <translation>textito Ital 3</translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>
