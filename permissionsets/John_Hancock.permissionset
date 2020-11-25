@@ -10,11 +10,6 @@
         <field>Account.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Jhon_Hancock__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>John Hancock</label>
     <license>Salesforce</license>
