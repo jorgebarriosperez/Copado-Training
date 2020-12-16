@@ -361,6 +361,69 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
-    <searchLayouts/>
+    <recordTypes>
+        <fullName>Task_RT</fullName>
+        <active>true</active>
+        <description>test</description>
+        <label>Task RT</label>
+        <picklistValues>
+            <picklist>VUELING1__c</picklist>
+            <values>
+                <fullName>VUELING1%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING1%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING1%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING1%2E4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VUELING2__c</picklist>
+            <values>
+                <fullName>VUELING2%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING2%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING2%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING2%2E4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>VUELING3__c</picklist>
+            <values>
+                <fullName>VUELING3%2E1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING3%2E2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING3%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VUELING3%2E4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>
