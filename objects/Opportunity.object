@@ -317,7 +317,8 @@
     </fields>
     <fields>
         <fullName>Field_test_1__c</fullName>
-        <description>Test para John Hancock</description>
+        <description>Test para John Hancock 22</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Field_test_1</label>
         <length>100</length>
