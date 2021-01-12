@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.jorge_picklist1__c</members>
+        <members>AppleWatch</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.Field_test_1__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Case-it</members>
-        <name>CustomObjectTranslation</name>
+        <members>Jorge_Turbo</members>
+        <name>PermissionSet</name>
     </types>
     <version>50.0</version>
 </Package>
