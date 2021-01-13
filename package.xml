@@ -1,47 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Prueba_1__c.CompactLayout</members>
-        <name>CompactLayout</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.CASE_LABEL__c</members>
-        <members>Prueba_1__c.CampoPicklist1234__c</members>
-        <members>Prueba_1__c.Campo_Profile__c</members>
-        <members>Prueba_1__c.CurrencyIsoCode</members>
-        <members>Prueba_1__c.EXISTFIELD__c</members>
-        <members>Prueba_1__c.Lookup_Account__c</members>
-        <members>Prueba_1__c.MOVERyBORRAR__c</members>
-        <members>Prueba_1__c.Mu__c</members>
-        <members>Prueba_1__c.Numero_Requerido__c</members>
-        <members>Prueba_1__c.Picklist_Siemens__c</members>
-        <members>Prueba_1__c.Picklist_Value_SET__c</members>
-        <members>Prueba_1__c.text_to_phone__c</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.Gradiente</members>
-        <members>Prueba_1__c.Loging</members>
-        <members>Prueba_1__c.Note</members>
-        <name>QuickAction</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.ElSenor</members>
-        <members>Prueba_1__c.El_Creador</members>
-        <name>RecordType</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.VR1</members>
-        <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.Boton_Magico</members>
-        <members>Prueba_1__c.Button_1</members>
-        <name>WebLink</name>
+        <members>en_US</members>
+        <members>pt_BR</members>
+        <name>Translations</name>
     </types>
     <version>50.0</version>
 </Package>
