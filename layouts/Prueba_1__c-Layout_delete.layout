@@ -100,7 +100,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Custom links</label>
+        <label>Jorge x</label>
         <layoutColumns/>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
@@ -109,7 +109,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Custom links</label>
+        <label>Jorge x</label>
         <layoutColumns/>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
@@ -118,16 +118,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>Monetari</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <style>TwoColumnsLeftToRight</style>
-    </layoutSections>
-    <layoutSections>
-        <customLabel>true</customLabel>
-        <detailHeading>true</detailHeading>
-        <editHeading>true</editHeading>
-        <label>Seccion 2</label>
+        <label>Premium 3</label>
         <layoutColumns/>
         <layoutColumns/>
         <style>TwoColumnsLeftToRight</style>
@@ -276,7 +267,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h1i000000yMIC</masterLabel>
+        <masterLabel>00h1i000000qdT8</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>
