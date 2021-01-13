@@ -219,6 +219,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>EXISTFIELD__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>EXISTFIELD</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Lookup_Account__c</fullName>
         <externalId>false</externalId>
         <label>Lookup_Account</label>
