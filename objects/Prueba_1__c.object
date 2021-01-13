@@ -163,10 +163,12 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>CASE_LABEL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>CASE-LABELдфуы</label>
         <length>12</length>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -199,16 +201,12 @@
                     <default>false</default>
                     <label>Letra3</label>
                 </value>
-                <value>
-                    <fullName>Letra4</fullName>
-                    <default>false</default>
-                    <label>Letra4top</label>
-                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>Campo_Profile__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Campo_Profile</label>
         <length>12</length>
@@ -239,16 +237,19 @@
         <relationshipName>Prueba_1</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
     <fields>
         <fullName>MOVERyBORRAR__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>MOVERyBORRAR</label>
         <length>12</length>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -258,6 +259,7 @@
         <externalId>false</externalId>
         <label>MultiPicklist_Value_SET</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>MultiselectPicklist</type>
         <valueSet>
@@ -273,6 +275,7 @@
         <precision>18</precision>
         <required>true</required>
         <scale>0</scale>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Number</type>
         <unique>false</unique>
@@ -282,6 +285,7 @@
         <externalId>false</externalId>
         <label>Picklist_Siemens22</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -295,6 +299,7 @@
         <externalId>false</externalId>
         <label>Picklist_Value_SET</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -672,6 +677,7 @@
     <recordTypes>
         <fullName>ElSenor</fullName>
         <active>true</active>
+        <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
         <description>Description of Record type para Vivir</description>
         <label>ElSeñor</label>
         <picklistValues>
@@ -686,10 +692,6 @@
             </values>
             <values>
                 <fullName>Letra3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Letra4</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -58657,10 +58659,6 @@
             </values>
             <values>
                 <fullName>Letra3</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Letra4</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
