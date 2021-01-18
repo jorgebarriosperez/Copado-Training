@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mert_Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mert_Objects</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <layouts>
+        <layout>Mert_Object Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Description of Record type Mert --></description>
+        <label><!-- Mert_RT --></label>
+        <name>Mert_RT</name>
+    </recordTypes>
+</CustomObjectTranslation>

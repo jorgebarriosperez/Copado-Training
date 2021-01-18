@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value><!-- Prueba_1 --></value>
+    </caseValues>
+    <fields>
+        <label><!-- CASE-LABELдфуы --></label>
+        <name>CASE_LABEL__c</name>
+    </fields>
+    <fields>
+        <help><!-- {!Environment.JORGE_REPLACEMENT_VARIABLE} --></help>
+        <label><!-- CampoPicklist1234 --></label>
+        <name>CampoPicklist1234__c</name>
+        <picklistValues>
+            <masterLabel>Letra1-Modify</masterLabel>
+            <translation>1</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra2</masterLabel>
+            <translation>2</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letra3</masterLabel>
+            <translation>3</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campo_Profile --></label>
+        <name>Campo_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXISTFIELD --></label>
+        <name>EXISTFIELD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup_Account --></label>
+        <name>Lookup_Account__c</name>
+        <relationshipLabel><!-- Prueba_1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MOVERyBORRAR --></label>
+        <name>MOVERyBORRAR__c</name>
+    </fields>
+    <fields>
+        <label><!-- MultiPicklist_Value_SET --></label>
+        <name>Mu__c</name>
+    </fields>
+    <fields>
+        <label><!-- Numero_Requerido --></label>
+        <name>Numero_Requerido__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist_Siemens22 --></label>
+        <name>Picklist_Siemens__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist_Value_SET --></label>
+        <name>Picklist_Value_SET__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist10__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist11__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist12__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist13__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist14__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist15__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist16__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist17__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist18__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist19__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist20__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist21__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist22__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist23__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist24__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist25__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist26__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist27__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist2__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist3__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist4__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist5__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist6__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist7__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist8__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist9__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- text_to_phone --></label>
+        <name>text_to_phone__c</name>
+    </fields>
+    
+    <layouts>
+        <layout>Layout_delete</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Jorge x --></label>
+            <section>Jorge x</section>
+        </sections>
+        <sections>
+            <label><!-- Premium 3 --></label>
+            <section>Premium 3</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prueba_1 Layoutxxx</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Custom links --></label>
+            <section>Custom links</section>
+        </sections>
+        <sections>
+            <label><!-- Monetari --></label>
+            <section>Monetari</section>
+        </sections>
+        <sections>
+            <label><!-- Seccion 2 --></label>
+            <section>Seccion 2</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Prueba_1 Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- Create New Prueba_1 --></label>
+        <name>Gradiente</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Loging</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Log A Note --></label>
+        <name>Note</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Description of Record type para Vivir --></description>
+        <label><!-- ElSeñor --></label>
+        <name>ElSenor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- El Creador22 --></label>
+        <name>El_Creador</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- JORGE VALIDATION RULE XXXX --></errorMessage>
+        <name>VR1</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Boton_Magico --></label>
+        <name>Boton_Magico</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Button_1 --></label>
+        <name>Button_1</name>
+    </webLinks>
+</CustomObjectTranslation>

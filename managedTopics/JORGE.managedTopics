@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>JORGE.Content:Topic Jorge</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Topic Jorge</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Descripcion y bla bla bla</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Content:Topic Jorge 22</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Topic Jorge 22</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Content:Topic Julio</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Topic Julio</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>bla bla bla</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Featured:Topic Jorge</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Topic Jorge</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription>Descripcion y bla bla bla</topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Featured:Topic Jorge 22</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Topic Jorge 22</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Featured:Topic Julio</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Topic Julio</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>bla bla bla</topicDescription>
+    </managedTopic>
+</ManagedTopics>

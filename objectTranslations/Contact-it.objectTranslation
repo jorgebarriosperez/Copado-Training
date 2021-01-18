@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Email JORGE</value>
+        </caseValues>
+        <gender>Feminine</gender>
+        <name>email_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Nome JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>first_name_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Secondo nome JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>middle_name_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Secondo nome (locale) JORGE</value>
+        </caseValues>
+        <gender>Masculine</gender>
+        <name>middle_name_local_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- DanRole --></label>
+        <name>DanRole__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>LFNB_Role__c</name>
+    </fields>
+    <fields>
+        <label>Lenguage ITA</label>
+        <name>Languages__c</name>
+    </fields>
+    <fields>
+        <label>level ITA</label>
+        <name>Level__c</name>
+        <picklistValues>
+            <masterLabel>Primary</masterLabel>
+            <translation><!-- Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary</masterLabel>
+            <translation><!-- Secondary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tertiary</masterLabel>
+            <translation><!-- Tertiary --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist_Volvo --></label>
+        <name>Picklist_Volvo__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <description><!-- test --></description>
+        <label><!-- RT_Jorge --></label>
+        <name>RT_Jorge</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT TEST --></label>
+        <name>RT_TEST</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- RT_Volvo --></description>
+        <label><!-- RT_Volvo --></label>
+        <name>RT_Volvo</name>
+    </recordTypes>
+</CustomObjectTranslation>
