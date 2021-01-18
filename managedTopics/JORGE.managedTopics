@@ -17,6 +17,14 @@
         <topicDescription> </topicDescription>
     </managedTopic>
     <managedTopic>
+        <fullName>JORGE.Content:Topic Julio</fullName>
+        <managedTopicType>Content</managedTopicType>
+        <name>Topic Julio</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>bla bla bla</topicDescription>
+    </managedTopic>
+    <managedTopic>
         <fullName>JORGE.Featured:Topic Jorge</fullName>
         <managedTopicType>Featured</managedTopicType>
         <name>Topic Jorge</name>
@@ -31,5 +39,13 @@
         <parentName></parentName>
         <position>1</position>
         <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>JORGE.Featured:Topic Julio</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Topic Julio</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription>bla bla bla</topicDescription>
     </managedTopic>
 </ManagedTopics>

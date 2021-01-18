@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Prueba_Tab_2</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Prueba_Tab_2</value>
+    </caseValues>
+    <fields>
+        <label><!-- Jor_Picklist --></label>
+        <name>Jor_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>EL</masterLabel>
+            <translation><!-- EL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NO</masterLabel>
+            <translation><!-- NO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SI</masterLabel>
+            <translation><!-- SI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TU</masterLabel>
+            <translation><!-- TU --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pick666 --></label>
+        <name>Pick666__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation><!-- b --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>d</masterLabel>
+            <translation><!-- d --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Picklist22 --></label>
+        <name>Picklist22__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- exist_FB --></label>
+        <name>exist_FB__c</name>
+    </fields>
+    <fields>
+        <label><!-- text_No_FLS --></label>
+        <name>text_No_FLS__c</name>
+    </fields>
+    <gender>Masculine</gender>
+    <quickActions>
+        <label><!-- Create New Prueba_Tab_2 --></label>
+        <name>Gradiente_num_2</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- ElCabezon --></description>
+        <label><!-- ElCabezon --></label>
+        <name>ElCabezon</name>
+    </recordTypes>
+</CustomObjectTranslation>

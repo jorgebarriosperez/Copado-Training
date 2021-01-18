@@ -21,9 +21,9 @@
     <masterLabel>JORGE</masterLabel>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <requireHttps>true</requireHttps>
-    <requireInsecurePortalAccess>false</requireInsecurePortalAccess>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>jbarrios@dev1copa.do</siteAdmin>
+    <siteGuestRecordDefaultOwner>jbarrios@dev1copa.do</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>dev1-jorge-developer-edition</subdomain>
     <urlPathPrefix>customer</urlPathPrefix>

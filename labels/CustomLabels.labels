@@ -11,6 +11,14 @@
 3</value>
     </labels>
     <labels>
+        <fullName>Gran_Label</fullName>
+        <categories>categoria extrema</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Gran Label</shortDescription>
+        <value>Gran Label o no</value>
+    </labels>
+    <labels>
         <fullName>Label_test</fullName>
         <categories>NUEVO</categories>
         <language>en_US</language>

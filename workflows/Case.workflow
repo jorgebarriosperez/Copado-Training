@@ -10,9 +10,34 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/SalesNewCustomerEmail</template>
     </alerts>
+    <alerts>
+        <fullName>Email_alerta_de_prueba2</fullName>
+        <description>Email alerta de prueba2</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>WF_case_FU</fullName>
+        <description>WF_case_FU</description>
+        <field>Status</field>
+        <literalValue>Working</literalValue>
+        <name>WF_case_FU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>WF_test22</fullName>
-        <active>false</active>
+        <actions>
+            <name>WF_case_FU</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
         <criteriaItems>
             <field>Case.case_text1__c</field>
             <operation>contains</operation>
@@ -23,5 +48,13 @@
         </criteriaItems>
         <description>descripcion corruptaaaaa</description>
         <triggerType>onCreateOnly</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Email_alerta_de_prueba</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Hours</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
     </rules>
 </Workflow>

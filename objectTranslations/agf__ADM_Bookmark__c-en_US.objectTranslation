@@ -8,6 +8,25 @@
         <plural>true</plural>
         <value>Bookmarks CUSTOM</value>
     </caseValues>
+    <fields>
+        <label></label>
+        <name>agf__Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>agf__Title__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>agf__URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Bookmark Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel>Bookmarks CUSTOM</nameFieldLabel>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
