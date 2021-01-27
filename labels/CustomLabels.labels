@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CustomLabelJorge_2</fullName>
+        <categories>Tuerca</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomLabelJorge 2</shortDescription>
+        <value>Valor Ingles</value>
+    </labels>
+</CustomLabels>
