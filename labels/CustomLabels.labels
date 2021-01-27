@@ -11,6 +11,14 @@
 3</value>
     </labels>
     <labels>
+        <fullName>CustomLabelJorge_2</fullName>
+        <categories>Tuerca</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomLabelJorge 2</shortDescription>
+        <value>Valor Ingles</value>
+    </labels>
+    <labels>
         <fullName>Gran_Label</fullName>
         <categories>categoria extrema</categories>
         <language>en_US</language>
