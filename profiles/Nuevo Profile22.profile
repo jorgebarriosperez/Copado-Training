@@ -17536,10 +17536,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>ViewAllForecasts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>ViewAllForeignKeyNames</name>
     </userPermissions>
     <userPermissions>
