@@ -12859,10 +12859,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
-        <recordType>Account.Business_Account</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Account-Account Layout</layout>
         <recordType>Account.RT_TEST</recordType>
     </layoutAssignments>
     <layoutAssignments>
