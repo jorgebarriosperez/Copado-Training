@@ -12905,10 +12905,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
-        <recordType>Contact.RT_Jorge</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Contact-Contact Layout</layout>
         <recordType>Contact.RT_TEST</recordType>
     </layoutAssignments>
     <layoutAssignments>
