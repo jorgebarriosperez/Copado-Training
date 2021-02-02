@@ -17352,10 +17352,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
-        <name>OverrideForecasts</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
         <name>Packaging2</name>
     </userPermissions>
     <userPermissions>
