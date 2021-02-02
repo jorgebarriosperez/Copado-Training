@@ -16082,10 +16082,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>App_Page</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Prueba_1__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
