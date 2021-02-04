@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CPQ Cart Preview Modal Use API</members>
-        <members>CPQ Toast Message Log Level</members>
-        <members>DefaultEntityFilterEditFieldset</members>
-        <members>StrictSplitModeEnabled</members>
-        <members>Toggle Next Message Flag</members>
-        <name>CpqConfigurationSetup</name>
+        <members>Billing Import Bundle</members>
+        <members>VDOUpdateManualTask</members>
+        <name>DataRaptor</name>
     </types>
     <version>50.0</version>
 </Package>
