@@ -51,7 +51,7 @@
         <default>false</default>
         <label>Perception Analysis</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>70</probability>
         <won>false</won>
     </standardValue>
@@ -60,7 +60,7 @@
         <default>false</default>
         <label>Proposal/Price Quote</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>BestCase</forecastCategory>
         <probability>75</probability>
         <won>false</won>
     </standardValue>
@@ -69,7 +69,7 @@
         <default>false</default>
         <label>Negotiation/Review</label>
         <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
+        <forecastCategory>Forecast</forecastCategory>
         <probability>90</probability>
         <won>false</won>
     </standardValue>
@@ -89,15 +89,6 @@
         <closed>true</closed>
         <forecastCategory>Omitted</forecastCategory>
         <probability>0</probability>
-        <won>false</won>
-    </standardValue>
-    <standardValue>
-        <fullName>Only for test</fullName>
-        <default>false</default>
-        <label>Only for test</label>
-        <closed>false</closed>
-        <forecastCategory>Pipeline</forecastCategory>
-        <probability>15</probability>
         <won>false</won>
     </standardValue>
 </StandardValueSet>
