@@ -1,6 +1,6 @@
 /** zzzzzzzzzzzzzzzzzzzz
 This is a test zone for Customer
-wWWWWWWWW333WWWWWWWWWWw
+wWWWWWWWWWWWWWWWWWWw
 */
 Public with sharing Class AppleWatch{
  Public Static void appleWatchmethod(list<Opportunity> lopt ){
@@ -15,13 +15,17 @@ Public with sharing Class AppleWatch{
         
         
         //TEST EN MUERTEEE DEV22222
-        insert t; // conflicto1
+        insert t;
         
         
         //TEST EN MUERTEEE DEV1
              }
   }
   
+  /** zzzzzzzzzzzzzzzzzzzz
+This is a test zone for Customer
+wWWWWWWWWWWWWWWWWWWw
+*/
   
   
   Public Static void appleWatchmethod2(list<Opportunity> lopt ){
@@ -35,11 +39,11 @@ Public with sharing Class AppleWatch{
         t.WhatId      = opp.Id;
         
         
-        //TEST EN MUERTEEE DEV22222
+        //TEST EN MUERTEEE DEV3333
         insert t;
         
         
-        //TEST EN MUERTEEE DEV13333
+        //TEST EN MUERTEEE DEV12222222222
              }
   }
   
