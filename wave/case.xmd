@@ -41,14 +41,26 @@
     <dimensions>
         <field>Account.Owner.Role.ParentRoleId</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>4</sortIndex>
     </dimensions>
     <dimensions>
         <field>Account.Owner.Role.RolePath</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Industry</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>7</sortIndex>
     </dimensions>
     <measures>
         <field>Account.AnnualRevenue</field>
