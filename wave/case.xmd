@@ -35,7 +35,7 @@
     <dimensions>
         <field>Account.Owner.Role.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>false</showInExplorer>
+        <showInExplorer>true</showInExplorer>
         <sortIndex>3</sortIndex>
     </dimensions>
     <dimensions>
@@ -49,6 +49,18 @@
         <isDerived>false</isDerived>
         <showInExplorer>false</showInExplorer>
         <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Industry</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.Name</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>7</sortIndex>
     </dimensions>
     <measures>
         <field>Account.AnnualRevenue</field>
