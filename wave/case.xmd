@@ -35,19 +35,19 @@
     <dimensions>
         <field>Account.Owner.Role.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>3</sortIndex>
     </dimensions>
     <dimensions>
         <field>Account.Owner.Role.ParentRoleId</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>4</sortIndex>
     </dimensions>
     <dimensions>
         <field>Account.Owner.Role.RolePath</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>5</sortIndex>
     </dimensions>
     <measures>
