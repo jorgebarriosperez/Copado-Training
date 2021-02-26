@@ -27,25 +27,25 @@
         <sortIndex>1</sortIndex>
     </dimensions>
     <dimensions>
-        <field>Account.Owner.Role.Name</field>
+        <field>Account.Owner.Name</field>
         <isDerived>false</isDerived>
         <showInExplorer>true</showInExplorer>
         <sortIndex>2</sortIndex>
     </dimensions>
     <dimensions>
-        <field>Account.Owner.Role.ParentRoleId</field>
+        <field>Account.Owner.Role.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>false</showInExplorer>
+        <showInExplorer>true</showInExplorer>
         <sortIndex>3</sortIndex>
     </dimensions>
     <dimensions>
-        <field>Account.Owner.Role.RolePath</field>
+        <field>Account.Owner.Role.ParentRoleId</field>
         <isDerived>false</isDerived>
         <showInExplorer>false</showInExplorer>
         <sortIndex>4</sortIndex>
     </dimensions>
     <dimensions>
-        <field>Account.Owner.Role.Roles</field>
+        <field>Account.Owner.Role.RolePath</field>
         <isDerived>false</isDerived>
         <showInExplorer>false</showInExplorer>
         <sortIndex>5</sortIndex>
