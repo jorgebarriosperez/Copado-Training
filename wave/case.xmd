@@ -29,13 +29,13 @@
     <dimensions>
         <field>Account.Owner.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>2</sortIndex>
     </dimensions>
     <dimensions>
         <field>Account.Owner.Role.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>true</showInExplorer>
+        <showInExplorer>false</showInExplorer>
         <sortIndex>3</sortIndex>
     </dimensions>
     <dimensions>
@@ -53,14 +53,26 @@
     <dimensions>
         <field>Account.Industry</field>
         <isDerived>false</isDerived>
-        <showInExplorer>false</showInExplorer>
+        <showInExplorer>true</showInExplorer>
         <sortIndex>6</sortIndex>
     </dimensions>
     <dimensions>
         <field>Account.Name</field>
         <isDerived>false</isDerived>
-        <showInExplorer>false</showInExplorer>
+        <showInExplorer>true</showInExplorer>
         <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.BillingCountry</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Account.BillingState</field>
+        <isDerived>false</isDerived>
+        <showInExplorer>false</showInExplorer>
+        <sortIndex>9</sortIndex>
     </dimensions>
     <measures>
         <field>Account.AnnualRevenue</field>
