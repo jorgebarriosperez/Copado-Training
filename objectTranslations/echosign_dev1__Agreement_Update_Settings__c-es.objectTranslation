@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Habilite este ajuste para adjuntar en el registro del acuerdo un PDF de informe de auditoría, una vez que se complete la transacción del acuerdo.</help>
+        <label><!-- Add Audit Report --></label>
+        <name>echosign_dev1__Add_Audit_Report__c</name>
+    </fields>
+    <fields>
+        <help>Habilite este ajuste para agregar al registro del acuerdo un vínculo URL para el PDF firmado.</help>
+        <label><!-- Add Signed PDF Url --></label>
+        <name>echosign_dev1__Add_Signed_PDF_Url__c</name>
+    </fields>
+    <fields>
+        <help>Habilite esta opción para agregar a un registro de acuerdo los PDF más recientes cada vez que el participante firme, apruebe, acepte, rellene o entregue un acuerdo.</help>
+        <label><!-- Add Signed PDF --></label>
+        <name>echosign_dev1__Add_Signed_PDF__c</name>
+    </fields>
+    <fields>
+        <help>Habilite este ajuste para adjuntar en el registro del acuerdo una copia del acuerdo final como PDF separados para cada documento, una vez que se complete la transacción del acuerdo.</help>
+        <label><!-- Add Signed PDF as Separate Attachments --></label>
+        <name>echosign_dev1__Add_Signed_PDF_as_Separate_Attachments__c</name>
+    </fields>
+    <fields>
+        <help>Habilite este ajuste para adjuntar en el registro del acuerdo PDF de cada documento de respaldo cargado por los participantes, una vez que se complete la transacción del acuerdo.</help>
+        <label><!-- Add Supporting Files --></label>
+        <name>echosign_dev1__Add_Supporting_Files__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enable this setting to stop attaching intermediate signed documents. --></help>
+        <label><!-- Hide Intermediate Documents --></label>
+        <name>echosign_dev1__Hide_Intermediate_Documents__c</name>
+    </fields>
+    <fields>
+        <help>Habilite este ajuste para mostrar las imágenes más recientes de todas las páginas de todos los documentos asociados con un acuerdo.</help>
+        <label><!-- Show Images --></label>
+        <name>echosign_dev1__Show_Images__c</name>
+    </fields>
+    <fields>
+        <help>Habilite esta configuración para actualizar los eventos de un acuerdo</help>
+        <label><!-- Update Agreement Events --></label>
+        <name>echosign_dev1__Update_Agreement_Events__c</name>
+    </fields>
+    <fields>
+        <help>Habilite esta configuración para actualizar el estado de un acuerdo. Si deshabilita esta configuración, se deshabilitarán ciertas actualizaciones en el registro del acuerdo.</help>
+        <label><!-- Update Agreement Status --></label>
+        <name>echosign_dev1__Update_Agreement_Status__c</name>
+    </fields>
+</CustomObjectTranslation>

@@ -9,7 +9,6 @@
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Opportunity</tabs>
-    <tabs>standard-AdvForecast</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Order</tabs>
     <tabs>standard-Case</tabs>

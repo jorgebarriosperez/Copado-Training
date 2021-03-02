@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help>Publicar actualizaciones de Chatter para acuerdos de Adobe Sign en el registro de cuenta correspondiente.</help>
+        <label><!-- Post on Account Record --></label>
+        <name>echosign_dev1__Account_Record_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualización de Chatter cuando se cancele el acuerdo.</help>
+        <label><!-- Post when Agreement Canceled --></label>
+        <name>echosign_dev1__Agreement_Cancelled_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualización de Chatter cuando se rechace el acuerdo.</help>
+        <label><!-- Post when Agreement Declined --></label>
+        <name>echosign_dev1__Agreement_Declined_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualización de Chatter cuando caduque el acuerdo.</help>
+        <label><!-- Post when Agreement Expires --></label>
+        <name>echosign_dev1__Agreement_Expired_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualizaciones de Chatter para acuerdos de Adobe Sign en el registro de acuerdo.</help>
+        <label><!-- Post on Agreement Record --></label>
+        <name>echosign_dev1__Agreement_Record_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualización de Chatter cuando se envíen recordatorios.</help>
+        <label><!-- Post when Reminders Sent --></label>
+        <name>echosign_dev1__Agreement_Reminder_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar una actualización en Chatter cuando el acuerdo se haya enviado para su firma, aprobación, aceptación, entrega o rellenado del formulario.</help>
+        <label><!-- Post when Agreement Sent --></label>
+        <name>echosign_dev1__Agreement_Sent_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar mensaje de Chatter privado en firmante cuando el acuerdo necesite la firma del firmante.</help>
+        <label><!-- Send Notifications to Sign Agreements --></label>
+        <name>echosign_dev1__Agreement_Sign_Message__c</name>
+    </fields>
+    <fields>
+        <help>Publique una actualización en Chatter cuando el acuerdo se haya firmado, aprobado, aceptado o entregado, o bien cuando se haya rellenado el formulario.</help>
+        <label><!-- Post when Agreement transaction done --></label>
+        <name>echosign_dev1__Agreement_Signed_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualización de Chatter cuando el acuerdo se visualice.</help>
+        <label><!-- Post when Agreement Viewed --></label>
+        <name>echosign_dev1__Agreement_Viewed_Post__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualizaciones de Chatter para acuerdos de Adobe Sign en el registro de contrato correspondiente.</help>
+        <label><!-- Post on Contract Record --></label>
+        <name>echosign_dev1__Contract_Record_Post__c</name>
+    </fields>
+    <fields>
+        <help>Habilite esta configuración para activar las actualizaciones de Chatter para acuerdos de Adobe Sign.</help>
+        <label><!-- Enable Adobe Sign Chatter Updates --></label>
+        <name>echosign_dev1__Enable_Chatter_Integration__c</name>
+    </fields>
+    <fields>
+        <help>Publicar actualizaciones de Chatter para acuerdos de Adobe Sign en el registro de oportunidad relacionado.</help>
+        <label><!-- Post on Opportunity Record --></label>
+        <name>echosign_dev1__Opportunity_Record_Post__c</name>
+    </fields>
+    <fields>
+        <help>Enviar actualización de Chatter cuando rebote el correo electrónico del destinatario y no se entregue.</help>
+        <label><!-- Post when Recipient Email Bounces --></label>
+        <name>echosign_dev1__Recipient_Email_Bounced_Post__c</name>
+    </fields>
+</CustomObjectTranslation>
