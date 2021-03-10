@@ -286,6 +286,18 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>ServiceContractId</fullName>
+        <businessStatus>Active</businessStatus>
+        <complianceGroup>PII;HIPAA;RGPD</complianceGroup>
+        <description>text</description>
+        <inlineHelpText>help text</inlineHelpText>
+        <securityClassification>Public</securityClassification>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SourceId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
