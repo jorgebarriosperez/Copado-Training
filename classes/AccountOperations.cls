@@ -7,8 +7,8 @@ public class AccountOperations {
         a.Phone = '987654321 ========>'; 
         return a;
         //Comentarios que pasara??? ---
-        // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok XXXX
-        // line to original will remove 155 original XXXX
+        // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok
+        // line to original will remove 155 original
         
         // line update ccsubcripber   157 original
         // line update recordid   158 original
