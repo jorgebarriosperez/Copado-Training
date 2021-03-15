@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.VUELING1__c</members>
-        <members>Activity.VUELING2__c</members>
-        <members>Activity.VUELING3__c</members>
-        <members>Task.VUELING1__c</members>
-        <members>Task.VUELING2__c</members>
-        <members>Task.VUELING3__c</members>
+        <members>Case.ServiceContractId</members>
+        <members>Lead.PartnerAccountId</members>
+        <members>Prueba_Tab_2__c.Pick666__c</members>
+        <members>Prueba_Tab_2__c.Picklist22__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Task.Task_RT</members>
-        <name>RecordType</name>
+        <members>Admin</members>
+        <name>Profile</name>
     </types>
-    <version>49.0</version>
+    <version>50.0</version>
 </Package>
