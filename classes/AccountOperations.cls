@@ -4,11 +4,11 @@ public class AccountOperations {
          return a;
     }
     public static Account setDefaultPhone(Account a){ //Dev01
-        a.Phone = '987654321 ========>'; // algo
+        a.Phone = '987654321 ========>'; 
         return a;
         //Comentarios que pasara??? ---
-        // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok
-        // line to original will remove 155 original
+        // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok XXXX
+        // line to original will remove 155 original XXXX
         
         // line update ccsubcripber   157 original
         // line update recordid   158 original
