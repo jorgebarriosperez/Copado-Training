@@ -4,9 +4,9 @@ public class AccountOperations {
          return a;
     }
     public static Account setDefaultPhone(Account a){ //Dev01
-        a.Phone = '987654321 ========>';
+        a.Phone = '987654321';
         return a;
-        //Comentarios que pasara??? ---
+        //Comentarios que pasara???
         // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok
         // UPDATE NEW LINE NOW 155
         // line to original will remove 155 original
