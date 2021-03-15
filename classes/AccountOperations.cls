@@ -4,7 +4,7 @@ public class AccountOperations {
          return a;
     }
     public static Account setDefaultPhone(Account a){ //Dev01
-        a.Phone = '987654321 ========>';
+        a.Phone = '987654321 ========>'; // algo
         return a;
         //Comentarios que pasara??? ---
         // cc.subcripbnerwwwwwwwwwwwwwwwwwwwwww Line 154 ok
