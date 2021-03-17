@@ -278,7 +278,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Released In</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

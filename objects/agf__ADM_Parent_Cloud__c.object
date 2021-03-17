@@ -162,11 +162,12 @@
         <language>en_US</language>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Parent Cloud Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Parent Clouds</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

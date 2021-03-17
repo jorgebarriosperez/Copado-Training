@@ -684,6 +684,7 @@
         <label>All - Details</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Application Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>

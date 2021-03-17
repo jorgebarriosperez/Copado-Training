@@ -321,6 +321,7 @@ Planned: Event record has been created</description>
     </fields>
     <label>Release Event</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Release Event Name</label>
         <type>Text</type>
     </nameField>

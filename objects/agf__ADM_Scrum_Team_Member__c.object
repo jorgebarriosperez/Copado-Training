@@ -970,7 +970,7 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Allocate_over_limit</fullName>

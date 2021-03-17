@@ -425,6 +425,7 @@
         <label>All Open Opportunities</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Opportunity Title</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

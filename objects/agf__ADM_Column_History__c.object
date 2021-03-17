@@ -244,7 +244,7 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Column History</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

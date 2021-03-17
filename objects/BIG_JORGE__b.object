@@ -29,6 +29,14 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <indexes>
+        <fullName>index</fullName>
+        <fields>
+            <name>number_field__c</name>
+            <sortDirection>ASC</sortDirection>
+        </fields>
+        <label>index</label>
+    </indexes>
     <label>BIG_JORGE</label>
     <pluralLabel>BIG_JORGE</pluralLabel>
 </CustomObject>

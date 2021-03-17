@@ -187,7 +187,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>User Business Hours</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <validationRules>

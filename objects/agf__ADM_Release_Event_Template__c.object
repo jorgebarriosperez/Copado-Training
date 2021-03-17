@@ -418,7 +418,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Event Templates</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Application_required</fullName>

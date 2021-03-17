@@ -187,11 +187,12 @@
         <label>All</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Valid GUS Value</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Valid GUS Values</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

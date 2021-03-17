@@ -251,11 +251,12 @@
     </fields>
     <label>Program Goal</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Goal Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Program Goals</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -706,7 +706,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Feature Freeze Exception Request</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Code_Coverage_Percentage_0_to_100</fullName>

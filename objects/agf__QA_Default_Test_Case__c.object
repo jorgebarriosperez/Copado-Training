@@ -190,7 +190,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Default Test  Cases</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

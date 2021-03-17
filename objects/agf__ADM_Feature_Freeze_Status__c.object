@@ -5395,7 +5395,7 @@ Zero TF on these test suites at time of FF.</inlineHelpText>
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Accessibility_details_required_bugs_open</fullName>

@@ -170,11 +170,12 @@
     </fields>
     <label>Team Name History</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Team Name History Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Team Names History</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -286,6 +286,7 @@
         </sharedTo>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Prueba_Tab_2 Name</label>
         <type>Text</type>
     </nameField>

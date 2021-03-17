@@ -1694,6 +1694,7 @@ Valid IDs will be rendered into links to Chatter Groups.</inlineHelpText>
         <label>All</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Team Name</label>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>

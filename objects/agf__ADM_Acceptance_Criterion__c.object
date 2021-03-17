@@ -234,13 +234,14 @@
     </fields>
     <label>Acceptance Criterion</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Acceptance Criterion Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Acceptance Criteria</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Description_is_not_null</fullName>

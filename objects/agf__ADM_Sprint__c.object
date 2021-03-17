@@ -605,13 +605,14 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <label>GUS Sprints</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Sprints</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Hours_In_A_Work_Day</fullName>

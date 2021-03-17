@@ -197,7 +197,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Test Plan Comments</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

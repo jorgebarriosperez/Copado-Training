@@ -281,7 +281,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Source Control Connectors</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

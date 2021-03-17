@@ -232,7 +232,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Epic Burndown Items</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

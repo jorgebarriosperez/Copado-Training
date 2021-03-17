@@ -275,7 +275,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>FTests</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

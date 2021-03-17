@@ -336,7 +336,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Exception Requests</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Dec_Explanation_Empty_Status_Approved</fullName>

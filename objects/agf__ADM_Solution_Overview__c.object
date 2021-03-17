@@ -1273,6 +1273,7 @@ You would have received this approved date from attending the Weekly Review of R
         <label>160 Solution Overviews</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Solution Overview Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>

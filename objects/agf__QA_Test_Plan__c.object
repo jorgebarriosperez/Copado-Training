@@ -256,6 +256,7 @@
         <label>All</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Test Plan Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

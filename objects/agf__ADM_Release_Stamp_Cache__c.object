@@ -178,7 +178,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Stamps Cache</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

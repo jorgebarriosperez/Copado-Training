@@ -201,7 +201,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Theme Assignments</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

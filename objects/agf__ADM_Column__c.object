@@ -235,12 +235,13 @@
     </fields>
     <label>Column</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Column Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Columns</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

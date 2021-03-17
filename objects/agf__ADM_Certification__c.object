@@ -237,7 +237,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Certifications</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__User_Required_on_Certification_record</fullName>

@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AuthorizationFormId</fullName>
         <trackHistory>false</trackHistory>
@@ -150,12 +151,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
+        <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
+        <customTabListAdditionalFields>SummaryAuthFormText</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LocaleSelection</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
         <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
-        <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>AuthorizationForm</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>SummaryAuthFormText</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LocaleSelection</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>AuthorizationForm</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

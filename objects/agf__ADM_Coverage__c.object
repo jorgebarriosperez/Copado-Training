@@ -546,6 +546,7 @@
         <label>Sharing Team Owned</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Feature/Package Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

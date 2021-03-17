@@ -321,7 +321,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Locking Records</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__StartTimeLimit</fullName>

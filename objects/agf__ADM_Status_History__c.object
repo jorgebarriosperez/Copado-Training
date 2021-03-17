@@ -214,11 +214,12 @@
     </fields>
     <label>ADM_Status_History</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>ADM_Status_History Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>ADM_Status_Histories</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

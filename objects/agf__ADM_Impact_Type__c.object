@@ -195,7 +195,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Impact Types</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

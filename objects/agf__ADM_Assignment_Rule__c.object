@@ -357,12 +357,13 @@
     </fields>
     <label>Assignment Rule</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Assignment Rule</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Assignment Rules</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__ProductOwnerReq</fullName>

@@ -617,13 +617,14 @@ IF(agf__Deployment_Delayed_minutes__c &gt; 120, &quot;Delay of More than 2 Hours
         <label>Today</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Release Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Releases</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Actual_Deploy_Date_Required_if_Deployed</fullName>

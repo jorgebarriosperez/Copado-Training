@@ -1172,7 +1172,7 @@ Zero TF on these test suites at time of RF.</inlineHelpText>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Freeze Team Status</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <webLinks>

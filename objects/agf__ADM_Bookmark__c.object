@@ -195,7 +195,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Bookmarks</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

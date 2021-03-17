@@ -722,6 +722,7 @@
         <label>No owner</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Third Party Property Name</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>

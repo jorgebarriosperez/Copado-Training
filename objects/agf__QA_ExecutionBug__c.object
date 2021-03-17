@@ -201,7 +201,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Execution-Bugs</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Execution_cannot_be_null</fullName>

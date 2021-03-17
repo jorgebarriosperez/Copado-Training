@@ -248,6 +248,7 @@
         <label>All</label>
     </listViews>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Product Tag Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>

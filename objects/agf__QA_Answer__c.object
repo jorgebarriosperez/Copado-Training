@@ -231,11 +231,12 @@
     </fields>
     <label>Answer</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Answer Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Answers</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
