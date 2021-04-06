@@ -1,0 +1,51 @@
+{
+  "appPageId" : "57871532-b259-4262-8324-c6e6170971ac",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "d94233b6-f631-416b-acc4-3328ba2deef8",
+  "label" : "Question Detail",
+  "regions" : [ {
+    "id" : "f72ec7ba-a209-4e17-81e5-cec81025429c",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "id" : "{!recordId}"
+      },
+      "componentName" : "forceCommunity:feedItemDetail",
+      "id" : "37f47727-2264-4a2c-a87c-389927133d91",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6784fc8b-6415-4074-bd68-53a1d450c304",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "434e62a2-bf5e-48cc-9c5d-ca8dc8870670",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "e1f92b0f-a323-4c11-899a-2866610c6d9f",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "description" : "",
+        "metaTags" : "",
+        "title" : "{!Record.Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "152cedef-453d-447b-b343-494559ce6838",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "41587d83-510b-41e1-a369-0f38d89efe2d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "feeditem"
+}
