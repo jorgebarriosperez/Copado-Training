@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "6d98c2b1-5f47-4a6e-b5fe-e2aaba73c457",
+    "propertyOverrides" : {
+      "isVisible" : true
+    },
+    "targetId" : "995e7b5c-ef70-4dd6-9f5d-d5c5da3a8816",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Home_Calendario_Component",
+  "id" : "86fdec67-14a3-4b6a-bb5d-b7533df557cb",
+  "type" : "experienceVariation"
+}
