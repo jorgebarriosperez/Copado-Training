@@ -24,8 +24,17 @@
       "type" : "component"
     }, {
       "componentAttributes" : {
+        "pageSize" : 25
+      },
+      "componentName" : "forceCommunity:filesList",
+      "id" : "875a1dca-80eb-447b-880a-98b167f24932",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
         "maxWidth" : 100,
-        "overlayColor" : "rgba(255, 13, 13, 0.4)",
+        "overlayColor" : "rgba(24, 183, 46, 0.4)",
         "overlayHoverColor" : "",
         "radius" : 0,
         "showTitle" : true,
@@ -39,6 +48,60 @@
       },
       "componentName" : "forceTopic:featuredTopics",
       "id" : "cac5582c-70fa-4012-baab-db2ffcfd5bd8",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "7c105982-3751-4bab-b815-1fc8cb09987c",
+          "activeTab" : "",
+          "tabs" : [ {
+            "UUID" : "d2813a04-1c06-481e-86af-9f32a17be44f",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "1",
+            "tabName" : "Tab Jorge"
+          }, {
+            "UUID" : "1e5a85b4-b0ec-4934-a3f3-f7b3c15e6d3b",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "2",
+            "tabName" : "BAD Tab"
+          }, {
+            "UUID" : "6216f46e-9b59-4508-9324-19bc5f4495e0",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ ],
+            "tabKey" : "3",
+            "tabName" : "Tab WRONG"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "7c105982-3751-4bab-b815-1fc8cb09987c",
+      "regions" : [ {
+        "id" : "d2813a04-1c06-481e-86af-9f32a17be44f",
+        "regionLabel" : "Tab Jorge",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "1e5a85b4-b0ec-4934-a3f3-f7b3c15e6d3b",
+        "regionLabel" : "BAD Tab",
+        "regionName" : "2",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "6216f46e-9b59-4508-9324-19bc5f4495e0",
+        "regionLabel" : "Tab WRONG",
+        "regionName" : "3",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
       "renderPriority" : "NEUTRAL",
       "renditionMap" : { },
       "type" : "component"

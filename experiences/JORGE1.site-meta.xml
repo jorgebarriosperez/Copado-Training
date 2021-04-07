@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ExperienceBundle xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>JORGE</label> //CONFLICTO LETAL
+    <label>JORGE</label>
     <type>ChatterNetworkPicasso</type>
-    <urlPathPrefix>s</urlPathPrefix>
+    <urlPathPrefix>customer/s</urlPathPrefix>
 </ExperienceBundle>
