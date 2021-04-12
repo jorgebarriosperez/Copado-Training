@@ -141,7 +141,7 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>CompactLayout2</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
@@ -219,6 +219,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <gender>Masculine</gender>
     <label>Prueba_Tab_2</label>
     <nameField>
         <label>Prueba_Tab_2 Name</label>
@@ -269,6 +270,9 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <searchLayouts>
+        <massQuickActions>Gradiente_num_2</massQuickActions>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
