@@ -149,25 +149,39 @@
                     <default>false</default>
                     <label>VUELING3.4</label>
                 </value>
+                <value>
+                    <fullName>NUEVO1</fullName>
+                    <default>false</default>
+                    <label>NUEVO1</label>
+                </value>
+                <value>
+                    <fullName>NUEVO2</fullName>
+                    <default>false</default>
+                    <label>NUEVO2</label>
+                </value>
             </valueSetDefinition>
             <valueSettings>
                 <controllingFieldValue>VUELING2.1</controllingFieldValue>
-                <controllingFieldValue>VUELING2.4</controllingFieldValue>
-                <valueName>VUELING3.1</valueName>
+                <valueName>NUEVO1</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>VUELING2.1</controllingFieldValue>
+                <valueName>NUEVO2</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>VUELING2.2</controllingFieldValue>
                 <valueName>VUELING3.2</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>VUELING2.1</controllingFieldValue>
                 <controllingFieldValue>VUELING2.2</controllingFieldValue>
                 <controllingFieldValue>VUELING2.3</controllingFieldValue>
                 <valueName>VUELING3.3</valueName>
             </valueSettings>
             <valueSettings>
-                <controllingFieldValue>VUELING2.1</controllingFieldValue>
+                <controllingFieldValue>VUELING2.4</controllingFieldValue>
+                <valueName>VUELING3.1</valueName>
+            </valueSettings>
+            <valueSettings>
                 <controllingFieldValue>VUELING2.4</controllingFieldValue>
                 <valueName>VUELING3.4</valueName>
             </valueSettings>
