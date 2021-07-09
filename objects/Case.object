@@ -485,6 +485,11 @@
                     <label>US</label>
                 </value>
                 <value>
+                    <fullName>US</fullName>
+                    <default>false</default>
+                    <label>US</label>
+                </value>
+                <value>
                     <fullName>UK</fullName>
                     <default>false</default>
                     <label>UK</label>
@@ -495,9 +500,19 @@
                     <label>SPAIN</label>
                 </value>
                 <value>
+                    <fullName>SPAIN</fullName>
+                    <default>false</default>
+                    <label>SPAIN</label>
+                </value>
+                <value>
                     <fullName>GERMANY</fullName>
                     <default>false</default>
                     <label>GERMANY</label>
+                </value>
+                <value>
+                    <fullName>INDIA</fullName>
+                    <default>false</default>
+                    <label>INDIA</label>
                 </value>
                 <value>
                     <fullName>INDIA</fullName>
