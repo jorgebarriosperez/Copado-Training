@@ -4909,11 +4909,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Prueba_1__c.Campo_Profile__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Prueba_1__c.EXISTFIELD__c</field>
         <readable>true</readable>
     </fieldPermissions>
