@@ -3634,11 +3634,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Lead.Prueba_ejemplo__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Lead.Rating</field>
         <readable>true</readable>
     </fieldPermissions>
