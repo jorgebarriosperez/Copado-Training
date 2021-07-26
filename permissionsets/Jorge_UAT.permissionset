@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <description>nuevo test</description>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Prueba_1__c.Campo_Profile__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Jorge_UAT</label>
     <license>Salesforce</license>
