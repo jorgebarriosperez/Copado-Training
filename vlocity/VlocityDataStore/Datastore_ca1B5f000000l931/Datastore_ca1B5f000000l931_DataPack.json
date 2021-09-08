@@ -1,0 +1,30 @@
+{
+    "%vlocity_namespace%__CachedDataSetId__c": "a5Y5f0000008xczEAA",
+    "%vlocity_namespace%__Classname__c": "",
+    "%vlocity_namespace%__EffectiveEndDateTime__c": "",
+    "%vlocity_namespace%__EffectiveStartDateTime__c": "",
+    "%vlocity_namespace%__Key__c": {
+        "%vlocity_namespace%__GlobalKey__c": "fdeaa409-c451-49c6-5759-444d72e45b0b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/fdeaa409-c451-49c6-5759-444d72e45b0b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__ProductId__c": {
+        "%vlocity_namespace%__GlobalKey__c": "fdeaa409-c451-49c6-5759-444d72e45b0b",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "Product2/fdeaa409-c451-49c6-5759-444d72e45b0b",
+        "VlocityRecordSObjectType": "Product2"
+    },
+    "%vlocity_namespace%__Value__c": "a2u5f000000HEGbAAO,a2u5f000000HEGWAA4,a2u5f000000HEGXAA4,a2u5f000000HEGZAA4,a2u5f000000HEGaAAO,a2u5f000000HEGdAAO,a2u5f000000HEGfAAO",
+    "Name": "Datastore__ca1B5f000000l931",
+    "RecordTypeId": {
+        "DeveloperName": "ProductHierarchy",
+        "SobjectType": "%vlocity_namespace%__Datastore__c",
+        "VlocityDataPackType": "VlocityLookupMatchingKeyObject",
+        "VlocityLookupRecordSourceKey": "RecordType/%vlocity_namespace%__Datastore__c/ProductHierarchy",
+        "VlocityRecordSObjectType": "RecordType"
+    },
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__Datastore__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__Datastore__c/Generated-262395490"
+}
