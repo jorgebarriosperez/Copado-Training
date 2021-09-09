@@ -1,0 +1,11 @@
+{
+    "%vlocity_namespace%__GlobalKey__c": "055556e8-7025-46d8-82f0-25a57eaf8a18",
+    "%vlocity_namespace%__MaximumNumberOfRetries__c": 1,
+    "%vlocity_namespace%__OrchestrationItemDefinitionId__c": "",
+    "%vlocity_namespace%__TimeBetweenRetries__c": 60,
+    "Name": "Test Integration Retry Policy Jorge",
+    "RecordTypeId": "",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "%vlocity_namespace%__IntegrationRetryPolicy__c",
+    "VlocityRecordSourceKey": "%vlocity_namespace%__IntegrationRetryPolicy__c/055556e8-7025-46d8-82f0-25a57eaf8a18"
+}
