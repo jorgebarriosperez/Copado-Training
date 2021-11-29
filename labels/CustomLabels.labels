@@ -27,6 +27,13 @@
         <value>Gran Label o no</value>
     </labels>
     <labels>
+        <fullName>HumanaTest</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HumanaTest</shortDescription>
+        <value>Social Risk Index is a score from 0 to 5 indicating how many SDOH the member is experiencing, where 0 = no SDOH and 5 = all SDOH prioritized by Humana as drivers of poorer health outcomes.</value>
+    </labels>
+    <labels>
         <fullName>Label_test</fullName>
         <categories>NUEVO</categories>
         <language>en_US</language>
