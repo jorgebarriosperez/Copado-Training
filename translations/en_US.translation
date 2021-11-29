@@ -5,6 +5,10 @@
         <name>CustomLabelJorge_2</name>
     </customLabels>
     <customLabels>
+        <label>ENGLISH Social Risk Index is a score from 0 to 5 indicating how many SDOH the member is experiencing, where 0 = no SDOH and 5 = all SDOH prioritized by Humana as drivers of poorer health outcomes. ENGLISH</label>
+        <name>HumanaTest</name>
+    </customLabels>
+    <customLabels>
         <label></label>
         <name>Label_test</name>
     </customLabels>
