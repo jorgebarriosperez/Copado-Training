@@ -41,7 +41,7 @@
         <name>agf__ADM_Investigations</name>
     </customLabels>
     <customLabels>
-        <label></label>
+        <label>Test local translation for ADM_OK</label>
         <name>agf__ADM_OK</name>
     </customLabels>
     <customLabels>
