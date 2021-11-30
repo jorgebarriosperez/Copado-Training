@@ -12,6 +12,10 @@
         <label></label>
         <name>Label_test</name>
     </customLabels>
+    <customLabels>
+        <label>Test local translation for ADM_OK</label>
+        <name>agf__ADM_OK</name>
+    </customLabels>
     <flowDefinitions>
         <flows>
             <fullName>NewFlow-4</fullName>
