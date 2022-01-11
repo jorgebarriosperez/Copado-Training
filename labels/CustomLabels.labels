@@ -11,6 +11,13 @@
 3</value>
     </labels>
     <labels>
+        <fullName>CustomLabelJorgeDELTE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CustomLabelJorgeDELTE</shortDescription>
+        <value>NUEVO</value>
+    </labels>
+    <labels>
         <fullName>CustomLabelJorge_2</fullName>
         <categories>Tuerca</categories>
         <language>en_US</language>
