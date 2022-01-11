@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Prueba_1__c.Numero_Requerido__c</members>
-        <members>Prueba_1__c.Support_Department__c</members>
-        <name>CustomField</name>
+        <members>AMySampleApexClass</members>
+        <members>JorgeClass</members>
+        <name>ApexClass</name>
     </types>
     <types>
         <members>CustomLabelJorgeDELTE</members>
