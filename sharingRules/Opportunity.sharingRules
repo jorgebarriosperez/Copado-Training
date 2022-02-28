@@ -10,7 +10,13 @@
         <criteriaItems>
             <field>Name</field>
             <operation>notEqual</operation>
-            <value>pajaro</value>
+            <value>pajaro2</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>IsClosed</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
     </sharingGuestRules>
 </SharingRules>
