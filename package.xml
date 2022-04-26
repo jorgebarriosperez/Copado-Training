@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity.PruebaCriteriaRule</members>
-        <name>SharingCriteriaRule</name>
+        <members>NewClassJorge</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Case.Support_Department__c</members>
+        <members>Prueba_Tab_2__c.CampoNewExt__c</members>
+        <members>Prueba_Tab_2__c.Text_New2__c</members>
+        <name>CustomField</name>
     </types>
     <version>54.0</version>
 </Package>
