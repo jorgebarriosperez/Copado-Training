@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Admin</members>
-        <name>Profile</name>
+        <members>AP_Brazil</members>
+        <members>AP_Brazil/New_Accounts_Report_COD</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>AP_Brazil</members>
+        <members>AP_Brazil/Directorio</members>
+        <name>Report</name>
     </types>
     <version>54.0</version>
 </Package>
