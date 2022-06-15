@@ -155,6 +155,18 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>agf__Column_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <formula>agf__Column__r.agf__Type__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Column Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>agf__Column__c</fullName>
         <deleteConstraint>Restrict</deleteConstraint>
         <deprecated>false</deprecated>
@@ -208,6 +220,7 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <defaultValue>Now()</defaultValue>
         <deprecated>false</deprecated>
         <description>The timestamp for when a work record enters a column</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Time Entered</label>
         <required>true</required>
@@ -218,6 +231,7 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <fullName>agf__Time_Left__c</fullName>
         <deprecated>false</deprecated>
         <description>The time stamp for when a work record left a column (and be empty if the work record is still present).</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Time Left</label>
         <required>false</required>
@@ -244,7 +258,7 @@ https://help.salesforce.com/help/pdfs/en/formula_date_time_tipsheet.pdf</descrip
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Column History</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

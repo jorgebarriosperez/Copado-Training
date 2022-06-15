@@ -255,6 +255,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -358,7 +359,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Related Works</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

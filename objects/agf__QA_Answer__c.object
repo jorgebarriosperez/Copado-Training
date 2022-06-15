@@ -159,6 +159,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>18</length>
@@ -236,7 +237,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Answers</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

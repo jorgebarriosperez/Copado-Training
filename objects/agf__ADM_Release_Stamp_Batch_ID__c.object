@@ -191,6 +191,7 @@
     <fields>
         <fullName>agf__Batch_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Batch ID</label>
         <length>50</length>
@@ -246,7 +247,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Stamp Batch IDs</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

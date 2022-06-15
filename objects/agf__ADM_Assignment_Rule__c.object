@@ -159,6 +159,7 @@
     <fields>
         <fullName>agf__Additional_Emails__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Followers</label>
         <length>255</length>
@@ -233,6 +234,37 @@
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>agf__Record_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <inlineHelpText>The Work record type this assignment rule is applicable for</inlineHelpText>
+        <label>Record Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bug</fullName>
+                    <default>false</default>
+                    <label>Bug</label>
+                </value>
+                <value>
+                    <fullName>User Story</fullName>
+                    <default>false</default>
+                    <label>User Story</label>
+                </value>
+                <value>
+                    <fullName>Investigation</fullName>
+                    <default>false</default>
+                    <label>Investigation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
     </fields>
     <fields>
         <fullName>agf__Scrum_Team_Assignment__c</fullName>
@@ -363,7 +395,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Assignment Rules</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__ProductOwnerReq</fullName>

@@ -183,6 +183,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>18</length>
@@ -195,6 +196,7 @@
         <fullName>agf__Full_Path__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Full Path</label>
         <length>255</length>
@@ -217,7 +219,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Hierarchies</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

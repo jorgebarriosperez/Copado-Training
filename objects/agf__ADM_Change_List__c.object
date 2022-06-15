@@ -223,6 +223,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
     <fields>
         <fullName>agf__Check_In_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Check-in Date</label>
         <required>false</required>
@@ -233,6 +234,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Comments</label>
         <length>32000</length>
@@ -246,6 +248,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
         <description>An external ID used for syncing between instances.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -258,6 +261,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
     <fields>
         <fullName>agf__Local_Check_in_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Local Check-in Date</label>
         <length>255</length>
@@ -271,6 +275,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
         <fullName>agf__Perforce_Changelist__c</fullName>
         <deprecated>false</deprecated>
         <description>Reference to Perforce Changelist number</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Changelist #</label>
         <length>255</length>
@@ -283,6 +288,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
     <fields>
         <fullName>agf__Release_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Release Name</label>
         <length>255</length>
@@ -344,6 +350,7 @@ HYPERLINK(&quot;https://git.soma.salesforce.com/&quot; &amp; agf__Perforce_Chang
     <fields>
         <fullName>agf__Username__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Username</label>
         <length>255</length>

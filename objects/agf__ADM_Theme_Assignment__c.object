@@ -160,6 +160,7 @@
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
         <description>Used to enforce uniqueness of the theme assignment. This is automatically populated in the trigger.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Theme Work Key</label>
         <length>100</length>
@@ -201,7 +202,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Theme Assignments</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -20,8 +20,23 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
     </alerts>
+    <fieldUpdates>
+        <fullName>WF_case_FU</fullName>
+        <description>WF_case_FU</description>
+        <field>Status</field>
+        <literalValue>Working</literalValue>
+        <name>WF_case_FU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
     <rules>
         <fullName>WF_test22</fullName>
+        <actions>
+            <name>WF_case_FU</name>
+            <type>FieldUpdate</type>
+        </actions>
         <active>true</active>
         <criteriaItems>
             <field>Case.case_text1__c</field>

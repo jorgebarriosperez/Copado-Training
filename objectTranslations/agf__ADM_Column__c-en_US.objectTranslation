@@ -22,8 +22,20 @@
         <name>agf__Position__c</name>
     </fields>
     <fields>
+        <label><!-- PreId --></label>
+        <name>agf__PreId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre_ParentId --></label>
+        <name>agf__Pre_ParentId__c</name>
+    </fields>
+    <fields>
         <label><!-- Team --></label>
         <name>agf__Team__c</name>
         <relationshipLabel><!-- Columns --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>agf__Type__c</name>
     </fields>
 </CustomObjectTranslation>

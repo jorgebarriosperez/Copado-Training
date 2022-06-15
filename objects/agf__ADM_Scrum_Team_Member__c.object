@@ -170,6 +170,7 @@
     <fields>
         <fullName>agf__Department__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Department</label>
         <length>80</length>
@@ -182,6 +183,7 @@
     <fields>
         <fullName>agf__External_Email__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>External Email</label>
         <required>false</required>
@@ -194,6 +196,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -206,6 +209,7 @@
     <fields>
         <fullName>agf__Functional_Area__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Functional Area</label>
         <length>80</length>
@@ -258,6 +262,7 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
     <fields>
         <fullName>agf__Member_Name_Text__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Member Name</label>
         <length>80</length>
@@ -284,6 +289,7 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
         <fullName>agf__Record_Type_Copy__c</fullName>
         <defaultValue>$RecordType.Name</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Record Type Copy</label>
         <length>20</length>
@@ -297,6 +303,7 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
         <fullName>agf__Req_Code__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Req. Code</label>
         <length>16</length>
@@ -970,7 +977,7 @@ IF ( $RecordType.Name = &apos;External&apos;, &apos;(External) &apos; , &apos;(P
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <validationRules>
         <fullName>agf__Allocate_over_limit</fullName>

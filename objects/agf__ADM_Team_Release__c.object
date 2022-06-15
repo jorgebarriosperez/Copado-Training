@@ -173,6 +173,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -184,6 +185,7 @@
     <fields>
         <fullName>agf__Release_Goals__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Release Goals</label>
         <length>2000</length>

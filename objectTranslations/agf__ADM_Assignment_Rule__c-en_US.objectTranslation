@@ -31,6 +31,23 @@
         <relationshipLabel><!-- Assignment Rules (QA Engineer) --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- The Work record type this assignment rule is applicable for --></help>
+        <label><!-- Record Type --></label>
+        <name>agf__Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Bug</masterLabel>
+            <translation><!-- Bug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigation</masterLabel>
+            <translation><!-- Investigation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Story</masterLabel>
+            <translation><!-- User Story --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Scrum Team --></label>
         <name>agf__Scrum_Team_Assignment__c</name>
         <relationshipLabel><!-- Assignment Rules --></relationshipLabel>

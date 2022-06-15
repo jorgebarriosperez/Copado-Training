@@ -363,6 +363,7 @@ Secondary -- Cloud</inlineHelpText>
         <fullName>agf__Approver_Email__c</fullName>
         <deprecated>false</deprecated>
         <description>Email of Approver (may be blank if email is same as User email).</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Email of Approver. If Approver is specified, may be blank or must match Approver&apos;s User email. If Approver is not specified, this field may be set to a distribution list.</inlineHelpText>
         <label>Approver Email</label>
@@ -499,6 +500,7 @@ Secondary -- Cloud</inlineHelpText>
         <fullName>agf__Executive_Role__c</fullName>
         <deprecated>false</deprecated>
         <description>Title or role of Executive for &quot;Executive&quot; Approver Role.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the title or role of the Executive when &quot;Executive&quot; Approver Role is selected, otherwise leave blank.</inlineHelpText>
         <label>Executive Role</label>

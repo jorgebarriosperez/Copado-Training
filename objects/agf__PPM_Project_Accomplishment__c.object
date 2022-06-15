@@ -156,7 +156,183 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>agf__Accomplishment_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Accomplishment Date</label>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>agf__Accomplishment_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <displayFormat>PA-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Accomplishment Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>agf__Accomplishment_Summary__c</fullName>
+        <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Accomplishment Summary</label>
+        <length>10000</length>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>agf__Accomplishment_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Accomplishment Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Planned</fullName>
+                    <default>false</default>
+                    <label>Planned</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>agf__Planned_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Planned date for the accomplishment.</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Planned Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>agf__Portfolio_Health__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Health of the associated Portfolio.</description>
+        <externalId>false</externalId>
+        <formula>text ( agf__Portfolio__r.agf__Portfolio_Health__c )</formula>
+        <inlineHelpText>Health of the associated Portfolio.</inlineHelpText>
+        <label>Portfolio Health</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>agf__Portfolio__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Portfolio</label>
+        <referenceTo>agf__PPM_Portfolio__c</referenceTo>
+        <relationshipName>Portfolio_Accomplishments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>agf__Program_Health__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Health of the associated Program.</description>
+        <externalId>false</externalId>
+        <formula>text ( agf__Program__r.agf__Program_Health__c )</formula>
+        <inlineHelpText>Health of the associated Program.</inlineHelpText>
+        <label>Program Health</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>agf__Program__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Program</label>
+        <referenceTo>agf__PPM_Program__c</referenceTo>
+        <relationshipName>Program_Accomplishments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>agf__Project_Health__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Health of the associated project.</description>
+        <externalId>false</externalId>
+        <formula>text( agf__Project__r.agf__Project_Health__c)</formula>
+        <inlineHelpText>Health of the associated project.</inlineHelpText>
+        <label>Project Health</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>agf__Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>agf__PPM_Project__c</referenceTo>
+        <relationshipName>Project_Accomplishments</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>agf__Publish__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Identifies whether this accomplishment is to be published or not.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Identifies whether this accomplishment is to be published or not.</inlineHelpText>
+        <label>Publish</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <label>Accomplishment</label>
+    <listViews>
+        <fullName>agf__All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <encryptionScheme>None</encryptionScheme>
         <label>Accomplishment Name</label>

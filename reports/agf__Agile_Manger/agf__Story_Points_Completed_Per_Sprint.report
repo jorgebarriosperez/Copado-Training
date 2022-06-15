@@ -51,6 +51,7 @@
     <filter>
         <criteriaItems>
             <column>agf__ADM_Work__c.agf__Closed__c</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>1</value>

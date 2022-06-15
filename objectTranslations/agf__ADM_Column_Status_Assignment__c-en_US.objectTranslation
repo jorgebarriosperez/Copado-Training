@@ -6,6 +6,10 @@
         <relationshipLabel><!-- Column Status Assignments --></relationshipLabel>
     </fields>
     <fields>
+        <label><!-- Type --></label>
+        <name>agf__Type__c</name>
+    </fields>
+    <fields>
         <label><!-- Work Status --></label>
         <name>agf__Work_Status__c</name>
         <relationshipLabel><!-- Column Status Assignments --></relationshipLabel>

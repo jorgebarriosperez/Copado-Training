@@ -216,6 +216,280 @@ window.ADM_SprintShared_Resource = (function() {
         }
     }
 
+    var getColumnFromId = function(id, columns) {
+
+        for (var i = 0, len = columns.length; i < len; i++) {
+            var col = columns[i];
+
+            if (col.column.Id === id) {
+                return col.column;
+            }
+
+            if (col.children) {
+                if (getColumnFromId(id, col.children)) {
+                    return getColumnFromId(id, col.children);
+                };
+            }
+        }
+    }
+    var sortStrings = function(a, b) {
+        return ('' + a).localeCompare(b)
+    }
+    var sortNums = function(a, b) {
+        return (b != null) - (a != null) || a - b; // sorts in ascending order with nulls last
+    }
+    var sortBySprintRank = function(a, b) {
+        return sortNums(a.m_story.Sprint_Rank__c, b.m_story.Sprint_Rank__c);
+    }
+    var sortByBoardColumnRank = function(a, b) {
+        return sortNums(a.m_story.Board_Column_Rank__c, b.m_story.Board_Column_Rank__c);
+    }
+    var getAllColumnIds = function(columns) {
+        return columns.reduce(function(acc, curr) {
+            var id = curr.column.Id;
+            if (acc.indexOf(id) == -1) {
+                acc = acc.concat(id);
+            }
+            if (curr.children && curr.children.length) {
+                acc = acc.concat(getAllColumnIds(curr.children));
+            }
+            return acc;
+        }, []);
+    }
+    var getAllColumnsFlattened = function(columns) {
+        var colAlreadyAdded = function(cols, id) {
+            return cols.filter(function(col) {
+                return col.column.Id === id;
+            }).length;
+        }
+
+        return columns.reduce(function(acc, curr) {
+            var id = curr.column.Id;
+            if (!colAlreadyAdded(acc, id)) {
+                acc = acc.concat(curr);
+            }
+            if (curr.children && curr.children.length) {
+                acc = acc.concat(getAllColumnsFlattened(curr.children));
+            }
+            return acc;
+        }, []);
+    }
+    var _getWorksFromColumnsOutsideThisBoard = function(sprintData) {
+        var allColumnIds = getAllColumnIds(sprintData.boardColumns);
+
+        var boardColumnNotOnThisBoard = function(work) {
+            return work.m_story.Board_Column__c && allColumnIds.indexOf(work.m_story.Board_Column__c) === -1;
+        };
+
+        return sprintData.sprintWork
+            .filter(boardColumnNotOnThisBoard)
+    }
+    var _makeBoardColumnUndefined = function(work) {
+        work.m_story.Board_Column__c = undefined;
+        return work;
+    }
+    var createBoardViewSprintWork = function(sprintData) {
+        var helper = this;
+        var newSprintWork = [];
+        var boardColumnsObj = {
+            'undefined': [] // initialize with an undefined value for work that doesnt have a board column.
+        };
+        var sortedRecordsWithoutBoardColumn = [];
+        var sortedRecordsWithBoardColumn = [];
+        var getSortedWorkFromColumnReducer = function(acc, id) {
+            if (boardColumnsObj[id] && boardColumnsObj[id].length) {
+                var sortedWork = boardColumnsObj[id].sort(sortByBoardColumnRank);
+                acc = acc.concat(sortedWork);
+            }
+            return acc;
+        }
+
+        // these works don't have a matching column in this board, so make the column undefined
+        // so that it gets grouped with other work that has undefined columns.
+        _getWorksFromColumnsOutsideThisBoard(sprintData)
+            .map(_makeBoardColumnUndefined);
+
+        // create boardColumnsObj - group works by their boardColumn.
+        sprintData.sprintWork.forEach(function(work) {
+            var boardColumn = work.m_story.Board_Column__c;
+
+            if (boardColumnsObj.hasOwnProperty(boardColumn)) {
+                boardColumnsObj[boardColumn].push(work);
+            } else {
+                boardColumnsObj[boardColumn] = [work];
+            }
+        });
+
+        // for those without a columnId, sort by sprint rank
+        var sortedRecordsWithoutBoardColumn = (boardColumnsObj['undefined']).sort(sortBySprintRank);
+
+        // for those with a columnId,
+        // the columns should already be sorted by level and position since boardColumns come back
+        // from the server like that.  Within each column, sort the work by Board_Column_Rank__c
+        var sortedRecordsWithBoardColumn = getAllColumnIds(sprintData.boardColumns)
+            .reduce(getSortedWorkFromColumnReducer, []);
+
+        // those without columnId come first - followed by those with a columnId
+        return sortedRecordsWithoutBoardColumn.concat(sortedRecordsWithBoardColumn);
+    }
+
+    var createNonBoardViewSprintWork = function(sprintData) {
+        return sprintData.sprintWork.sort(sortBySprintRank);
+    }
+
+    var hasPermset = function(name, userInfo) {
+        var getPermset = function(perm) {
+            return perm.PermissionSet.Name === name;
+        }
+
+        return userInfo && userInfo.permSets ?
+            !!userInfo.permSets.filter(getPermset).length
+            : false;
+    }
+
+     var serializeSprintDataForNamespace = function(sprintData,currentNode,nameSpace){
+        if(nameSpace != null && nameSpace!=''){
+            if(typeof sprintData[currentNode] != 'object'){
+                sprintData[currentNode.replace(nameSpace, '')] = sprintData[currentNode];
+            }
+            else{
+                sprintData[currentNode.replace(nameSpace, '')] = sprintData[currentNode];
+                for(innerNode in sprintData[currentNode]){
+                    sprintData[currentNode] = serializeSprintDataForNamespace(sprintData[currentNode],innerNode,nameSpace);
+                }
+            }
+        }
+
+        return sprintData;
+    }
+
+    var getMenuAlignment = function(auraElm, containerElm) {
+        if (!auraElm || !auraElm.getElement()) {
+        	return;
+        }
+        // this is used to determine the correct menuAlignment for lightning:buttonMenu (like "right")
+        // but could also be used to create the class itself, (like "slds-dropdown_bottom").
+        // https://developer.salesforce.com/docs/component-library/bundle/lightning:buttonMenu/specification
+        // https://www.lightningdesignsystem.com/components/menus/#Positioning
+
+        var elm = auraElm.getElement(); // domElm
+        var containerElm = (containerElm && containerElm.getElement()) ? containerElm.getElement() : window; // domElm
+        var containerWidth = containerElm.innerWidth;
+        var containerHeight = containerElm.innerHeight;
+        var elmLeft = elm.getBoundingClientRect().left;
+        var elmBottom = elm.getBoundingClientRect().bottom;
+        var isAtBottomOfPage = elmBottom / containerHeight > .8;
+        var isAtLeftOfPage = elmLeft / containerWidth < .5;
+        var isAtRightOfPage = elmLeft / containerWidth > .5;
+        var makeDropdownClass = function(position) {
+            return 'slds-dropdown_' + position;
+        }
+        var positions = [];
+
+        if (isAtBottomOfPage) {
+            positions.push('bottom'); // important that bottom comes first so we can create bottom-left, bottom-right
+        }
+        if (isAtLeftOfPage) {
+            positions.push('left');
+        }
+        if (isAtRightOfPage) {
+            positions.push('right');
+        }
+
+        return positions.join('-') // this allows us to account for bottom-left, bottom-right
+    }
+
+    var makeDropdownFixed = function(button, dropdown) {
+        // takes in button & dropdown, which should both be DOM elements.
+        var maxWidth = 200;
+        var maxHeight = 200;
+        var dropdownWidth = dropdown.offsetWidth && dropdown.offsetWidth < maxWidth ? dropdown.offsetWidth : maxWidth;
+        var dropdownHeight = dropdown.offsetHeight && dropdown.offsetHeight < maxHeight ? dropdown.offsetHeight : maxHeight;
+		var buttonBoundingClientRect = button.getBoundingClientRect();
+		var buttonLeft = buttonBoundingClientRect.left;
+		var buttonRight = buttonBoundingClientRect.right;
+		var buttonTop = buttonBoundingClientRect.top;
+		var buttonBottom = buttonBoundingClientRect.bottom;
+        var buttonHeight = button.offsetHeight;
+        var buttonWidth = button.offsetWidth;
+		var windowWidth = window.innerWidth;
+		var windowHeight = window.innerHeight;
+		var heightOfDropdownAndButton = buttonHeight + dropdownHeight;
+		var widthOfDropdownAndButton = buttonWidth + dropdownWidth;
+		var closeToTop = buttonBottom < heightOfDropdownAndButton;
+		var closeToBottom = windowHeight - buttonTop < heightOfDropdownAndButton;
+		var closeToLeft = buttonRight < widthOfDropdownAndButton;
+		var closeToRight = windowWidth - buttonRight < widthOfDropdownAndButton;
+
+		var numToPx = function(num) { return num.toFixed() + 'px' }
+
+		var dropdownStyleUpdates = {
+			position: 'fixed',
+			width: numToPx(dropdownWidth),
+			height: numToPx(dropdownHeight),
+			overflow: 'auto',
+            transform: 'none', // slds sometimes applies transforms which would override the left value, so override them.
+            webkitTransform: 'none'
+		};
+
+		// set top value
+		if (closeToBottom) {
+			dropdownStyleUpdates.top = numToPx(buttonTop - dropdownHeight);
+		} else {
+			dropdownStyleUpdates.top = numToPx(buttonBottom);
+		}
+
+		// set left value
+		if (closeToRight) {
+			dropdownStyleUpdates.left = numToPx(buttonRight - dropdownWidth);
+		} else {
+			dropdownStyleUpdates.left = numToPx(buttonLeft);
+		}
+
+		Object.assign(dropdown.style, dropdownStyleUpdates);
+    }
+
+    var makeColumnStatusObj = function(status, idx) {
+        return {
+            label: status.split('---')[0],
+            value: status.split('---')[1],
+            order: idx
+        }
+    };
+
+    var makeStatusItems = function(statusAssignmentWrapper) {
+        var that = this;
+        var getStatusCollectionByType = function(statusAssignmentWrapper, type) {
+            return type === 'Bug' ? statusAssignmentWrapper.bugStatuses.map(that.makeColumnStatusObj)
+    		: type === 'User Story' ? statusAssignmentWrapper.storyStatuses.map(that.makeColumnStatusObj)
+    		: type === 'Investigation' ? statusAssignmentWrapper.investigationStatuses.map(that.makeColumnStatusObj)
+    		: [];
+    	};
+    	var getOrderOfStatusItem = function(statusAssignmentWrapper, statusItem) {
+    		return getStatusCollectionByType(statusAssignmentWrapper, statusItem.type)
+    			.filter(function(status) {
+    				return status.value === statusItem.workStatusId
+    			})[0].order;
+    	};
+		var hasWorkStatusId = function(statusItem) {
+			return !!statusItem.workStatusId // we only care items that have id's.
+		};
+		var createStatusItem = function(statusItem) {
+			return {
+				columnId: statusItem.columnId,
+				type: statusItem.type,
+				statusId: statusItem.workStatusId,
+				statusName: statusItem.status,
+				statusOrder: getOrderOfStatusItem(statusAssignmentWrapper, statusItem)
+			}
+		};
+
+    	return statusAssignmentWrapper.columnStatusAssignments
+			.filter(hasWorkStatusId)
+			.map(createStatusItem)
+
+	}
+
     return {
         isWorkItemVisible: isWorkItemVisible,
         isString: isString,
@@ -229,7 +503,20 @@ window.ADM_SprintShared_Resource = (function() {
         getCurrTeamFilters: getCurrTeamFilters,
         getInitials: getInitials,
         showSpinner: showSpinner,
-        hideSpinner: hideSpinner
+        hideSpinner: hideSpinner,
+        getColumnFromId: getColumnFromId,
+        createBoardViewSprintWork: createBoardViewSprintWork,
+        createNonBoardViewSprintWork: createNonBoardViewSprintWork,
+        hasPermset: hasPermset,
+        getMenuAlignment: getMenuAlignment,
+        makeDropdownFixed: makeDropdownFixed,
+        getAllColumnIds: getAllColumnIds,
+        getAllColumnsFlattened: getAllColumnsFlattened,
+        sortNums: sortNums,
+        sortStrings: sortStrings,
+        makeStatusItems: makeStatusItems,
+        makeColumnStatusObj: makeColumnStatusObj,
+        serializeSprintDataForNamespace:serializeSprintDataForNamespace
     }
 
 }());

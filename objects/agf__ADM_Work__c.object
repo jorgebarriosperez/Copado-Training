@@ -275,6 +275,7 @@
     <fields>
         <fullName>agf__Additional_Details__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Additional Details</label>
         <length>1000</length>
@@ -379,6 +380,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Assigned_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Deprecated field for bugforce 1.0</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Assigned On</label>
         <required>false</required>
@@ -405,6 +407,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Assignees__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is used as a transport object. Do not use this field on list view criteria or reports!</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Assignees of this work record receive email on save.</inlineHelpText>
         <label>transfer Assignees</label>
@@ -477,6 +480,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Auto_Build__c</fullName>
         <deprecated>false</deprecated>
         <description>Used for Test Failures only to help build masters create reports.  Will be deprecated in favor of a normalized data model in a later version</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Auto Build</label>
         <length>255</length>
@@ -502,9 +506,39 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>agf__Board_Column_Rank__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Board Column Rank</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>agf__Board_Column__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Board Column</label>
+        <referenceTo>agf__ADM_Column__c</referenceTo>
+        <relationshipLabel>Work (Board Column)</relationshipLabel>
+        <relationshipName>Work1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>agf__Branch__c</fullName>
         <deprecated>false</deprecated>
         <description>Used for Test Failures only to help build masters create reports.  Will be deprecated in favor of a normalized data model in a later version</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Branch</label>
         <length>255</length>
@@ -519,6 +553,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Budget_ID__c</fullName>
         <deprecated>false</deprecated>
         <description>This is an ID that is used by the TechOps team to identify a budget line item for a specific user story.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>ID used to identify a budget line item for a story (used by TechOps).</inlineHelpText>
         <label>Budget ID</label>
@@ -533,6 +568,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Bug_Number__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Bugforce #</label>
         <length>64</length>
@@ -588,6 +624,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Child_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Child_ID</label>
         <length>99</length>
@@ -601,6 +638,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Closed_By__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Closed By</label>
         <length>255</length>
@@ -614,6 +652,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Closed_On__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Closed On</label>
         <required>false</required>
@@ -697,6 +736,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Comment_Copy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Comment Copy</label>
         <length>32000</length>
@@ -836,6 +876,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Created_On_import__c</fullName>
         <deprecated>false</deprecated>
         <description>Data/time imported from the original bug from bugforce.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Created On (import)</label>
         <required>false</required>
@@ -858,6 +899,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Customer_Impact__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Customer Impact</label>
         <length>255</length>
@@ -871,6 +913,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Customer__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Customer</label>
         <length>255</length>
@@ -955,6 +998,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Comments will be added to the Work record and included in an email to the names listed in the Email Notifications section after saving. Formatting will also be preserved when saving via in line edit.</inlineHelpText>
         <label>Comment</label>
@@ -980,6 +1024,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Details__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>User type (As a...) Goal (I want to...) Reason (so that...) Additional Details</inlineHelpText>
         <label>Description</label>
@@ -993,6 +1038,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Details_and_Steps_to_Reproduce__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Text contents of this field will be sent in initial record creation only</inlineHelpText>
         <label>Details and Steps to Reproduce</label>
@@ -1006,6 +1052,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Due_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Due Date</label>
         <required>false</required>
@@ -1018,6 +1065,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Email2GUS_Addresses__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to record the email list from the to and cc list on emails sent into GUS from outside sources.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Email2GUS Addresses</label>
         <length>32768</length>
@@ -1053,6 +1101,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Email_Subscription_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter email aliases separated by spaces. These users are sent one email if the &quot;Email on Save&quot; check box is selected when you click &quot;Save.&quot; They do not automatically receive future updates.</inlineHelpText>
         <label>To</label>
@@ -1080,6 +1129,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Encoded_Recipients_Txt_Area__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Encoded Recipients</label>
         <length>32000</length>
@@ -1215,6 +1265,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>32</length>
@@ -1242,6 +1293,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Feedback__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Feedback</label>
         <required>false</required>
@@ -1253,6 +1305,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Found_In_Build_Copy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Found In Build Copy</label>
         <length>255</length>
@@ -1322,6 +1375,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Goal__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Goal (I want to...)</label>
         <length>1000</length>
@@ -1469,6 +1523,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Known_Issue_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Known Issue ID</label>
         <length>18</length>
@@ -1605,6 +1660,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Minor_Func_Area__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Minor Func Area</label>
         <length>50</length>
@@ -2543,6 +2599,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Origin__c</fullName>
         <defaultValue>&apos;Outside&apos;</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Origin</label>
         <length>255</length>
@@ -2557,6 +2614,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Other_Recipients__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is used as a transport object. Do not use this field on list view criteria or reports!</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>The name of a GUS user or any salesforce.com email address</inlineHelpText>
         <label>transfer Other Recipients</label>
@@ -2582,6 +2640,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Parent_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Add the GUS Work ID of any parent work item.  Separate multiple work IDs with commas.  View and edit the relationship via the related list.</inlineHelpText>
         <label>Add Parent ID</label>
@@ -2644,6 +2703,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Previous_Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>transfer Previous Comments</label>
         <length>80</length>
@@ -2658,6 +2718,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Priority_Default__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to store what the previous priority value might have been for reporting purposes.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority (default)</label>
         <length>32</length>
@@ -2671,6 +2732,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Priority_Mapping_Copy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority Mapping Copy</label>
         <length>32</length>
@@ -2700,6 +2762,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
         <fullName>agf__Priority_Override_Explanation_Copy__c</fullName>
         <deprecated>false</deprecated>
         <description>used to temporarily store the contents of the priority override explanation to create a new record</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority Override Explanation Copy</label>
         <required>false</required>
@@ -2711,6 +2774,7 @@ CASE(MOD( TODAY() - DATE(1985,6,24),7),
     <fields>
         <fullName>agf__Priority_Override_Explanation__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority Override Explanation</label>
         <required>false</required>
@@ -2885,6 +2949,7 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
     <fields>
         <fullName>agf__Readme_Notes__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>How would you explain the change to customers? Try not to give away internal details. Be as general as possible.</inlineHelpText>
         <label>Readme Notes</label>
@@ -2946,6 +3011,7 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
     <fields>
         <fullName>agf__Related_URL__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Related URL</label>
         <length>255</length>
@@ -2955,6 +3021,23 @@ For user stories, P0 represents the highest priority, P4 the lowest.</inlineHelp
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>agf__Related_Work__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>Used to look up work items to create new ADM_Parent_Work__c relationships</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Used to look up work items to create new ADM_Parent_Work__c Parent/Child relationships only. This field is not meant to store any ids or values</inlineHelpText>
+        <label>New Related Work</label>
+        <referenceTo>agf__ADM_Work__c</referenceTo>
+        <relationshipLabel>Work</relationshipLabel>
+        <relationshipName>Related_Work</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>agf__Release__c</fullName>
@@ -3055,6 +3138,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Resolved_By__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Resolved By</label>
         <length>255</length>
@@ -3068,6 +3152,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Resolved_On__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Resolved On</label>
         <required>false</required>
@@ -3114,6 +3199,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__S1_App_Build_Number__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Find the build number in the settings of the S1 Hybrid app</inlineHelpText>
         <label>S1 App Build Number</label>
@@ -3128,6 +3214,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Scheduled_Build_Copy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Scheduled Build Copy</label>
         <length>255</length>
@@ -3184,6 +3271,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Scheduled_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Deprecated field from BF 1.0</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Scheduled On</label>
         <required>false</required>
@@ -3208,6 +3296,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <defaultValue>Now()</defaultValue>
         <deprecated>false</deprecated>
         <description>Stores the last time the Scrum Team field was modified</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Stores the last time the Scrum Team field was modified</inlineHelpText>
         <label>Scrum Team Last Modified</label>
@@ -3248,6 +3337,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
         <fullName>agf__Scrumforce_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Scrumforce ID</label>
         <length>50</length>
@@ -3288,6 +3378,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Severity_Copy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Severity Copy</label>
         <length>255</length>
@@ -3624,6 +3715,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Subject__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Subject</label>
         <length>255</length>
@@ -3662,6 +3754,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Target_Build__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Target Build</label>
         <length>64</length>
@@ -3689,6 +3782,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Template_Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Template Description</label>
         <required>false</required>
@@ -3700,6 +3794,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__Template_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Template Name</label>
         <length>255</length>
@@ -3942,6 +4037,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__User_Type__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>User Type (As a...)</label>
         <length>255</length>
@@ -3982,6 +4078,7 @@ More: search Google Sites for &quot;test resolution&quot;</inlineHelpText>
     <fields>
         <fullName>agf__ftest__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Document the name of the automated test to prevent this bug happenning again.</inlineHelpText>
         <label>test</label>

@@ -267,6 +267,7 @@
     </fields>
     <fields>
         <fullName>Modificacion_Masiva__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Modificacion Masiva</label>
         <length>50</length>

@@ -160,6 +160,7 @@
         <fullName>agf__Date__c</fullName>
         <defaultValue>TODAY()</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Date</label>
         <required>true</required>
@@ -170,6 +171,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -249,7 +251,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Burndown Items</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

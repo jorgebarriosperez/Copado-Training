@@ -28,5 +28,5 @@
         <label><!-- Work Type --></label>
         <name>agf__Work_Type__c</name>
     </fields>
-    <startsWith><!-- Consonant --></startsWith>
+    
 </CustomObjectTranslation>

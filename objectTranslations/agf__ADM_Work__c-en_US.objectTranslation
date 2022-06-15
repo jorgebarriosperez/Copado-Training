@@ -90,6 +90,15 @@
         <name>agf__Backburner_Rank__c</name>
     </fields>
     <fields>
+        <label><!-- Board Column Rank --></label>
+        <name>agf__Board_Column_Rank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Board Column --></label>
+        <name>agf__Board_Column__c</name>
+        <relationshipLabel><!-- Work (Board Column) --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Branch --></label>
         <name>agf__Branch__c</name>
     </fields>
@@ -1325,6 +1334,12 @@ For user stories, P0 represents the highest priority, P4 the lowest. --></help>
     <fields>
         <label><!-- Related URL --></label>
         <name>agf__Related_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used to look up work items to create new ADM_Parent_Work__c Parent/Child relationships only. This field is not meant to store any ids or values --></help>
+        <label><!-- New Related Work --></label>
+        <name>agf__Related_Work__c</name>
+        <relationshipLabel><!-- Work --></relationshipLabel>
     </fields>
     <fields>
         <label><!-- Release --></label>

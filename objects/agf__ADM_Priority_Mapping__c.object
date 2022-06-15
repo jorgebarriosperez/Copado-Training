@@ -206,7 +206,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Priority Mapping</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

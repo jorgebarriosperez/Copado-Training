@@ -159,6 +159,7 @@
         <fullName>agf__Additional_Info__c</fullName>
         <deprecated>false</deprecated>
         <description>Any additional information you think is relevant.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any additional information you think is relevant.</inlineHelpText>
         <label>Additional Information</label>
@@ -268,6 +269,7 @@
         <fullName>agf__Bug_Template_to_Use__c</fullName>
         <deprecated>false</deprecated>
         <description>You can specify a bug template you would like the security team to use.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>You can specify a bug template you would like the security team to use.</inlineHelpText>
         <label>Bug Template to Use</label>
@@ -390,6 +392,7 @@
         <fullName>agf__Func_Spec__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to feature Functional Spec.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Link to feature Functional Spec.</inlineHelpText>
         <label>Func Spec</label>
@@ -402,6 +405,7 @@
         <fullName>agf__Link_to_test_env__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to test environment for security testing. (Optional)</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Link to test environment for security testing. (Optional)</inlineHelpText>
         <label>Link to test environment</label>
@@ -429,6 +433,7 @@
         <fullName>agf__P4_code_path__c</fullName>
         <deprecated>false</deprecated>
         <description>The Perforce code path for this feature.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>The Perforce code path for this feature.</inlineHelpText>
         <label>Code Path in Perforce</label>
@@ -519,6 +524,7 @@
         <fullName>agf__Reviewer_Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>Reviewer Notes.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Reviewer Notes.</inlineHelpText>
         <label>Reviewer Notes</label>
@@ -595,6 +601,7 @@
         <fullName>agf__Short_description_of_the_feature__c</fullName>
         <deprecated>false</deprecated>
         <description>Provide a short description of the feature or initiative.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Provide a short description of the feature or initiative.</inlineHelpText>
         <label>Short description of the feature</label>
@@ -645,6 +652,7 @@
         <fullName>agf__Tech_Spec__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to feature Technical Spec.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Link to feature Technical Spec.</inlineHelpText>
         <label>Tech Spec</label>
@@ -657,6 +665,7 @@
         <fullName>agf__Test_Password__c</fullName>
         <deprecated>false</deprecated>
         <description>Password for test account. (Optional)</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Password for test account. (Optional)</inlineHelpText>
         <label>Test Password</label>
@@ -671,6 +680,7 @@
         <fullName>agf__Test_Username__c</fullName>
         <deprecated>false</deprecated>
         <description>Username to be used for testing. (Optional)</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Username to be used for testing. (Optional)</inlineHelpText>
         <label>Test Username</label>
@@ -694,7 +704,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Security Questionnaires</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

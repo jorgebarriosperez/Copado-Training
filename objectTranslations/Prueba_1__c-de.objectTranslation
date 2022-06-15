@@ -41,6 +41,10 @@
         <value><!-- Prueba_1 --></value>
     </caseValues>
     <fields>
+        <label><!-- CASE-LABELдфуы --></label>
+        <name>CASE_LABEL__c</name>
+    </fields>
+    <fields>
         <help><!-- 1234PAMPAM --></help>
         <label><!-- CampoPicklist1234 --></label>
         <name>CampoPicklist1234__c</name>
@@ -56,14 +60,23 @@
             <masterLabel>Letra3</masterLabel>
             <translation>3</translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>Letra4</masterLabel>
-            <translation>4</translation>
-        </picklistValues>
     </fields>
     <fields>
         <label><!-- Campo_Profile --></label>
         <name>Campo_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- EXISTFIELD --></label>
+        <name>EXISTFIELD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup_Account --></label>
+        <name>Lookup_Account__c</name>
+        <relationshipLabel><!-- Prueba_1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MOVERyBORRAR --></label>
+        <name>MOVERyBORRAR__c</name>
     </fields>
     <fields>
         <label><!-- MultiPicklist_Value_SET --></label>
@@ -74,11 +87,161 @@
         <name>Numero_Requerido__c</name>
     </fields>
     <fields>
+        <label><!-- Picklist_Siemens22 --></label>
+        <name>Picklist_Siemens__c</name>
+    </fields>
+    <fields>
         <label><!-- Picklist_Value_SET --></label>
         <name>Picklist_Value_SET__c</name>
     </fields>
-    <gender><!-- Neuter --></gender>
+    <fields>
+        <help><!-- EXAMPLE FOR TRAINING HELP TEXT --></help>
+        <label><!-- Support Department --></label>
+        <name>Support_Department__c</name>
+        <picklistValues>
+            <masterLabel>GERMANY</masterLabel>
+            <translation><!-- GERMANY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIA</masterLabel>
+            <translation><!-- INDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAPAN</masterLabel>
+            <translation><!-- JAPAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAIN</masterLabel>
+            <translation><!-- SPAIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist10__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist11__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist12__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist13__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist14__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist15__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist16__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist17__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist18__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist19__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist20__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist21__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist22__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist23__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist24__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist25__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist26__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist27__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist2__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist3__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist4__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist5__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist6__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist7__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist8__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist9__c</name>
+    </fields>
+    <fields>
+        <label><!-- siemens picklist --></label>
+        <name>siemens_picklist__c</name>
+    </fields>
+    <fields>
+        <label><!-- text_to_phone --></label>
+        <name>text_to_phone__c</name>
+    </fields>
+    
     <nameFieldLabel><!-- Prueba_1 Name --></nameFieldLabel>
+    <recordTypes>
+        <description><!-- Description of Record type para Vivir --></description>
+        <label><!-- ElSeñor --></label>
+        <name>ElSenor</name>
+    </recordTypes>
     <recordTypes>
         <label><!-- El Creador22 --></label>
         <name>El_Creador</name>

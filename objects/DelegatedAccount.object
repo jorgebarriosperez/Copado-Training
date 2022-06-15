@@ -101,6 +101,35 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>ManagedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TargetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>Mis_cuentas_gestionadas_externas</fullName>
+        <filterScope>Mine</filterScope>
+        <label>Mis cuentas gestionadas externas</label>
+    </listViews>
+    <listViews>
+        <fullName>Todas_las_cuentas_gestionadas_externas</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todas las cuentas gestionadas externas</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ManagedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>Target</customTabListAdditionalFields>

@@ -16,5 +16,5 @@
         <label><!-- SessionCacheEnabled --></label>
         <name>agf__SessionCacheEnabled__c</name>
     </fields>
-    <startsWith><!-- Consonant --></startsWith>
+    
 </CustomObjectTranslation>

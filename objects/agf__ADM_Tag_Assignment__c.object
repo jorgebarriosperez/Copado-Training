@@ -213,6 +213,7 @@
         <fullName>agf__Tag_Record_Type_Key__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Tag Record Type Key</label>
         <length>100</length>
@@ -228,7 +229,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Tag Assignments</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

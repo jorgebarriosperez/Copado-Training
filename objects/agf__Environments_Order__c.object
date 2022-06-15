@@ -157,6 +157,7 @@
     <fields>
         <fullName>agf__Actual_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>When was the environment handed off?</inlineHelpText>
         <label>Actual Delivery Date</label>
@@ -169,6 +170,7 @@
     <fields>
         <fullName>agf__Additional_Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Is there additional information that is relevant to TechExec?  
 This will be displayed in the regular status reports for Environment Delivery.</inlineHelpText>
@@ -182,6 +184,7 @@ This will be displayed in the regular status reports for Environment Delivery.</
     <fields>
         <fullName>agf__Additional_Database_Details__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Additional details related to the database portion of the environment request.</inlineHelpText>
         <label>Additional Database Details</label>
@@ -231,6 +234,7 @@ This will be displayed in the regular status reports for Environment Delivery.</
     <fields>
         <fullName>agf__Change_Request_s__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Location for the URL to any and all change requests logged against this environment order.
 URLs should be entered one per line.</inlineHelpText>
@@ -244,6 +248,7 @@ URLs should be entered one per line.</inlineHelpText>
     <fields>
         <fullName>agf__Committed_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Date upon which the Environments Office agrees to fill the request.</inlineHelpText>
         <label>Committed Delivery Date</label>
@@ -257,6 +262,7 @@ URLs should be entered one per line.</inlineHelpText>
         <fullName>agf__Custom_PLSQL_Users__c</fullName>
         <deprecated>false</deprecated>
         <description>custom plsql users for the environment</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the complete list of PLSQL users needed for this request if we are NOT opting for the standard list of users.  The DBAs will ensure this list of users is created and available for use.</inlineHelpText>
         <label>Custom PLSQL Users</label>
@@ -568,6 +574,7 @@ Release Engineering may have configuration implications based on the instance.</
     <fields>
         <fullName>agf__Environment__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Environment</label>
         <length>40</length>
@@ -581,6 +588,7 @@ Release Engineering may have configuration implications based on the instance.</
     <fields>
         <fullName>agf__Impact__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Particular measurable impact if this environment does not meet key delivery dates
 ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
@@ -610,6 +618,7 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
     <fields>
         <fullName>agf__Network_Case__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Supportforce case for any network changes needed for this request</inlineHelpText>
         <label>Network Case</label>
@@ -622,6 +631,7 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
     <fields>
         <fullName>agf__Network_Request__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Network Request</label>
         <required>false</required>
@@ -634,6 +644,7 @@ ex:  delay in release, delay in feature delivery, etc.</inlineHelpText>
         <fullName>agf__Notification_Email_List__c</fullName>
         <deprecated>false</deprecated>
         <description>email address that should be used to announce environment details</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please enter the email address that should be used to announce environment details.
 This should be provided by the customer.</inlineHelpText>
@@ -844,6 +855,7 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Requested_Delivery_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Requested Delivery Date</label>
         <required>false</required>
@@ -892,6 +904,7 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Scheduled_Maintenance_End__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Expected conclusion of work on the environment during which time it would not be usable by the customer.</inlineHelpText>
         <label>Scheduled Maintenance End</label>
@@ -904,6 +917,7 @@ Release Engineering sprint.</inlineHelpText>
     <fields>
         <fullName>agf__Scheduled_Maintenance_Start__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Expected start of work on the environment during which time it would not be usable by the customer.</inlineHelpText>
         <label>Scheduled Maintenance Start</label>
@@ -1008,6 +1022,7 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
     <fields>
         <fullName>agf__Source_Database__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Source Database</label>
         <length>10</length>
@@ -1037,6 +1052,7 @@ This allows DB schema to be aware of exactly what upgrades to execute upon.</inl
     <fields>
         <fullName>agf__Special_Instructions__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Special Instructions</label>
         <length>32000</length>
@@ -1141,6 +1157,7 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__System_Case__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Supportforce case for any system/hardware changes required for this environment request</inlineHelpText>
         <label>System Case</label>
@@ -1153,6 +1170,7 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__System_Request__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>System Request</label>
         <required>false</required>
@@ -1164,6 +1182,7 @@ sneezy</inlineHelpText>
     <fields>
         <fullName>agf__Target_Database__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Target Database</label>
         <length>10</length>
@@ -1477,7 +1496,7 @@ sneezy</inlineHelpText>
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>

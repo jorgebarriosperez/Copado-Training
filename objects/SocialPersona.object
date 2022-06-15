@@ -107,6 +107,7 @@
     </fields>
     <fields>
         <fullName>ExternalPictureURL</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -117,6 +118,7 @@
     </fields>
     <fields>
         <fullName>ProfileUrl</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Provider</fullName>

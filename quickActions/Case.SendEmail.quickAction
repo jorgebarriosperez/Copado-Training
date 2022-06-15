@@ -3,6 +3,7 @@
     <description>123</description>
     <fieldOverrides>
         <field>ToIds</field>
+        <formula>Case.ContactId</formula>
     </fieldOverrides>
     <fieldOverrides>
         <field>ValidatedFromAddress</field>

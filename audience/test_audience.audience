@@ -2,13 +2,24 @@
 <Audience xmlns="http://soap.sforce.com/2006/04/metadata">
     <audienceName>test audience</audienceName>
     <container>JORGE</container>
-    <criterion>
-        <criteriaNumber>1</criteriaNumber>
-        <criterionValue>
-            <profile>admin</profile>
-        </criterionValue>
-        <operator>Equal</operator>
-        <type>Profile</type>
-    </criterion>
+    <criteria>
+        <criterion>
+            <criteriaNumber>1</criteriaNumber>
+            <criterionValue>
+                <profile>admin</profile>
+            </criterionValue>
+            <operator>Equal</operator>
+            <type>Profile</type>
+        </criterion>
+    </criteria>
     <formulaFilterType>AllCriteriaMatch</formulaFilterType>
+    <isDefaultAudience>false</isDefaultAudience>
+    <targets>
+        <target>
+            <groupName>b7dcf108-8a14-43ce-9b86-2ed5d7377c27$#$995e7b5c-ef70-4dd6-9f5d-d5c5da3a8816</groupName>
+            <priority>1</priority>
+            <targetType>ExperienceVariation</targetType>
+            <targetValue>Home_Calendario_Component</targetValue>
+        </target>
+    </targets>
 </Audience>

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>agf__User_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>User</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <logo>agf__salesforce</logo>
@@ -10,6 +19,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Agile Accelerator</label>
     <navType>Standard</navType>
     <tabs>agf__ADM_Work__c</tabs>
@@ -22,7 +32,10 @@
     <tabs>agf__ADM_Theme__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>agf__QA_Hierarchy__c</tabs>
+    <tabs>agf__PPM_Project__c</tabs>
+    <tabs>agf__PPM_Program__c</tabs>
+    <tabs>agf__PPM_Portfolio__c</tabs>
+    <tabs>agf__PPM_Project_Accomplishment__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>agf__Agile_Accelerator_UtilityBar</utilityBar>
 </CustomApplication>

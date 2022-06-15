@@ -193,6 +193,7 @@
     <fields>
         <fullName>agf__Distribution_List__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Distribution List</label>
         <required>false</required>
@@ -218,6 +219,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -240,6 +242,7 @@
     <fields>
         <fullName>agf__Recipient_Input__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Recipient Input</label>
         <length>50</length>
@@ -283,7 +286,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Work Subscribers</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

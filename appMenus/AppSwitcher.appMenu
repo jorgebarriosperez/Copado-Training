@@ -108,4 +108,24 @@
         <name>agf__Agile_Accelerator_LEX</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>TEST_APP</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>JORGE</name>
+        <type>Network</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__AllTabSet</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__Commerce</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>standard__DataManager</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

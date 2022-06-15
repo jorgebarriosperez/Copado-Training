@@ -188,7 +188,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Severity Types</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

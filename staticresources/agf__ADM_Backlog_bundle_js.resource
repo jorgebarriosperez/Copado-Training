@@ -224,20 +224,32 @@
 			}
 		},
 
-		getNewUpdatedSprints: function getNewUpdatedSprints(updatedRecordIds, dataObject) {
-			var updatedSprints = dataObject.updatedSprints;
-			var newUpdatedSprints = updatedSprints.slice();
+		getNewUpdatedItems: function getNewUpdatedItems(dataObjectKeyForUpdatedItems, recordIdKey, emptyLabel, updatedRecordIds, dataObject) {
+			var updatedItems = dataObject[dataObjectKeyForUpdatedItems];
+			var newUpdatedItems = updatedItems.slice();
 
 			updatedRecordIds.forEach(function (selectedId) {
-				var thisSprintId = dataObject.recordsObj[selectedId].Sprint_id;
-				if (!thisSprintId) {
-					thisSprintId = 'NO SPRINT';
+				var id = dataObject.recordsObj[selectedId][recordIdKey];
+				if (!id) {
+					id = emptyLabel;
 				}
-				if (newUpdatedSprints.indexOf(thisSprintId) === -1) {
-					newUpdatedSprints = newUpdatedSprints.concat(thisSprintId);
+				if (newUpdatedItems.indexOf(id) === -1) {
+					newUpdatedItems = newUpdatedItems.concat(id);
 				}
 			});
-			return newUpdatedSprints;
+			return newUpdatedItems;
+		},
+
+		getNewUpdatedSprints: function getNewUpdatedSprints(updatedRecordIds, dataObject) {
+			return helper.getNewUpdatedItems('updatedSprints', 'Sprint_id', 'NO SPRINT', updatedRecordIds, dataObject);
+		},
+
+		getNewUpdatedEpics: function getNewUpdatedEpics(updatedRecordIds, dataObject) {
+			return helper.getNewUpdatedItems('updatedEpics', 'Epic_id', 'NO EPIC', updatedRecordIds, dataObject);
+		},
+
+		getNewUpdatedScheduledBuilds: function getNewUpdatedScheduledBuilds(updatedRecordIds, dataObject) {
+			return helper.getNewUpdatedItems('updatedScheduledBuilds', 'Scheduled Build_id', 'NO SCHEDULED BUILD', updatedRecordIds, dataObject);
 		},
 
 		getRecordsFromDataObject: function getRecordsFromDataObject(dataObject) {
@@ -259,6 +271,8 @@
 				case 'QA Engineer':
 				case 'Product Owner':
 				case 'Epic':
+				case 'Originated From':
+				case 'UI Text Status':
 					return 200;
 				case 'Status':
 				case 'Sprint':
@@ -268,9 +282,19 @@
 				case 'Scheduled Build':
 				case 'Created Date':
 				case 'Modified Date':
+				case 'Tech Writer':
 					return 150;
+				case 'Help Status':
+					return 125;
+				case 'Due Date':
+				case 'Type':
+				case '# Cases':
+				case '# Gacks':
+					return 100;
 				case 'Points':
 				case 'Rank':
+				case '# TF':
+				case '# KI':
 					return 75;
 				case 'Record Type':
 					return 30;
@@ -281,7 +305,14 @@
 
 		orderDates: function orderDates(sortColumn, sortDirection) {
 			return function (a, b) {
-				if (sortColumn && sortColumn.slice(-4).toLowerCase() !== 'date') return 0;
+				if (sortColumn && sortColumn.slice(-4).toLowerCase() !== 'date') {
+					return 0;
+				} else if (('' + a).slice(0, 2).toLowerCase() === 'no') {
+					// make sure "No Due Date", for example, is last.
+					return -1;
+				} else if (('' + b).slice(0, 2).toLowerCase() === 'no') {
+					return 1;
+				}
 				return sortDirection === 'descending' ? new Date(b) - new Date(a) : new Date(a) - new Date(b);
 			};
 		},
@@ -361,9 +392,9 @@
 			var orderedGroupings = Object.keys(groupings);
 			if (sortColumn === 'Status') {
 				orderedGroupings = orderedGroupings.sort(helper.orderStatuses(dataObject, sortColumn, sortDirection));
-			} else if (sortColumn === 'Modified Date' || sortColumn === 'Created Date') {
+			} else if (sortColumn === 'Modified Date' || sortColumn === 'Created Date' || sortColumn === 'Due Date') {
 				orderedGroupings = orderedGroupings.sort(helper.orderDates(sortColumn, sortDirection));
-			} else if (sortColumn === 'Points') {
+			} else if (sortColumn === 'Points' || sortColumn === '# KI' || sortColumn === '# Gacks' || sortColumn === '# TF') {
 				orderedGroupings = orderedGroupings.map(function (numberString) {
 					return numberString.indexOf('NO ') !== 0 ? parseInt(numberString, 10) : numberString;
 				}).sort(helper.makeSortNumsFunc(sortDirection)).map(function (num) {
@@ -433,7 +464,13 @@
 
 					var recordDataString = '';
 					columns.forEach(function (column) {
-						if (record[column.label + '_value'] && record[column.label + '_value'] !== 0) {
+						if (column.label === 'Themes' && record[column.label + '_value'] && record[column.label + '_value'].records && record[column.label + '_value'].records.length) {
+							recordDataString += ' ' + record[column.label + '_value'].records.map(function (record) {
+								return record.Theme__r.Name;
+							}).reduce(function (acc, curr) {
+								return acc + ' ' + curr;
+							}, ' ');
+						} else if (record[column.label + '_value'] && record[column.label + '_value'] !== 0) {
 							recordDataString += ' ' + record[column.label + '_value'];
 						}
 					});
@@ -526,6 +563,30 @@
 			return updatedRecordIds;
 		},
 
+		separateRanksFromOtherFields: function separateRanksFromOtherFields(movedWork) {
+			var rankObjs = [];
+			var otherFieldsObjs = [];
+
+			movedWork.forEach(function (work) {
+				var otherFieldsObj = {
+					Id: work.Id
+				};
+				for (var field in work) {
+					if (field === 'Priority_Rank__c') {
+						rankObjs.push({ Id: work.Id, Priority_Rank__c: work[field] });
+					} else {
+						otherFieldsObj[field] = work[field];
+					}
+				}
+				// only add if another field besides the Id was added
+				if (Object.keys(otherFieldsObj).length > 1) {
+					otherFieldsObjs.push(otherFieldsObj);
+				}
+			});
+
+			return [rankObjs, otherFieldsObjs];
+		},
+
 		sortNonGroupableRecords: function sortNonGroupableRecords(records, label, sortDirection) {
 			var sortedRecords = _.sortBy(records, function (record) {
 				var value = record[label + '_value'];
@@ -601,6 +662,7 @@
 			var filterObjectsArr = filterString !== '' ? filterString.substring(0, filterString.length - 1).split(",").map(function (filter) {
 				return filter.split("-");
 			}) : [];
+
 			// each filterObjectArray should be exactly 3 elements
 			if (filterObjectsArr.length === 0 || filterObjectsArr[0].length === 1 || filterObjectsArr[0].length === 2) return globalFilterObj;
 			records.forEach(function (record) {
@@ -612,6 +674,10 @@
 					var addIdToGlobalFilterObj = function addIdToGlobalFilterObj(filterProp, id) {
 						!globalFilterObj[filterProp] ? globalFilterObj[filterProp] = [id] : globalFilterObj[filterProp].push(id);
 					};
+					var valueIsNumber = ['story_points', '#_TF', '#_Gacks', '#_Cases', '#_KI'].indexOf(filterProp) !== -1;
+					var shouldAddNumber = valueIsNumber && record[filterProp.replace(/_/g, ' ') + '_id'] === parseInt(filterPropVal, 10);
+					var shouldAddDueDate = filterProp === 'Due_Date' && filterObj.slice(2).join('-') === record['Due Date_id'];
+
 					if (filterProp === 'RecordTypeId' && record['Record Type_id'] === filterPropVal) {
 						addIdToGlobalFilterObj(filterProp, record.Id);
 					} else if (filterProp === 'Found_in_Build') {
@@ -626,8 +692,17 @@
 						} else if (!record.Points_value && filterPropVal === null) {
 							addIdToGlobalFilterObj(filterProp, record.Id);
 						}
+					} else if (shouldAddNumber || shouldAddDueDate) {
+						addIdToGlobalFilterObj(filterProp, record.Id);
 					} else if (filterProp === 'Column') {
 						if (record['Kanban State_id'] && record['Kanban State_id'] === filterPropVal || !record['Kanban State_id'] && !filterPropVal) {
+							addIdToGlobalFilterObj(filterProp, record.Id);
+						}
+					} else if (filterProp === 'Themes' && record['Themes_value'] && Array.isArray(record['Themes_value'].records)) {
+						var themeIds = record['Themes_value'].records.map(function (themeAssignment) {
+							return themeAssignment.Theme__r.Id;
+						});
+						if (themeIds.includes(filterPropVal)) {
 							addIdToGlobalFilterObj(filterProp, record.Id);
 						}
 					} else {
@@ -713,6 +788,69 @@
 				return result += addToFilterDisplayString;
 			}, '');
 			return returnResult;
+		},
+
+		makeUpdatedWorkArr: function makeUpdatedWorkArr(dataObject) {
+			return dataObject.recordIds.reduce(function (result, id) {
+				var record = dataObject.recordsObj[id];
+				var recordKeys = Object.keys(record);
+				var updatedColumnLabels = [];
+				recordKeys.forEach(function (recordKey) {
+					if (recordKey.indexOf('_moved_dark') !== -1 && record[recordKey] === true) {
+						updatedColumnLabels.push(recordKey.replace('_moved_dark', ''));
+					}
+				});
+				if (updatedColumnLabels.length > 0) {
+					var resultObj = {
+						Id: id
+					};
+					updatedColumnLabels.forEach(function (updatedColumnLabel) {
+						dataObject.allColumns.forEach(function (column) {
+							if (column.label === updatedColumnLabel) {
+								if (column.id) {
+									var idProp = column.id.replace('work.', '');
+									resultObj[idProp] = record[column.label + '_id'];
+
+									// this handles things that were dragged into "NO SPRINTS", for example - since server expects
+									// null to blank out values
+									if (typeof resultObj[idProp] === 'undefined') {
+										resultObj[idProp] = null;
+									}
+								} else if (column.value) {
+									var valueProp = column.value.replace('work.', '');
+									resultObj[valueProp] = record[column.label + '_value'];
+								}
+							}
+						});
+					});
+					result.push(resultObj);
+				}
+				return result;
+			}, []);
+		},
+
+		recordHasThemes: function recordHasThemes(record) {
+			return record.Theme_Assignments__r && record.Theme_Assignments__r.records && record.Theme_Assignments__r.records.length;
+		},
+
+		themeNotInAllThemes: function themeNotInAllThemes(theme, allThemes) {
+			return allThemes.findIndex(function (allTheme) {
+				return allTheme.Id === theme.Theme__c;
+			}) < 0;
+		},
+
+		addNewThemesFromRecord: function addNewThemesFromRecord(record, allThemes) {
+			var result = [];
+			record.Theme_Assignments__r.records.forEach(function (theme) {
+				if (helper.themeNotInAllThemes(theme, allThemes)) {
+					result.push(theme.Theme__r);
+				}
+			});
+			return allThemes.concat(result);
+		},
+
+		makeThemeStringReducer: function makeThemeStringReducer(acc, curr, idx) {
+			return acc + (idx !== 0 ? ', ' : '') + curr.Theme__r.Name;
 		},
 
 		//============================================================== UTILITY ====================================================================//
@@ -922,6 +1060,8 @@
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
+
+	var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1287,16 +1427,28 @@
 	        };
 	    },
 
-	    updateUpdatedSprints: function updateUpdatedSprints(updatedRecordIds) {
+	    updateUpdatedItems: function updateUpdatedItems(helperFnForUpdatedItems, dataObjectPropToUpdate, updatedRecordIds) {
 	        var that = this;
 
 	        return function (dispatch, getState) {
 	            var currentState = getState();
 	            var dataObject = currentState.dataObject;
-	            var newUpdatedSprints = _helper2.default.getNewUpdatedSprints(updatedRecordIds, dataObject);
+	            var newUpdatedItems = _helper2.default[helperFnForUpdatedItems](updatedRecordIds, dataObject);
 
-	            dispatch(that.updateDataObjectProp('updatedSprints', newUpdatedSprints));
+	            dispatch(that.updateDataObjectProp(dataObjectPropToUpdate, newUpdatedItems));
 	        };
+	    },
+
+	    updateUpdatedSprints: function updateUpdatedSprints(updatedRecordIds) {
+	        return this.updateUpdatedItems('getNewUpdatedSprints', 'updatedSprints', updatedRecordIds);
+	    },
+
+	    updateUpdatedEpics: function updateUpdatedEpics(updatedRecordIds) {
+	        return this.updateUpdatedItems('getNewUpdatedEpics', 'updatedEpics', updatedRecordIds);
+	    },
+
+	    updateUpdatedScheduledBuilds: function updateUpdatedScheduledBuilds(updatedRecordIds) {
+	        return this.updateUpdatedItems('getNewUpdatedScheduledBuilds', 'updatedScheduledBuilds', updatedRecordIds);
 	    },
 
 	    updateView: function updateView(viewType, id) {
@@ -1474,107 +1626,124 @@
 	        };
 	    },
 
-	    saveWorks: function saveWorks(dataObject, paramId, selectedText, refreshPage) {
+	    saveWorks: function saveWorks(dataObject, paramId, selectedText) {
 	        var ACTIONCREATORS = this;
 
 	        return function (dispatch) {
-	            dispatch(ACTIONCREATORS.saving('started'));
-	            var movedWork = dataObject.recordIds.reduce(function (result, id) {
-	                var record = dataObject.recordsObj[id];
-	                var recordKeys = Object.keys(record);
-	                var updatedColumnLabels = [];
-	                recordKeys.forEach(function (recordKey) {
-	                    if (recordKey.indexOf('_moved_dark') !== -1 && record[recordKey] === true) {
-	                        updatedColumnLabels.push(recordKey.replace('_moved_dark', ''));
+
+	            var updatedWork = _helper2.default.makeUpdatedWorkArr(dataObject);
+
+	            var _helper$separateRanks = _helper2.default.separateRanksFromOtherFields(updatedWork),
+	                _helper$separateRanks2 = _slicedToArray(_helper$separateRanks, 2),
+	                updatedRanks = _helper$separateRanks2[0],
+	                updatedOtherFields = _helper$separateRanks2[1];
+
+	            // returns a promise
+
+
+	            var updateOtherFields = function updateOtherFields() {
+	                return new Promise(function (resolve, reject) {
+	                    if (!_.isEmpty(updatedOtherFields) && !dataObject.stressTest) {
+	                        dispatch(ACTIONCREATORS.saving('started'));
+
+	                        Visualforce.remoting.Manager.invokeAction(ADM_BACKLOG_PAGE_VARS.saveWorks, updatedOtherFields, false, false, function (result, event) {
+	                            var errorMessages = [];
+	                            var resultLen = result ? result.length : 0;
+
+	                            for (var i = 0; i < resultLen; i++) {
+	                                errorMessages.push(result[i]['work'].Name + ': ' + result[i].errorMessages);
+	                            }
+
+								dispatch(ACTIONCREATORS.updateSprintOrders());
+								// NOT AVAILABLE IN AA
+	                            // dispatch(ACTIONCREATORS.updateEpicOrders());
+	                            // dispatch(ACTIONCREATORS.updateScheduledBuildOrders());
+	                            dispatch(ACTIONCREATORS.saving('finished'));
+	                            if (errorMessages.length) {
+	                                dispatch(ACTIONCREATORS.updateErrorMessages(errorMessages));
+	                            }
+	                            resolve();
+	                        }, { escape: false, timeout: 120000 });
+	                    } else {
+	                        resolve();
 	                    }
 	                });
-	                if (updatedColumnLabels.length > 0) {
-	                    var resultObj = {
-	                        Id: id
-	                    };
-	                    updatedColumnLabels.forEach(function (updatedColumnLabel) {
-	                        dataObject.allColumns.forEach(function (column) {
-	                            if (column.label === updatedColumnLabel) {
-	                                if (column.id) {
-	                                    var idProp = column.id.replace('work.', '');
-	                                    resultObj[idProp] = record[column.label + '_id'];
+	            };
 
-	                                    // this handles things that were dragged into "NO SPRINTS", for example - since server expects
-	                                    // null to blank out values
-	                                    if (typeof resultObj[idProp] === 'undefined') {
-	                                        resultObj[idProp] = null;
-	                                    }
-	                                } else if (column.value) {
-	                                    var valueProp = column.value.replace('work.', '');
-	                                    resultObj[valueProp] = record[column.label + '_value'];
-	                                }
-	                            }
-	                        });
-	                    });
-	                    result.push(resultObj);
-	                }
-	                return result;
-	            }, []);
-
-	            if (!_.isEmpty(movedWork) && !dataObject.stressTest) {
-	                console.log(movedWork);
-	                Visualforce.remoting.Manager.invokeAction(ADM_BACKLOG_PAGE_VARS.saveWorks, movedWork, false, function (result, event) {
-	                    var errorMessages = [];
-	                    var resultLen = result ? result.length : 0;
-
-	                    for (var i = 0; i < resultLen; i++) {
-	                        errorMessages.push(result[i]['work'].Name + ': ' + result[i].errorMessages);
-	                    }
-
-	                    dispatch(ACTIONCREATORS.updateSprintOrders());
-
-	                    if (event.status && refreshPage) {
-	                        dispatch(ACTIONCREATORS.saving('finished'));
-	                        dispatch(ACTIONCREATORS.refreshData(dataObject, true, null, paramId, selectedText));
-	                    } else if (event.status && errorMessages.length == 0) {
-	                        dispatch(ACTIONCREATORS.saving('finished'));
+	            // returns a promise
+	            var updateRanks = function updateRanks() {
+	                return new Promise(function (resolve, reject) {
+	                    if (!_.isEmpty(updatedRanks) && !dataObject.stressTest) {
+	                        dispatch(ACTIONCREATORS.saving('started'));
+	                        Visualforce.remoting.Manager.invokeAction(ADM_BACKLOG_PAGE_VARS.saveWorks, updatedRanks, false, true, function (result, event) {
+	                            dispatch(ACTIONCREATORS.saving('finished'));
+	                            resolve();
+	                        }, { escape: false, timeout: 120000 });
 	                    } else {
-	                        dispatch(ACTIONCREATORS.saving('finished'));
-	                        dispatch(ACTIONCREATORS.updateErrorMessages(errorMessages));
+	                        resolve();
 	                    }
-	                }, { escape: false });
-	            } else {
-	                var reason = dataObject.stressTest ? ' we are in a stresstest' : ' nothing was moved.';
-	                console.info('saveWorks was called but nothing was saved because ' + reason);
-	                console.info('movedWork: ', movedWork);
-	                dispatch(ACTIONCREATORS.saving('finished'));
-	            }
+	                });
+	            };
+
+	            updateOtherFields().then(function () {
+	                return updateRanks();
+	            });
 	        };
 	    },
 
-	    updateSprintOrders: function updateSprintOrders() {
+	    updateItemOrders: function updateItemOrders(updatedItemsDOKey, emptyLabel, updatedObjDOKey, VFUpdateFn, idKey, getAllItemsFn, cb) {
 	        var ACTIONCREATORS = this;
 
 	        return function (dispatch, getState) {
 	            var currentState = getState();
 	            var dataObject = currentState.dataObject;
 
-	            dataObject.updatedSprints.forEach(function (sprintId) {
-	                if (sprintId === 'NO SPRINT') {
-	                    console.log('NO SPRINT updated, records are: ', dataObject.sprints['NO SPRINT']);
+	            dataObject[updatedItemsDOKey].forEach(function (id) {
+	                if (id === emptyLabel) {
+	                    console.log(emptyLabel + ' updated, records are: ' + dataObject[updatedObjDOKey][emptyLabel]);
 	                } else {
-	                    var allSprints = dataObject.allSprints.concat(dataObject.oldSprints);
-	                    allSprints.forEach(function (sprintObj) {
-	                        if (sprintObj.Id === sprintId) {
-	                            var sprintName = sprintObj.Name;
-	                            var requestObj = {
-	                                sprintId: sprintId,
-	                                workIds: dataObject.sprints[sprintName]
-	                            };
-	                            Visualforce.remoting.Manager.invokeAction(ADM_BACKLOG_PAGE_VARS.updateSprintOrder, requestObj, function (result, event) {
-	                                console.log(result);
+	                    var allItems = getAllItemsFn(dataObject);
+	                    allItems.forEach(function (itemObj) {
+	                        if (itemObj.Id === id) {
+	                            var _requestObj;
+
+	                            var keyName = itemObj.Name;
+	                            var requestObj = (_requestObj = {}, _defineProperty(_requestObj, idKey, id), _defineProperty(_requestObj, 'workIds', dataObject[updatedObjDOKey][keyName]), _requestObj);
+	                            Visualforce.remoting.Manager.invokeAction(ADM_BACKLOG_PAGE_VARS[VFUpdateFn], requestObj, function (result, event) {
+	                                if (typeof cb === 'function') {
+	                                    cb(result);
+	                                }
 	                            }, { escape: false });
 	                        }
 	                    });
 	                }
 	            });
-	            dispatch(ACTIONCREATORS.updateDataObjectProp('updatedSprints', []));
+	            dispatch(ACTIONCREATORS.updateDataObjectProp(updatedItemsDOKey, []));
 	        };
+	    },
+
+	    updateSprintOrders: function updateSprintOrders() {
+	        return this.updateItemOrders('updatedSprints', 'NO SPRINT', 'sprints', 'updateSprintOrder', 'sprintId', function (dataObj) {
+	            return dataObj.allSprints.concat(dataObj.oldSprints);
+	        }, function (result) {
+	            return console.log(result);
+	        });
+	    },
+
+	    updateEpicOrders: function updateEpicOrders() {
+	        return this.updateItemOrders('updatedEpics', 'NO EPIC', 'epics', 'updateEpicOrder', 'epicId', function (dataObj) {
+	            return dataObj.allEpics;
+	        }, function (result) {
+	            return console.log(result);
+	        });
+	    },
+
+	    updateScheduledBuildOrders: function updateScheduledBuildOrders() {
+	        return this.updateItemOrders('updatedScheduledBuilds', 'NO SCHEDULED BUILD', 'scheduled builds', 'updateScheduledBuildOrder', 'scheduledBuildId', function (dataObj) {
+	            return dataObj.allBuilds;
+	        }, function (result) {
+	            return console.log(result);
+	        });
 	    }
 	};
 
@@ -1690,7 +1859,6 @@
 	            recordsToDisplay = _helper2.default.giveRecordsVelocityLine(sortColumn, recordsToDisplay, dataObject.options, searchTerm, teamId);
 	        }
 	    }
-
 	    // display filtered, moved records
 	    recordsToDisplay = _helper2.default.setDisplayForFilteredAndMovedRecords(filters, recordsToDisplay, selected);
 	    // perform search
@@ -2053,6 +2221,8 @@
 	            },
 	            sprints: {},
 	            updatedSprints: [],
+	            updatedEpics: [],
+	            updatedScheduledBuilds: [],
 	            nameSpace: ''
 	        };
 
@@ -2103,6 +2273,7 @@
 	                var oldSprints = action.result.oldSprints;
 	                var allPoints = [];
 	                var allPointsNames = [];
+	                var allThemes = [];
 	                var nameSpace = action.result.nameSpace || '';
 
 	                if (stressTest) {
@@ -2136,12 +2307,18 @@
 	                    }
 
 	                    action.result.allColumns.forEach(function (column) {
-	                        // NEED TO HARDCODE THIS FROM SERVER
+	                        // SHOULD TO HARDCODE THIS FROM SERVER
 	                        if (column.label === 'Sprint') {
 	                            column.rankable = true;
 	                            column.rankField = 'Sprint_Rank__c';
+	                        } else if (column.label === 'Scheduled Build') {
+	                            column.rankable = true;
+	                            column.rankField = 'Scheduled_Build_Rank__c';
+	                        } else if (column.label === 'Epic') {
+	                            column.rankable = true;
+	                            column.rankField = 'Epic_Rank__c';
 	                        }
-	                        // END NEED TO HARDCODE
+	                        // END SHOULD HARDCODE
 	                        var columnLabel = column.label ? column.label : null;
 	                        recordsObj[record.Id][columnLabel + '_id'] = column.id ? _helper2.default.makeRecordValFromColumnVal(record, column.id.replace('work.', ''), nameSpace) : null;
 	                        recordsObj[record.Id][columnLabel + '_value'] = column.value ? _helper2.default.makeRecordValFromColumnVal(record, column.value.replace('work.', ''), nameSpace) : null;
@@ -2152,8 +2329,14 @@
 	                            recordsObj[record.Id][columnLabel + '_rank'] = record[column.rankField];
 	                        }
 	                    });
-	                });
 
+	                    if (_helper2.default.recordHasThemes(record)) {
+	                        allThemes = _helper2.default.addNewThemesFromRecord(record, allThemes);
+	                    }
+	                });
+	                allThemes = allThemes.sort(function (a, b) {
+	                    return ('' + a.Name).localeCompare(b.Name);
+	                });
 	                allPoints = allPoints.sort(function (a, b) {
 	                    return a.Name - b.Name;
 	                });
@@ -2181,17 +2364,18 @@
 	                if (!options.filters) {
 	                    options.filters = {};
 	                }
-	                var newState = _extends({}, initialState, action.result, { recordIds: recordIds || [] }, { recordsObj: recordsObj || [] }, { allBuilds: allBuilds || [] }, { allSprints: allSprints || [] }, { oldSprints: oldSprints || [] }, { allWorkStatuses: allWorkStatuses || [] }, { allPoints: allPoints || [] }, { headerTitle: headerTitle || '' }, { headerId: headerId }, { options: options || {} }, { nameSpace: nameSpace || '' });
+	                var newState = _extends({}, initialState, action.result, { recordIds: recordIds || [] }, { recordsObj: recordsObj || [] }, { allBuilds: allBuilds || [] }, { allSprints: allSprints || [] }, { oldSprints: oldSprints || [] }, { allWorkStatuses: allWorkStatuses || [] }, { allPoints: allPoints || [] }, { allThemes: allThemes || [] }, { headerTitle: headerTitle || '' }, { headerId: headerId }, { options: options || {} }, { nameSpace: nameSpace || '' });
 
 	                action.result.allColumns // TODO - Update this so not doing this loop again!
 	                .forEach(function (column) {
 	                    if (column.groupable) {
 	                        var groupName = column.label.toLowerCase() + 's'; // i.e. "sprints"
-	                        var recordRankField = groupName === 'sprints' ? 'Sprint_rank' : 'Rank_value';
+	                        var recordRankField = groupName === 'sprints' ? 'Sprint_rank' : groupName === 'scheduled builds' ? 'Scheduled Build_rank' : groupName === 'epics' ? 'Epic_rank' : 'Rank_value';
 	                        var groupObj = {};
 	                        records.forEach(function (record, idx) {
 	                            var groupName = _helper2.default.makeRecordValFromColumnVal(record, column.value.replace('work.', ''), nameSpace);
-	                            if (column.label.slice(-4).toLowerCase() === 'date') {
+	                            if (column.label.slice(-4).toLowerCase() === 'date' && groupName) {
+	                                // only try to format the date if it exists, otherwise moment sets the date to today, which we don't want!
 	                                groupName = _helper2.default.formatDate(groupName);
 	                            }
 	                            if (!groupName && groupName !== 0) {
@@ -2207,7 +2391,6 @@
 	                        newState[groupName] = groupObj;
 	                    }
 	                });
-
 	                return newState;
 	            case 'GET_USER_PREFERENCES_AS_JSON_SUCCESS':
 	                console.log('gupajs: ', action.result);
@@ -2258,6 +2441,8 @@
 	                var orderKey = label.toLowerCase() + 's';
 	                var updatedOrderObj = _extends({}, state[orderKey]);
 	                var newUpdatedSprints = state.updatedSprints.slice();
+	                var newUpdatedScheduledBuilds = state.updatedScheduledBuilds.slice();
+	                var newUpdatedEpics = state.updatedEpics.slice();
 	                var id;
 	                var smallPhotoUrl;
 	                // var link;
@@ -2325,24 +2510,33 @@
 	                // add selected ids into new ordering objects
 	                var newOrderArray = updatedOrderObj[value] || updatedOrderObj[value] === 0 ? recordIdsToUpdate.concat(updatedOrderObj[value]) : recordIdsToUpdate;
 
-	                // for sprints, update updatedSprints on the dataObject
-	                if (label === 'Sprint' && recordIdsToUpdate.length > 0) {
-	                    var previousSprintIds = previousValueObjs.map(function (obj) {
+	                var updateMassEditedItemsWithRanks = function updateMassEditedItemsWithRanks(recordKey, blankLabel, updatedItemsVar) {
+	                    var previousIds = previousValueObjs.map(function (obj) {
 	                        return obj.prevLabelId;
 	                    });
-	                    var newSprintId = updatedRecordsObj[recordIdsToUpdate[0]].Sprint_id;
-	                    var sprintIdsToAdd = previousSprintIds.concat(newSprintId).map(function (id) {
-	                        return !id ? 'NO SPRINT' : id;
+	                    var newId = updatedRecordsObj[recordIdsToUpdate[0]][recordKey];
+	                    var toAdd = previousIds.concat(newId).map(function (id) {
+	                        return !id ? blankLabel : id;
 	                    });
 
-	                    sprintIdsToAdd.forEach(function (id) {
-	                        newUpdatedSprints = newUpdatedSprints.indexOf(id) === -1 ? newUpdatedSprints.concat(id) : newUpdatedSprints;
+	                    toAdd.forEach(function (id) {
+	                        updatedItemsVar = updatedItemsVar.indexOf(id) === -1 ? updatedItemsVar.concat(id) : updatedItemsVar;
 	                    });
+	                    return updatedItemsVar;
+	                };
+
+	                if (label === 'Sprint' && recordIdsToUpdate.length > 0) {
+	                    // for sprints, update updatedSprints on the dataObject
+	                    newUpdatedSprints = updateMassEditedItemsWithRanks('Sprint_id', 'NO SPRINT', newUpdatedSprints);
+	                } else if (label === 'Scheduled Build' && recordIdsToUpdate.length > 0) {
+	                    newUpdatedScheduledBuilds = updateMassEditedItemsWithRanks('Scheduled Build_id', 'NO SCHEDULED BUILD', newUpdatedScheduledBuilds);
+	                } else if (label === 'Epic' && recordIdsToUpdate.length > 0) {
+	                    newUpdatedEpics = updateMassEditedItemsWithRanks('Epic_id', 'NO EPIC', newUpdatedEpics);
 	                }
 
 	                updatedOrderObj[value] = newOrderArray;
 
-	                return _extends({}, state, { recordsObj: updatedRecordsObj }, _defineProperty({}, orderKey, updatedOrderObj), { updatedSprints: newUpdatedSprints });
+	                return _extends({}, state, { recordsObj: updatedRecordsObj }, _defineProperty({}, orderKey, updatedOrderObj), { updatedSprints: newUpdatedSprints }, { updatedScheduledBuilds: newUpdatedScheduledBuilds }, { updatedEpics: newUpdatedEpics });
 	            case 'OVERRIDE_DATA_OBJECT_PROP':
 	                if (!action || !action.prop || !action.val) return state;
 
@@ -2843,9 +3037,9 @@
 	        undo: function undo(history) {
 	            dispatch(_actionCreators2.default.returnToPreviousState(history));
 	        },
-	        saveWorks: function saveWorks(dataObject, paramId, selectedText, refreshPage) {
+	        saveWorks: function saveWorks(dataObject, paramId, selectedText) {
 	            dispatch(_actionCreators2.default.clearHistory());
-	            dispatch(_actionCreators2.default.saveWorks(dataObject, paramId, selectedText, refreshPage));
+	            dispatch(_actionCreators2.default.saveWorks(dataObject, paramId, selectedText));
 	        },
 	        toggleSidePanel: function toggleSidePanel(whichPanel) {
 	            dispatch(_actionCreators2.default.toggleSidePanel(whichPanel));
@@ -2999,7 +3193,7 @@
 	                            ),
 	                            React.createElement(
 	                                'button',
-	                                { id: 'buttonSaveOrder', className: 'slds-button slds-button--brand', style: { borderRight: '1px #7C94C5 solid', display: this.props.history.past.length > 0 ? 'inline-block' : 'none' }, onClick: this.props.saveWorks.bind(this, dataObject, dataObject.headerId, dataObject.headerTitle, false) },
+	                                { id: 'buttonSaveOrder', className: 'slds-button slds-button--brand', style: { borderRight: '1px #7C94C5 solid', display: this.props.history.past.length > 0 ? 'inline-block' : 'none' }, onClick: this.props.saveWorks.bind(this, dataObject, dataObject.headerId, dataObject.headerTitle) },
 	                                'Save'
 	                            )
 	                        ),
@@ -3812,6 +4006,20 @@
 	            $(document).unbind('click', hideDropdowns);
 	        }
 
+	        function escapeHTML( /*String*/s) {
+	            var _entityMap = [[/&/g, '&amp;'], [/</g, '&lt;'], [/>/g, '&gt;'], [/\'/g, '&#39;'], [/\"/g, '&quot;'], [/\//g, '&#47;']];
+
+	            if (s != null && s != '') {
+	                for (var index = 0; index < _entityMap.length; index++) {
+	                    var pattern = _entityMap[index][0];
+	                    var entity = _entityMap[index][1];
+
+	                    s = s.replace(pattern, entity);
+	                }
+	            }
+	            return s;
+	        }
+
 	        function autoCompleteResults(err, records) {
 	            if (err) {
 	                console.error(err);
@@ -3837,7 +4045,7 @@
 	                            return result;
 	                        };
 	                        var type = getType(record._name);
-	                        $('#dropdownDataSourcesResults').append("<a data-id=" + id + " href='#' data-type=" + type + ">" + name + "</a>");
+	                        $('#dropdownDataSourcesResults').append("<a data-id=" + id + " href='#' data-type=" + type + ">" + escapeHTML(name) + "</a>");
 	                    });
 	                } else {
 	                    $('#dropdownDataSourcesResults').text('No results found');
@@ -3886,7 +4094,7 @@
 	                $('#dropdownDataSourcesSearch').attr('placeholder', 'Search Teams...');
 	                $('#dropdownDataSourcesResults').empty();
 	                $('#dropdownDataSourcesRecents').text('Suggested Teams:');
-	                $('#dropdownDataSourcesResults').prepend("<a data-id=" + that.props.dataObject.team.Id + " href='#'>" + that.props.dataObject.team.Name + "</a>");
+	                $('#dropdownDataSourcesResults').prepend("<a data-id=" + that.props.dataObject.team.Id + " href='#'>" + escapeHTML(that.props.dataObject.team.Name) + "</a>");
 	                // TODO: Add in other teams user has a membership to
 	            } else if ($('#dropdownDataSources').attr('data-source') == 'epic') {
 	                $('#dropdownDataSourcesSearch').attr('placeholder', 'Search Epics...');
@@ -3894,14 +4102,14 @@
 	                $('#dropdownDataSourcesRecents').text('Suggested Epics:');
 	                $.each(that.props.dataObject.allEpics, function (index, record) {
 	                    // append("<a data-id=" + id + " href='#'>" + name + "</a>");
-	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + record.Name + "</a>");
+	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + escapeHTML(record.Name) + "</a>");
 	                });
 	            } else if ($('#dropdownDataSources').attr('data-source') == 'sprint') {
 	                $('#dropdownDataSourcesSearch').attr('placeholder', 'Search Sprints...');
 	                $('#dropdownDataSourcesResults').empty();
 	                $('#dropdownDataSourcesRecents').text('Suggested Sprints:');
 	                $.each(that.props.dataObject.allSprints, function (index, record) {
-	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + record.Name + "</a>");
+	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + escapeHTML(record.Name) + "</a>");
 	                });
 	            } else if ($('#dropdownDataSources').attr('data-source') == 'theme') {
 	                $('#dropdownDataSourcesSearch').attr('placeholder', 'Search Themes...');
@@ -3918,14 +4126,14 @@
 	                $('#dropdownDataSourcesResults').empty();
 	                $('#dropdownDataSourcesRecents').text('Suggested Builds:');
 	                $.each(that.props.dataObject.allBuilds, function (index, record) {
-	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + record.Name + "</a>");
+	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + escapeHTML(record.Name) + "</a>");
 	                });
 	            } else if ($('#dropdownDataSources').attr('data-source') == 'producttag') {
 	                $('#dropdownDataSourcesSearch').attr('placeholder', 'Search Product Tags...');
 	                $('#dropdownDataSourcesResults').empty();
 	                $('#dropdownDataSourcesRecents').text('Suggested Product Tags:');
 	                $.each(that.props.dataObject.allProductTags, function (index, record) {
-	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + record.Name + "</a>");
+	                    $('#dropdownDataSourcesResults').prepend("<a data-id=" + record.Id + " href='#'>" + escapeHTML(record.Name) + "</a>");
 	                });
 	            }
 	        };
@@ -5917,7 +6125,7 @@
 	                    height: 250
 	                },
 	                title: {
-	                    text: 'Sprint Burndown',
+	                    text: 'Sprint Burndown (Story points)',
 	                    style: {
 	                        fontSize: '12px'
 	                    }
@@ -6071,6 +6279,8 @@
 
 	        if (label === 'Status' || label === 'Points') {
 	            return this.makeFilterCheckboxesFromUniqueProp(label + '_value');
+	        } else if (label === 'Themes') {
+	            return this.makeFilterCheckboxesForThemes();
 	        } else {
 	            var labelProp = label + '_value';
 	            var valProp = label + '_id';
@@ -6104,7 +6314,7 @@
 	            filterList.reverse();
 	        }
 	        // TODO - Ideally this should be added to the "column" object rather than hardcoded.
-	        if (['Sprint', 'Assignee', 'QA Engineer', 'Kanban State', 'Points', 'Epic', 'Found In Build', 'Scheduled Build'].indexOf(label) > -1) {
+	        if (['Sprint', 'Assignee', 'QA Engineer', 'Kanban State', 'Points', 'Epic', 'Found In Build', 'Scheduled Build', '# Cases', 'Help Status', '# TF', '# Gacks', 'Tech Writer', 'Due Date', 'Originated From', 'Test Resolution', 'UI Text Status', '# KI'].indexOf(label) > -1) {
 	            filterList = filterList.concat([{ val: null, label: "(None)" }]);
 	        }
 	        return filterList.map(function (filterObj, idx) {
@@ -6168,29 +6378,13 @@
 	    },
 
 	    makeFilterCheckboxesFromUniqueProp: function makeFilterCheckboxesFromUniqueProp(property) {
+	        var _this = this;
+
 	        var records = this.props.records;
 	        var dataObject = this.props.dataObject;
-	        var makeCheckbox = function (prop, idx) {
-	            var checkboxVal = this.createValueForFilterCheckbox(property, prop);
-	            return React.createElement(
-	                'div',
-	                { className: 'itemRow', 'data-label': prop, key: 'itemRow-' + prop + idx },
-	                React.createElement(
-	                    'div',
-	                    { className: 'itemCheckbox' },
-	                    React.createElement('input', { type: 'checkbox', id: checkboxVal, value: checkboxVal, checked: !this.props.filters || this.props.filters.indexOf(checkboxVal + ',') === -1 ? false : true, onChange: this.props.updateFiltersAndSavePreferences.bind(this, checkboxVal, false) })
-	                ),
-	                React.createElement(
-	                    'div',
-	                    { className: 'itemTitle' },
-	                    React.createElement(
-	                        'label',
-	                        { htmlFor: checkboxVal },
-	                        checkboxVal && checkboxVal.endsWith('null') ? '(None)' : prop
-	                    )
-	                )
-	            );
-	        }.bind(this);
+	        var makeCheckbox = function makeCheckbox(prop, idx) {
+	            return _this.makeCheckbox(prop, idx, _this.createValueForFilterCheckbox(property, prop));
+	        };
 
 	        var checkboxes = _.uniq(_.pluck(records, property)).filter(function (val) {
 	            return val !== null;
@@ -6200,12 +6394,36 @@
 	            return 0;
 	        }).map(makeCheckbox);
 
-	        // add (None)
-	        // if (['Points_value'].indexOf(property) !== -1) {
-	        //     checkboxes = checkboxes.concat([makeCheckbox(null, checkboxes.length)])
-	        // }
-
 	        return checkboxes;
+	    },
+
+	    makeCheckbox: function makeCheckbox(prop, idx, checkboxVal) {
+	        return React.createElement(
+	            'div',
+	            { className: 'itemRow', 'data-label': prop, key: 'itemRow-' + prop + idx },
+	            React.createElement(
+	                'div',
+	                { className: 'itemCheckbox' },
+	                React.createElement('input', { type: 'checkbox', id: checkboxVal, value: checkboxVal, checked: !this.props.filters || this.props.filters.indexOf(checkboxVal + ',') === -1 ? false : true, onChange: this.props.updateFiltersAndSavePreferences.bind(this, checkboxVal, false) })
+	            ),
+	            React.createElement(
+	                'div',
+	                { className: 'itemTitle' },
+	                React.createElement(
+	                    'label',
+	                    { htmlFor: checkboxVal },
+	                    checkboxVal && checkboxVal.endsWith('null') ? '(None)' : prop
+	                )
+	            )
+	        );
+	    },
+
+	    makeFilterCheckboxesForThemes: function makeFilterCheckboxesForThemes() {
+	        var _this2 = this;
+
+	        return this.props.dataObject.allThemes.concat({ Name: '(None)', Id: null }).map(function (theme, idx) {
+	            return _this2.makeCheckbox(theme.Name, idx, 'item-Themes-' + theme.Id);
+	        });
 	    },
 
 	    render: function render() {
@@ -6855,7 +7073,7 @@
 	                            var smallPhotoUrl = rowData[label + '_smallPhotoUrl'];
 	                            var id = rowData[label + '_id'];
 
-	                            if (cellDataKey === 'Modified Date' || cellDataKey === 'Created Date') {
+	                            if (cellDataKey === 'Modified Date' || cellDataKey === 'Created Date' || cellDataKey === 'Due Date') {
 	                                if (typeof value !== 'undefined' && value !== '') {
 	                                    value = _helper2.default.formatDate(value);
 	                                }
@@ -6874,6 +7092,12 @@
 	                                    React.createElement('use', { xlinkHref: '/resource/' + this.props.nameSpace + 'SLDS091/assets/icons/action-sprite/svg/symbols.svg#' + _helper2.default.makeRecordTypeIcon(value) })
 	                                );
 	                                return React.createElement(_WorkManagerCell2.default, { content: content, id: rowData.Id, record: rowData });
+	                            }
+	                            if (label === 'Themes' && value) {
+	                                // themes are special b/c there can be multiple.
+	                                value = value.records.reduce(function (acc, curr, idx) {
+	                                    return acc + (idx !== 0 ? ', ' : '') + curr.Theme__r.Name;
+	                                }, '');
 	                            }
 	                            return rowData.rowHeader ? React.createElement(_WorkManagerCell2.default, { content: columnIdx === 0 ? React.createElement(
 	                                    'div',
@@ -6956,6 +7180,12 @@
 	        if (props.sort.column === 'Sprint') {
 	            var targetId = !props.record.rowHeader ? props.record.Id : props.record.idOfFirstRecord;
 	            props.updateUpdatedSprints([targetId]);
+	        } else if (props.sort.column === 'Epic') {
+	            var targetId = !props.record.rowHeader ? props.record.Id : props.record.idOfFirstRecord;
+	            props.updateUpdatedEpics([targetId]);
+	        } else if (props.sort.column === 'Scheduled Build') {
+	            var targetId = !props.record.rowHeader ? props.record.Id : props.record.idOfFirstRecord;
+	            props.updateUpdatedScheduledBuilds([targetId]);
 	        }
 	        return {
 	            id: props.id,
@@ -7101,6 +7331,12 @@
 	        },
 	        updateUpdatedSprints: function updateUpdatedSprints(arrayOfSprintIds) {
 	            dispatch(_actionCreators2.default.updateUpdatedSprints(arrayOfSprintIds));
+	        },
+	        updateUpdatedScheduledBuilds: function updateUpdatedScheduledBuilds(arrayOfSprintIds) {
+	            dispatch(_actionCreators2.default.updateUpdatedScheduledBuilds(arrayOfSprintIds));
+	        },
+	        updateUpdatedEpics: function updateUpdatedEpics(arrayOfSprintIds) {
+	            dispatch(_actionCreators2.default.updateUpdatedEpics(arrayOfSprintIds));
 	        }
 	    };
 	};
@@ -7155,6 +7391,10 @@
 	            dispatch(_actionCreators2.default.saveState(dataObject));
 	            if (dataObject.sort.column === 'Sprint') {
 	                dispatch(_actionCreators2.default.updateUpdatedSprints(dataObject.selected));
+	            } else if (dataObject.sort.column === 'Scheduled Build') {
+	                dispatch(_actionCreators2.default.updateUpdatedScheduledBuilds(dataObject.selected));
+	            } else if (dataObject.sort.column === 'Epic') {
+	                dispatch(_actionCreators2.default.updateUpdatedEpics(dataObject.selected));
 	            }
 	        },
 	        onMouseDown: function onMouseDown(id) {

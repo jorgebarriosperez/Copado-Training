@@ -147,14 +147,33 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ConsentGiverId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>DocumentVersionId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>PartyId</fullName>
+        <fullName>RelatedRecordId</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <listViews>
+        <fullName>All_AuthorizationFormConsents</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos los Consentimientos de formularios de autorización</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ConsentGiver</customTabListAdditionalFields>
         <customTabListAdditionalFields>AuthorizationFormText</customTabListAdditionalFields>

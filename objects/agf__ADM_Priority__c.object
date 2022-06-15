@@ -162,7 +162,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Priorities</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

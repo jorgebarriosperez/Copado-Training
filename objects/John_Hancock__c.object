@@ -5,6 +5,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>Backend_URL__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Backend URL</label>
         <length>100</length>

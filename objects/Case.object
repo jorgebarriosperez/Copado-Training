@@ -242,6 +242,20 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Campo_Auto__c</fullName>
+        <description>text v15</description>
+        <externalId>false</externalId>
+        <label>Campo_Auto</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
@@ -280,12 +294,14 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
         <fullName>EngineeringReqNumber__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Engineering Req Number</label>
         <length>12</length>
@@ -435,6 +451,21 @@
                 <valueName>Maybe</valueName>
             </valueSettings>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Hotfix_text__c</fullName>
+        <description>test</description>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <inlineHelpText>super help</inlineHelpText>
+        <label>Hotfix_text</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>IsClosedOnCreate</fullName>
@@ -656,6 +687,7 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <trackTrending>false</trackTrending>
@@ -745,6 +777,45 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>case_text1__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>case_text1</label>
+        <length>14</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>case_text2__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>case_text2</label>
+        <length>13</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>case_text3__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>case_text3</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>jorge_picklist1__c</fullName>
         <externalId>false</externalId>
         <label>jorge:picklist1</label>
@@ -776,8 +847,22 @@
     </fields>
     <fields>
         <fullName>moverFiedl__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>moverFiedl</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>test_AutoBackpromote__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>test_AutoBackpromote</label>
         <length>12</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1015,6 +1100,33 @@
             </values>
         </picklistValues>
         <picklistValues>
+            <picklist>Support_Department__c</picklist>
+            <values>
+                <fullName>GERMANY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAPAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Type</picklist>
             <values>
                 <fullName>Electrical</fullName>
@@ -1034,6 +1146,21 @@
             </values>
             <values>
                 <fullName>Structural</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>jorge_picklist1__c</picklist>
+            <values>
+                <fullName>texto1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>texto2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>texto3</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -157,6 +157,7 @@
     <fields>
         <fullName>agf__Stamp_ID_List__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Stamp ID List</label>
         <length>32000</length>
@@ -178,7 +179,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Stamps Cache</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

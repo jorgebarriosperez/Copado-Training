@@ -155,6 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Super_Field_1__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Super Field 1</label>
         <length>12</length>
@@ -173,7 +174,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Super Objects</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

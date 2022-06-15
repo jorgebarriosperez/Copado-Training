@@ -166,6 +166,7 @@
     <fields>
         <fullName>agf__Color__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Color</label>
         <length>255</length>
@@ -206,7 +207,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Colors</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

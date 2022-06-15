@@ -182,7 +182,7 @@
         <defaultValue>0</defaultValue>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>Committed Items Completed</label>
+        <label>Forecast Items Completed</label>
         <precision>4</precision>
         <required>false</required>
         <scale>0</scale>
@@ -196,7 +196,7 @@
         <fullName>agf__Committed_Items__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>Committed Items</label>
+        <label>Forecast Items</label>
         <precision>4</precision>
         <required>false</required>
         <scale>0</scale>
@@ -210,7 +210,7 @@
         <fullName>agf__Committed_Points__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>Committed Points</label>
+        <label>Forecast Story Points</label>
         <precision>4</precision>
         <required>false</required>
         <scale>0</scale>
@@ -225,7 +225,7 @@
         <defaultValue>0</defaultValue>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
-        <label>Committed Story Points Completed</label>
+        <label>Forecast Story Points Completed</label>
         <precision>4</precision>
         <required>false</required>
         <scale>0</scale>
@@ -275,7 +275,7 @@
     0,
     agf__Committed_Items_Completed__c/agf__Committed_Items__c
 )</formula>
-        <label>Completion Committed Items</label>
+        <label>Completion Forecast Items</label>
         <precision>18</precision>
         <required>false</required>
         <scale>2</scale>
@@ -295,7 +295,7 @@ ISBLANK(agf__Committed_Points__c)
 0,
 agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
 )</formula>
-        <label>Completion Committed Story Points</label>
+        <label>Completion Forecast Story Points</label>
         <precision>18</precision>
         <required>false</required>
         <scale>2</scale>
@@ -396,6 +396,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>End Date</label>
         <required>true</required>
@@ -408,6 +409,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -421,6 +423,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Goals__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Goals</label>
         <length>3000</length>
@@ -450,6 +453,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
         <description>This field is used to enforce a unique name as the standard Name field does not offer the option to enforce uniqueness.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>NameValidator</label>
         <length>255</length>
@@ -490,6 +494,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <fullName>agf__Retrospective__c</fullName>
         <defaultValue>&quot;What went well? --&gt; &quot;  &amp; BR()  &amp;  &quot;What didn&apos;t go well? --&gt;&quot;  &amp; BR()  &amp; &quot;What can we do differently? --&gt;&quot;</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Retrospective</label>
         <length>32000</length>
@@ -502,6 +507,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Risks__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Risks</label>
         <length>2000</length>
@@ -543,6 +549,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Start Date</label>
         <required>true</required>
@@ -612,7 +619,7 @@ agf__Committed_Story_Points_Completed__c/agf__Committed_Points__c
         <type>Text</type>
     </nameField>
     <pluralLabel>Sprints</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Hours_In_A_Work_Day</fullName>

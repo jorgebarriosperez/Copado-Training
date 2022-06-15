@@ -158,6 +158,7 @@
     <fields>
         <fullName>agf__Actual_Release_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Actual Release Date</label>
         <required>false</required>
@@ -200,6 +201,7 @@
         <fullName>agf__Created_On_import__c</fullName>
         <deprecated>false</deprecated>
         <description>Data/time imported from the original release from bugforce.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Created On (import)</label>
         <required>false</required>
@@ -212,6 +214,7 @@
         <fullName>agf__Customer_Facing_Release_Name__c</fullName>
         <deprecated>false</deprecated>
         <description>The name communicated to customers when referencing this release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>(Optional) Enter the name communicated to customers for this release. This name may appear in the customer-facing 12-month TRUST calendar.</inlineHelpText>
         <label>Customer Facing Release Name</label>
@@ -242,6 +245,7 @@
         <fullName>agf__Deployment_Instances__c</fullName>
         <deprecated>false</deprecated>
         <description>Instances to receive this release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the instances to receive this release as a space separated list (1 space between each instance). For example: NA1 NA2 CS2</inlineHelpText>
         <label>Deployment Instances</label>
@@ -256,6 +260,7 @@
         <fullName>agf__Duplicate_Validator__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Duplicate Validator</label>
         <length>255</length>
@@ -270,6 +275,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -284,6 +290,7 @@
         <fullName>agf__Note__c</fullName>
         <deprecated>false</deprecated>
         <description>This field has been mapped from the BUG.RELEASES.NOTE column which is a CLOB</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Use this field to put in detailed information regarding the release</inlineHelpText>
         <label>Note</label>
@@ -353,6 +360,7 @@
     <fields>
         <fullName>agf__Planned_GS0_End_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the date/time for the expected completion of the GS0 deployment. If specified, the &quot;Planned GS0 Duration&quot; field will be calculated on Save.</inlineHelpText>
         <label>Scheduled Release End Date To Pilot Org</label>
@@ -366,6 +374,7 @@
         <fullName>agf__Planned_GUS_Release_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and time that this release is deployed to GS0.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please specify if this release is deployed to GS0 separately.</inlineHelpText>
         <label>Scheduled Release Date To Pilot Org</label>
@@ -413,6 +422,7 @@
     <fields>
         <fullName>agf__Release_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Scheduled Release Date</label>
         <required>false</required>
@@ -488,6 +498,7 @@ IF(agf__Deployment_Delayed_minutes__c &gt; 120, &quot;Delay of More than 2 Hours
     <fields>
         <fullName>agf__Scheduled_End_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the date/time for the expected completion of the deployment. If specified, the &quot;Planned Duration&quot; field will be calculated on Save.</inlineHelpText>
         <label>Scheduled End Date</label>
@@ -501,6 +512,7 @@ IF(agf__Deployment_Delayed_minutes__c &gt; 120, &quot;Delay of More than 2 Hours
         <fullName>agf__Short_Note__c</fullName>
         <deprecated>false</deprecated>
         <description>This is a column mapping from BUG.RELEASE table column SHORT_NOTE</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Use this field to provide a short description of the release.</inlineHelpText>
         <label>Short Note</label>
@@ -624,7 +636,7 @@ IF(agf__Deployment_Delayed_minutes__c &gt; 120, &quot;Delay of More than 2 Hours
         <type>Text</type>
     </nameField>
     <pluralLabel>Releases</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Actual_Deploy_Date_Required_if_Deployed</fullName>

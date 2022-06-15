@@ -46,7 +46,6 @@
         <div class="bucketTitle"><h2>Deep Clone</h2></div>
         <apex:pageBlock >
             <apex:pageBlockButtons >
-                    hasEditAccess: {!hasEditAccess}
                 <apex:commandButton action="{!cloneWork}" value="Next" disabled="{!NOT(hasEditAccess)}"/>
             </apex:pageBlockButtons>
             <apex:pageBlockSection title="Options" showHeader="false" columns="1">

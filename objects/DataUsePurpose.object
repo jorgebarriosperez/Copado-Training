@@ -146,6 +146,11 @@
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_DataUsePurposes</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos Propósitos de utilizaciones de datos</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LegalBasis</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

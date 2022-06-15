@@ -15,13 +15,13 @@
         <fullName>CancelDateTime</fullName>
     </fields>
     <fields>
-        <fullName>CapacityModel</fullName>
-    </fields>
-    <fields>
         <fullName>CapacityPercentage</fullName>
     </fields>
     <fields>
         <fullName>CapacityWeight</fullName>
+    </fields>
+    <fields>
+        <fullName>ChannelData</fullName>
     </fields>
     <fields>
         <fullName>CloseDateTime</fullName>
@@ -33,10 +33,22 @@
         <fullName>DeclineReason</fullName>
     </fields>
     <fields>
+        <fullName>FlagMessage</fullName>
+    </fields>
+    <fields>
         <fullName>HandleTime</fullName>
     </fields>
     <fields>
+        <fullName>IsAutoAcceptEnabled</fullName>
+    </fields>
+    <fields>
         <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFlagged</fullName>
+    </fields>
+    <fields>
+        <fullName>IsPreferredUserRequired</fullName>
     </fields>
     <fields>
         <fullName>IsTransfer</fullName>
@@ -84,6 +96,9 @@
     </fields>
     <fields>
         <fullName>ShouldSkipCapacityCheck</fullName>
+    </fields>
+    <fields>
+        <fullName>ShouldSkipChannelCheck</fullName>
     </fields>
     <fields>
         <fullName>SpeedToAnswer</fullName>

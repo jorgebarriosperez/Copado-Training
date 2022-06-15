@@ -139,7 +139,7 @@
 		    } else if ({!OR(AND(isNew,isReturnUrl),clonedRecord == '1') }) {
 		        cb = function() { // new
 					closeModal('#editModal');
-					sforce.one.navigateToURL('{!retUrl}');
+					sforce.one.navigateToURL('{!JSINHTMLENCODE(retUrl)}');
 					return false;
 		        }
 		    }

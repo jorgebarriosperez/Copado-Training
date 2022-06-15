@@ -174,6 +174,7 @@
     <fields>
         <fullName>agf__Deliver_By__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>If the deliverable is needed by a specific date, indicate that in this field.</inlineHelpText>
         <label>Needed by (date)</label>
@@ -187,6 +188,7 @@
         <fullName>agf__Deliverable__c</fullName>
         <deprecated>false</deprecated>
         <description>Short description of the work that is needed from the other team.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Short description (255 chars max) of the work that is needed from the other team. More detailed description can be added to the Notes field.</inlineHelpText>
         <label>Deliverable</label>
@@ -351,6 +353,7 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -365,6 +368,7 @@ Committed = Team is confident the work can be done in the needed timeframe and P
         <fullName>agf__Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>Notes concerning the dependency or deliverable (e.g. why it is needed, acceptance criteria, more detailed description, etc.)</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Notes concerning the dependency or deliverable (e.g. why it is needed, acceptance criteria, more detailed description, etc.)</inlineHelpText>
         <label>Notes</label>

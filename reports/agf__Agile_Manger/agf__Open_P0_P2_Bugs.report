@@ -45,24 +45,28 @@
     <filter>
         <criteriaItems>
             <column>CUST_RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>agf__ADM_Work__c.agf__Bug,agf__ADM_Work__c.agf__ToDo</value>
         </criteriaItems>
         <criteriaItems>
             <column>agf__ADM_Work__c.agf__Scrum_Team__c</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>notEqual</operator>
             <value></value>
         </criteriaItems>
         <criteriaItems>
             <column>agf__ADM_Work__c.agf__Priority__c</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>P0,P1,P2</value>
         </criteriaItems>
         <criteriaItems>
             <column>agf__ADM_Work__c.agf__Closed__c</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>0</value>

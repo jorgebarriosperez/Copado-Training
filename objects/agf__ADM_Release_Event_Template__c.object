@@ -262,6 +262,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
         <fullName>agf__Event_Template_Name__c</fullName>
         <deprecated>false</deprecated>
         <description>Name of the Release Event Template</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter a name for the Release Event Template</inlineHelpText>
         <label>Event Template Name</label>
@@ -287,6 +288,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
     <fields>
         <fullName>agf__Instance_Key_Verification__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>The result from evaluating the Test Instance List using the Instance Key are displayed in this field when this record is saved.</inlineHelpText>
         <label>Instance Key Verification</label>
@@ -298,6 +300,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
     <fields>
         <fullName>agf__Instance_Key__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Instance Key is a Regular Expression (REGEX) that distinguishes which instances participate in this Release Event. See the Custom Link below for details on Regular Expressions.</inlineHelpText>
         <label>Instance Key</label>
@@ -384,6 +387,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
     <fields>
         <fullName>agf__Start_Time__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the time of day when the Release Event would occur. Format is HH:MM AM/PM (12 hour). Note: Either Start Time or Hour and Minute Offset can be used.</inlineHelpText>
         <label>Start Time</label>
@@ -398,6 +402,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
         <defaultValue>&quot;CS3 CS4 CS7 CS9 CS11 CS12 CS13 CS14 CS15 CS17 CS19 CS20 CS21 CS23 CS25 CS26 CS27 CS28 CS30 CS32 CS41 CS42 CS44 CS45 CS51 CS80 CS83 CS87 SR1 SR2 CS5 CS31 NA1 GS0 NA6 NA7 NA8 NA9 NA17 NA18 NA22 NA29 NA31 EU5 EU0 EU1 EU2 EU3 EU4 EU6 CS81 NA0 NA2 NA3 NA4 NA5 NA10 NA11 NA12 NA13 NA14 NA15 NA16 NA19 NA20 NA21 NA23 NA24 NA25 NA26 NA27 NA34 NA41 AP0 AP1 AP2 AP3 CS1 CS2 CS6 CS8 CS10 CS16 CS18 CS22 CS24 CS33 CS40 CS43 CS50 CS52&quot;</defaultValue>
         <deprecated>false</deprecated>
         <description>Test string of instance names to be used to validate the Instance Key field</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Test string used for validation of Instance Key field. This field can be changed to test the Instance Key on other instance lists. Instance Key Verification field is set when this record is updated.</inlineHelpText>
         <label>Test Instance List</label>
@@ -418,7 +423,7 @@ agf__Minute_Offset__c =0 &amp;&amp;  agf__Hour_Offset__c = 0, &quot;BASE EVENT&q
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Event Templates</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>agf__Application_required</fullName>

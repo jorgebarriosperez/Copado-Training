@@ -269,6 +269,7 @@
         <fullName>agf__Case_Description_Footer__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is appended to the bottom of the Description field of the Case created by Release Planning (when enabled).</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the text to be appended to the bottom of the Description field of the Case created by Release Planning (if enabled).</inlineHelpText>
         <label>Case Description Footer</label>
@@ -283,6 +284,7 @@
         <fullName>agf__Case_Description_Header__c</fullName>
         <deprecated>false</deprecated>
         <description>This field is appended to the top of the Description field of the Case created by Release Planning (when enabled).</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the text to be appended to the top of the Description field of the Case created by Release Planning (if enabled).</inlineHelpText>
         <label>Case Description Header</label>
@@ -297,6 +299,7 @@
         <fullName>agf__Case_Team__c</fullName>
         <deprecated>false</deprecated>
         <description>This is the ID of the Scrum Team (ADM_Scrum_Team__c) to be entered in Cases generated with the Run Case Generation function.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the ID of the Scrum Team to be entered in Cases created by Run Case Generation.</inlineHelpText>
         <label>Case Team</label>
@@ -355,6 +358,7 @@
         <fullName>agf__Chatter_Post_Group__c</fullName>
         <deprecated>false</deprecated>
         <description>This is the Chatter Group to which the Release Alert will be posted via the &quot;Post Release Alert&quot; button in the Release Records.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the 15 character ID for the Chatter group to which Release Alerts will be posted when the &quot;Post Release Alert&quot; button is selected.</inlineHelpText>
         <label>Chatter Post Group</label>
@@ -387,6 +391,7 @@
         <fullName>agf__Daily_Header_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Daily and Emergency Releases which are under the Next Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for Daily Releases of the Next Major Release.</inlineHelpText>
         <label>Daily Header Text [Next Major]</label>
@@ -401,6 +406,7 @@
         <fullName>agf__Daily_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Daily and Emergency Releases which are under the Current Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for Daily Releases of the Current Major Release.</inlineHelpText>
         <label>Daily Header Text [Current Major]</label>
@@ -416,6 +422,7 @@
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
         <description>This field is set by the ADM_Application.trigger with the Application record&apos;s name to detect when duplicate names are used.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Duplicate Application Name</label>
         <length>255</length>
@@ -469,6 +476,7 @@
         <fullName>agf__Internal_Instances__c</fullName>
         <deprecated>false</deprecated>
         <description>Space separated list of instances to be excluded from customer facing posts of Planned Release Schedule</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter a space separated list of instances to be excluded from customer facing posts of Planned Release Schedule</inlineHelpText>
         <label>Internal Instances</label>
@@ -497,6 +505,7 @@
         <fullName>agf__Major_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This field contains the template for the Major Release Stagger</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the template for the Major Release Stagger</inlineHelpText>
         <label>Major Release Stagger</label>
@@ -528,6 +537,7 @@
         <fullName>agf__Other_Release_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This contains the release stagger for any distributed apps or other releases that are not Major, Patches, or eReleases.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>This contains the release stagger for any distributed apps or other releases that are not Major, Patches, or eReleases.</inlineHelpText>
         <label>Other Release Stagger</label>
@@ -542,6 +552,7 @@
         <fullName>agf__Patch_Header_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Patch Releases which are under the Next Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for patch releases of the Next Major Release.</inlineHelpText>
         <label>Patch Header Text [Next Major]</label>
@@ -556,6 +567,7 @@
         <fullName>agf__Patch_Stagger__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted before the Schedule of generated Release Alert posts for Patch Releases which are under the Current Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Release Alert header text for patch releases of the Current Major Release.</inlineHelpText>
         <label>Patch Header Text [Current Major]</label>
@@ -570,6 +582,7 @@
         <fullName>agf__Planned_Schedule_Email__c</fullName>
         <deprecated>false</deprecated>
         <description>Email address where the Planned Schedule text for releases should be sent when posting Release Alerts</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter the email address where the customer facing Planned Schedule for release should be sent.</inlineHelpText>
         <label>Planned Schedule Email</label>
@@ -584,6 +597,7 @@
         <fullName>agf__Primary_Chatter_Post_Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Primary Chatter group for all Releases which are under the Current Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Primary Chatter group Release Alert footer text for Releases of the Current Major Release.</inlineHelpText>
         <label>Primary Footer Text [Current Major]</label>
@@ -598,6 +612,7 @@
         <fullName>agf__Primary_Footer_Text_Next_Major__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Primary Chatter group for all Releases which are under the Next Major Release.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Primary Chatter group Release Alert footer text for Releases of the Next Major Release.</inlineHelpText>
         <label>Primary Footer Text [Next Major]</label>
@@ -628,6 +643,7 @@
         <fullName>agf__Second_Chatter_Post_Email__c</fullName>
         <deprecated>false</deprecated>
         <description>Email address to send an external post of a Release Alert, for example, an external Chatter group. Intended for sending Release Alerts to a Chatter group in a different Salesforce org.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter an email address to which Release Alerts will be posted when the &quot;Post Release Alert&quot; button is selected, for example, an external Chatter group.</inlineHelpText>
         <label>External Post Email</label>
@@ -642,6 +658,7 @@
         <fullName>agf__Secondary_Chatter_Post_Notes__c</fullName>
         <deprecated>false</deprecated>
         <description>This text field is inserted below the Schedule of generated Release Alert posts for posts to the Secondary Chatter group for all Releases.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter Secondary Chatter group Release Alert footer text for all Releases.</inlineHelpText>
         <label>Secondary Footer Text</label>

@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>CurrencyIsoCode</fullName>
         <trackHistory>false</trackHistory>
@@ -177,6 +178,7 @@
     </fields>
     <fields>
         <fullName>UniqueID__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>UniqueID</label>
         <length>30</length>

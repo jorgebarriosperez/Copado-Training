@@ -159,6 +159,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -172,6 +173,7 @@
         <fullName>agf__Release_Name__c</fullName>
         <deprecated>false</deprecated>
         <description>Used as a temporary storage for a look up against a map of release names to Ids</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Release Name</label>
         <length>255</length>
@@ -231,6 +233,7 @@
         <fullName>agf__Stamped_On__c</fullName>
         <deprecated>false</deprecated>
         <description>Date/time that the release stamp was stamped.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Stamped On</label>
         <required>true</required>
@@ -241,6 +244,7 @@
     <fields>
         <fullName>agf__Subject__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Subject</label>
         <length>255</length>
@@ -278,7 +282,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Released In</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

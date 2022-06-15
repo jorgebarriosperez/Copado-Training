@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Jorge_custom_Set</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Jorge_custom_Set</value>
+    </caseValues>
+    <fields>
+        <label><!-- Text_Custom_Setting2 --></label>
+        <name>Text_Custom_Setting2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Text_Custom_Setting --></label>
+        <name>Text_Custom_Setting__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

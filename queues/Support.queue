@@ -12,9 +12,6 @@
         <sobjectType>Case</sobjectType>
     </queueSobject>
     <queueSobject>
-        <sobjectType>Prueba_1__c</sobjectType>
-    </queueSobject>
-    <queueSobject>
         <sobjectType>Prueba_Tab_2__c</sobjectType>
     </queueSobject>
 </Queue>

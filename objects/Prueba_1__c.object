@@ -128,11 +128,14 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>test_record_page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -175,9 +178,9 @@
     </fields>
     <fields>
         <fullName>CampoPicklist1234__c</fullName>
-        <description>{!Environment.HELL_VARIABLE_HEAVEN}</description>
+        <description>8888HELL8888</description>
         <externalId>false</externalId>
-        <inlineHelpText>{!Environment.JORGE_REPLACEMENT_VARIABLE}</inlineHelpText>
+        <inlineHelpText>1234PAMPAM</inlineHelpText>
         <label>CampoPicklist1234</label>
         <required>false</required>
         <trackHistory>true</trackHistory>
@@ -203,6 +206,18 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>Campo_Profile__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>true</externalId>
+        <label>Campo_Profile</label>
+        <length>12</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>EXISTFIELD__c</fullName>
@@ -346,6 +361,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -358,6 +374,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -370,6 +387,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -382,6 +400,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -394,6 +413,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -406,6 +426,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -418,6 +439,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -430,6 +452,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -442,6 +465,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -454,6 +478,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -466,6 +491,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -478,6 +504,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -490,6 +517,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -502,6 +530,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -514,6 +543,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -526,6 +556,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -538,6 +569,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -550,6 +582,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -562,6 +595,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -574,6 +608,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -586,6 +621,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -598,6 +634,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -610,6 +647,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -622,6 +660,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -634,6 +673,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -646,6 +686,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -658,6 +699,7 @@
         <externalId>false</externalId>
         <label>siemens picklist</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
@@ -681,24 +723,6 @@
         <fullName>All</fullName>
         <filterScope>Everything</filterScope>
         <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>Nivel_1_Prueba_1</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Nivel 1</label>
-        <queue>Nivel_1</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
-    <listViews>
-        <fullName>Support_Prueba_1</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Support</label>
-        <queue>Support</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
     </listViews>
     <nameField>
         <encryptionScheme>None</encryptionScheme>
@@ -2863,6 +2887,33 @@
             </values>
             <values>
                 <fullName>Viejo Fallo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Department__c</picklist>
+            <values>
+                <fullName>GERMANY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAPAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -60822,6 +60873,33 @@
             </values>
             <values>
                 <fullName>Update</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Support_Department__c</picklist>
+            <values>
+                <fullName>GERMANY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INDIA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JAPAN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPAIN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>US</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

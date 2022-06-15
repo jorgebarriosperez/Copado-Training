@@ -158,6 +158,7 @@
     <fields>
         <fullName>agf__CCE_and_Operations_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>CCE and Operations Signoff</label>
         <required>false</required>
@@ -183,6 +184,7 @@
     <fields>
         <fullName>agf__Capacity_Approver_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Capacity Approver Signoff</label>
         <required>false</required>
@@ -222,6 +224,7 @@
     <fields>
         <fullName>agf__Chatter_Now_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Chatter Now Signoff</label>
         <required>false</required>
@@ -247,6 +250,7 @@
     <fields>
         <fullName>agf__Dev_Mgr_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Dev Signoff</label>
         <required>false</required>
@@ -272,6 +276,7 @@
     <fields>
         <fullName>agf__Dev_VP_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Dev Signoff</label>
         <required>false</required>
@@ -283,6 +288,7 @@
     <fields>
         <fullName>agf__Development_Engineering_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Engineering Signoff</label>
         <required>false</required>
@@ -322,6 +328,7 @@
     <fields>
         <fullName>agf__FFX_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>FFX Signoff</label>
         <required>false</required>
@@ -347,6 +354,7 @@
     <fields>
         <fullName>agf__HBase_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>HBase Signoff</label>
         <required>false</required>
@@ -372,6 +380,7 @@
     <fields>
         <fullName>agf__Insights_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Insights Signoff</label>
         <required>false</required>
@@ -397,6 +406,7 @@
     <fields>
         <fullName>agf__LiveAgent_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>LiveAgent Signoff</label>
         <required>false</required>
@@ -422,6 +432,7 @@
     <fields>
         <fullName>agf__M_M_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>M&amp;M Signoff</label>
         <required>false</required>
@@ -461,6 +472,7 @@
     <fields>
         <fullName>agf__OSC_Exec_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SR Signoff</label>
         <required>false</required>
@@ -472,6 +484,7 @@
     <fields>
         <fullName>agf__OSC_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>SR Signoff</label>
         <required>false</required>
@@ -497,6 +510,7 @@
     <fields>
         <fullName>agf__PODSquad_PO_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>PODOps PO Signoff</label>
         <required>false</required>
@@ -522,6 +536,7 @@
     <fields>
         <fullName>agf__QE_Mgr_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>QE Signoff</label>
         <required>false</required>
@@ -547,6 +562,7 @@
     <fields>
         <fullName>agf__QE_VP_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>QE Signoff</label>
         <required>false</required>
@@ -558,6 +574,7 @@
     <fields>
         <fullName>agf__Release_Approved__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Release Approved</label>
         <required>false</required>
@@ -597,6 +614,7 @@
     <fields>
         <fullName>agf__Release_Management_Exec_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>RM Signoff</label>
         <required>false</required>
@@ -608,6 +626,7 @@
     <fields>
         <fullName>agf__Release_Management_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>RM Signoff</label>
         <required>false</required>
@@ -633,6 +652,7 @@
     <fields>
         <fullName>agf__Sandbox_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Sandbox Signoff</label>
         <required>false</required>
@@ -644,6 +664,7 @@
     <fields>
         <fullName>agf__Scheduled_Signoff_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Scheduled Signoff Date</label>
         <required>false</required>
@@ -669,6 +690,7 @@
     <fields>
         <fullName>agf__Search_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Search Signoff</label>
         <required>false</required>
@@ -680,6 +702,7 @@
     <fields>
         <fullName>agf__Service_Delivery_TechOps_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Infrastructure Engineering Signoff</label>
         <required>false</required>
@@ -719,6 +742,7 @@
     <fields>
         <fullName>agf__Sites_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Sites Signoff</label>
         <required>false</required>
@@ -785,6 +809,7 @@
     <fields>
         <fullName>agf__TBR_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>TCR Signoff</label>
         <required>false</required>
@@ -810,6 +835,7 @@
     <fields>
         <fullName>agf__TechOps_Eng_VP_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>TechOps Eng Signoff</label>
         <required>false</required>
@@ -835,6 +861,7 @@
     <fields>
         <fullName>agf__TechOps_Operations_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>TechOps Operations Signoff</label>
         <required>false</required>
@@ -846,6 +873,7 @@
     <fields>
         <fullName>agf__Technology_Exec_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Chief Infrastructure Officer Signoff</label>
         <required>false</required>
@@ -871,6 +899,7 @@
     <fields>
         <fullName>agf__Technology_Products_Operations_Signoff__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Technology &amp; Products Operations Signoff</label>
         <required>false</required>

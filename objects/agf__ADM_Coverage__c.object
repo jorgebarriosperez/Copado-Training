@@ -199,6 +199,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -211,6 +212,7 @@
     <fields>
         <fullName>agf__Link_to_actual_report__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Link to actual report</label>
         <required>false</required>
@@ -234,6 +236,7 @@
     <fields>
         <fullName>agf__Module_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Module Name</label>
         <length>30</length>
@@ -259,6 +262,7 @@
     <fields>
         <fullName>agf__Package_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Package Name</label>
         <length>80</length>
@@ -271,6 +275,7 @@
     <fields>
         <fullName>agf__Report_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Report ID</label>
         <length>80</length>
@@ -322,6 +327,7 @@
     <fields>
         <fullName>agf__statement__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label># of statement</label>
         <length>8</length>

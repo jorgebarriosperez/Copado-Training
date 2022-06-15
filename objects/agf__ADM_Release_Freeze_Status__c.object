@@ -226,6 +226,7 @@
         <fullName>agf__Changes_to_Hub_Agent__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to the Hub &amp; Agent?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any changes to the Hub &amp; Agent?</inlineHelpText>
         <label>Changes to Hub &amp; Agent</label>
@@ -238,6 +239,7 @@
         <fullName>agf__Changes_to_Logging__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to the way things are logged?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any changes to the way things are logged?</inlineHelpText>
         <label>Changes to Logging</label>
@@ -250,6 +252,7 @@
         <fullName>agf__Changes_to_ping_jsp__c</fullName>
         <deprecated>false</deprecated>
         <description>Any changes to ping.jsp?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any changes to ping.jsp?</inlineHelpText>
         <label>Changes to ping.jsp</label>
@@ -320,6 +323,7 @@
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Comments</label>
         <required>false</required>
@@ -405,6 +409,7 @@
     <fields>
         <fullName>agf__Explain_Auto_Integrations__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Auto Integrations</label>
         <required>false</required>
@@ -415,6 +420,7 @@
     <fields>
         <fullName>agf__Explain_Blocking_P0_Bugs__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain P0/P1/Blocking Bugs</label>
         <required>false</required>
@@ -426,6 +432,7 @@
         <fullName>agf__Explain_Bugs_missing_Automation__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if Total Number of Closed P0/P1/P2 Bugs and Closed Bugs-with-Cases that do not have automation is &gt; 0</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Explain if Total Number of Closed P0/P1/P2 Bugs and Closed Bugs-with-Cases that do not have automation is &gt; 0</inlineHelpText>
         <label>Explain Bugs missing Automation</label>
@@ -437,6 +444,7 @@
     <fields>
         <fullName>agf__Explain_Bugs_to_Fix__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Bugs to Fix</label>
         <required>false</required>
@@ -447,6 +455,7 @@
     <fields>
         <fullName>agf__Explain_Code_Coverage_goals_not_met__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Code Coverage Goals Not Met</label>
         <required>false</required>
@@ -458,6 +467,7 @@
         <fullName>agf__Explain_DB_Upgrade_Scripts_Incomplete__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if DB Upgrade Scripts are Incomplete or Unverified</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Explain if DB Upgrade Scripts are Incomplete or Unverified</inlineHelpText>
         <label>Explain DB Upgrade Scripts Incomplete</label>
@@ -469,6 +479,7 @@
     <fields>
         <fullName>agf__Explain_Extended_ftest_Test_Failures__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Extended ftest Test Failures</label>
         <required>false</required>
@@ -479,6 +490,7 @@
     <fields>
         <fullName>agf__Explain_High_Number_of_Bugs_to_Verify__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Bugs to Verify</label>
         <required>false</required>
@@ -489,6 +501,7 @@
     <fields>
         <fullName>agf__Explain_High_Number_of_bugs__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High Bug Count</label>
         <required>false</required>
@@ -499,6 +512,7 @@
     <fields>
         <fullName>agf__Explain_High_TF_Count__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High TF Count</label>
         <required>false</required>
@@ -509,6 +523,7 @@
     <fields>
         <fullName>agf__Explain_High_TF_Find_Rate__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High TF Find Rate</label>
         <required>false</required>
@@ -519,6 +534,7 @@
     <fields>
         <fullName>agf__Explain_High_TF_Fix_Rate__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High TF Fix Rate</label>
         <required>false</required>
@@ -529,6 +545,7 @@
     <fields>
         <fullName>agf__Explain_Open_P1_Bugs__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Open P1 Bugs</label>
         <required>false</required>
@@ -539,6 +556,7 @@
     <fields>
         <fullName>agf__Explain_Open_Regressions__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Open Regressions</label>
         <required>false</required>
@@ -550,6 +568,7 @@
         <fullName>agf__Explain_Open_User_Stories__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain any Open User Stories</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Explain any Open User Stories</inlineHelpText>
         <label>Explain Open User Stories</label>
@@ -561,6 +580,7 @@
     <fields>
         <fullName>agf__Explain_Test_Failures_older_than_1_day__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Test Failures Older Than 1 Day</label>
         <required>false</required>
@@ -571,6 +591,7 @@
     <fields>
         <fullName>agf__Explain_doc_incomplete__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Doc Incomplete</label>
         <required>false</required>
@@ -581,6 +602,7 @@
     <fields>
         <fullName>agf__Explain_failure_to_pass_systes__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Failure to Pass Performance</label>
         <required>false</required>
@@ -591,6 +613,7 @@
     <fields>
         <fullName>agf__Explain_find_rate_if_high__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High Bug Find Rate</label>
         <required>false</required>
@@ -601,6 +624,7 @@
     <fields>
         <fullName>agf__Explain_fix_rate_if_high__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain High Fix Rate</label>
         <required>false</required>
@@ -612,6 +636,7 @@
         <fullName>agf__Explain_if_Code_Line_is_not_Releasable__c</fullName>
         <deprecated>false</deprecated>
         <description>Provide explanation if the Code Line is not Releasable</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Provide explanation if the Code Line is not Releasable</inlineHelpText>
         <label>Explain if Code Line is not Releasable</label>
@@ -624,6 +649,7 @@
         <fullName>agf__Explain_if_TF_Exist__c</fullName>
         <deprecated>false</deprecated>
         <description>Explain if your team has TF on basic ftest, basic selenium or utest.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Explain if your team has TF on basic ftest, basic selenium or utest.</inlineHelpText>
         <label>Explain TF on basicftest/selenium/utest</label>
@@ -635,6 +661,7 @@
     <fields>
         <fullName>agf__Explain_pre_scripts_testing_not_complete__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Pre-Scripts Testing Incomplete</label>
         <required>false</required>
@@ -645,6 +672,7 @@
     <fields>
         <fullName>agf__Explain_release_sprint_goals_incomplete__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Explain Release Sprint Goals Incomplete</label>
         <required>false</required>
@@ -656,6 +684,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -669,6 +698,7 @@
         <fullName>agf__Features_Enabled_by_Retirement_Scripts__c</fullName>
         <deprecated>false</deprecated>
         <description>Teams should call out any features that will be enabled when the retired scripts are run in the new zero downtime process.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Call out any features that will be enabled when the retired scripts are run in the new zero downtime process.</inlineHelpText>
         <label>Features Enabled by Retirement Scripts</label>
@@ -681,6 +711,7 @@
         <fullName>agf__New_Services_Requiring_Monitoring__c</fullName>
         <deprecated>false</deprecated>
         <description>Any new services that need monitoring turned on?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any new services that need monitoring turned on?</inlineHelpText>
         <label>New Services Requiring Monitoring</label>
@@ -790,6 +821,7 @@
         <fullName>agf__Other_Changes_for_RelEng__c</fullName>
         <deprecated>false</deprecated>
         <description>Anything of interest that Release Engineering should be aware of?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Anything of interest that Release Engineering should be aware of?</inlineHelpText>
         <label>Other Changes for RelEng</label>
@@ -802,6 +834,7 @@
         <fullName>agf__Other_Changes_for_Tech_Ops__c</fullName>
         <deprecated>false</deprecated>
         <description>Anything of interest that Tech Ops should be aware of?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Anything of interest that Tech Ops should be aware of?</inlineHelpText>
         <label>Other Changes for Tech Ops</label>
@@ -887,6 +920,7 @@
     <fields>
         <fullName>agf__Post_Release_Freeze_Status_Updates__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Post Release Freeze Status Updates</label>
         <length>32000</length>
@@ -956,6 +990,7 @@
         <fullName>agf__Stop_Monitoring_Disabled_Services__c</fullName>
         <deprecated>false</deprecated>
         <description>Any existing services being disabled and need monitoring turned off?</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Any existing services being disabled and need monitoring turned off?</inlineHelpText>
         <label>Stop Monitoring Disabled Services</label>
@@ -1172,7 +1207,7 @@ Zero TF on these test suites at time of RF.</inlineHelpText>
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Release Freeze Team Status</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <webLinks>

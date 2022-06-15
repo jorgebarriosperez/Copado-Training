@@ -158,6 +158,7 @@
     <fields>
         <fullName>agf__Priority_Default__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority (default)</label>
         <length>32</length>
@@ -184,6 +185,7 @@
     <fields>
         <fullName>agf__Priority_Override_Explanation__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority Override Explanation</label>
         <required>false</required>
@@ -194,6 +196,7 @@
     <fields>
         <fullName>agf__Priority__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Priority</label>
         <length>32</length>
@@ -238,7 +241,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Priority Overrides</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

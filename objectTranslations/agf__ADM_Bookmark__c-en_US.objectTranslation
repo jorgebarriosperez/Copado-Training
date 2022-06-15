@@ -9,15 +9,15 @@
         <value>Bookmarks CUSTOM</value>
     </caseValues>
     <fields>
-        <label></label>
+        <label><!-- Sort Order --></label>
         <name>agf__Sort_Order__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- Title --></label>
         <name>agf__Title__c</name>
     </fields>
     <fields>
-        <label></label>
+        <label><!-- URL --></label>
         <name>agf__URL__c</name>
     </fields>
     <nameFieldLabel>Bookmarks CUSTOM</nameFieldLabel>

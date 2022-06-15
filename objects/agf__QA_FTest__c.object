@@ -167,6 +167,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>18</length>
@@ -179,6 +180,7 @@
         <fullName>agf__FTest_Id__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>FTest ID</label>
         <length>255</length>
@@ -231,6 +233,7 @@
     <fields>
         <fullName>agf__Test_Labels__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Test Labels</label>
         <length>255</length>
@@ -275,7 +278,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>FTests</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

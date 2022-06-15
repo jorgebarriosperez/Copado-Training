@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
+        <label><!-- Campo_Auto --></label>
+        <name>Campo_Auto__c</name>
+    </fields>
+    <fields>
         <label><!-- Engineering Req Number --></label>
         <name>EngineeringReqNumber__c</name>
     </fields>
@@ -51,6 +55,11 @@
             <masterLabel>Two</masterLabel>
             <translation><!-- Two --></translation>
         </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- super help --></help>
+        <label><!-- Hotfix_text --></label>
+        <name>Hotfix_text__c</name>
     </fields>
     <fields>
         <label><!-- Potential Liability --></label>
@@ -117,9 +126,73 @@
         </picklistValues>
     </fields>
     <fields>
+        <label><!-- Support Department --></label>
+        <name>Support_Department__c</name>
+        <picklistValues>
+            <masterLabel>GERMANY</masterLabel>
+            <translation><!-- GERMANY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>INDIA</masterLabel>
+            <translation><!-- INDIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JAPAN</masterLabel>
+            <translation><!-- JAPAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPAIN</masterLabel>
+            <translation><!-- SPAIN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UK</masterLabel>
+            <translation><!-- UK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
         <label><!-- Work --></label>
         <name>agf__ADM_Work__c</name>
         <relationshipLabel><!-- Cases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- case_text1 --></label>
+        <name>case_text1__c</name>
+    </fields>
+    <fields>
+        <label><!-- case_text2 --></label>
+        <name>case_text2__c</name>
+    </fields>
+    <fields>
+        <label><!-- case_text3 --></label>
+        <name>case_text3__c</name>
+    </fields>
+    <fields>
+        <label><!-- jorge:picklist1 --></label>
+        <name>jorge_picklist1__c</name>
+        <picklistValues>
+            <masterLabel>texto1</masterLabel>
+            <translation><!-- texto1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto2</masterLabel>
+            <translation><!-- texto2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>texto3</masterLabel>
+            <translation><!-- texto3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- moverFiedl --></label>
+        <name>moverFiedl__c</name>
+    </fields>
+    <fields>
+        <label><!-- test_AutoBackpromote --></label>
+        <name>test_AutoBackpromote__c</name>
     </fields>
     <recordTypes>
         <description><!-- Investigation --></description>

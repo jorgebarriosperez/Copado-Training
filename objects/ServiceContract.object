@@ -139,6 +139,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>AdditionalDiscount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>ApprovalStatus</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
@@ -187,6 +191,11 @@
     </fields>
     <fields>
         <fullName>ParentServiceContractId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Pricebook2Id</fullName>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>

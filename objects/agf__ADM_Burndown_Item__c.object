@@ -157,6 +157,7 @@
     <fields>
         <fullName>agf__Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
@@ -180,6 +181,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -242,6 +244,7 @@
     <fields>
         <fullName>agf__Task_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Task ID</label>
         <length>18</length>
@@ -290,6 +293,7 @@
         <fullName>agf__Upsert_Key__c</fullName>
         <deprecated>false</deprecated>
         <description>This field value will uniquely identify a burndown item using the following format: &lt;SPRINT_ID&gt;&lt;YYYYMMDD&gt;&lt;A/B&gt; Where &lt;A/B&gt; indicates whether it&apos;s the Actual or the Baseline figure</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Upsert Key</label>
         <length>27</length>
@@ -336,7 +340,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Burndown Items</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

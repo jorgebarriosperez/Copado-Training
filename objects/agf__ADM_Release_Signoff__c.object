@@ -158,6 +158,7 @@
         <fullName>agf__AppStore_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>This is used by the AppStore teams to provide the date when they signed off at Release Freeze</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>AppStore Approval</label>
         <required>false</required>
@@ -230,6 +231,7 @@
     <fields>
         <fullName>agf__Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Comments</label>
         <length>1000</length>
@@ -242,6 +244,7 @@
     <fields>
         <fullName>agf__Core_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Core Approval</label>
         <required>false</required>
@@ -267,6 +270,7 @@
     <fields>
         <fullName>agf__Date_Approved__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Date Approved</label>
         <required>false</required>
@@ -278,6 +282,7 @@
     <fields>
         <fullName>agf__Dev_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Engineering Exec Approval</label>
         <required>false</required>
@@ -303,6 +308,7 @@
     <fields>
         <fullName>agf__Doc_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Doc Approval</label>
         <required>false</required>
@@ -329,6 +335,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -342,6 +349,7 @@
     <fields>
         <fullName>agf__L10N_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>L10N Approval</label>
         <required>false</required>
@@ -367,6 +375,7 @@
     <fields>
         <fullName>agf__Platform_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Platform Approval</label>
         <required>false</required>
@@ -392,6 +401,7 @@
     <fields>
         <fullName>agf__Product_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Product Approval</label>
         <required>false</required>
@@ -417,6 +427,7 @@
     <fields>
         <fullName>agf__QA_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Cross-Cloud Exec Approval</label>
         <required>false</required>
@@ -457,6 +468,7 @@
         <fullName>agf__QPD_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>Date of QPD Approval</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>QPD Approval</label>
         <required>false</required>
@@ -483,6 +495,7 @@
     <fields>
         <fullName>agf__RM_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>RM Approval</label>
         <required>false</required>
@@ -508,6 +521,7 @@
     <fields>
         <fullName>agf__Release_Approved__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Release Approved</label>
         <required>false</required>
@@ -519,6 +533,7 @@
     <fields>
         <fullName>agf__Security_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Security Approval</label>
         <required>false</required>
@@ -557,6 +572,7 @@
     <fields>
         <fullName>agf__Systest_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>PerfEng Approval</label>
         <required>false</required>
@@ -583,6 +599,7 @@
     <fields>
         <fullName>agf__TQE_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>TQE Approval</label>
         <required>false</required>
@@ -594,6 +611,7 @@
     <fields>
         <fullName>agf__TechOps_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>TechOps Approval</label>
         <required>false</required>
@@ -620,6 +638,7 @@
         <fullName>agf__Tech_SVP_Approval__c</fullName>
         <deprecated>false</deprecated>
         <description>Date of Tech SVP Approval</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Tech SVP Approval</label>
         <required>false</required>
@@ -646,6 +665,7 @@
     <fields>
         <fullName>agf__UE_Approval__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>UX Approval</label>
         <required>false</required>
@@ -801,7 +821,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

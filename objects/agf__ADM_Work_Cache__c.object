@@ -157,6 +157,7 @@
     <fields>
         <fullName>agf__Change_List_Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Change List Description</label>
         <length>32000</length>
@@ -168,6 +169,7 @@
         <fullName>agf__Changes__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores a JSON formatted array of changes.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Changes</label>
         <length>32768</length>
@@ -178,6 +180,7 @@
     <fields>
         <fullName>agf__Field_Names_With_Changes__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Field Names With Changes</label>
         <length>32000</length>
@@ -235,7 +238,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Work Cache</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

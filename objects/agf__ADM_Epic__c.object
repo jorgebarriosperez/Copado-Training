@@ -199,6 +199,7 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Description</label>
         <length>32768</length>
@@ -270,6 +271,7 @@
     <fields>
         <fullName>agf__End_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>End Date</label>
         <required>false</required>
@@ -380,6 +382,21 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>agf__Project__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Project</label>
+        <referenceTo>agf__PPM_Project__c</referenceTo>
+        <relationshipLabel>Epics</relationshipLabel>
+        <relationshipName>Epics</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>agf__Quality_Lead__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
@@ -411,6 +428,7 @@
     <fields>
         <fullName>agf__Start_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Start Date</label>
         <required>false</required>
@@ -556,7 +574,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Epics</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

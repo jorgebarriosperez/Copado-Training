@@ -180,6 +180,7 @@
         <fullName>agf__Group_ID__c</fullName>
         <deprecated>false</deprecated>
         <description>Used to delete group memberships</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Group ID</label>
         <length>50</length>
@@ -203,6 +204,7 @@
     <fields>
         <fullName>agf__Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Name</label>
         <length>255</length>
@@ -216,6 +218,7 @@
         <fullName>agf__ScrumteamOrScrumteamMember__c</fullName>
         <deprecated>false</deprecated>
         <description>Using text field instead because we will be creating objects after scrum teams have been deleted to clean up the setup object called Group which would cause an error if this was a lookup field!</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Scrumteam Or Scrumteam Member</label>
         <length>255</length>
@@ -229,6 +232,7 @@
         <fullName>agf__Type__c</fullName>
         <defaultValue>&quot;Regular&quot;</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Type</label>
         <length>255</length>
@@ -258,7 +262,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Scrum Team Caches</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

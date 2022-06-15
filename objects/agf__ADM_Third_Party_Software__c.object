@@ -205,6 +205,7 @@
         <fullName>agf__Coupa_Record__c</fullName>
         <deprecated>false</deprecated>
         <description>For commercial products only.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Link to the Coupa record for this product (for commercial products only).</inlineHelpText>
         <label>Coupa Record</label>
@@ -218,6 +219,7 @@
         <defaultValue>Today() + 28</defaultValue>
         <deprecated>false</deprecated>
         <description>Date equivalent to your teams feature freeze date. Please account for 3PP SLA time frames referenced on site</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Date equivalent to your teams feature freeze date. Please account for 3PP SLA time frames referenced on site</inlineHelpText>
         <label>Date Approval Needed By</label>
@@ -268,6 +270,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>50</length>
@@ -280,6 +283,7 @@
     <fields>
         <fullName>agf__Jar_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Jar Name</label>
         <length>50</length>
@@ -317,6 +321,7 @@
     <fields>
         <fullName>agf__License_URL__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please provide a link that demonstrates what license governs this particular 3PP request. It should not be a link to a generic copy of an open source license.</inlineHelpText>
         <label>License URL</label>
@@ -388,6 +393,7 @@
     <fields>
         <fullName>agf__Notes__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>WIll you distribute the code to anyone outside of our data centers?</inlineHelpText>
         <label>Use Cases/Notes</label>
@@ -401,6 +407,7 @@
         <fullName>agf__Perforce_Path__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to Perforce Path or Direct Download Link</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Link to Perforce Path or Direct Download Link</inlineHelpText>
         <label>Source Code Path or URL</label>
@@ -414,6 +421,7 @@
     <fields>
         <fullName>agf__Purpose__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please describe what this Third Party Property does and why you want to use it.</inlineHelpText>
         <label>Purpose</label>
@@ -515,6 +523,7 @@
     <fields>
         <fullName>agf__Request_Type_Other__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Request Type Other</label>
         <length>255</length>
@@ -586,6 +595,7 @@
         <fullName>agf__URL__c</fullName>
         <deprecated>false</deprecated>
         <description>Link to product information page.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please provide the URL containing information about the Third Party Property.</inlineHelpText>
         <label>Third Party Property product info URL</label>
@@ -597,6 +607,7 @@
     <fields>
         <fullName>agf__Used_By__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Used By</label>
         <length>500</length>
@@ -608,6 +619,7 @@
     <fields>
         <fullName>agf__Vendor__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Vendor</label>
         <length>25</length>
@@ -620,6 +632,7 @@
     <fields>
         <fullName>agf__Version__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Version</label>
         <length>15</length>

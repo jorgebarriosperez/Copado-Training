@@ -297,6 +297,10 @@ Valid IDs will be rendered into links to Chatter Groups. --></help>
         <name>agf__End_Date__c</name>
     </fields>
     <fields>
+        <label><!-- Exclude from IT Capacity Reports --></label>
+        <name>agf__Exclude_Capacity_Reports__c</name>
+    </fields>
+    <fields>
         <label><!-- External ID --></label>
         <name>agf__External_ID__c</name>
     </fields>
@@ -309,12 +313,21 @@ Valid IDs will be rendered into links to Chatter Groups. --></help>
         <name>agf__Group_ID_Link__c</name>
     </fields>
     <fields>
+        <help><!-- Check this box if Lightning Platform Freeze records should be included for releases. This is in addition to Feature Freeze and Release Freeze records. --></help>
+        <label><!-- Include Lightning Platform Freeze --></label>
+        <name>agf__Include_Lightning_Platform_Freeze__c</name>
+    </fields>
+    <fields>
         <label><!-- Kanban --></label>
         <name>agf__Kanban__c</name>
     </fields>
     <fields>
         <label><!-- Lock Report --></label>
         <name>agf__Lock_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of new org62 Cases --></label>
+        <name>agf__Number_of_new_org62_Cases__c</name>
     </fields>
     <fields>
         <label><!-- Overall Status --></label>
@@ -344,6 +357,11 @@ Valid IDs will be rendered into links to Chatter Groups. --></help>
     <fields>
         <label><!-- Parent Cloud --></label>
         <name>agf__Parent_Cloud__c</name>
+    </fields>
+    <fields>
+        <help><!-- If team checks this - Work status update will update Board column on the Sprint Virtual wall and Kanban Columns will not be updated automatically. --></help>
+        <label><!-- Prefer Board Column Auto Update --></label>
+        <name>agf__Prefer_Board_Column_Auto_Update__c</name>
     </fields>
     <fields>
         <label><!-- Product Area --></label>

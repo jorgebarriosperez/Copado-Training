@@ -186,6 +186,7 @@
     <fields>
         <fullName>agf__Field_API_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Field API Name</label>
         <length>100</length>
@@ -251,6 +252,7 @@
     <fields>
         <fullName>agf__Type__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Type</label>
         <length>100</length>
@@ -300,7 +302,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Additional Fields</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -172,6 +172,7 @@
     <fields>
         <fullName>agf__Brief_Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Brief Description</label>
         <length>255</length>
@@ -316,6 +317,7 @@
     <fields>
         <fullName>agf__Expected_Results__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Expected Results</label>
         <length>32000</length>
@@ -328,6 +330,7 @@
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>18</length>
@@ -341,6 +344,7 @@
         <fullName>agf__Ftest_Id__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Ftest Id</label>
         <length>255</length>
@@ -353,6 +357,7 @@
     <fields>
         <fullName>agf__Hierarchy__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Hierarchy</label>
         <length>255</length>
@@ -471,6 +476,7 @@ Incomplete Automation = invalid annotation or Execution not Marked as Passed or 
         <deprecated>false</deprecated>
         <description>Details of the test case. Setup info, steps to follow, etc.
 Leave the expected results out. There is field for that</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Details of the test case. Setup info, steps to follow, etc.</inlineHelpText>
         <label>Long Description</label>

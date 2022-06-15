@@ -947,7 +947,7 @@ function ThemeContainerView(options) {
         }
     }).focus(function() {
         clearOnClose = false;
-    }).data('autocomplete')._renderItem = function(ul, item) {
+    }).data('ui-autocomplete')._renderItem = function(ul, item) {
         var $item = $('<li>').data('item.autocomplete', item)
             .append($('<a>').text(item.label))
             .appendTo(ul );

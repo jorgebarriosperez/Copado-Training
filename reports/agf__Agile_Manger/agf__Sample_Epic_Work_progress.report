@@ -48,6 +48,7 @@
     <filter>
         <criteriaItems>
             <column>agf__ADM_Work__c.agf__Epic__c</column>
+            <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
             <value>Navigation App Version 1</value>

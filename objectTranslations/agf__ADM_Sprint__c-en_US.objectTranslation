@@ -5,19 +5,19 @@
         <name>agf__Backlog__c</name>
     </fields>
     <fields>
-        <label><!-- Committed Items Completed --></label>
+        <label><!-- Forecast Items Completed --></label>
         <name>agf__Committed_Items_Completed__c</name>
     </fields>
     <fields>
-        <label><!-- Committed Items --></label>
+        <label><!-- Forecast Items --></label>
         <name>agf__Committed_Items__c</name>
     </fields>
     <fields>
-        <label><!-- Committed Points --></label>
+        <label><!-- Forecast Story Points --></label>
         <name>agf__Committed_Points__c</name>
     </fields>
     <fields>
-        <label><!-- Committed Story Points Completed --></label>
+        <label><!-- Forecast Story Points Completed --></label>
         <name>agf__Committed_Story_Points_Completed__c</name>
     </fields>
     <fields>
@@ -29,11 +29,11 @@
         <name>agf__Completed_Story_Points__c</name>
     </fields>
     <fields>
-        <label><!-- Completion Committed Items --></label>
+        <label><!-- Completion Forecast Items --></label>
         <name>agf__Completion_Committed_Items__c</name>
     </fields>
     <fields>
-        <label><!-- Completion Committed Story Points --></label>
+        <label><!-- Completion Forecast Story Points --></label>
         <name>agf__Completion_Committed_Story_Points__c</name>
     </fields>
     <fields>

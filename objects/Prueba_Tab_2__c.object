@@ -172,6 +172,17 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Campo_para_Nada__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Campo_para_Nada</label>
+        <length>33</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Jor_Picklist__c</fullName>
         <externalId>false</externalId>
         <label>Jor_Picklist</label>
@@ -282,7 +293,19 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>exist_FB__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>exist_FB</label>
+        <length>12</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>text_No_FLS__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>text_No_FLS</label>
         <length>12</length>
@@ -354,25 +377,6 @@
             </values>
             <values>
                 <fullName>d</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-        <picklistValues>
-            <picklist>Jor_Picklist__c</picklist>
-            <values>
-                <fullName>EL</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>NO</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>SI</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>TU</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

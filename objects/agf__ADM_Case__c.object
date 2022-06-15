@@ -158,6 +158,7 @@
     <fields>
         <fullName>agf__Account_Id__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Account ID</label>
         <length>50</length>
@@ -181,6 +182,7 @@
     <fields>
         <fullName>agf__Account_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Account Name</label>
         <length>100</length>
@@ -192,6 +194,7 @@
     <fields>
         <fullName>agf__Account_Stage__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Red Account Stage</label>
         <length>10</length>
@@ -203,6 +206,7 @@
     <fields>
         <fullName>agf__Account_Support_SBR_Category__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Account Support SBR Category</label>
         <length>255</length>
@@ -228,6 +232,7 @@
     <fields>
         <fullName>agf__Case_Created_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Created</label>
         <required>false</required>
@@ -237,6 +242,7 @@
     <fields>
         <fullName>agf__Case_ID_Set__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case ID Set</label>
         <required>false</required>
@@ -246,6 +252,7 @@
     <fields>
         <fullName>agf__Case_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Case ID</label>
         <length>255</length>
@@ -257,6 +264,7 @@
     <fields>
         <fullName>agf__Case_Number__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Number</label>
         <length>255</length>
@@ -268,6 +276,7 @@
     <fields>
         <fullName>agf__Case_Owner_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Owner ID</label>
         <length>255</length>
@@ -291,6 +300,7 @@
     <fields>
         <fullName>agf__Case_Owner__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Owner</label>
         <length>255</length>
@@ -302,6 +312,7 @@
     <fields>
         <fullName>agf__Case_Reason__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Reason</label>
         <length>255</length>
@@ -313,6 +324,7 @@
     <fields>
         <fullName>agf__Case_Status__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Status</label>
         <length>255</length>
@@ -336,6 +348,7 @@
     <fields>
         <fullName>agf__Case_Subject__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Case Subject</label>
         <length>255</length>
@@ -386,6 +399,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Date_Time_Closed__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Date/Time Closed</label>
         <required>false</required>
@@ -395,6 +409,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Escalated_Status__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Escalated Status</label>
         <length>255</length>
@@ -407,6 +422,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
         <fullName>agf__External_ID__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>External ID</label>
         <length>255</length>
@@ -418,6 +434,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__FunctionalArea__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Functional Area</label>
         <length>255</length>
@@ -429,6 +446,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__General_Application_Area__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>General Application Area</label>
         <length>255</length>
@@ -440,6 +458,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Geo__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Geo</label>
         <length>255</length>
@@ -460,6 +479,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Parent_Account_Id__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Parent Account ID</label>
         <length>50</length>
@@ -483,6 +503,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Parent_Account_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Parent Account Name</label>
         <length>100</length>
@@ -494,6 +515,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Support_Skill_Group__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Support_Skill_Group</label>
         <length>255</length>
@@ -517,6 +539,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Support_Tier_3_Owner_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Support Tier 3 Owner Name</label>
         <length>255</length>
@@ -528,6 +551,7 @@ agf__Case_Status__c = &apos;Closed - Partner Resolved&apos;, agf__Case_Status__c
     <fields>
         <fullName>agf__Support_Tier_3_Owner__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Support Tier 3 Owner</label>
         <length>255</length>

@@ -156,6 +156,7 @@
     <fields>
         <fullName>Intel_field__c</fullName>
         <description>Tiene descripcion</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Y mensaje de ayuda</inlineHelpText>
         <label>Intel_field</label>
@@ -175,7 +176,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Intel_Objects</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

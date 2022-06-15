@@ -190,6 +190,7 @@
         <fullName>agf__Closed_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Date and Time when the SLA Violation was corrected/closed</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Closed Date</label>
         <required>false</required>

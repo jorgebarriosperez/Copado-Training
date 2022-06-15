@@ -167,6 +167,7 @@
         <fullName>agf__Backfill_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>If an employee is being backfilled, enter the expected date of departure.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Backfill Date</label>
         <required>false</required>
@@ -178,6 +179,7 @@
     <fields>
         <fullName>agf__Backfill_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Backfill Name</label>
         <length>100</length>
@@ -191,6 +193,7 @@
     <fields>
         <fullName>agf__Business_Unit__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Business Unit</label>
         <length>100</length>
@@ -204,6 +207,7 @@
     <fields>
         <fullName>agf__Candidate_Name__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Candidate Name</label>
         <length>100</length>
@@ -218,6 +222,7 @@
         <fullName>agf__City__c</fullName>
         <deprecated>false</deprecated>
         <description>City field copied from User record</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>City</label>
         <length>40</length>
@@ -543,6 +548,7 @@
     <fields>
         <fullName>agf__Cost_Center__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Cost Center</label>
         <length>100</length>
@@ -557,6 +563,7 @@
         <fullName>agf__Country__c</fullName>
         <deprecated>false</deprecated>
         <description>Sticking with the length information mentioned here https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_objects_user.htm</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Country</label>
         <length>80</length>
@@ -570,6 +577,7 @@
     <fields>
         <fullName>agf__Description__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Free-text area to record notes on this Headcount.</inlineHelpText>
         <label>Description</label>
@@ -582,6 +590,7 @@
     <fields>
         <fullName>agf__Division__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Region</label>
         <length>50</length>
@@ -739,6 +748,7 @@
         <deprecated>false</deprecated>
         <description>A text copy of the Employee Name field necessary because lookup fields are not indexed and not searchable.  Only text, email and phone field types are searched:
 https://help.salesforce.com/HTViewHelpDoc?id=search_fields_custom_object.htm&amp;language=en_US)</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Employee Name (Text)</label>
         <length>200</length>
@@ -753,6 +763,7 @@ https://help.salesforce.com/HTViewHelpDoc?id=search_fields_custom_object.htm&amp
         <fullName>agf__Employee_Number_Text__c</fullName>
         <deprecated>false</deprecated>
         <description>A text copy of the Employee Number field is necessary because lookup fields and formula fields based on lookups are not indexed and not searchable. Only text, email and phone field types are searched.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Employee Number (Text)</label>
         <length>50</length>
@@ -766,6 +777,7 @@ https://help.salesforce.com/HTViewHelpDoc?id=search_fields_custom_object.htm&amp
     <fields>
         <fullName>agf__FY_Starting_Cloud__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>FY Starting Cloud</label>
         <length>100</length>
@@ -779,6 +791,7 @@ https://help.salesforce.com/HTViewHelpDoc?id=search_fields_custom_object.htm&amp
     <fields>
         <fullName>agf__Headcount_Department__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Department can be entered manually by Finance, but will be auto-populated by the value from the User record in the Employee Name field (User Lookup) if available.</inlineHelpText>
         <label>Employee Department OLD</label>
@@ -837,6 +850,7 @@ https://help.salesforce.com/HTViewHelpDoc?id=search_fields_custom_object.htm&amp
     <fields>
         <fullName>agf__Initial_Status_Value__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Initial Status Value</label>
         <length>100</length>
@@ -1756,6 +1770,7 @@ Blue: May close before assigned quarter</inlineHelpText>
         <fullName>agf__Manager_Update__c</fullName>
         <deprecated>false</deprecated>
         <description>Text description of Manager Status</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter your update here for hiring status on this position. Do not include confidential information.</inlineHelpText>
         <label>Manager Update</label>
@@ -1769,6 +1784,7 @@ Blue: May close before assigned quarter</inlineHelpText>
     <fields>
         <fullName>agf__OOM_Transfer_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>OOM Transfer Date</label>
         <required>false</required>
@@ -2014,6 +2030,7 @@ Blue: May close before assigned quarter</inlineHelpText>
         <fullName>agf__Original_Effective_Date__c</fullName>
         <deprecated>false</deprecated>
         <description>Stores the original Effective Date when a position is created</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Original Effective Date</label>
         <length>25</length>
@@ -2086,6 +2103,7 @@ Blue: May close before assigned quarter</inlineHelpText>
         <fullName>agf__Recruiter_Update__c</fullName>
         <deprecated>false</deprecated>
         <description>Text description of Recruiter Status</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Enter your update here for hiring status on this position. Do not include confidential information.</inlineHelpText>
         <label>Recruiter Update</label>
@@ -2420,6 +2438,7 @@ CASE( agf__Status__c ,
         <fullName>agf__Source_Description__c</fullName>
         <deprecated>false</deprecated>
         <description>A place for notes related to the source field.</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>A place for notes related to the source field.</inlineHelpText>
         <label>Source Description</label>
@@ -2474,6 +2493,7 @@ CASE( agf__Status__c ,
         <fullName>agf__State__c</fullName>
         <deprecated>false</deprecated>
         <description>State field copied from User record</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>State</label>
         <length>80</length>
@@ -2534,6 +2554,7 @@ Filled = Position filled by an employee</inlineHelpText>
         <fullName>agf__Talentforce_Offer__c</fullName>
         <caseSensitive>false</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Reference to Job ID in Talentforce, entered by Recruiting.</inlineHelpText>
         <label>Job ID</label>
@@ -2548,6 +2569,7 @@ Filled = Position filled by an employee</inlineHelpText>
     <fields>
         <fullName>agf__Target_Start_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Target start date for candidates that have accepted an offer</inlineHelpText>
         <label>Target Start Date</label>

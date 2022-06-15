@@ -108,6 +108,11 @@
         <name>agf__Priority__c</name>
     </fields>
     <fields>
+        <label><!-- Project --></label>
+        <name>agf__Project__c</name>
+        <relationshipLabel><!-- Epics --></relationshipLabel>
+    </fields>
+    <fields>
         <label><!-- Quality Lead --></label>
         <name>agf__Quality_Lead__c</name>
         <relationshipLabel><!-- Epics (Quality Lead) --></relationshipLabel>

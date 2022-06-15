@@ -167,7 +167,7 @@
         <description>Description of Record type Mert</description>
         <label>Mert_RT</label>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

@@ -141,6 +141,11 @@
         <fullName>Source</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_DataUseLegalBases</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todas Bases legales de uso de datos</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Source</customTabListAdditionalFields>
         <customTabListAdditionalFields>Description</customTabListAdditionalFields>

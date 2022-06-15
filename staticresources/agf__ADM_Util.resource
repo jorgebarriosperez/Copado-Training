@@ -134,6 +134,60 @@ window.ADM_Util = (function() {
             }
     }
 
+    var copyToClipboard = function(str) {
+        var copy = function(str) {
+            var el = document.createElement('textarea');
+            el.value = str;
+            el.setAttribute('readonly', '');
+            el.style.position = 'absolute';
+            el.style.left = '-9999px';
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+        }
+        var previousSelectionExisted = document.getSelection().rangeCount > 0
+        var getPreviousSelection = function() { return document.getSelection().getRangeAt(0) }
+        var previousSelection = previousSelectionExisted ? getPreviousSelection() : false;
+        var restorePreviousSelection = function(previous) {
+            document.getSelection().removeAllRanges(); // Unselect everything on the HTML document
+            document.getSelection().addRange(previous); // Restore the original selection
+        }
+
+        copy(str);
+        if (previousSelection) {
+            restorePreviousSelection(previousSelection);
+        }
+    }
+
+    var callApexMethod = function(component, method, params, cbFunction) {
+        var action = component.get(method);
+        
+        if (params) {
+            action.setParams(params);
+        }
+
+        action.setCallback(this, function(response) {
+            var state = response.getState();
+            
+            if (component.isValid() && state === "SUCCESS") {
+                var response = response.getReturnValue();
+                
+                if (typeof response === 'string') {
+                    response = JSON.parse(response);
+                }
+                
+                cbFunction(response);
+            } else if (state === "ERROR") {
+                var errors = response.getError();
+                ADM_Util.handleErrorWithToast(errors);
+                ADM_Util.handleErrorInConsole(errors);
+            }
+        });
+
+        $A.enqueueAction(action);
+    }
+
     var serializeSprintDataForNamespace = function(sprintData, currentNode, nameSpace){
         if(nameSpace != null && nameSpace!=''){
             if(typeof sprintData[currentNode] != 'object'){
@@ -159,6 +213,8 @@ window.ADM_Util = (function() {
         getIds: getIds,
         handleErrorWithToast: handleErrorWithToast,
         handleErrorInConsole: handleErrorInConsole,
+        copyToClipboard: copyToClipboard,
+        callApexMethod: callApexMethod,
         serializeSprintDataForNamespace: serializeSprintDataForNamespace
     };
 }());

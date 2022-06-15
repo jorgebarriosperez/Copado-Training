@@ -5,6 +5,7 @@
     <fields>
         <fullName>agf__Calendar_ID__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>true</externalId>
         <label>Calendar ID</label>
         <length>18</length>

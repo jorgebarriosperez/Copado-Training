@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Volvo_Object</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Volvo_Objects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Case --></label>
+        <name>Case__c</name>
+        <relationshipLabel><!-- Volvo_Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Prueba_Tab_2 --></label>
+        <lookupFilter>
+            <errorMessage><!-- Value does not exist or does not match filter criteria. JORGE --></errorMessage>
+        </lookupFilter>
+        <name>Prueba_Tab_2__c</name>
+        <relationshipLabel><!-- Volvo_Objects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VOL_FIELD1 --></label>
+        <name>VOL_FIELD1__c</name>
+    </fields>
+    <fields>
+        <label><!-- VOL_FIELD2 --></label>
+        <name>VOL_FIELD2__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

@@ -238,6 +238,7 @@
     <fields>
         <fullName>agf__Bug_Assignee__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Bug Assignee</label>
         <required>false</required>
@@ -281,6 +282,7 @@
     <fields>
         <fullName>agf__Bug_Product_Owner__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Bug Product Owner</label>
         <required>false</required>
@@ -293,6 +295,7 @@
     <fields>
         <fullName>agf__Bug_QE__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Bug QE</label>
         <required>false</required>
@@ -318,6 +321,7 @@
         <fullName>agf__Checkin_Location__c</fullName>
         <defaultValue>&quot;The Release Manager will specify the checkin location for the fix and Scheduled Build to use for the checkin.&quot;</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>The Release Manager will specify in this field the checkin location for the fix and the Scheduled Build to use for the checkin.</inlineHelpText>
         <label>Checkin Details</label>
@@ -331,6 +335,7 @@
         <fullName>agf__Customer_Impact__c</fullName>
         <deprecated>false</deprecated>
         <description>Describes the customer impact of the eRelease</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Describe the customer impact of the defect driving this request, including the impact that will result based on when and whether this eRelease is deployed.</inlineHelpText>
         <label>Customer Impact</label>
@@ -513,6 +518,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
         <fullName>agf__Explanation_of_eRelease__c</fullName>
         <deprecated>false</deprecated>
         <description>Explanation of the need for an eRelease</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please explain why this bug must be deployed in an eRelease.  Include sufficient justification (customer impact, defect severity, etc.) for the eRelease Request review panel to make an informed decision.</inlineHelpText>
         <label>Justification for eRelease Request</label>
@@ -525,6 +531,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
     <fields>
         <fullName>agf__Instance_for_Verification__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>If instances that are not the default verification instances must be used to verify this fix, provide instance or instances in this field.</inlineHelpText>
         <label>Verification Instance</label>
@@ -575,6 +582,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
         <fullName>agf__Other_Deployment_Type__c</fullName>
         <deprecated>false</deprecated>
         <description>Used when the request for Deployment Type includes &quot;Other.&quot;</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Use this field when the request for Deployment Type includes &quot;Other.&quot;</inlineHelpText>
         <label>Other Deployment Type</label>
@@ -587,6 +595,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
     <fields>
         <fullName>agf__Other_Notes__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Other Notes</label>
         <length>32000</length>
@@ -599,6 +608,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
     <fields>
         <fullName>agf__Other_Testing__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please specify testing details if &quot;None Required&quot; or &quot;Other&quot; selected.</inlineHelpText>
         <label>Testing Notes</label>
@@ -611,6 +621,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
     <fields>
         <fullName>agf__Peripheral_Impacts__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Please explain any other peripheral impacts of this eRelease that may require follow-up.</inlineHelpText>
         <label>Peripheral Impacts</label>
@@ -655,6 +666,7 @@ TEXT(agf__Bug_ID__r.agf__Priority__c) + &quot;: DOES NOT MEET Emergency Release 
     <fields>
         <fullName>agf__Release_Team_Comments__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Instructions related to the approval or rejection of this request. If more information is needed to evaluate this request, the required information will be specified in this field.</inlineHelpText>
         <label>Additional Instructions</label>
@@ -718,6 +730,7 @@ Use &quot;Emergency Release&quot; in all other cases.</inlineHelpText>
     <fields>
         <fullName>agf__Requested_Deployment_Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Requested Deployment Date</label>
         <required>true</required>
@@ -743,6 +756,7 @@ Use &quot;Emergency Release&quot; in all other cases.</inlineHelpText>
     <fields>
         <fullName>agf__Staging_Instructions__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>To be filled out by Release Manager</inlineHelpText>
         <label>Staging Instructions</label>
@@ -757,6 +771,7 @@ Use &quot;Emergency Release&quot; in all other cases.</inlineHelpText>
         <fullName>agf__Target_Instances__c</fullName>
         <defaultValue>&quot;Specify target instances for this fix as a comma-separated list when not all instances are to receive this fix.&quot;</defaultValue>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>Specify target instances for this fix as a comma-separated list when not all instances are to receive this fix.</inlineHelpText>
         <label>Target Instances</label>

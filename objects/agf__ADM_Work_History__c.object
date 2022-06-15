@@ -160,6 +160,7 @@
         <fullName>agf__Sprint_Old__c</fullName>
         <deprecated>false</deprecated>
         <description>Previous sprint value. Using text because team can be deleted</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Sprint (Old)</label>
         <length>18</length>
@@ -172,6 +173,7 @@
         <fullName>agf__Sprint__c</fullName>
         <deprecated>false</deprecated>
         <description>New sprint value. Using text because team can be deleted</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Sprint</label>
         <length>18</length>
@@ -200,7 +202,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Work History</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

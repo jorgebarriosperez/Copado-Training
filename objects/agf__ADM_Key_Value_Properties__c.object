@@ -158,6 +158,7 @@
         <fullName>agf__Property_Description__c</fullName>
         <deprecated>false</deprecated>
         <description>Description on what this key value pair is. Making this field required so that a description is entered on what this field is used for, to make it easy for somebody who is looking at it later</description>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Property Description</label>
         <required>true</required>
@@ -168,6 +169,7 @@
     <fields>
         <fullName>agf__Value__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Value</label>
         <length>255</length>
@@ -190,7 +192,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Key Value Properties</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

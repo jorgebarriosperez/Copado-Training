@@ -135,12 +135,16 @@
         <type>MasterDetail</type>
     </fields>
     <fields>
+        <fullName>ContentDocumentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>FullAuthorizationFormUrl</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Locale</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
@@ -150,6 +154,11 @@
         <fullName>SummaryAuthFormText</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_AuthorizationFormText</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todo Texto de formulario de autorización</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>AuthorizationForm</customTabListAdditionalFields>
         <customTabListAdditionalFields>SummaryAuthFormText</customTabListAdditionalFields>

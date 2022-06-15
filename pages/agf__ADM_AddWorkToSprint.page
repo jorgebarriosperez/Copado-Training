@@ -1,7 +1,9 @@
 <apex:page standardController="agf__ADM_Work__c" extensions="agf.ADM_AddWorkToSprintController" recordSetVar="stories" showHeader="false" sidebar="false">
 <apex:include pageName="agf__ADM_Overlay_CSS"/>
-    <apex:includeScript value="{!$Resource.agf__jquery_mini}"/>
-    <apex:includeScript value="{!$Resource.agf__jquery_mini_ui}"/>
+    <apex:includeScript value="{!$Resource.agf__jquery_3_3_1_min}" />
+<apex:includeScript value="{!$Resource.agf__jquery_migrate_3_0_0}" />
+<apex:includeScript value="{!URLFOR($Resource.agf__jquery_ui_1_12_1, 'jquery_ui_1_12_1/jquery-ui.min.js')}" />    
+    
 <script>
 
 

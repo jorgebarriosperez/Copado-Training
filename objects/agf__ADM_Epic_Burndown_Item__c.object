@@ -170,6 +170,7 @@
         <fullName>agf__Compound_Key__c</fullName>
         <caseSensitive>true</caseSensitive>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <inlineHelpText>A compound key of Date-Work Id to guarantee each work record only has 1 entry per day</inlineHelpText>
         <label>Compound Key</label>
@@ -182,6 +183,7 @@
     <fields>
         <fullName>agf__Date__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
@@ -217,6 +219,7 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Status</label>
         <length>100</length>
@@ -232,7 +235,7 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Epic Burndown Items</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

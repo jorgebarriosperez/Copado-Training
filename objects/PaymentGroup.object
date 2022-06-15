@@ -3,5 +3,14 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>SourceObjectId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <listViews>
+        <fullName>PaymentGroup</fullName>
+        <filterScope>Everything</filterScope>
+        <label>Todos</label>
+    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

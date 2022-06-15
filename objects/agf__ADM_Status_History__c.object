@@ -191,6 +191,7 @@
     <fields>
         <fullName>agf__Status__c</fullName>
         <deprecated>false</deprecated>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Status</label>
         <length>55</length>
@@ -219,7 +220,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>ADM_Status_Histories</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

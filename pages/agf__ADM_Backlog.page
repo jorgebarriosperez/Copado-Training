@@ -1203,7 +1203,7 @@ $(function() {
 			showLoader();
 
 			console.log('Saving...');
-	        Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.ADM_BacklogController.saveWorks}', movedWork, false, function(result, event) {
+	        Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.ADM_BacklogController.saveWorks}', movedWork, false, false, function(result, event) {
 	            if (event.status) {
 			        refreshBoard();
 	            } else {
@@ -1425,7 +1425,7 @@ $(function() {
 
 		if (works.length > 0) {
 			console.log('Saving...');
-	        Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.ADM_BacklogController.saveWorks}', works, false, function(result, event) {
+	        Visualforce.remoting.Manager.invokeAction('{!$RemoteAction.ADM_BacklogController.saveWorks}', works, false, false, function(result, event) {
 	            if (event.status) {
 			        undoArray = [];
 			        console.log('Work records saved!');
