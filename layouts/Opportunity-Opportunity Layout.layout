@@ -91,10 +91,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Error_Layout__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>CheckboxTest22__c</field>
             </layoutItems>
         </layoutColumns>
