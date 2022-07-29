@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Opportunity.CheckboxTest22__c</members>
+        <members>Prueba_1__c.CheckboxTest33__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>Opportunity-Opportunity Layout</members>
+        <members>Prueba_1__c-Nuevo Layout</members>
         <name>Layout</name>
     </types>
     <version>55.0</version>

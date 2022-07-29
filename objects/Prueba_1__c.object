@@ -220,6 +220,15 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>CheckboxTest33__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>CheckboxTest33</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>EXISTFIELD__c</fullName>
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
