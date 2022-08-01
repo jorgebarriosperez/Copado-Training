@@ -5,10 +5,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>NewObjectTEst__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
         <members>NewObjectTEst__c-NewObjectTEst Layout</members>
         <name>Layout</name>
     </types>
