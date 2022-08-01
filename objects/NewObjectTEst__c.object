@@ -164,6 +164,17 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>checboxnew777__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>test</description>
+        <externalId>false</externalId>
+        <inlineHelpText>test</inlineHelpText>
+        <label>checboxnew777</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
     <gender>Feminine</gender>
     <label>NewObjectTEst</label>
     <nameField>
