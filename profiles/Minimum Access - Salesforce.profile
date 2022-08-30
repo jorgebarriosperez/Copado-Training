@@ -468,6 +468,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_CapexUtilityTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_Case</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -533,6 +537,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_Cloud</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_CloudTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -720,6 +728,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_EmailChatterControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_EmailSLACounterController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -729,6 +741,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_EmailSenderInformationController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_EmailSenderInformationControllerTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -841,6 +857,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_InstanceSort</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_InstanceSortTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1056,6 +1076,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_Problem_ControllerTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_ProductTag</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -1149,6 +1173,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__ADM_ReleaseEventController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__ADM_ReleaseEventControllerTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -1972,6 +2000,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__ADM_WorkStatusFixTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__ADM_WorkStatusTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -2192,6 +2224,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__QA_AddTCtoUSControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__QA_AddTEtoUSExtension</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -2201,6 +2237,18 @@
     </classAccesses>
     <classAccesses>
         <apexClass>agf__QA_AddTestCasesController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__QA_AddTestCasesControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__QA_CRUDTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__QA_ExecutionBugTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -2216,6 +2264,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__QA_MassEditTCControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__QA_PendingExecutionsController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -2228,7 +2280,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__QA_TCBugsDetailControllerTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__QA_TEBugDetailController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__QA_TEBugDetailControllerTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -2252,7 +2312,15 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>agf__QA_TPDetailsTests</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>agf__QA_TPQuestionDetails</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>agf__QA_TPQuestionDetailsTests</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -4610,6 +4678,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>NewObjectTEst__c.checboxnew66__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
@@ -4628,6 +4701,11 @@
         <editable>false</editable>
         <field>Opportunity.CampaignId</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CheckboxTest22__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -5103,6 +5181,11 @@
         <editable>false</editable>
         <field>Prueba_1__c.Campo_Profile__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Prueba_1__c.CheckboxTest33__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -13313,6 +13396,12 @@
         <layout>CardPaymentMethod-Formato Método de pago con tarjeta</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CreditMemo-Formato Memorándum de crédito</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CreditMemoLine-Formato Partida de memorándum de crédito</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Customer-Formato Cliente</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13328,10 +13417,19 @@
         <layout>FinanceTransaction-Formato Transacción financiera</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Invoice-Formato Factura</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>InvoiceLine-Formato Partida de factura</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>LegalEntity-Formato Entidad legal</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Location-Formato Ubicación</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>NewObjectTEst__c-NewObjectTEst Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -13354,6 +13452,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>PaymentGroup-Formato Grupo de pago</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PaymentLineInvoice-Formato Factura de partida de pago</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ProcessException-Formato Excepción de proceso</layout>
@@ -14605,6 +14706,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-CreditMemo</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Customer</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -14670,6 +14775,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Individual</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Invoice</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -14758,6 +14867,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PaymentGatewayLog</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentLineInvoice</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>

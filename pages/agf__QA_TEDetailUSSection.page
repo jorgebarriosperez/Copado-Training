@@ -1,4 +1,4 @@
-<apex:page standardController="agf__QA_Test_Execution__c" extensions="agf.QA_TEDetailUSSectionController">
+<apex:page standardController="agf__QA_Test_Execution__c" >
 
 This page has been deprecated.
 

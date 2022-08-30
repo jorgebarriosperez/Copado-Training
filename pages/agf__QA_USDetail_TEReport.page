@@ -1,4 +1,4 @@
-<apex:page standardController="agf__ADM_Work__c" extensions="agf.QA_TEReportExtension">
+<apex:page standardController="agf__ADM_Work__c" >
 
 This page has been deprecated.
 

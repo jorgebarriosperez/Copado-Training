@@ -3,7 +3,7 @@
     <apiVersion>40.0</apiVersion>
     <packageVersions>
         <majorNumber>1</majorNumber>
-        <minorNumber>158</minorNumber>
+        <minorNumber>160</minorNumber>
         <namespace>agf</namespace>
     </packageVersions>
     <status>Active</status>

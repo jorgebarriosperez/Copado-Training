@@ -41,7 +41,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>agf:ADM_UserProductTag</componentName>
-                <identifier>ADM_UserProductTag</identifier>
+                <identifier>agf_ADM_UserProductTag</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-c2e5f812-b533-465b-9a20-948ae9e45099</name>
@@ -108,7 +108,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>agf:ADM_Profile_TeamList</componentName>
-                <identifier>ADM_Profile_TeamList</identifier>
+                <identifier>agf_ADM_Profile_TeamList</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>

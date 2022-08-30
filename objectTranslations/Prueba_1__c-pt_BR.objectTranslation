@@ -34,6 +34,10 @@
         <name>Campo_Profile__c</name>
     </fields>
     <fields>
+        <label><!-- CheckboxTest33 --></label>
+        <name>CheckboxTest33__c</name>
+    </fields>
+    <fields>
         <label><!-- EXISTFIELD --></label>
         <name>EXISTFIELD__c</name>
     </fields>
