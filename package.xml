@@ -1,45 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>DefaultCPQOrderRecordPage</members>
-        <members>DefaultCPQQuoteRecordPage</members>
-        <members>Default_Opportunity_CPQ_Record_Page</members>
-        <members>Industries_CPQ_UtilityBar</members>
-        <members>LightningSalesConsole_UtilityBar</members>
-        <members>LightningService_UtilityBar</members>
-        <members>Platform_UtilityBar</members>
-        <members>Tasks</members>
-        <members>Vlocity_Enterprise_Sales_App_UtilityBar</members>
-        <members>vlocity_cmt__CardsDesigner</members>
-        <members>vlocity_cmt__CatalogRecordPage</members>
-        <members>vlocity_cmt__DefaultAccountESMRecordPage</members>
-        <members>vlocity_cmt__DefaultDecompositionRelationshipRecordPage</members>
-        <members>vlocity_cmt__DefaultObjectClassRecordPage</members>
-        <members>vlocity_cmt__DefaultProductConsoleRecordPage</members>
-        <members>vlocity_cmt__LWCDesigner</members>
-        <members>vlocity_cmt__LWCFlexCards</members>
-        <members>vlocity_cmt__OfferMigrationPlanRecordPage</members>
-        <members>vlocity_cmt__OmniAnalyticsTrackingGroup</members>
-        <members>vlocity_cmt__RelationshipGraphAdmin</members>
-        <members>vlocity_cmt__VlocityAttributeRecordPage</members>
-        <members>vlocity_cmt__Vlocity_Attribute_Category_Record_Page_Product_Console</members>
-        <members>vlocity_cmt__Vlocity_Digital_Studio_UtilityBar</members>
-        <members>vlocity_cmt__Vlocity_EPC_Charge_Measurement_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Discount_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Price_List_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Pricing_Plan_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Pricing_Variable_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Promotion_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Time_Plan_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Time_Policy_Page</members>
-        <members>vlocity_cmt__Vlocity_EPC_Work_Set_List_Page</members>
-        <members>vlocity_cmt__Vlocity_OmniScript_Designer</members>
-        <members>vlocity_cmt__Vlocity_Picklist_Record_Page</members>
-        <members>vlocity_cmt__Vlocity_Pricing_Console_UtilityBar</members>
-        <members>vlocity_cmt__Vlocity_Product_Console_UtilityBar</members>
-        <members>vlocity_cmt__XOMAdminLWC</members>
-        <members>vlocity_cmt__XOM_OM_Plus_UI_JWT_Private_Key_Manager</members>
-        <name>FlexiPage</name>
+        <members>Document Vlocity test</members>
+        <name>DocumentTemplate</name>
     </types>
     <version>55.0</version>
 </Package>
