@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>cbJORGE</members>
-        <members>cbTopic_Jorge</members>
-        <members>cbTopic_Jorge_22</members>
-        <members>cbTopic_Julio</members>
-        <name>NetworkBranding</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Test_Page_Lightning</members>
+        <name>FlexiPage</name>
     </types>
     <version>55.0</version>
 </Package>
