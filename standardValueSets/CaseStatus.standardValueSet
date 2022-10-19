@@ -26,15 +26,15 @@
         <closed>true</closed>
     </standardValue>
     <standardValue>
-        <fullName>InProgress</fullName>
+        <fullName>In Progress</fullName>
         <default>false</default>
-        <label>InProgress</label>
+        <label>In Progress</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>OTPValue</fullName>
+        <fullName>OTP Value</fullName>
         <default>false</default>
-        <label>OTPValue</label>
+        <label>OTP Value</label>
         <closed>false</closed>
     </standardValue>
 </StandardValueSet>
