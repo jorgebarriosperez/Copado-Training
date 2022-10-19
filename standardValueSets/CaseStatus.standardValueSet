@@ -25,4 +25,16 @@
         <label>Closed</label>
         <closed>true</closed>
     </standardValue>
+    <standardValue>
+        <fullName>InProgress</fullName>
+        <default>false</default>
+        <label>InProgress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>OTPValue</fullName>
+        <default>false</default>
+        <label>OTPValue</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>
