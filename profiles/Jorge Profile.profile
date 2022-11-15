@@ -3084,6 +3084,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.Conection__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.ContactId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5108,6 +5113,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Platform_Jorge_new__e.platform_field__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Pricebook2.Price_book_field__c</field>
         <readable>true</readable>
@@ -5201,6 +5211,11 @@
         <editable>false</editable>
         <field>Prueba_1__c.Mu__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Prueba_1__c.PRUEBAXXX333__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -5566,6 +5581,11 @@
         <editable>false</editable>
         <field>SkillRequirement.SkillLevel</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SocialPersona.SourceApp</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -13398,6 +13418,9 @@
         <layout>AccountRelationship-Account RelationshipLayout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AccountTeamMember-Account Team Member Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13419,6 +13442,9 @@
         <layout>BusinessBrand-Formato Marca comercial</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Callout_Log__c-Callout Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13438,7 +13464,13 @@
         <layout>CaseClose-Close Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CaseInteraction-Case Feed Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CollaborationGroup-Group Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CommunityMemberLayout-Community Member Layout</layout>
@@ -13483,6 +13515,9 @@
         <layout>ContractLineItem-Contract Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Copado_Integration_Setting__c-Copado Integration Setting Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CreditMemo-Formato Memorándum de crédito</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13516,6 +13551,9 @@
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Field_Mapping__c-Field Mapping Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>FinanceBalanceSnapshot-Formato Instantánea de saldo financiero</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13523,6 +13561,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Goal-Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>GoalLink-Goal Link Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
@@ -13538,6 +13582,13 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>InvoiceLine-Formato Partida de factura</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>JobTracker-Job Tracker Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Lead %28Marketing%29 Layout</layout>
+        <recordType>Lead.prueba_lead</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Lead-Lead Layout</layout>
@@ -13593,7 +13644,24 @@
         <recordType>Mert_Object__c.Mert_RT</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Metric-Formato de medición de finalización</layout>
+        <recordType>Metric.Completion</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Metric-Metric Layout</layout>
+        <recordType>Metric.Progress</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>MetricDataLink-Metric Data Link Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>NewObjectTEst__c-NewObjectTEst Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
@@ -13605,6 +13673,9 @@
     <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
         <recordType>Opportunity.RT_one</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>OpportunityContactRole-Opportunity Contact Role Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Opportunity Product Layout</layout>
@@ -13682,6 +13753,12 @@
         <layout>RefundLinePayment-Formato Pago de partida de reembolso</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>SOSSession-SOS Session Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>SOSSessionActivity-SOS Session Activity Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>STDT_Flow__c-Flow Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13698,6 +13775,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Seller-Formato Vendedor</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ServiceAppointmentGroup-Formato Grupo de citas de servicio</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ServiceContract-Service Contract Layout</layout>
@@ -13737,6 +13817,9 @@
         <layout>UserAlt-User Profile Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>UserAppMenuItem-Application Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>UserProvAccount-User Provisioning Account Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -13748,11 +13831,56 @@
     <layoutAssignments>
         <layout>Volvo_Object__c-Volvo_Object Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkCoaching-Coaching Layout 194</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedback-Feedback Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackQuestion-Feedback Question Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackQuestionSet-Feedback Question Set Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackRequest-Feedback Request Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkFeedbackTemplate-Feedback Template Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedure-Formato Procedimiento de trabajo</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>WorkProcedureStep-Formato Paso de procedimiento de trabajo</layout>
+    </layoutAssignments>
     <loginIpRanges>
         <description>test no jorge</description>
         <endAddress>62.255.100.250</endAddress>
         <startAddress>62.97.1.250</startAddress>
     </loginIpRanges>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AIPredictionEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AIRecordInsight</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -13760,6 +13888,60 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountBrand</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountContactRelation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AccountRelationship</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AgentWork</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AgentWorkSkill</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AppAnalyticsQueryRequest</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13772,6 +13954,159 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetAction</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetActionSource</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetRelationship</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetStatePeriod</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssetTokenEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AssociatedLocation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AsyncOperationEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AsyncOperationLog</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AsyncOperationStatus</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Attachment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AuthorizationForm</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AuthorizationFormConsent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AuthorizationFormDataUse</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>AuthorizationFormText</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>BIG_JORGE__b</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>BatchApexErrorEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>BusinessBrand</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -13781,12 +14116,30 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CampaignMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Case</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CaseComment</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13820,9 +14173,189 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ChatterActivity</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroup</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroupMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CollaborationGroupRecord</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CommSubscription</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CommSubscriptionChannelType</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CommSubscriptionConsent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CommSubscriptionTiming</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ConsumptionRate</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ConsumptionSchedule</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Contact</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactPointAddress</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactPointConsent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactPointEmail</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactPointPhone</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactPointTypeConsent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContactRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDistribution</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDocument</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentDocumentLink</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ContentVersion</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13847,18 +14380,135 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ConversationContextEntry</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CreditMemo</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CreditMemoInvApplication</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CreditMemoLine</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Customer</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>DandBCompany</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
-        <allowCreate>true</allowCreate>
-        <allowDelete>true</allowDelete>
-        <allowEdit>true</allowEdit>
-        <allowRead>true</allowRead>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DataObjectDataChgEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DataUseLegalBasis</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DataUsePurpose</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DelegatedAccount</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Document</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DuplicateRecordItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>DuplicateRecordSet</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EmailMessage</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EngagementChannelType</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13880,12 +14530,84 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Event</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>EventRelayFeedback</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ExperienceDiagnosticEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>FeedComment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>FeedItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Hierachy__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Idea</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>IdeaComment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Image</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13898,12 +14620,66 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Intel_Object__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Invoice</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>InvoiceLine</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>John_Hancock__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Jorge_custom_Set__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Lead</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LegalEntity</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13928,6 +14704,15 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LiveChatTranscriptEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>LiveChatVisitor</object>
@@ -13946,9 +14731,117 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LocationGroup</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LocationGroupAssignment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>LogoutEventStream</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>MLModel</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>MLModelFactor</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>MLModelFactorComponent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>MLModelMetric</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Macro</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>MacroUsage</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Mert_Object__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>NetworkMember</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>NewObjectTEst__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Note</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13958,6 +14851,33 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Opportunity</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityContactRole</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityLineItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OpportunityTeamMember</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -13973,6 +14893,141 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrderItem</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgDeleteRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgLifecycleNotification</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgMetric</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgMetricScanResult</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>OrgMetricScanSummary</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Partner</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundAllocation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundClaim</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerFundRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartnerMarketingBudget</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PartyConsent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PendingServiceRouting</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PlatformStatusAlertEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Platform_Jorge_new__e</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Pricebook2</object>
@@ -13982,9 +15037,54 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ProcessException</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ProcessExceptionEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Product2</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ProductConsumptionSchedule</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PromptAction</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PromptError</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14000,9 +15100,126 @@
         <allowCreate>false</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Prueba_Tab_2__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PushTopic</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>QuickText</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>QuickTextUsage</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Recommendation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>RecommendationResponse</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>RecordAction</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>RemoteKeyCalloutEvent</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>STDT_Flow__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>STDT_Requirement__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Scorecard</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ScorecardAssociation</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ScorecardMetric</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Seller</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14024,6 +15241,51 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ServiceResourceSkill</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>SetupAssistantStep</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>SiteMarketingDataExtensionMapping</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>SkillRequirement</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>SocialPersona</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
         <allowEdit>false</allowEdit>
@@ -14039,6 +15301,141 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>StreamingChannel</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Super_Object__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Task</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Territory2</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Test_Object__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Topic</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>TopicAssignment</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>User</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvAccount</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvAccountStaging</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvMockTarget</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvisioningLog</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserProvisioningRequest</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserServicePresence</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>UserTerritory2Association</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Volvo_Object__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14111,6 +15508,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>agf__ADM_Burndown_Item__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_Cache_Metadata__mdt</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14375,6 +15781,15 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_Product_Tag_Work_Metadata__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
@@ -14390,6 +15805,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>agf__ADM_Release_Burndown_Item__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_Release_Calendar__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14645,12 +16069,30 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_User_Product_Tag__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>agf__ADM_Valid_GUS_Value__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_WorkFieldsForRecordType__mdt</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14678,6 +16120,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>agf__ADM_Work_History__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__ADM_Work_SLA_Response_Time__mdt</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -14741,6 +16192,42 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>agf__OMOpportunity__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__PPM_Portfolio__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__PPM_Program__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__PPM_Project_Accomplishment__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>false</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>agf__PPM_Project__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -15619,6 +17106,11 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Lead.prueba_lead</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Lead.recordtype1</recordType>
         <visible>true</visible>
@@ -15641,6 +17133,16 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Mert_Object__c.Mert_RT</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Metric.Completion</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Metric.Progress</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
@@ -15828,6 +17330,101 @@
         <recordType>agf__Release_Signoff_Infrastructure__c.agf__Splits_Migrations</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>copado__Artifact__c.copado__Git_Artifact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Artifact__c.copado__Package_Artifact</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Finding__c.copado__Copado</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Finding__c.copado__Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Rule__c.copado__Copado</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Rule__c.copado__Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Scan_Result__c.copado__Copado</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Compliance_Scan_Result__c.copado__Other</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Selenium_Test_Run__c.copado__Generic_Web_Application</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>copado__Selenium_Test_Run__c.copado__Salesforce</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Result__c.copado__CodeScan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Result__c.copado__PMD</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Settings__c.copado__CodeScan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Settings__c.copado__PMD</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Violation__c.copado__CodeScan</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__Static_Code_Analysis_Violation__c.copado__PMD</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__User_Story__c.copado__Bug</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__User_Story__c.copado__Investigation</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>copado__User_Story__c.copado__User_Story</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>App_Page</tab>
         <visibility>DefaultOn</visibility>
@@ -15997,6 +17594,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-AlternativePaymentMethod</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-AppLauncher</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -16014,10 +17615,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-AssetStatePeriod</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-AsyncOperationLog</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -16063,6 +17660,10 @@
     <tabVisibilities>
         <tab>standard-Chatter</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-CmsAuthorHome</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
@@ -16149,6 +17750,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DeleteEvent</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DigitalWallet</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -16161,8 +17766,16 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-EmailTemplate</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-EngagementChannelType</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-EnhancedLetterhead</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
@@ -16170,6 +17783,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Event</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-Feed</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -16183,6 +17800,18 @@
     <tabVisibilities>
         <tab>standard-FinanceTransaction</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FlowInterview</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FlowOrchestrationInstance</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FlowOrchestrationWorkItem</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Forecasting3</tab>
@@ -16213,7 +17842,23 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-LearningItem</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-LegalEntity</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LightningBoltHome</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LightningInstrumentation</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LightningQuickText</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -16243,6 +17888,14 @@
     <tabVisibilities>
         <tab>standard-Macro</tab>
         <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-MobileHome</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OmniSupervisorLightning</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Opportunity</tab>
@@ -16285,6 +17938,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-PaymentAuthAdjustment</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PaymentAuthorization</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -16307,6 +17964,10 @@
     <tabVisibilities>
         <tab>standard-ProcessException</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ProcessInstanceWorkitem</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Product2</tab>
@@ -16337,7 +17998,23 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-RescheduleAppointments</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ScheduleAppointments</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Scorecard</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-SecurityCenterNotification</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-SecurityCenterPolicies</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -16369,6 +18046,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-Today</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-UserProfile</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -16390,16 +18071,64 @@
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AICreateInsightObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AIViewInsightObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AccessContentBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AccessToServiceProcess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AccountSwitcherUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ActivateContract</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AddAnalyticsRemoteConnections</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AddWaveNotificationRecipients</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AllowEmailIC</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AllowLightningLogin</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>AllowUniversalSearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AllowViewEditConvertedLeads</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16414,12 +18143,96 @@
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AssignPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>AssignUserToSkill</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AuthorApex</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AutomaticActivityCapture</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>B2BMarketingAnalyticsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BotManageBots</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BotManageBotsTrainingData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BulkApiHardDelete</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BulkMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>BypassMFAForUiLogins</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CampaignInfluence2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanApproveFeedPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanEditDataPrepRecipe</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanEditPrompts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanInsertFeedSystemFields</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanManageMaps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanUseNewDashboardBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanVerifyComment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChangeDashboardColors</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChatterComposeUiCodesnippet</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ChatterEditOwnPost</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ChatterEditOwnRecordPost</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16438,8 +18251,48 @@
         <name>ChatterOwnGroups</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ClientSecretRotation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CloseConversations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConfigCustomRecs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConfigureScopedAccessGroup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConnectOrgToEnvironmentHub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConsentApiUpdate</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentAdministrator</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ContentHubUser</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ContentWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ConvertLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateCustomizeDashboards</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16450,20 +18303,124 @@
         <name>CreateCustomizeReports</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateDashboardFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempFolder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateLtngTempInPub</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateReportFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateReportInLightning</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>CreateTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CreateWorkspaces</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomMobileAppsAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomSidebarOnAllPages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomTabBarOnMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CustomizeApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DataExport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DelegatedPortalUserAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DelegatedTwoFactor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DeleteActivatedContract</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>DeleteTopics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>DistributeFromPersWksp</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>EditActivatedOrders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditBrandTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditCaseComments</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>EditEvent</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>EditHtmlTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditMyDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditMyReports</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>EditOppLineItemUnitPrice</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditPublicDocuments</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditPublicFilters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditPublicTemplates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EditReadonlyFields</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16482,8 +18439,16 @@
         <name>EmailSingle</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>EnableBCTransactionPolling</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>EnableCommunityAppLauncher</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>EnableIPFSUpload</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16492,6 +18457,118 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FSCArcGraphCommunityUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FSCComprehensiveUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>FeedPinning</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ForceTwoFactor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GiveRecognitionBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>GovernNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HasUnlimitedNBAExecutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HeadlessCMSAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>HideReadByList</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityConnect</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IdentityEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ImportCustomObjects</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ImportLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ImportPersonal</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppDashboardEditor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppEltEditor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppUploadUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsCreateApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IotUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IsotopeAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IsotopeCToCUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>IsotopeLEX</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LMEndMessagingSessionUserPerm</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LMOutboundMessagingUserPerm</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LearningManager</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>LifecycleManagementAPIUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16506,32 +18583,412 @@
         <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>LtngPromoReserved01UserPerm</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageAnalyticSnapshots</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageAuthProviders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageBusinessHourHolidays</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageC360AConnections</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCMS</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCallCenters</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCases</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCertificates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageChatterMessages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageContentPermissions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageContentProperties</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageContentTypes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCssUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCustomPermissions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageCustomReportTypes</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageDashbdsInPubFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageDataCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageDataIntegrations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageDynamicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageEmailClientConfig</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageEncryptionKeys</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageEntitlements</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageExchangeConfig</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageExternalConnections</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageHealthCheck</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageHubConnections</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageInteraction</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageInternalUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageIpAddresses</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageKnowledgeImportExport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageLeads</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageLearningReporting</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageLoginAccessPolicies</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageOrchInstsAndWorkItems</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ManagePackageLicenses</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
+        <name>ManagePartners</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManagePasswordPolicies</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageProfilesPermissionsets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManagePropositions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManagePvtRptsAndDashbds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageQuotas</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageRecommendationStrategies</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageReleaseUpdates</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageRemoteAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageReportsInPubFolders</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>ManageRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageScopedAccessGroup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSearchPromotionRules</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSecurityCommandCenter</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSessionPermissionSets</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSharing</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSolutions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSubscriptions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSurveys</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageSynonyms</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageTemplatedApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageTerritories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageTranslation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageTwoFactor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageUnlistedGroups</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ManageUsers</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>MassInlineEdit</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>MergeTopics</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>Microbatching</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateChatter</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFeeds</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkMessages</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModerateNetworkUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifyAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifyDataClassification</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>MultiStepSchedulingUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>NativeWebviewScrolling</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>NewReportBuilder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>OmnichannelInventorySync</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>OverrideForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>Packaging2</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>Packaging2Delete</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PasswordNeverExpires</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PaymentsAPIUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PortalSuperUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PreventClassicExperience</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>PrivacyDataAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>QueryAllFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>QuipMetricsAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>QuipUserEngagementMetrics</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ResetPasswords</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>RunFlow</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>RunReports</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>SalesConsole</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SandboxTestingInCommunityApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ScheduleReports</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SendAnnouncementEmails</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SendCustomNotifications</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -16539,34 +18996,254 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ShareInternalArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ShowCompanyNameAsUserBadge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SkipIdentityConfirmation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SolutionImport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>StdAutomaticActivityCapture</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>SubmitMacrosAllowed</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeDashboardToOtherUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeReportRolesGrps</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeReportToOtherUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeReportsRunAsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>SubscribeToLightningDashboards</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>SubscribeToLightningReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>TraceXdsQueries</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>TransactionSecurityExempt</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>TransactionalEmailSend</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>TransferAnyCase</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>TransferAnyEntity</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>TransferAnyLead</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>TwoFactorApi</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseAssistantDialog</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseMySearch</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseQuerySuggestions</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseSubscriptionEmails</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseTeamReassignWizards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseTemplatedApp</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewHelpLink</name>
+        <enabled>false</enabled>
+        <name>ViewAllActivities</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllCustomSettings</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllForecasts</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllForeignKeyNames</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllProfiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewAnomalyEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewContent</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewCustomerSentiment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewDataAssessment</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewDataCategories</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewDataLeakageEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewDeveloperName</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewEncryptedData</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewEventLogFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewGlobalHeader</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewHealthCheck</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewMLModels</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewMyTeamsDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewOnlyEmbeddedAppUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewPlatformEvents</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewPrivateStaticResources</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewPublicDashboards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewPublicReports</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewRestrictionAndScopingRules</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewRoles</name>
     </userPermissions>
     <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewSecurityCommandCenter</name>
+    </userPermissions>
+    <userPermissions>
         <enabled>true</enabled>
         <name>ViewSetup</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ViewUserPII</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WaveManagePrivateAssetsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WaveTabularDownload</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WorkCalibrationUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WorkDotComUserPerm</name>
     </userPermissions>
 </Profile>
