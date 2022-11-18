@@ -116734,6 +116734,12 @@
             </values>
         </picklistValues>
     </recordTypes>
+    <recordTypes>
+        <fullName>Nuevo_RC_test</fullName>
+        <active>true</active>
+        <description>test de un RC</description>
+        <label>Nuevo_RC_test</label>
+    </recordTypes>
     <searchLayouts>
         <massQuickActions>Gradiente</massQuickActions>
         <searchResultsAdditionalFields>CREATEDBY_USER.ALIAS</searchResultsAdditionalFields>
