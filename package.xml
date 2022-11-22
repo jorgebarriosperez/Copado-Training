@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Prueba_1__c-Layout_delete</members>
-        <members>Prueba_1__c-Nuevo Layout</members>
-        <members>Prueba_1__c-Prueba_1 Layoutxxx</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
         <members>Admin</members>
         <name>Profile</name>
     </types>
     <types>
+        <members>Prueba_1__c.NewRC_test2</members>
         <members>Prueba_1__c.Nuevo_RC_test</members>
         <name>RecordType</name>
     </types>
