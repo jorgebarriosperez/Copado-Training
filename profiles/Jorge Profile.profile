@@ -13726,6 +13726,14 @@
         <layout>ProductConsumptionSchedule-Formato Programación de consumo de producto</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Prueba_1__c-Nuevo Layout</layout>
+        <recordType>Prueba_1__c.NewRC_test2</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Prueba_1__c-Nuevo Layout</layout>
+        <recordType>Prueba_1__c.Nuevo_RC_test</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Prueba_1__c-Prueba_1 Layoutxxx</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -17166,6 +17174,16 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Prueba_1__c.NewRC_test2</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Prueba_1__c.Nuevo_RC_test</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
         <default>true</default>
         <recordType>Prueba_Tab_2__c.ElCabezon</recordType>
         <visible>true</visible>
@@ -19141,10 +19159,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>ViewAnomalyEvents</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>ViewContent</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
