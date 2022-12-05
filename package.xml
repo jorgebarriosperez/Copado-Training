@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Jorge Profile</members>
-        <name>Profile</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Case.Conection__c</members>
+        <members>Case.Support_Department__c</members>
+        <name>CustomField</name>
     </types>
     <version>56.0</version>
 </Package>
