@@ -25,4 +25,16 @@
         <label>Closed</label>
         <closed>true</closed>
     </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>OTP Value</fullName>
+        <default>false</default>
+        <label>OTP Value</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>
