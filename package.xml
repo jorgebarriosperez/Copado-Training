@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Espana_model</members>
-        <name>ForecastingType</name>
-    </types>
-    <types>
-        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Prueba_1__c.NewRC_test2</members>
-        <name>RecordType</name>
-    </types>
-    <types>
         <members>Espana_model.TerritoryRuletest1</members>
         <members>Espana_model.TerritoryRuletest2</members>
         <name>Territory2Rule</name>
