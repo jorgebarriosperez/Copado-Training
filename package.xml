@@ -5,8 +5,8 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Opportunity-Opportunity Layout</members>
-        <name>Layout</name>
+        <members>Opportunity.RT_one</members>
+        <name>RecordType</name>
     </types>
     <version>56.0</version>
 </Package>
