@@ -1249,6 +1249,29 @@
         <description>test1</description>
         <label>RT_one</label>
         <picklistValues>
+            <picklist>number2__c</picklist>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>22</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>33</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>44</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>55</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
             <picklist>Number1__c</picklist>
             <values>
                 <fullName>1</fullName>
