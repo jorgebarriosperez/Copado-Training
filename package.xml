@@ -4,5 +4,9 @@
         <members>Opportunity.number2__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Opportunity-Opportunity Layout</members>
+        <name>Layout</name>
+    </types>
     <version>56.0</version>
 </Package>
