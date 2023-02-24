@@ -99,6 +99,10 @@
                 <behavior>Edit</behavior>
                 <field>encryptedfield__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Number1__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
