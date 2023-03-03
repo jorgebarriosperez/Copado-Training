@@ -14,10 +14,6 @@
         <fullName>test_change_email</fullName>
         <description>test change email</description>
         <protected>false</protected>
-        <recipients>
-            <recipient>jbarrios@dev1copa.do</recipient>
-            <type>user</type>
-        </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/first_email_template</template>
     </alerts>
