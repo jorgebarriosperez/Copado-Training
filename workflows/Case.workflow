@@ -20,6 +20,17 @@
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
     </alerts>
+    <alerts>
+        <fullName>test_change_email</fullName>
+        <description>test change email</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jbarrios@dev1copa.do</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/first_email_template</template>
+    </alerts>
     <fieldUpdates>
         <fullName>WF_case_FU</fullName>
         <description>WF_case_FU</description>
