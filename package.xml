@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/first_email_template</members>
-        <name>EmailTemplate</name>
+        <members>Jorge_Turbo</members>
+        <name>PermissionSet</name>
     </types>
-    <types>
-        <members>Case.test_change_email</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <version>56.0</version>
+    <version>57.0</version>
 </Package>
