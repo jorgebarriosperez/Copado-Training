@@ -16,4 +16,19 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
+    <standardValue>
+        <fullName>gmail</fullName>
+        <default>false</default>
+        <label>gmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>hotmail</fullName>
+        <default>false</default>
+        <label>hotmail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>terra</fullName>
+        <default>false</default>
+        <label>terra</label>
+    </standardValue>
 </StandardValueSet>
