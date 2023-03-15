@@ -16,4 +16,19 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
+    <standardValue>
+        <fullName>perro</fullName>
+        <default>false</default>
+        <label>perro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>gato</fullName>
+        <default>false</default>
+        <label>gato</label>
+    </standardValue>
+    <standardValue>
+        <fullName>salchicha</fullName>
+        <default>false</default>
+        <label>salchicha</label>
+    </standardValue>
 </StandardValueSet>
