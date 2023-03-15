@@ -17,18 +17,18 @@
         <label>Web</label>
     </standardValue>
     <standardValue>
-        <fullName>perro</fullName>
+        <fullName>gmail</fullName>
         <default>false</default>
-        <label>perro</label>
+        <label>gmail</label>
     </standardValue>
     <standardValue>
-        <fullName>gato</fullName>
+        <fullName>hotmail</fullName>
         <default>false</default>
-        <label>gato</label>
+        <label>hotmail</label>
     </standardValue>
     <standardValue>
-        <fullName>salchicha</fullName>
+        <fullName>terra</fullName>
         <default>false</default>
-        <label>salchicha</label>
+        <label>terra</label>
     </standardValue>
 </StandardValueSet>
