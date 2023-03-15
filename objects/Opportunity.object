@@ -319,11 +319,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>TerritoryId</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Texto_2__c</fullName>
         <externalId>false</externalId>
         <label>Texto 2</label>

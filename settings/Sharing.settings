@@ -10,9 +10,8 @@
     <enableManualUserRecordSharing>false</enableManualUserRecordSharing>
     <enablePartnerSuperUserAccess>false</enablePartnerSuperUserAccess>
     <enablePortalUserVisibility>true</enablePortalUserVisibility>
-    <enableRemoveTMGroupMembership>false</enableRemoveTMGroupMembership>
+    <enableRemoveTMGroupMembership>true</enableRemoveTMGroupMembership>
     <enableRestrictAccessLookupRecords>false</enableRestrictAccessLookupRecords>
     <enableSecureGuestAccess>false</enableSecureGuestAccess>
     <enableStandardReportVisibility>true</enableStandardReportVisibility>
-    <enableTerritoryForecastManager>false</enableTerritoryForecastManager>
 </SharingSettings>

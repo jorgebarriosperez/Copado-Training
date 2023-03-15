@@ -384,10 +384,6 @@
         <fullName>IsCustomerPortal</fullName>
     </fields>
     <fields>
-        <fullName>IsExcludedFromRealign</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
-    </fields>
-    <fields>
         <fullName>IsPartner</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -525,9 +521,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Territories</fullName>
-    </fields>
-    <fields>
         <fullName>Text_File_delete__c</fullName>
         <externalId>false</externalId>
         <label>Text_File_delete</label>
@@ -540,6 +533,9 @@
     <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>Tier</fullName>
     </fields>
     <fields>
         <fullName>Tradestyle</fullName>

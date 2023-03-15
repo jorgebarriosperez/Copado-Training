@@ -178,13 +178,12 @@
     <gender>Feminine</gender>
     <label>NewObjectTEst</label>
     <nameField>
-        <encryptionScheme>None</encryptionScheme>
         <label>NewObjectTEst Name</label>
         <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>NewObjectTEsts</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

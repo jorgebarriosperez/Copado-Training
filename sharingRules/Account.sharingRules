@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
-        <fullName>Account_test</fullName>
-        <accessLevel>Read</accessLevel>
+        <fullName>TestCriteriaRule</fullName>
+        <accessLevel>Edit</accessLevel>
         <accountSettings>
-            <caseAccessLevel>Read</caseAccessLevel>
-            <contactAccessLevel>Read</contactAccessLevel>
-            <opportunityAccessLevel>Read</opportunityAccessLevel>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
         </accountSettings>
-        <criteriaItems>
-            <field>Active__c</field>
-            <operation>equals</operation>
-            <value>Yes</value>
-        </criteriaItems>
-        <label>Account test</label>
+        <description>TestCriteriaRule</description>
+        <label>TestCriteriaRule</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>equals</operation>
+            <value>pajaro2</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Site</field>
+            <operation>contains</operation>
+            <value>tuks</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
 </SharingRules>

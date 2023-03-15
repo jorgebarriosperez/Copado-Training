@@ -10,9 +10,11 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Adobe Sign for Salesforce</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>echosign_dev1__Adobe_Sign_Admin_Component_Tab</tabs>
     <tabs>echosign_dev1__SIGN_Agreement__c</tabs>
     <tabs>echosign_dev1__ManageAgreements</tabs>
     <tabs>echosign_dev1__Agreement_Template__c</tabs>

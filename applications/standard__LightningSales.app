@@ -5,6 +5,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Sales</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
@@ -23,5 +24,7 @@
     <tabs>standard-Event</tabs>
     <tabs>standard-OtherUserProfile</tabs>
     <tabs>standard-Case</tabs>
+    <tabs>standard-Forecasting3</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>LightningSales_UtilityBar</utilityBar>
 </CustomApplication>

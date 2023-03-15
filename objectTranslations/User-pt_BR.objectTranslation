@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
     <fields>
         <help>Selecione esta caixa para que outros usuários nesta organização do Salesforce possam enviar contratos do Adobe Sign em nome deste usuário.</help>
         <label><!-- Adobe Sign Allow Sending As Other Users --></label>
