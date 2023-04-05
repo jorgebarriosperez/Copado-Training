@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CaseStatus</members>
-        <name>StandardValueSet</name>
+        <members>DelegateGroup</members>
+        <name>DelegateGroup</name>
     </types>
-    <version>55.0</version>
+    <types>
+        <members>Jorge_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Nuevo Profile22</members>
+        <name>Profile</name>
+    </types>
+    <version>57.0</version>
 </Package>
