@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.Origin</members>
-        <name>CustomField</name>
+        <members>DelegateGroup</members>
+        <name>DelegateGroup</name>
     </types>
     <types>
-        <members>CaseOrigin</members>
-        <name>StandardValueSet</name>
+        <members>Jorge_Permission_Set</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Nuevo Profile22</members>
+        <name>Profile</name>
     </types>
     <version>57.0</version>
 </Package>
