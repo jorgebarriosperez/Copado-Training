@@ -9,7 +9,7 @@
         <recipients>
             <type>creator</type>
         </recipients>
-        <senderType>DefaultWorkflowUser</senderType>
+        <senderType>CurrentUser</senderType>
         <template>unfiled$public/CommunityWelcomeEmailTemplate</template>
     </alerts>
 </Workflow>
