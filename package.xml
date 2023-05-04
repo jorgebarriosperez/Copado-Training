@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CaseStatus</members>
-        <name>StandardValueSet</name>
+        <members>AppleWatch</members>
+        <members>AppleWatchTest</members>
+        <name>ApexClass</name>
     </types>
-    <version>55.0</version>
+    <types>
+        <members>Prueba_1__c.CheckboxTest33__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Prueba_1__c-Nuevo Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>57.0</version>
 </Package>
