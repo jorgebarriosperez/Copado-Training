@@ -136,10 +136,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AppleWatch2</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>AppleWatchTest2</apexClass>
         <enabled>false</enabled>
     </classAccesses>
