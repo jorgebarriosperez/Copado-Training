@@ -3,6 +3,7 @@
     <doesEmailLogAsEmailMessageInOutlook>true</doesEmailLogAsEmailMessageInOutlook>
     <enableContactAndEventSync>false</enableContactAndEventSync>
     <enableEngageForOutlook>false</enableEngageForOutlook>
+    <enableExtensionHostUnrestricted>true</enableExtensionHostUnrestricted>
     <enableGmailIntegration>false</enableGmailIntegration>
     <enableOutlookIntegration>false</enableOutlookIntegration>
     <isLayoutCustomizationAllowed>false</isLayoutCustomizationAllowed>
