@@ -130,6 +130,10 @@
                 <behavior>Edit</behavior>
                 <field>Support_Department__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Conection__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -320,6 +324,13 @@
         <fields>SOLUTION.STATUS</fields>
         <fields>CORE.USERS.ALIAS</fields>
         <relatedList>RelatedSolutionList</relatedList>
+    </relatedLists>
+    <relatedLists>
+        <fields>MergedRecord.CaseNumber</fields>
+        <fields>MergedRecord.Subject</fields>
+        <fields>LatestMaster.CaseNumber</fields>
+        <fields>CreatedDate</fields>
+        <relatedList>RelatedMergeHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>TASK.SUBJECT</fields>

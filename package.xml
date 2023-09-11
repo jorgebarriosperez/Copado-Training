@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>agf__admButtonMenu</members>
-        <members>agf__admButtonMenuEvents</members>
-        <members>agf__admButtonMenuForTeamMembers</members>
-        <members>agf__admButtonMenuOption</members>
-        <members>agf__admDndContext</members>
-        <name>LightningComponentBundle</name>
+        <members>Case-Case Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Jorge Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Case.RT_Investigation</members>
+        <name>RecordType</name>
     </types>
     <version>58.0</version>
 </Package>
