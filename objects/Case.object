@@ -421,6 +421,13 @@
         <label>US - Silver/Bronze</label>
         <queue>USSilverBronze</queue>
     </listViews>
+    <recordTypes>
+        <fullName>RT_Investigation</fullName>
+        <active>true</active>
+        <businessProcess>Case Process TE</businessProcess>
+        <description>Investigation</description>
+        <label>RT Investigation</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
