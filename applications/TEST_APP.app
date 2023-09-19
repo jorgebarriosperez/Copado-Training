@@ -5,6 +5,6 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>TEST_APP</label>
-    <tabs>Prueba_1__c</tabs>
     <tabs>Prueba_Tab_2__c</tabs>
+    <tabs>Prueba_1__c</tabs>
 </CustomApplication>
