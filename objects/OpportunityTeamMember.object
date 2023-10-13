@@ -151,6 +151,7 @@
     </fields>
     <fields>
         <fullName>TeamMemberRole</fullName>
+        <trackHistory>false</trackHistory>
         <type>Picklist</type>
     </fields>
     <fields>
