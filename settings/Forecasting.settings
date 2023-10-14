@@ -255,6 +255,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -298,6 +306,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -477,6 +487,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -520,6 +538,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -703,6 +723,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -747,6 +775,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -926,6 +956,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -969,6 +1007,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1152,6 +1192,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1196,6 +1244,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1375,6 +1425,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1418,6 +1476,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1601,6 +1661,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1645,6 +1713,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1824,6 +1894,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1867,6 +1945,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2050,6 +2130,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2094,6 +2182,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2273,6 +2363,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2316,6 +2414,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2499,6 +2599,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2543,6 +2651,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2722,6 +2832,14 @@
             <field>PARTNER.NAME</field>
             <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
+        </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2765,6 +2883,8 @@
             <field>00N1i000000iD6F</field>
             <field>00N1i000000MD1p</field>
             <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
