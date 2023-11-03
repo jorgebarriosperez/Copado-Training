@@ -4,5 +4,9 @@
         <members>AppleWatch</members>
         <name>ApexClass</name>
     </types>
-    <version>48.0</version>
+    <types>
+        <members>agf__admButtonMenu</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>58.0</version>
 </Package>
