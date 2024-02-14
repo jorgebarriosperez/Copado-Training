@@ -157,6 +157,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Mediciones clave sobre rendimiento de ventas de socios.</description>
     <isGridLayout>true</isGridLayout>
+    <owner>autoproc@00d1i000000cxhteak</owner>
     <runningUser>jbarrios@dev2copa.do</runningUser>
     <textColor>#000000</textColor>
     <title>Ventas de canal</title>

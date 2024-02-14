@@ -138,6 +138,7 @@
             <useReportChart>false</useReportChart>
         </components>
     </middleSection>
+    <owner>jbarrios@dev2copa.do</owner>
     <rightSection>
         <columnSize>Medium</columnSize>
         <components>
