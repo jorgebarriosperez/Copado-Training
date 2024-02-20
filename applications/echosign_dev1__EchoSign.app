@@ -4,6 +4,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Adobe Sign</label>
     <logo>echosign_dev1__ButtonsLogosImages/echosign_dev1__EchoSignLogo.png</logo>
     <tabs>echosign_dev1__SIGN_Agreement__c</tabs>
