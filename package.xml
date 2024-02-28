@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>AppleWatch</members>
-        <name>ApexClass</name>
+        <members>unfiled$public/EmailTemplateJorge</members>
+        <name>EmailTemplate</name>
     </types>
-    <types>
-        <members>agf__admButtonMenu</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <version>58.0</version>
+    <version>60.0</version>
 </Package>
