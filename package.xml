@@ -2,11 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AppleWatch</members>
+        <members>AppleWatch2</members>
+        <members>AppleWatchTest</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>agf__admButtonMenu</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <version>58.0</version>
+    <version>60.0</version>
 </Package>
