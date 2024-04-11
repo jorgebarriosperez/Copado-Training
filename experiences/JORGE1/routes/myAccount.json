@@ -2,6 +2,7 @@
   "activeViewId" : "43491f19-275c-4df4-a3f3-9ad1af6ae7f4",
   "appPageId" : "57871532-b259-4262-8324-c6e6170971ac",
   "configurationTags" : [ ],
+  "devName" : "My_Account",
   "id" : "16369f3b-3ace-40c8-aec8-497ee8bb7f61",
   "label" : "My Account",
   "routeType" : "my-account",
