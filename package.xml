@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>JORGE1</members>
-        <members>Test_refugee_bruseels1</members>
-        <members>test_sales_team1</members>
+        <members>test_sales_team_cambiodenombre221</members>
         <name>ExperienceBundle</name>
     </types>
     <version>60.0</version>
