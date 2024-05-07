@@ -10,7 +10,8 @@ Public with sharing Class AppleWatch2{
         t.WhatId      = opp.Id;
         //TEST AHORAAAAAAAAAAAA
         insert t;
-        //TEST EN DEV1 
+        //TEST EN DEV1 ----  {!Environment.testvariablesjorege2024}
+        //{!Environment.testvariablesjorege2024}    para env variables
              }
   }
  }
