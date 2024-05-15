@@ -48,4 +48,12 @@
         <shortDescription>Label test</shortDescription>
         <value>TURBO</value>
     </labels>
+    <labels>
+        <fullName>test_label_ko</fullName>
+        <categories>test in ko</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>test label ko</shortDescription>
+        <value>test in ko</value>
+    </labels>
 </CustomLabels>

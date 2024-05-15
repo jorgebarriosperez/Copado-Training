@@ -302,6 +302,10 @@
         <label></label>
         <name>agf__Acceptance_Criteria_ErrorMessage_Start</name>
     </customLabels>
+    <customLabels>
+        <label></label>
+        <name>test_label_ko</name>
+    </customLabels>
     <customTabs>
         <label></label>
         <name>App_Page</name>
