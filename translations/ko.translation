@@ -306,6 +306,41 @@
         <label></label>
         <name>App_Page</name>
     </customTabs>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>NewFlow</fullName>
+        <label>korean def</label>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>New_Flow_2</fullName>
+    </flowDefinitions>
     <quickActions>
         <label></label>
         <name>GuestCommunityCase</name>
