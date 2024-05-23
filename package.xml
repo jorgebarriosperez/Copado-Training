@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CaseStatus</members>
-        <name>StandardValueSet</name>
+        <members>About_Wave_for_Sales</members>
+        <members>Account_Summary</members>
+        <members>Accounts_Dashboard</members>
+        <members>DTC_Sales_SAMPLE</members>
+        <members>Exec_Overview_Pipeline_Performance</members>
+        <members>Manager_Activities</members>
+        <members>Manager_Opportunity_Discovery</members>
+        <members>Manager_Overview</members>
+        <members>Opportunity_Details</members>
+        <members>Opportunity_Discovery</members>
+        <members>Opportunity_Summary</members>
+        <name>WaveDashboard</name>
     </types>
-    <version>55.0</version>
+    <version>60.0</version>
 </Package>
