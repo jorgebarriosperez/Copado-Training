@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>unfiled$public/EmailTemplateJorge</members>
-        <name>EmailTemplate</name>
+        <members>test_label_ko</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Account-ko</members>
+        <members>Campaign-ko</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>ko</members>
+        <name>Translations</name>
     </types>
     <version>60.0</version>
 </Package>
