@@ -4,4 +4,43 @@
         <label>korean texto</label>
         <name>CustomLabelJorge_2</name>
     </customLabels>
+    <customLabels>
+        <label></label>
+        <name>test_label_ko</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>NewFlow</fullName>
+        <label>korean def</label>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>New_Flow_2</fullName>
+    </flowDefinitions>
 </Translations>
