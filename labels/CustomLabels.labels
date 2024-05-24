@@ -42,11 +42,11 @@
     </labels>
     <labels>
         <fullName>Label_test</fullName>
-        <categories>NUEVO</categories>
+        <categories>NUEVO test ko</categories>
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>Label test</shortDescription>
-        <value>TURBO</value>
+        <value>TURBO test ko</value>
     </labels>
     <labels>
         <fullName>test_label_ko</fullName>
