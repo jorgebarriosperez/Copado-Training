@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- Label test --></label>
+        <name>Label_test</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- test label ko --></label>
+        <name>test_label_ko</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Jhon_Hancock_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>NewFlow</fullName>
+        <label>korean def</label>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>New_Flow_2</fullName>
+    </flowDefinitions>
+</Translations>
