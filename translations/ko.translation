@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flowDefinitions>
+        <flows>
+            <label>Clone Pipeline KO</label>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value />
+                    </inputParameters>
+                    <name>clonePipeline</name>
+                </fields>
+                <name>Clone_Pipeline</name>
+            </screens>
+            <screens>
+                <fields>
+                    <fieldText>desc ko</fieldText>
+                    <name>View_Record</name>
+                </fields>
+                <name>Success</name>
+            </screens>
+        </flows>
+        <fullName>copado__Clone_Pipeline</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <label>version ko</label>
+            <screens>
+                <fields>
+                    <name>GoToClonedAutomation</name>
+                </fields>
+                <name>Clone_Template</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FaultMessage</name>
+                </fields>
+                <fields>
+                    <name>UnexpectedError</name>
+                </fields>
+                <name>Display_Error</name>
+            </screens>
+        </flows>
+        <fullName>copado__Clone_Template</fullName>
+    </flowDefinitions>
+</Translations>

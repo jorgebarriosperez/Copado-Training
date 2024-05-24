@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>CaseStatus</members>
-        <name>StandardValueSet</name>
+        <members>copado__Clone_Pipeline</members>
+        <members>copado__Clone_Template</members>
+        <name>Flow</name>
     </types>
-    <version>55.0</version>
+    <types>
+        <members>ko</members>
+        <name>Translations</name>
+    </types>
+    <version>60.0</version>
 </Package>
