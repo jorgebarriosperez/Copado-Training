@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Label_test</members>
-        <members>test_label_ko</members>
-        <name>CustomLabel</name>
+        <members>Case.case_text1__c</members>
+        <members>Case.case_text2__c</members>
+        <name>CustomField</name>
     </types>
-    <types>
-        <members>Jhon_Hancock_PB</members>
-        <members>NewFlow</members>
-        <members>New_Flow_2</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>ko</members>
-        <name>Translations</name>
-    </types>
-    <version>60.0</version>
+    <version>61.0</version>
 </Package>
