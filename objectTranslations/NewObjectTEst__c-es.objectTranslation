@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>NewObjectTEst</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NewObjectTEsts</value>
+    </caseValues>
+    <fields>
+        <label><!-- TestPicklistNew --></label>
+        <name>TestPicklistNew__c</name>
+        <picklistValues>
+            <masterLabel>Prueba 1</masterLabel>
+            <translation><!-- Prueba 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prueba 2</masterLabel>
+            <translation><!-- Prueba 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prueba3</masterLabel>
+            <translation><!-- Prueba3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuperPrueba</masterLabel>
+            <translation><!-- SuperPrueba --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>
