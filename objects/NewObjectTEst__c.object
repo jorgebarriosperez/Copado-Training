@@ -154,6 +154,39 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>TestPicklistNew__c</fullName>
+        <label>TestPicklistNew</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Prueba 1</fullName>
+                    <default>false</default>
+                    <label>Prueba 1</label>
+                </value>
+                <value>
+                    <fullName>Prueba 2</fullName>
+                    <default>false</default>
+                    <label>Prueba 2</label>
+                </value>
+                <value>
+                    <fullName>Prueba3</fullName>
+                    <default>false</default>
+                    <label>Prueba3</label>
+                </value>
+                <value>
+                    <fullName>SuperPrueba</fullName>
+                    <default>false</default>
+                    <label>SuperPrueba</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>checboxnew66__c</fullName>
         <defaultValue>true</defaultValue>
         <description>desdc akkjakjlaskjlaskjl</description>
@@ -173,7 +206,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>NewObjectTEsts</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
