@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <customApplications>
-        <label><!-- TEST_APP --></label>
+        <description xsi:nil="true" />
+        <label></label>
         <name>TEST_APP</name>
     </customApplications>
     <customLabels>
-        <label><!-- CustomLabelJorge --></label>
+        <label></label>
         <name>CustomLabelJorge</name>
     </customLabels>
     <customLabels>
-        <label><!-- CustomLabelJorgeDELTE --></label>
+        <label></label>
         <name>CustomLabelJorgeDELTE</name>
     </customLabels>
     <customLabels>
-        <label><!-- CustomLabelJorge 2 --></label>
+        <label></label>
         <name>CustomLabelJorge_2</name>
     </customLabels>
     <customLabels>
-        <label><!-- Gran Label --></label>
+        <label></label>
         <name>Gran_Label</name>
     </customLabels>
     <customLabels>
-        <label><!-- HumanaTest --></label>
+        <label></label>
         <name>HumanaTest</name>
     </customLabels>
     <customLabels>
@@ -29,331 +31,331 @@
         <name>Label_test</name>
     </customLabels>
     <customLabels>
-        <label><!-- Acceptance Criteria --></label>
+        <label></label>
         <name>agf__ADM_AcceptanceCriteria</name>
     </customLabels>
     <customLabels>
-        <label><!-- Description --></label>
+        <label></label>
         <name>agf__ADM_AcceptanceCriteria_Description</name>
     </customLabels>
     <customLabels>
-        <label><!-- Name --></label>
+        <label></label>
         <name>agf__ADM_AcceptanceCriteria_Name</name>
     </customLabels>
     <customLabels>
-        <label><!-- Status --></label>
+        <label></label>
         <name>agf__ADM_AcceptanceCriteria_Status</name>
     </customLabels>
     <customLabels>
-        <label><!-- Add Assignee --></label>
+        <label></label>
         <name>agf__ADM_Add_Assignee</name>
     </customLabels>
     <customLabels>
-        <label><!-- Bugs --></label>
+        <label></label>
         <name>agf__ADM_Bugs</name>
     </customLabels>
     <customLabels>
-        <label><!-- Cancel --></label>
+        <label></label>
         <name>agf__ADM_Cancel</name>
     </customLabels>
     <customLabels>
-        <label><!-- Chatter tab --></label>
+        <label></label>
         <name>agf__ADM_Chatter</name>
     </customLabels>
     <customLabels>
-        <label><!-- Color Selector --></label>
+        <label></label>
         <name>agf__ADM_Color_Selector</name>
     </customLabels>
     <customLabels>
-        <label><!-- No Color --></label>
+        <label></label>
         <name>agf__ADM_Color_Selector_No_Color</name>
     </customLabels>
     <customLabels>
-        <label><!-- Work has already been committed to this sprint --></label>
+        <label></label>
         <name>agf__ADM_Commitment_Exists_On_Sprint</name>
     </customLabels>
     <customLabels>
-        <label><!-- Let user know what happens when they delete the column. --></label>
+        <label></label>
         <name>agf__ADM_Confirm_Delete_Column_Footer_Body</name>
     </customLabels>
     <customLabels>
-        <label><!-- Default --></label>
+        <label></label>
         <name>agf__ADM_Default</name>
     </customLabels>
     <customLabels>
-        <label><!-- Default Priority --></label>
+        <label></label>
         <name>agf__ADM_Default_Priority</name>
     </customLabels>
     <customLabels>
-        <label><!-- Definition of Ready Met --></label>
+        <label></label>
         <name>agf__ADM_Definition_of_Ready_Met</name>
     </customLabels>
     <customLabels>
-        <label><!-- Details tab --></label>
+        <label></label>
         <name>agf__ADM_Details</name>
     </customLabels>
     <customLabels>
-        <label><!-- Edit Color --></label>
+        <label></label>
         <name>agf__ADM_Edit_Color</name>
     </customLabels>
     <customLabels>
-        <label><!-- Error --></label>
+        <label></label>
         <name>agf__ADM_Error</name>
     </customLabels>
     <customLabels>
-        <label><!-- This validation error message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_Error_Msg_Closing_Non_Deterministic_Test</name>
     </customLabels>
     <customLabels>
-        <label><!-- This validation error message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_Error_Msg_Closing_Test_Failure</name>
     </customLabels>
     <customLabels>
-        <label><!-- This validation error message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_Error_Msg_Required_Field</name>
     </customLabels>
     <customLabels>
-        <label><!-- This validation error message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_File_Upload_Error</name>
     </customLabels>
     <customLabels>
-        <label><!-- This message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_File_Uploaded_Success</name>
     </customLabels>
     <customLabels>
-        <label><!-- This message is visible in the UI --></label>
+        <label></label>
         <name>agf__ADM_Files_Uploaded_Success</name>
     </customLabels>
     <customLabels>
-        <label><!-- Help me decide --></label>
+        <label></label>
         <name>agf__ADM_Help_Me_Decide</name>
     </customLabels>
     <customLabels>
-        <label><!-- Investigations --></label>
+        <label></label>
         <name>agf__ADM_Investigations</name>
     </customLabels>
     <customLabels>
-        <label><!-- New --></label>
+        <label></label>
         <name>agf__ADM_New</name>
     </customLabels>
     <customLabels>
-        <label><!-- OK --></label>
+        <label></label>
         <name>agf__ADM_OK</name>
     </customLabels>
     <customLabels>
-        <label><!-- Overridden --></label>
+        <label></label>
         <name>agf__ADM_Overridden</name>
     </customLabels>
     <customLabels>
-        <label><!-- Override --></label>
+        <label></label>
         <name>agf__ADM_Override</name>
     </customLabels>
     <customLabels>
-        <label><!-- Override Priority --></label>
+        <label></label>
         <name>agf__ADM_Override_Priority</name>
     </customLabels>
     <customLabels>
-        <label><!-- Priority --></label>
+        <label></label>
         <name>agf__ADM_Priority</name>
     </customLabels>
     <customLabels>
-        <label><!-- Priority is a required field --></label>
+        <label></label>
         <name>agf__ADM_Priority_Field_Required</name>
     </customLabels>
     <customLabels>
-        <label><!-- Favorite Product Tags --></label>
+        <label></label>
         <name>agf__ADM_Product_Tag_Favorites</name>
     </customLabels>
     <customLabels>
-        <label><!-- Text displayed in the header of the favorite product tags config component --></label>
+        <label></label>
         <name>agf__ADM_Product_Tag_Favorites_Header_Text</name>
     </customLabels>
     <customLabels>
-        <label><!-- Product Tag Name --></label>
+        <label></label>
         <name>agf__ADM_Product_Tag_Name</name>
     </customLabels>
     <customLabels>
-        <label><!-- You have not set any favorite product tags. --></label>
+        <label></label>
         <name>agf__ADM_Product_Tag_No_Favorites</name>
     </customLabels>
     <customLabels>
-        <label><!-- Save --></label>
+        <label></label>
         <name>agf__ADM_Save</name>
     </customLabels>
     <customLabels>
-        <label><!-- Confirm --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Confirm</name>
     </customLabels>
     <customLabels>
-        <label><!-- Forecast Confirmation --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Confirmation</name>
     </customLabels>
     <customLabels>
-        <label><!-- Forecast --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Forecast</name>
     </customLabels>
     <customLabels>
-        <label><!-- Would you like to proceed message on Sprint Forecast modal --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Proceed</name>
     </customLabels>
     <customLabels>
-        <label><!-- Your sprint contains work items with the following statuses: --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_1</name>
     </customLabels>
     <customLabels>
-        <label><!-- Message shown on forecast modal if sprint contains non-velocity statuses --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Sprint_Contains_NonVelocity_Items_2</name>
     </customLabels>
     <customLabels>
-        <label><!-- Total Work Count --></label>
+        <label></label>
         <name>agf__ADM_Sprint_Commitment_Total_Work_Count</name>
     </customLabels>
     <customLabels>
-        <label><!-- Successfully enabled status mapping updates for the sprint board. --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Success_Body</name>
     </customLabels>
     <customLabels>
-        <label><!-- Success --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Success_Heading</name>
     </customLabels>
     <customLabels>
-        <label><!-- Warning shown when Prefer_Board_Column_Auto_Update__c is set to false --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning</name>
     </customLabels>
     <customLabels>
-        <label><!-- click here --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Button_Label</name>
     </customLabels>
     <customLabels>
-        <label><!-- Close --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Close</name>
     </customLabels>
     <customLabels>
-        <label><!-- Close --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Board_Auto_Update_Warning_Warning</name>
     </customLabels>
     <customLabels>
-        <label><!-- Close Sprint --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Header_Close_Sprint</name>
     </customLabels>
     <customLabels>
-        <label><!-- Days Left --></label>
+        <label></label>
         <name>agf__ADM_Sprint_VirtualWall_Header_Days_Left</name>
     </customLabels>
     <customLabels>
-        <label><!-- Story Points --></label>
+        <label></label>
         <name>agf__ADM_Story_Points</name>
     </customLabels>
     <customLabels>
-        <label><!-- Success toast title --></label>
+        <label></label>
         <name>agf__ADM_Success</name>
     </customLabels>
     <customLabels>
-        <label><!-- Tasks --></label>
+        <label></label>
         <name>agf__ADM_Tasks</name>
     </customLabels>
     <customLabels>
-        <label><!-- Team Name --></label>
+        <label></label>
         <name>agf__ADM_Team_Name</name>
     </customLabels>
     <customLabels>
-        <label><!-- To Do --></label>
+        <label></label>
         <name>agf__ADM_To_Do</name>
     </customLabels>
     <customLabels>
-        <label><!-- User Stories --></label>
+        <label></label>
         <name>agf__ADM_User_Stories</name>
     </customLabels>
     <customLabels>
-        <label><!-- View All --></label>
+        <label></label>
         <name>agf__ADM_View_All</name>
     </customLabels>
     <customLabels>
-        <label><!-- Create Work --></label>
+        <label></label>
         <name>agf__ADM_Work_Create</name>
     </customLabels>
     <customLabels>
-        <label><!-- Edit Work --></label>
+        <label></label>
         <name>agf__ADM_Work_Edit</name>
     </customLabels>
     <customLabels>
-        <label><!-- No custom fields have been defined for this Product Tag. --></label>
+        <label></label>
         <name>agf__ADM_Work_Page_No_Custom_Product_Tag_Fields</name>
     </customLabels>
     <customLabels>
-        <label><!-- Product Tag Fields --></label>
+        <label></label>
         <name>agf__ADM_Work_Page_Product_Tag_Fields</name>
     </customLabels>
     <customLabels>
-        <label><!-- Informational text for work priority override modal --></label>
+        <label></label>
         <name>agf__ADM_Work_Priority_Override</name>
     </customLabels>
     <customLabels>
-        <label><!-- Themes --></label>
+        <label></label>
         <name>agf__ADM_Work_Theme_Modal_Basic_Label</name>
     </customLabels>
     <customLabels>
-        <label><!-- Search available Themes --></label>
+        <label></label>
         <name>agf__ADM_Work_Theme_Modal_Input_Label</name>
     </customLabels>
     <customLabels>
-        <label><!-- Error Message Start --></label>
+        <label></label>
         <name>agf__Acceptance_Criteria_ErrorMessage_Start</name>
     </customLabels>
     <customTabs>
-        <label><!-- App Page --></label>
+        <label></label>
         <name>App_Page</name>
     </customTabs>
     <quickActions>
-        <label><!-- Guest Community Case --></label>
+        <label></label>
         <name>GuestCommunityCase</name>
     </quickActions>
     <quickActions>
-        <label><!-- LogACall --></label>
+        <label></label>
         <name>LogACall</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewAccount --></label>
+        <label></label>
         <name>NewAccount</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewCase --></label>
+        <label></label>
         <name>NewCase</name>
     </quickActions>
     <quickActions>
-        <label><!-- New Community Case --></label>
+        <label></label>
         <name>NewCommunityCase</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewContact --></label>
+        <label></label>
         <name>NewContact</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewEvent --></label>
+        <label></label>
         <name>NewEvent</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewGroup --></label>
+        <label></label>
         <name>NewGroup</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewLead --></label>
+        <label></label>
         <name>NewLead</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewNote --></label>
+        <label></label>
         <name>NewNote</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewOpportunity --></label>
+        <label></label>
         <name>NewOpportunity</name>
     </quickActions>
     <quickActions>
-        <label><!-- NewTask --></label>
+        <label></label>
         <name>NewTask</name>
     </quickActions>
     <quickActions>
-        <label><!-- SendEmail --></label>
+        <label></label>
         <name>SendEmail</name>
     </quickActions>
 </Translations>
