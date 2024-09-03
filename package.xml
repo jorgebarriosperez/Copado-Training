@@ -5,8 +5,9 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>NewObjectTEst__c</members>
-        <name>CustomObject</name>
+        <members>NewObjectTEst__c-es</members>
+        <members>NewObjectTEst__c-it</members>
+        <name>CustomObjectTranslation</name>
     </types>
     <version>61.0</version>
 </Package>
