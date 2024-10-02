@@ -6,6 +6,6 @@
     <ruleItems>
         <field>Account.Name</field>
         <operation>contains</operation>
-        <value>Test</value>
+        <value>NoTest22</value>
     </ruleItems>
 </Territory2Rule>

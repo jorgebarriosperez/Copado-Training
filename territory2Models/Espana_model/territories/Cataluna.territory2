@@ -4,6 +4,10 @@
     <caseAccessLevel>Edit</caseAccessLevel>
     <contactAccessLevel>Edit</contactAccessLevel>
     <name>Cataluna</name>
+    <objectAccessLevels>
+        <accessLevel>All</accessLevel>
+        <objectType>Lead</objectType>
+    </objectAccessLevels>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
     <parentTerritory>Nuevo_2_Territory</parentTerritory>
     <territory2Type>Espana</territory2Type>

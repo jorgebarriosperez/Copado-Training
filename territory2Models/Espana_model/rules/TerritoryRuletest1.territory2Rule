@@ -6,6 +6,11 @@
     <ruleItems>
         <field>Account.Active__c</field>
         <operation>equals</operation>
-        <value>Yes</value>
+        <value>No</value>
+    </ruleItems>
+    <ruleItems>
+        <field>Account.Name</field>
+        <operation>contains</operation>
+        <value>XXX</value>
     </ruleItems>
 </Territory2Rule>
