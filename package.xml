@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.case_text1__c</members>
-        <members>Case.case_text2__c</members>
-        <name>CustomField</name>
+        <members>El_Comisario</members>
+        <name>Role</name>
+    </types>
+    <types>
+        <members>Espana_model.Cataluna</members>
+        <members>Espana_model.Nuevo_2_Territory</members>
+        <members>Espana_model.Nuevo_territory</members>
+        <name>Territory2</name>
+    </types>
+    <types>
+        <members>Espana_model</members>
+        <members>USA_model</members>
+        <members>japon</members>
+        <name>Territory2Model</name>
+    </types>
+    <types>
+        <members>Espana_model.TerritoryRuletest1</members>
+        <members>Espana_model.TerritoryRuletest2</members>
+        <name>Territory2Rule</name>
+    </types>
+    <types>
+        <members>Espana</members>
+        <members>japon</members>
+        <name>Territory2Type</name>
     </types>
     <version>61.0</version>
 </Package>
