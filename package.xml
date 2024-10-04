@@ -5,6 +5,16 @@
         <name>CustomLabel</name>
     </types>
     <types>
+        <members>Jhon_Hancock_PB</members>
+        <members>New_Flow_2</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Jhon_Hancock_PB</members>
+        <members>New_Flow_2</members>
+        <name>FlowDefinition</name>
+    </types>
+    <types>
         <members>de</members>
         <members>en_US</members>
         <members>it</members>
