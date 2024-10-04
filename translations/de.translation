@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>german</label>
+        <name>X22Customlabel</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>Jhon_Hancock_PB</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>checkboxflow</name>
+                </fields>
+                <fields>
+                    <name>currency</name>
+                </fields>
+                <fields>
+                    <name>fechaflow</name>
+                </fields>
+                <name>prueba</name>
+            </screens>
+        </flows>
+        <fullName>New_Flow_2</fullName>
+    </flowDefinitions>
+</Translations>
