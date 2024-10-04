@@ -32,6 +32,10 @@
     </customLabels>
     <customLabels>
         <label></label>
+        <name>X22Customlabel</name>
+    </customLabels>
+    <customLabels>
+        <label></label>
         <name>agf__ADM_AcceptanceCriteria</name>
     </customLabels>
     <customLabels>

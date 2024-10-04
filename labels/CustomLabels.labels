@@ -49,6 +49,13 @@
         <value>TURBO test ko</value>
     </labels>
     <labels>
+        <fullName>X22Customlabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>22Customlabel</shortDescription>
+        <value>dos</value>
+    </labels>
+    <labels>
         <fullName>test_label_ko</fullName>
         <categories>test in ko</categories>
         <language>ko</language>

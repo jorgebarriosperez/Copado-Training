@@ -31,6 +31,10 @@
         <name>Label_test</name>
     </customLabels>
     <customLabels>
+        <label>itali</label>
+        <name>X22Customlabel</name>
+    </customLabels>
+    <customLabels>
         <label></label>
         <name>agf__ADM_AcceptanceCriteria</name>
     </customLabels>
