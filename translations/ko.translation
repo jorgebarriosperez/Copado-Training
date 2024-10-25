@@ -307,6 +307,10 @@
         <name>agf__Acceptance_Criteria_ErrorMessage_Start</name>
     </customLabels>
     <customLabels>
+        <label>korean texto</label>
+        <name>CustomLabelJorge_2</name>
+    </customLabels>
+    <customLabels>
         <label></label>
         <name>test_label_ko</name>
     </customLabels>

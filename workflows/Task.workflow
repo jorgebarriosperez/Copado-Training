@@ -2,8 +2,8 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>Alerta_de_email</fullName>
-        <ccEmails>test@prees.com</ccEmails>
-        <ccEmails>jorgetest@prees.com</ccEmails>
+        <ccEmails>test22@comoprees.com</ccEmails>
+        <ccEmails>jorgetest22@comoprees.com</ccEmails>
         <description>Alerta de email</description>
         <protected>false</protected>
         <recipients>
