@@ -26,6 +26,13 @@
         <value>Valor Ingles</value>
     </labels>
     <labels>
+        <fullName>FR_example_CustomLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FR example CustomLabel</shortDescription>
+        <value>Example for Alami</value>
+    </labels>
+    <labels>
         <fullName>Gran_Label</fullName>
         <categories>categoria extrema</categories>
         <language>en_US</language>
