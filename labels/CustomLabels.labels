@@ -7,4 +7,11 @@
         <shortDescription>FR example CustomLabel</shortDescription>
         <value>Example for Alami</value>
     </labels>
+    <labels>
+        <fullName>FR_text_with_protected</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>FR text with protected</shortDescription>
+        <value>test Alami protected</value>
+    </labels>
 </CustomLabels>

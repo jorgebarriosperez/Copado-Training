@@ -4,4 +4,8 @@
         <label>text in french</label>
         <name>FR_example_CustomLabel</name>
     </customLabels>
+    <customLabels>
+        <label>text with protected</label>
+        <name>FR_text_with_protected</name>
+    </customLabels>
 </Translations>
