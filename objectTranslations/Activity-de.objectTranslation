@@ -1,79 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label><!-- TEXTO NEW --></label>
+        <label></label>
         <name>TEXTO_NEW__c</name>
     </fields>
     <fields>
-        <label><!-- VUELING1 --></label>
+        <label></label>
         <name>VUELING1__c</name>
         <picklistValues>
             <masterLabel>VUELING1.1</masterLabel>
-            <translation><!-- VUELING1.1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING1.2</masterLabel>
-            <translation><!-- VUELING1.2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING1.3</masterLabel>
-            <translation><!-- VUELING1.3 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING1.4</masterLabel>
-            <translation><!-- VUELING1.4 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- VUELING2 --></label>
+        <label></label>
         <name>VUELING2__c</name>
         <picklistValues>
             <masterLabel>VUELING2.1</masterLabel>
-            <translation><!-- VUELING2.1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING2.2</masterLabel>
-            <translation><!-- VUELING2.2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING2.3</masterLabel>
-            <translation><!-- VUELING2.3 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING2.4</masterLabel>
-            <translation><!-- VUELING2.4 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- VUELING3 --></label>
+        <label></label>
         <name>VUELING3__c</name>
         <picklistValues>
             <masterLabel>NUEVO1</masterLabel>
-            <translation><!-- NUEVO1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>NUEVO2</masterLabel>
-            <translation><!-- NUEVO2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING3.1</masterLabel>
-            <translation><!-- VUELING3.1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING3.2</masterLabel>
-            <translation><!-- VUELING3.2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING3.3</masterLabel>
-            <translation><!-- VUELING3.3 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>VUELING3.4</masterLabel>
-            <translation><!-- VUELING3.4 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- test 22 --></label>
+        <label></label>
         <name>test_22__c</name>
         <picklistValues>
             <masterLabel>1</masterLabel>

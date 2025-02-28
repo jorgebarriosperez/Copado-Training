@@ -19,6 +19,10 @@
         <name>CustomLabelJorge_2</name>
     </customLabels>
     <customLabels>
+        <label>korean texto</label>
+        <name>CustomLabelJorge_2</name>
+    </customLabels>
+    <customLabels>
         <label></label>
         <name>Gran_Label</name>
     </customLabels>
@@ -305,10 +309,6 @@
     <customLabels>
         <label></label>
         <name>agf__Acceptance_Criteria_ErrorMessage_Start</name>
-    </customLabels>
-    <customLabels>
-        <label>korean texto</label>
-        <name>CustomLabelJorge_2</name>
     </customLabels>
     <customLabels>
         <label></label>

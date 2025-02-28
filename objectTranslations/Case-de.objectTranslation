@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label><!-- Campo_Auto --></label>
+        <label></label>
         <name>Campo_Auto__c</name>
     </fields>
     <fields>
-        <label><!-- Engineering Req Number --></label>
+        <label></label>
         <name>EngineeringReqNumber__c</name>
     </fields>
     <fields>
@@ -13,194 +13,194 @@
         <name>Gradiente__c</name>
         <picklistValues>
             <masterLabel>Ansiety</masterLabel>
-            <translation><!-- Ansiety --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Evaluate</masterLabel>
-            <translation><!-- Evaluate --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Old</masterLabel>
-            <translation><!-- Old --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Gradiente sin Restrict --></label>
+        <label></label>
         <name>Gradiente_sin_Restrict__c</name>
         <picklistValues>
             <masterLabel>Maybe</masterLabel>
-            <translation><!-- Maybe --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>One</masterLabel>
-            <translation><!-- One --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Three</masterLabel>
-            <translation><!-- Three --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Two</masterLabel>
-            <translation><!-- Two --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <help><!-- super help --></help>
-        <label><!-- Hotfix_text --></label>
+        <help></help>
+        <label></label>
         <name>Hotfix_text__c</name>
     </fields>
     <fields>
-        <label><!-- Potential Liability --></label>
+        <label></label>
         <name>PotentialLiability__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Product --></label>
+        <label></label>
         <name>Product__c</name>
         <picklistValues>
             <masterLabel>GC1020</masterLabel>
-            <translation><!-- GC1020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC1040</masterLabel>
-            <translation><!-- GC1040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC1060</masterLabel>
-            <translation><!-- GC1060 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3020</masterLabel>
-            <translation><!-- GC3020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3040</masterLabel>
-            <translation><!-- GC3040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3060</masterLabel>
-            <translation><!-- GC3060 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5020</masterLabel>
-            <translation><!-- GC5020 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5040</masterLabel>
-            <translation><!-- GC5040 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5060</masterLabel>
-            <translation><!-- GC5060 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- SLA Violation --></label>
+        <label></label>
         <name>SLAViolation__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Support Department --></label>
+        <label></label>
         <name>Support_Department__c</name>
         <picklistValues>
             <masterLabel>GERMANY</masterLabel>
-            <translation><!-- GERMANY --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>INDIA</masterLabel>
-            <translation><!-- INDIA --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>JAPAN</masterLabel>
-            <translation><!-- JAPAN --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SPAIN</masterLabel>
-            <translation><!-- SPAIN --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UK</masterLabel>
-            <translation><!-- UK --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>US</masterLabel>
-            <translation><!-- US --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Work --></label>
+        <label></label>
         <name>agf__ADM_Work__c</name>
-        <relationshipLabel><!-- Cases --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- case_text1 --></label>
+        <label></label>
         <name>case_text1__c</name>
     </fields>
     <fields>
-        <label><!-- case_text2 --></label>
+        <label></label>
         <name>case_text2__c</name>
     </fields>
     <fields>
-        <label><!-- case_text3 --></label>
+        <label></label>
         <name>case_text3__c</name>
     </fields>
     <fields>
-        <label><!-- jorge:picklist1 --></label>
+        <label></label>
         <name>jorge_picklist1__c</name>
         <picklistValues>
             <masterLabel>texto1</masterLabel>
-            <translation><!-- texto1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>texto2</masterLabel>
-            <translation><!-- texto2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>texto3</masterLabel>
-            <translation><!-- texto3 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- moverFiedl --></label>
+        <label></label>
         <name>moverFiedl__c</name>
     </fields>
     <fields>
-        <label><!-- test_AutoBackpromote --></label>
+        <label></label>
         <name>test_AutoBackpromote__c</name>
     </fields>
     <recordTypes>
-        <description><!-- Investigation --></description>
-        <label><!-- RT Investigation --></label>
+        <description></description>
+        <label></label>
         <name>RT_Investigation</name>
     </recordTypes>
     <webLinks>
-        <label><!-- UpsellCrosssellOpportunity --></label>
+        <label></label>
         <name>UpsellCrosssellOpportunity</name>
     </webLinks>
 </CustomObjectTranslation>
