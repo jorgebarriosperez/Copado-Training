@@ -135,6 +135,10 @@
                 <behavior>Edit</behavior>
                 <field>Support_Department__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Conection__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
