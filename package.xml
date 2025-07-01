@@ -4,5 +4,10 @@
         <members>EmployeeCopilotPlanner</members>
         <name>GenAiPlannerBundle</name>
     </types>
+    <types>
+        <members>Topic_1</members>
+        <members>Topic_2</members>
+        <name>GenAiPlugin</name>
+    </types>
     <version>64.0</version>
 </Package>
