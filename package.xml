@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.New Process Test</members>
-        <members>Case.New Process test 2</members>
-        <name>BusinessProcess</name>
+        <members>EmployeeCopilotPlanner</members>
+        <name>GenAiPlannerBundle</name>
     </types>
-    <version>63.0</version>
+    <version>64.0</version>
 </Package>
