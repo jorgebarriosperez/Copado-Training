@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <aiPluginUtterances>
+        <developerName>utterance_examplenot0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>utterance_examplenot0</masterLabel>
+        <utterance>example nothign 1</utterance>
+    </aiPluginUtterances>
+    <canEscalate>false</canEscalate>
+    <description>It is a test</description>
+    <developerName>Topic_1</developerName>
+    <genAiFunctions>
+        <functionName>SvcCopilotTmpl__CreateCase</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>no</description>
+        <developerName>instruction_no0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_no0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>test 2</description>
+        <developerName>instruction_test1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_test1</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Topic 1</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Nothing</scope>
+</GenAiPlugin>
