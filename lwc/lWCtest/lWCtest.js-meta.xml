@@ -3,7 +3,7 @@
 	<apiVersion>57</apiVersion>
 	<isExposed>false</isExposed>
 	<masterLabel>LWCtest</masterLabel>
-	<description>test description</description>
+	<description>test description DEV</description>
 	<targets>
 		<target>lightning__HomePage</target>
 		<target>lightning__RecordPage</target>
