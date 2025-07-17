@@ -314,6 +314,7 @@
     </listViews>
     <searchLayouts>
         <listViewButtons>Change_Owner_test</listViewButtons>
+        <listViewButtons>change_Owner_task</listViewButtons>
         <searchResultsAdditionalFields>TASK.SUBJECT</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHO_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>TASK.WHAT_NAME</searchResultsAdditionalFields>

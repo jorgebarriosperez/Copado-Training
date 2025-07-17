@@ -6,6 +6,7 @@
     </types>
     <types>
         <members>Activity.Change_Owner_test</members>
+        <members>Task.change_Owner_task</members>
         <name>WebLink</name>
     </types>
     <version>64.0</version>
