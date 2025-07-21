@@ -25,6 +25,14 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>textArea__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <label>textArea</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
     <label>Jorge_custom_Set</label>
     <visibility>Public</visibility>
 </CustomObject>
