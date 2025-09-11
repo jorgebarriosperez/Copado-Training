@@ -23,8 +23,8 @@
     <masterLabel>harifirstcusytomsite</masterLabel>
     <redirectToCustomDomain>true</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
-    <siteAdmin>jbarrios@dev1copa.do</siteAdmin>
-    <siteGuestRecordDefaultOwner>jbarrios@dev1copa.do</siteGuestRecordDefaultOwner>
+    <siteAdmin>jbarrios@uatcopa.do</siteAdmin>
+    <siteGuestRecordDefaultOwner>jbarrios@uatcopa.doo</siteGuestRecordDefaultOwner>
     <siteTemplate>FileNotFound</siteTemplate>
     <siteType>Visualforce</siteType>
     <urlPathPrefix>harifirstsite</urlPathPrefix>
