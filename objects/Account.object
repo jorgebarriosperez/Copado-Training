@@ -546,6 +546,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>chandufinalcommit__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>chandufinalcommit</label>
+        <length>44</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>harifield1__c</fullName>
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
