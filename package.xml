@@ -9,5 +9,14 @@
         <members>harifirstcusytomsite</members>
         <name>CustomSite</name>
     </types>
+    <types>
+        <members>site/MyExperienceSite1.sfdc_cms__appPage/mainAppPage</members>
+        <members>site/MyExperienceSite1.sfdc_cms__brandingSet/Build_Your_Own_LWR</members>
+        <name>DigitalExperience</name>
+    </types>
+    <types>
+        <members>Account.Quick_Create_Case</members>
+        <name>QuickAction</name>
+    </types>
     <version>64.0</version>
 </Package>
