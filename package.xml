@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MySitePage</members>
-        <name>ApexPage</name>
+        <members>Account.chandufinalcommit__c</members>
+        <members>Account.harifield1__c</members>
+        <members>Account.harifield2__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>harifirstcusytomsite</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>Account.Quick_Create_Case</members>
+        <members>Account.chandu_quick_action</members>
+        <name>QuickAction</name>
     </types>
     <version>64.0</version>
 </Package>
