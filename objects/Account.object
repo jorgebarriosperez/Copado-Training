@@ -545,6 +545,13 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>harifield2__c</fullName>
+        <label>harifield2</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Time</type>
+    </fields>
+    <fields>
         <fullName>texto__c</fullName>
         <externalId>false</externalId>
         <label>texto</label>
