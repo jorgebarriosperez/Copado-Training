@@ -24,7 +24,7 @@
     <redirectToCustomDomain>true</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <siteAdmin>jbarrios@uatcopa.do</siteAdmin>
-    <siteGuestRecordDefaultOwner>jbarrios@uatcopa.doo</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>jbarrios@uatcopa.do</siteGuestRecordDefaultOwner>
     <siteTemplate>FileNotFound</siteTemplate>
     <siteType>Visualforce</siteType>
     <urlPathPrefix>harifirstsite</urlPathPrefix>
