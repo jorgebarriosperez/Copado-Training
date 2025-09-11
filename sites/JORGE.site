@@ -11,7 +11,7 @@
     <authorizationRequiredPage>CommunitiesLogin</authorizationRequiredPage>
     <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
     <browserXssProtection>true</browserXssProtection>
-    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers
     <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
     <contentSniffingProtection>true</contentSniffingProtection>
     <enableAuraRequests>true</enableAuraRequests>
@@ -23,8 +23,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>jbarrios@dev1copa.do</siteAdmin>
-    <siteGuestRecordDefaultOwner>jbarrios@dev1copa.do</siteGuestRecordDefaultOwner>
+    <siteAdmin>jbarrios@uatcopa.do</siteAdmin>
+    <siteGuestRecordDefaultOwner>jbarrios@uatcopa.do</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>dev1-jorge-developer-edition</subdomain>
     <urlPathPrefix>customer</urlPathPrefix>
