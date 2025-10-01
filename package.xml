@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>MySitePage</members>
-        <name>ApexPage</name>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_spring24_dashboardsSPLIT1707524732852</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707524732852</members>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707524732852/cmc_spring_24_cmc_home_dashboard</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder/prm_winter24_dashboardsSPLIT1707524732852</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>prm_channel_dashboard_folder/prm_ch_dashboards_sub_folder</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Topic_Shared_Document_Folder</members>
+        <members>Topic_Shared_Document_Folder/ApexJobs_png.png</members>
+        <members>Topic_Shared_Document_Folder/bob3_png.png</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>Topic_Shared_Document_Folder</members>
+        <name>Document</name>
+    </types>
+    <types>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707524732852/prm_spring24_ch_marketing_reports_folderSPLIT1707524732852</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707524732852/prm_spring24_ch_marketing_reports_folderSPLIT1707524732852/prm_approved_claim_by_partnerSPLIT1707524732852</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707524732852/prm_spring24_ch_marketing_reports_folderSPLIT1707524732852/prm_mdf_approved_request_by_partnerSPLIT1707524732852</members>
+        <members>prm_channel_reports_folder/prm_ch_reports_sub_folder/prm_spring24_reportsSPLIT1707524732852/prm_spring24_ch_marketing_reports_folderSPLIT1707524732852/prm_mdf_submitted_request_by_partnerSPLIT1707524732852</members>
+        <name>Report</name>
     </types>
     <version>64.0</version>
 </Package>
