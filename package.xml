@@ -4,9 +4,5 @@
         <members>testNamedcredential2</members>
         <name>ExternalCredential</name>
     </types>
-    <types>
-        <members>Super_PermissionSet</members>
-        <name>PermissionSet</name>
-    </types>
     <version>65.0</version>
 </Package>
