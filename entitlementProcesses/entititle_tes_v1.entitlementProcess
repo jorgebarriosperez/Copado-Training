@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <description>Entititle_tes desc</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <isVersionDefault>false</isVersionDefault>
+    <milestones>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New, Working, Escalated</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Milestone_1</milestoneName>
+        <minutesToComplete>30</minutesToComplete>
+        <timeTriggers>
+            <actions>
+                <name>Email_alerta_de_prueba</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>0</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <name>Entititle_tes</name>
+    <versionMaster>5521i000000PEZ0</versionMaster>
+    <versionNotes>1</versionNotes>
+    <versionNumber>1</versionNumber>
+</EntitlementProcess>
