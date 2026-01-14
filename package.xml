@@ -4,5 +4,9 @@
         <members>entititle_tes_v1</members>
         <name>EntitlementProcess</name>
     </types>
+    <types>
+        <members>Milestone_1</members>
+        <name>MilestoneType</name>
+    </types>
     <version>65.0</version>
 </Package>
