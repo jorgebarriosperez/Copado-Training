@@ -549,7 +549,6 @@
     </fields>
     <fields>
         <fullName>UpsellOpportunity__c</fullName>
-        <externalId>false</externalId>
         <label>Upsell Opportunity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -571,6 +570,21 @@
                     <fullName>Yes</fullName>
                     <default>false</default>
                     <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>test</fullName>
+                    <default>false</default>
+                    <label>test</label>
+                </value>
+                <value>
+                    <fullName>nuevotest</fullName>
+                    <default>false</default>
+                    <label>nuevotest</label>
+                </value>
+                <value>
+                    <fullName>example</fullName>
+                    <default>false</default>
+                    <label>example</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
