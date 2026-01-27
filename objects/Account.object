@@ -548,6 +548,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>test22_picklict_jorge__c</fullName>
+        <label>test22 picklict jorge</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>account_values</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>texto__c</fullName>
         <externalId>false</externalId>
         <label>texto</label>
