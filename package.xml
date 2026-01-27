@@ -4,5 +4,9 @@
         <members>Account.test22_picklict_jorge__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>account_values</members>
+        <name>GlobalValueSet</name>
+    </types>
     <version>65.0</version>
 </Package>
