@@ -125,10 +125,31 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>BORRAR22__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>BORRAR22</label>
+        <length>22</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CheckboxTest22__c</fullName>
+        <defaultValue>true</defaultValue>
+        <inlineHelpText>no help</inlineHelpText>
+        <label>CheckboxTest22</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>CloseDate</fullName>
