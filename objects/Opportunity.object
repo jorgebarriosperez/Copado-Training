@@ -302,7 +302,6 @@
     <fields>
         <fullName>CheckboxTest22__c</fullName>
         <defaultValue>true</defaultValue>
-        <externalId>false</externalId>
         <inlineHelpText>no help</inlineHelpText>
         <label>CheckboxTest22</label>
         <trackFeedHistory>false</trackFeedHistory>
