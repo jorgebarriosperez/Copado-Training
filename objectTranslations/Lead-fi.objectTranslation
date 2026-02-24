@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label><!-- Checkbox text1 --></label>
+        <label></label>
         <name>Checkbox_text1__c</name>
     </fields>
     <fields>
-        <label><!-- Checkbox text2 --></label>
+        <label></label>
         <name>Checkbox_text2__c</name>
     </fields>
     <fields>
-        <label><!-- Current Generator(s) --></label>
+        <label></label>
         <name>CurrentGenerators__c</name>
     </fields>
     <fields>
-        <label><!-- Number of Locations --></label>
+        <label></label>
         <name>NumberofLocations__c</name>
     </fields>
     <fields>
-        <help><!-- Picklist the prueba hasta UAT --></help>
-        <label><!-- Picklist for RT --></label>
+        <help></help>
+        <label></label>
         <name>Picklist_for_RT__c</name>
         <picklistValues>
             <masterLabel>1</masterLabel>
-            <translation><!-- 1 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>2</masterLabel>
-            <translation><!-- 2 --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>3</masterLabel>
-            <translation><!-- 3 --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Primary --></label>
+        <label></label>
         <name>Primary__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>
-            <translation><!-- No --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation><!-- Yes --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Product Interest --></label>
+        <label></label>
         <name>ProductInterest__c</name>
         <picklistValues>
             <masterLabel>GC1000 series</masterLabel>
-            <translation><!-- GC1000 series --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC3000 series</masterLabel>
-            <translation><!-- GC3000 series --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>GC5000 series</masterLabel>
-            <translation><!-- GC5000 series --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- Prueba_ejemplo --></label>
+        <label></label>
         <name>Prueba_ejemplo__c</name>
     </fields>
     <fields>
-        <label><!-- SIC Code --></label>
+        <label></label>
         <name>SICCode__c</name>
     </fields>
     <quickActions>
@@ -75,27 +75,27 @@
         <name>QAflowtest</name>
     </quickActions>
     <recordTypes>
-        <description><!-- recordtype1 --></description>
-        <label><!-- recordtype1 --></label>
+        <description></description>
+        <label></label>
         <name>recordtype1</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- recordtype2 --></description>
-        <label><!-- recordtype2 --></label>
+        <description></description>
+        <label></label>
         <name>recordtype2</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- recordtype3 --></description>
-        <label><!-- recordtype3 --></label>
+        <description></description>
+        <label></label>
         <name>recordtype3</name>
     </recordTypes>
     <recordTypes>
-        <description><!-- recordtype4 --></description>
-        <label><!-- recordtype4 --></label>
+        <description></description>
+        <label></label>
         <name>recordtype4</name>
     </recordTypes>
     <webLinks>
-        <label><!-- lead_button --></label>
+        <label></label>
         <name>lead_button</name>
     </webLinks>
 </CustomObjectTranslation>
