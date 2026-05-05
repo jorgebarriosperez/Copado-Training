@@ -325,14 +325,6 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>TestClass1</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>TestClass2</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>cmcSf__AbstractTestData</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -13954,10 +13946,6 @@
     </classAccesses>
     <classAccesses>
         <apexClass>myHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>nana</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
