@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Gegevenstoewijzing</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Gegevenstoewijzingen</value>
+    </caseValues>
+    <fields>
+        <label>Invoertype in cache</label>
+        <name>echosign_dev1__Cached_Input_Type__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want this data mapping to run by default for all agreements sent. You can override the default if you specify a different data mapping to use with a specific agreement or agreement template. --></help>
+        <label>Standaardgegevenstoewijzing?</label>
+        <name>echosign_dev1__Default_Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>Beschrijving</label>
+        <name>echosign_dev1__Description__c</name>
+    </fields>
+    <fields>
+        <label>CSV met samenvoegingsvelden</label>
+        <name>echosign_dev1__Merge_Field_CSV__c</name>
+    </fields>
+    <fields>
+        <label>Gebruiker op hoogte stellen van fouten</label>
+        <name>echosign_dev1__Notify_User_of_Errors__c</name>
+        <relationshipLabel>Gegevenstoewijzingen</relationshipLabel>
+    </fields>
+    <gender>Neuter</gender>
+    <nameFieldLabel>Naam voor gegevenstoewijzing</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Adicionar anexos</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Adicionar anexos</value>
+    </caseValues>
+    <fields>
+        <label>Modelo de contrato</label>
+        <name>echosign_dev1__Agreement_Template__c</name>
+        <relationshipLabel>Adicionar anexos</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Documentos anexados</label>
+        <name>echosign_dev1__Attachment_Document_Names__c</name>
+    </fields>
+    <fields>
+        <label>IDs de documento anexadas</label>
+        <name>echosign_dev1__Attachment_Document__c</name>
+    </fields>
+    <fields>
+        <label>Seleção determinada por</label>
+        <name>echosign_dev1__Attachment_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleção de arquivos do objeto principal</label>
+        <name>echosign_dev1__Attachment_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Índice</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de origem do anexo</label>
+        <name>echosign_dev1__Master_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attachments</masterLabel>
+            <translation><!-- Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Files</masterLabel>
+            <translation><!-- Files --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleção de doc. de cota determinada por</label>
+        <name>echosign_dev1__Quote_Document_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleção de documento de cota de Cotação</label>
+        <name>echosign_dev1__Quote_Document_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleção de cota determinada por</label>
+        <name>echosign_dev1__Quote_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Seleção de cota da oportunidade</label>
+        <name>echosign_dev1__Quote_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest Quote</masterLabel>
+            <translation><!-- Latest Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Quote</masterLabel>
+            <translation><!-- Oldest Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Relação do recipiente relacionado</label>
+        <name>echosign_dev1__Related_Recipient_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>Campo de seleção relacionado</label>
+        <name>echosign_dev1__Related_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de seleção relacionada</label>
+        <name>echosign_dev1__Related_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest</masterLabel>
+            <translation><!-- Latest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest</masterLabel>
+            <translation><!-- Oldest --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Tipo de anexo</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document from Content</masterLabel>
+            <translation><!-- Document from Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from EchoSign Library</masterLabel>
+            <translation><!-- Document from EchoSign Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Library</masterLabel>
+            <translation><!-- Document from Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Master Object</masterLabel>
+            <translation><!-- Document from Master Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Master Quote</masterLabel>
+            <translation><!-- Quote Document from Master Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Opportunity Quote</masterLabel>
+            <translation><!-- Quote Document from Opportunity Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Runtime Variable</masterLabel>
+            <translation><!-- Runtime Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Nome da variável</label>
+        <name>echosign_dev1__Variable_Name__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Adicionar nome do anexo</nameFieldLabel>
+</CustomObjectTranslation>

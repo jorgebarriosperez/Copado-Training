@@ -158,7 +158,6 @@
     <fields>
         <fullName>echosign_dev1__Agreement_Template__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement Template</label>
         <referenceTo>echosign_dev1__Agreement_Template__c</referenceTo>
         <relationshipName>Add_Layer_Templates</relationshipName>

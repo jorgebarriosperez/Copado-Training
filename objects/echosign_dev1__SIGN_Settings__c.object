@@ -21,7 +21,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to allow sending agreements on behalf of other users.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to allow sending agreements on behalf of other users.</inlineHelpText>
         <label>Allow Sending On Behalf of Others</label>
         <trackTrending>false</trackTrending>
@@ -32,7 +31,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to automatically move users to the correct Adobe Sign groups when their Salesforce user profiles are updated.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to automatically move users to the correct Adobe Sign groups when their Salesforce user profiles are updated.</inlineHelpText>
         <label>Auto-Sync Group Mappings</label>
         <trackTrending>false</trackTrending>
@@ -69,7 +67,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to display Salesforce alerts reminding users when the agreements sent are about to expire. Specify the number of days before agreement expiration that the alert is shown in the Days Sign Deadline Reminder Event setting.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to display Salesforce alerts reminding users when the agreements sent are about to expire. Specify the number of days before agreement expiration that the alert is shown in the Days Sign Deadline Reminder Event setting.</inlineHelpText>
         <label>Create Sign Deadline Reminder Event</label>
         <trackTrending>false</trackTrending>
@@ -94,7 +91,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the account lookup option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the account lookup option for draft agreements.</inlineHelpText>
         <label>Hide Account Lookup</label>
         <trackTrending>false</trackTrending>
@@ -105,7 +101,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the add recipient option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the add recipient option for draft agreements.</inlineHelpText>
         <label>Hide Add Recipient</label>
         <trackTrending>false</trackTrending>
@@ -116,7 +111,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to turn off the Chatter feed on the Agreement object.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to turn off the Chatter feed on the Agreement object.</inlineHelpText>
         <label>Disable Agreement Chatter Feed</label>
         <trackTrending>false</trackTrending>
@@ -127,7 +121,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</inlineHelpText>
         <label>Hide Salesforce Documents Attachments</label>
         <trackTrending>false</trackTrending>
@@ -138,7 +131,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the &apos;Send email copies to:&apos; field for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the &apos;Send email copies to:&apos; field for draft agreements.</inlineHelpText>
         <label>Hide Send Email Copies</label>
         <trackTrending>false</trackTrending>
@@ -149,7 +141,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This setting controls whether users can use Contact records as Recipients on Agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This setting controls whether users can use Contact records as Recipients on Agreements.</inlineHelpText>
         <label>Disable Contact Recipient Type</label>
         <trackTrending>false</trackTrending>
@@ -160,7 +151,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the option to add Salesforce Content or Files to draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the option to add Salesforce Content or Files to draft agreements.</inlineHelpText>
         <label>Hide Salesforce Content/Files Att.</label>
         <trackTrending>false</trackTrending>
@@ -171,7 +161,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the Contract lookup option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the Contract lookup option for draft agreements.</inlineHelpText>
         <label>Hide Contract Lookup</label>
         <trackTrending>false</trackTrending>
@@ -182,7 +171,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the delete option for attachments associated with draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the delete option for attachments associated with draft agreements.</inlineHelpText>
         <label>Hide Delete Agreement Attachments</label>
         <trackTrending>false</trackTrending>
@@ -193,7 +181,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the delete recipient option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the delete recipient option for draft agreements.</inlineHelpText>
         <label>Hide Delete Recipient</label>
         <trackTrending>false</trackTrending>
@@ -204,7 +191,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the edit option for attachments associated with draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the edit option for attachments associated with draft agreements.</inlineHelpText>
         <label>Hide Edit Agreement Attachments</label>
         <trackTrending>false</trackTrending>
@@ -215,7 +201,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This setting controls whether users can type in manual Email addresses as Recipients on Agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This setting controls whether users can type in manual Email addresses as Recipients on Agreements.</inlineHelpText>
         <label>Disable Email Recipient Type</label>
         <trackTrending>false</trackTrending>
@@ -226,7 +211,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This setting controls whether users can use Group records as Recipients on Agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This setting controls whether users can use Group records as Recipients on Agreements.</inlineHelpText>
         <label>Disable Group Recipient Type</label>
         <trackTrending>false</trackTrending>
@@ -237,7 +221,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the Knowledge Based Authentication (KBA) option for agreements. Powered by RSA, KBA requires signers to provide and verify personal information to sign the document. Usage of this feature is limited and may incur added costs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the Knowledge Based Authentication (KBA) option for agreements. Powered by RSA, KBA requires signers to provide and verify personal information to sign the document. Usage of this feature is limited and may incur added costs.</inlineHelpText>
         <label>Disable Knowledge Based Authentication</label>
         <trackTrending>false</trackTrending>
@@ -248,7 +231,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</inlineHelpText>
         <label>Hide Ability to Add Field Templates</label>
         <trackTrending>false</trackTrending>
@@ -259,7 +241,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This setting controls whether users can use Lead records as Recipients on Agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This setting controls whether users can use Lead records as Recipients on Agreements.</inlineHelpText>
         <label>Disable Lead Recipient Type</label>
         <trackTrending>false</trackTrending>
@@ -270,7 +251,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the opportunity lookup option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the opportunity lookup option for draft agreements.</inlineHelpText>
         <label>Hide Opportunity Lookup</label>
         <trackTrending>false</trackTrending>
@@ -281,7 +261,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the preview or position option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the preview or position option for draft agreements.</inlineHelpText>
         <label>Hide Preview or Position</label>
         <trackTrending>false</trackTrending>
@@ -292,7 +271,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the ability to replace the current signer or approver after the agreement has been sent.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the ability to replace the current signer or approver after the agreement has been sent.</inlineHelpText>
         <label>Hide Replace Signer</label>
         <trackTrending>false</trackTrending>
@@ -303,7 +281,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the sender signs option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the sender signs option for draft agreements.</inlineHelpText>
         <label>Hide Sender Signs</label>
         <trackTrending>false</trackTrending>
@@ -314,7 +291,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the signing deadline option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the signing deadline option for draft agreements.</inlineHelpText>
         <label>Hide Sign Expiration</label>
         <trackTrending>false</trackTrending>
@@ -325,7 +301,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the signing password option.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the signing password option.</inlineHelpText>
         <label>Hide Signing Password</label>
         <trackTrending>false</trackTrending>
@@ -336,7 +311,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the sign reminder option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the sign reminder option for draft agreements.</inlineHelpText>
         <label>Hide Sign Reminder</label>
         <trackTrending>false</trackTrending>
@@ -347,7 +321,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the signature type option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the signature type option for draft agreements.</inlineHelpText>
         <label>Hide Signature Type</label>
         <trackTrending>false</trackTrending>
@@ -358,7 +331,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the sort attachments option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the sort attachments option for draft agreements.</inlineHelpText>
         <label>Hide Reorder Attachments</label>
         <trackTrending>false</trackTrending>
@@ -369,7 +341,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the sort recipients option for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the sort recipients option for draft agreements.</inlineHelpText>
         <label>Hide Reorder Recipients</label>
         <trackTrending>false</trackTrending>
@@ -380,7 +351,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the option to upload local files for draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the option to upload local files for draft agreements.</inlineHelpText>
         <label>Hide Upload Agreement Attachments</label>
         <trackTrending>false</trackTrending>
@@ -391,7 +361,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to prevent users from being auto-provisioned with an Adobe user account when they send or manage agreements. This setting does not prevent auto-provisioning of users that occurs when Update Agreement is clicked from the Agreement list.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to prevent users from being auto-provisioned with an Adobe user account when they send or manage agreements. This setting does not prevent auto-provisioning of users that occurs when Update Agreement is clicked from the Agreement list.</inlineHelpText>
         <label>Disable User Provisioning</label>
         <trackTrending>false</trackTrending>
@@ -402,7 +371,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>This setting controls whether users can use User records as Recipients on Agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>This setting controls whether users can use User records as Recipients on Agreements.</inlineHelpText>
         <label>Disable User Recipient Type</label>
         <trackTrending>false</trackTrending>
@@ -413,7 +381,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the view option for attachments associated with draft agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the view option for attachments associated with draft agreements.</inlineHelpText>
         <label>Hide View Agreement Attachments</label>
         <trackTrending>false</trackTrending>
@@ -424,7 +391,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the password protection option for signed PDFs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the password protection option for signed PDFs.</inlineHelpText>
         <label>Hide Password for Signed PDF</label>
         <trackTrending>false</trackTrending>
@@ -435,7 +401,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the Social Identity option for agreements.  Social Identity verification requires signers to verify their identity by signing in to one of the following sites: Facebook, Google, LinkedIn, Twitter, Yahoo! or Microsoft Live.)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the Web Identity option for agreements.  Web Identity verification requires signers to verify their identity by signing in to one of the following sites: Facebook, Google, LinkedIn, Twitter, Yahoo! or Microsoft Live.)</inlineHelpText>
         <label>Disable Social Identity Verification</label>
         <trackTrending>false</trackTrending>
@@ -446,7 +411,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as acceptors accept the document. They may be required to enter data into fields.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as acceptors accept the document. They may be required to enter data into fields.</inlineHelpText>
         <label>Enable Acceptor Role</label>
         <trackTrending>false</trackTrending>
@@ -457,7 +421,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as certified recipients acknowledge the document. They may be required to enter data into fields.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as certified recipients acknowledge the document. They may be required to enter data into fields.</inlineHelpText>
         <label>Enable Certified Recipient Role</label>
         <trackTrending>false</trackTrending>
@@ -468,7 +431,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</inlineHelpText>
         <label>Enable Delegate Acceptor Role</label>
         <trackTrending>false</trackTrending>
@@ -479,7 +441,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as &quot;Delegator to Certified Recipient&quot; may review the document but can&apos;t acknowledge the document. They need to forward the document to another user who may acknowledge the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as &quot;Delegator to Certified Recipient&quot; may review the document but can&apos;t acknowledge the document. They need to forward the document to another user who may acknowledge the document.</inlineHelpText>
         <label>Enable Delegate Certified Recipient Role</label>
         <trackTrending>false</trackTrending>
@@ -490,7 +451,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</inlineHelpText>
         <label>Enable Delegate Form Filler Role</label>
         <trackTrending>false</trackTrending>
@@ -501,7 +461,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as form-fillers fill the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as form-fillers fill the document.</inlineHelpText>
         <label>Enable Form Filler Role</label>
         <trackTrending>false</trackTrending>
@@ -512,7 +471,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show the Government ID authentication option for verifying recipient identity. Usage of this feature is limited and may incur added costs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show the Government ID authentication option for verifying recipient identity. Usage of this feature is limited and may incur added costs.</inlineHelpText>
         <label>Enable Government ID Authentication</label>
         <trackTrending>false</trackTrending>
@@ -523,7 +481,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enables the host signing option to obtain in-person signatures</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enables the host signing option to obtain in-person signatures</inlineHelpText>
         <label>Show Hosted Signing Option</label>
         <trackTrending>false</trackTrending>
@@ -534,7 +491,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show the Adobe Sign form field layer templates that will be applied to documents.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show the Adobe Sign form field layer templates that will be applied to documents.</inlineHelpText>
         <label>Show Adobe Sign Field Templates</label>
         <trackTrending>false</trackTrending>
@@ -545,7 +501,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show the option to add Adobe Sign document templates.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show the option to add Adobe Sign document templates.</inlineHelpText>
         <label>Show Adobe Sign Library Attachments</label>
         <trackTrending>false</trackTrending>
@@ -556,7 +511,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to send the Salesforce admin email notifications when there are merge mapping or data mapping execution errors.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to send the Salesforce admin email notifications when there are merge mapping or data mapping execution errors.</inlineHelpText>
         <label>Enable Mapping Error Notification</label>
         <trackTrending>false</trackTrending>
@@ -567,7 +521,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show the phone authentication option for verifying recipient identity.  Usage of this feature is limited and may incur added costs.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show the phone authentication option for verifying recipient identity.  Usage of this feature is limited and may incur added costs.</inlineHelpText>
         <label>Enable Phone Authentication</label>
         <trackTrending>false</trackTrending>
@@ -578,7 +531,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this option to take your singers to a landing page of your choice. This makes the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options available for Agreements. Signers of an agreement are redirected to the specified URL after they sign.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this option to take your singers to a landing page of your choice. This makes the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options available for Agreements. Signers of an agreement are redirected to the specified URL after they sign.</inlineHelpText>
         <label>Enable Post Sign Options</label>
         <trackTrending>false</trackTrending>
@@ -589,7 +541,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as approvers review and approve the document but they are not required to sign it. They may be required to enter data into fields.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as approvers review and approve the document but they are not required to sign it. They may be required to enter data into fields.</inlineHelpText>
         <label>Enable Recipient Approver Role</label>
         <trackTrending>false</trackTrending>
@@ -600,7 +551,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as &quot;Delegator to Approver&quot; may review the document but can&apos;t approve the document. They need to forward the document to another user who may approve the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as &quot;Delegator to Approver&quot; may review the document but can&apos;t approve the document. They need to forward the document to another user who may approve the document.</inlineHelpText>
         <label>Enable Recipient Delegate Approver Role</label>
         <trackTrending>false</trackTrending>
@@ -611,7 +561,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Recipients marked as &quot;Delegator to Signer&quot; may review the document but can&apos;t sign the document. They need to forward the document to another user who may sign the document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Recipients marked as &quot;Delegator to Signer&quot; may review the document but can&apos;t sign the document. They need to forward the document to another user who may sign the document.</inlineHelpText>
         <label>Enable Recipient Delegate Signer Role</label>
         <trackTrending>false</trackTrending>
@@ -622,7 +571,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to allow each signer to have a different identity verification method. (e.g. password, phone, social identity, KBA)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to allow each signer to have a different identity verification method. (e.g. password, phone, social identity, KBA)</inlineHelpText>
         <label>Enable Per Signer Identity Verification</label>
         <trackTrending>false</trackTrending>
@@ -633,7 +581,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show 2 options for recipient signing: serial (ordered entered) or parallel (in any order)</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show 2 options for recipient signing: serial (ordered entered) or parallel (in any order)</inlineHelpText>
         <label>Show Recipient Signing Order Options</label>
         <trackTrending>false</trackTrending>
@@ -644,7 +591,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to display and enable the ‘Sender Signs Only’/‘Only I sign&apos; option in the Recipients section of the send agreement page.  When the ‘Sender Signs Only’ option is used, the agreement or document is presented to only to the sender to sign.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to display and enable the ‘Sender Signs Only’/‘Only I sign&apos; option in the Recipients section of the send agreement page.  When the ‘Sender Signs Only’ option is used, the agreement or document is presented to only to the sender to sign</inlineHelpText>
         <label>Enable Sender Signs Only</label>
         <trackTrending>false</trackTrending>
@@ -655,7 +601,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to allow different verification methods (KBA, web identity, password) to be selected for signers internal or external to your Adobe Sign account.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to allow different verification methods (KBA, web identity, password) to be selected for signers internal or external to your Adobe Sign account.</inlineHelpText>
         <label>Enable Separate Signer Identity Methods</label>
         <trackTrending>false</trackTrending>
@@ -666,7 +611,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</inlineHelpText>
         <label>Hide Sidebar for Agreement Editor Page</label>
         <trackTrending>false</trackTrending>
@@ -690,7 +634,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Account field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Account field a read-only agreement field.</inlineHelpText>
         <label>Read Only Account</label>
         <trackTrending>false</trackTrending>
@@ -701,7 +644,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Agreement Name field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Agreement Name field a read-only agreement field.</inlineHelpText>
         <label>Read Only Agreement Name</label>
         <trackTrending>false</trackTrending>
@@ -712,7 +654,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the &quot;Send email copies to&quot; field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the &quot;Send email copies to&quot; field a read-only agreement field.</inlineHelpText>
         <label>Read Only Email Copies</label>
         <trackTrending>false</trackTrending>
@@ -723,7 +664,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Contract lookup field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Contract lookup field a read-only agreement field.</inlineHelpText>
         <label>Read Only Contract</label>
         <trackTrending>false</trackTrending>
@@ -734,7 +674,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Additional Fields section read-only on an agreement.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Additional Fields section read-only on an agreement.</inlineHelpText>
         <label>Read Only Field Set</label>
         <trackTrending>false</trackTrending>
@@ -745,7 +684,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Hosted Signing checkbox a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Hosted Signing checkbox a read-only agreement field.</inlineHelpText>
         <label>Read Only Hosted Signing</label>
         <trackTrending>false</trackTrending>
@@ -756,7 +694,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Language field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Language field a read-only agreement field.</inlineHelpText>
         <label>Read Only Language</label>
         <trackTrending>false</trackTrending>
@@ -767,7 +704,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Message field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Message field a read-only agreement field.</inlineHelpText>
         <label>Read Only Message</label>
         <trackTrending>false</trackTrending>
@@ -778,7 +714,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Opportunity lookup field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Opportunity lookup field a read-only agreement field.</inlineHelpText>
         <label>Read Only Opportunity</label>
         <trackTrending>false</trackTrending>
@@ -789,7 +724,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</inlineHelpText>
         <label>Read Only Post Sign Options</label>
         <trackTrending>false</trackTrending>
@@ -800,7 +734,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the &quot;Preview document or position signature fields&quot; checkbox a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the &quot;Preview document or position signature fields&quot; checkbox a read-only agreement field.</inlineHelpText>
         <label>Read Only Preview or Position</label>
         <trackTrending>false</trackTrending>
@@ -811,7 +744,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the options for recipient signing order read-only on an agreement</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the options for recipient signing order read-only on an agreement</inlineHelpText>
         <label>Read Only Recipient Signing Order</label>
         <trackTrending>false</trackTrending>
@@ -822,7 +754,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Recipients section read-only on an agreement.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Recipients section read-only on an agreement.</inlineHelpText>
         <label>Read Only Recipient</label>
         <trackTrending>false</trackTrending>
@@ -833,7 +764,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Security Options section read-only on an agreement.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Security Options section read-only on an agreement.</inlineHelpText>
         <label>Read Only Security Options</label>
         <trackTrending>false</trackTrending>
@@ -844,7 +774,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</inlineHelpText>
         <label>Read Only Sender Signs Only</label>
         <trackTrending>false</trackTrending>
@@ -855,7 +784,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the &quot;I also need to sign this document&quot; checkbox a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the &quot;I also need to sign this document&quot; checkbox a read-only agreement field.</inlineHelpText>
         <label>Read Only Sender Signs</label>
         <trackTrending>false</trackTrending>
@@ -866,7 +794,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the &quot;Allow signers X days to sign this document.&quot; a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the &quot;Allow signers X days to sign this document.&quot; a read-only agreement field.</inlineHelpText>
         <label>Read Only Sign Expiration</label>
         <trackTrending>false</trackTrending>
@@ -877,7 +804,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the &quot;Remind recipient to sign&quot; checkbox a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the &quot;Remind recipient to sign&quot; checkbox a read-only agreement field.</inlineHelpText>
         <label>Read Only Sign Reminder</label>
         <trackTrending>false</trackTrending>
@@ -888,7 +814,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to make the Signature Type field a read-only agreement field.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to make the Signature Type field a read-only agreement field.</inlineHelpText>
         <label>Read Only Signature Type</label>
         <trackTrending>false</trackTrending>
@@ -899,7 +824,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Rename the agreement using the name of the attached document</description>
-        <externalId>false</externalId>
         <inlineHelpText>Rename the agreement using the name of the attached document</inlineHelpText>
         <label>Rename Agreement with Attachment Name</label>
         <trackTrending>false</trackTrending>
@@ -910,7 +834,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</inlineHelpText>
         <label>Show Fields API Name</label>
         <trackTrending>false</trackTrending>
@@ -921,7 +844,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to wipe the encrypted password field on the agreement after it is sent.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to wipe the encrypted password field on the agreement after it is sent.</inlineHelpText>
         <label>Wipe Agreement Password</label>
         <trackTrending>false</trackTrending>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>เพิ่มไฟล์เอกสารแนบ</value>
+    </caseValues>
+    <fields>
+        <label>แม่แบบข้อตกลง</label>
+        <name>echosign_dev1__Agreement_Template__c</name>
+        <relationshipLabel>เพิ่มไฟล์เอกสารแนบ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>เอกสารแนบ</label>
+        <name>echosign_dev1__Attachment_Document_Names__c</name>
+    </fields>
+    <fields>
+        <label>ID เอกสารแนบ</label>
+        <name>echosign_dev1__Attachment_Document__c</name>
+    </fields>
+    <fields>
+        <label>ระบุการเลือกโดย</label>
+        <name>echosign_dev1__Attachment_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>การเลือกไฟล์จากออบเจกต์หลัก</label>
+        <name>echosign_dev1__Attachment_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ดัชนี</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>ประเภทซอร์สของเอกสารแนบ</label>
+        <name>echosign_dev1__Master_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attachments</masterLabel>
+            <translation><!-- Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Files</masterLabel>
+            <translation><!-- Files --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ระบุการเลือกเอกสารเสนอราคาโดย</label>
+        <name>echosign_dev1__Quote_Document_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>การเลือกเอกสารเสนอราคาจากใบเสนอราคา</label>
+        <name>echosign_dev1__Quote_Document_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ระบุการเลือกใบเสนอราคาโดย</label>
+        <name>echosign_dev1__Quote_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>การเลือกใบเสนอราคาจากโอกาส</label>
+        <name>echosign_dev1__Quote_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest Quote</masterLabel>
+            <translation><!-- Latest Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Quote</masterLabel>
+            <translation><!-- Oldest Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ความสัมพันธ์ผู้รับที่เกี่ยวข้อง</label>
+        <name>echosign_dev1__Related_Recipient_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>ฟิลด์การเลือกที่เกี่ยวข้อง</label>
+        <name>echosign_dev1__Related_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ประเภทการเลือกที่เกี่ยวข้อง</label>
+        <name>echosign_dev1__Related_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest</masterLabel>
+            <translation><!-- Latest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest</masterLabel>
+            <translation><!-- Oldest --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ประเภทเอกสารแนบ</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document from Content</masterLabel>
+            <translation><!-- Document from Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from EchoSign Library</masterLabel>
+            <translation><!-- Document from EchoSign Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Library</masterLabel>
+            <translation><!-- Document from Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Master Object</masterLabel>
+            <translation><!-- Document from Master Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Master Quote</masterLabel>
+            <translation><!-- Quote Document from Master Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Opportunity Quote</masterLabel>
+            <translation><!-- Quote Document from Opportunity Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Runtime Variable</masterLabel>
+            <translation><!-- Runtime Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ชื่อตัวแปร</label>
+        <name>echosign_dev1__Variable_Name__c</name>
+    </fields>
+    <nameFieldLabel>เพิ่มชื่อไฟล์เอกสารแนบ</nameFieldLabel>
+</CustomObjectTranslation>

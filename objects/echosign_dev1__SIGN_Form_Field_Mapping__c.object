@@ -158,7 +158,6 @@
     <fields>
         <fullName>echosign_dev1__Data_Mapping__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Salesforce to Adobe Sign Data Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Merge_Mapping__c</referenceTo>
         <relationshipLabel>Adobe Sign Form Field Mappings</relationshipLabel>
@@ -173,7 +172,6 @@
         <fullName>echosign_dev1__Disable__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -181,7 +179,6 @@
     <fields>
         <fullName>echosign_dev1__Form_Field_Name__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Target Document Field</label>
         <required>true</required>
         <trackTrending>false</trackTrending>
@@ -202,7 +199,6 @@
     <fields>
         <fullName>echosign_dev1__Input_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Input Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

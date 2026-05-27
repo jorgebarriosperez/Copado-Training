@@ -158,7 +158,6 @@
         <fullName>echosign_dev1__Workflow_Content__c</fullName>
         <deprecated>false</deprecated>
         <description>Sign Workflow Content in JSON String Format</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sign Workflow Content in JSON String Format</inlineHelpText>
         <label>Workflow Content</label>
         <length>131072</length>
@@ -170,7 +169,6 @@
         <fullName>echosign_dev1__Workflow_Created_Time__c</fullName>
         <deprecated>false</deprecated>
         <description>Sign Workflow Creation Time and Date</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sign Workflow Creation Time and Date</inlineHelpText>
         <label>Workflow Created Time</label>
         <required>false</required>
@@ -207,7 +205,6 @@
         <fullName>echosign_dev1__Workflow_Modified_Time__c</fullName>
         <deprecated>false</deprecated>
         <description>Sign Workflow Modification Time and Date</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sign Workflow Modification Time and Date</inlineHelpText>
         <label>Workflow Modified Time</label>
         <required>false</required>
@@ -218,7 +215,6 @@
         <fullName>echosign_dev1__Workflow_Status__c</fullName>
         <deprecated>false</deprecated>
         <description>Sign Workflow Status</description>
-        <externalId>false</externalId>
         <inlineHelpText>Sign Workflow Status</inlineHelpText>
         <label>Workflow Status</label>
         <required>false</required>

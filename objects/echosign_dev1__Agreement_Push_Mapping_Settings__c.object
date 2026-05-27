@@ -7,7 +7,6 @@
         <fullName>echosign_dev1__Copy_Account__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Should Adobe Sign copy the first Contact recipient’s Account lookup to the Agreement’s Account lookup?</inlineHelpText>
         <label>Copy Contact Account</label>
         <trackTrending>false</trackTrending>
@@ -17,7 +16,6 @@
         <fullName>echosign_dev1__Copy_Opportunity__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Should Adobe Sign copy the first Contact recipient’s Opportunity lookup to the Agreement’s Opportunity lookup?</inlineHelpText>
         <label>Copy Contact Opportunity</label>
         <trackTrending>false</trackTrending>
@@ -40,7 +38,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to create missing recipients. New recipients will get created in case of Agreement Push Mapping/ Replace Signer/ Delegate Signer workflow.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to create missing recipients. New recipients will get created in case of Agreement Push Mapping/ Replace Signer/ Delegate Signer workflow.</inlineHelpText>
         <label>Create Missing Recipients</label>
         <trackTrending>false</trackTrending>
@@ -50,7 +47,6 @@
         <fullName>echosign_dev1__Enable_Participation_Sets__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to create/update Participation Sets</inlineHelpText>
         <label>Enable Participation Sets</label>
         <trackTrending>false</trackTrending>
@@ -85,7 +81,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to mark the recipients as &apos;Delegated&apos; in case they are delegated by Signer/Sender. These recipients will be hidden from Agreement View Page.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to mark the recipients as &apos;Delegated&apos; in case they are delegated by Signer/Sender. These recipients will be hidden from Agreement View Page.</inlineHelpText>
         <label>Update Delegated Recipients</label>
         <trackTrending>false</trackTrending>
@@ -96,7 +91,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to update existing recipients attributes such as recipient status etc.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to update existing recipients attributes such as recipient status etc.</inlineHelpText>
         <label>Update Recipients</label>
         <trackTrending>false</trackTrending>
@@ -107,7 +101,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to mark the recipients as &apos;Replaced&apos; in case they are replaced by Sender from Manage Page. These recipients will be hidden from Agreement View Page.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to mark the recipients as &apos;Replaced&apos; in case they are replaced by Sender from Manage Page. These recipients will be hidden from Agreement View Page.</inlineHelpText>
         <label>Update Replaced Recipients</label>
         <trackTrending>false</trackTrending>

@@ -159,7 +159,6 @@
         <fullName>echosign_dev1__Disable__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -179,7 +178,6 @@
     <fields>
         <fullName>echosign_dev1__Map_on_Events__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Map on Events</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -279,7 +277,6 @@
     <fields>
         <fullName>echosign_dev1__SIGN_Object_Mapping__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Adobe Sign Object Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Object_Mapping__c</referenceTo>
         <relationshipLabel>File Mappings</relationshipLabel>
@@ -293,7 +290,6 @@
     <fields>
         <fullName>echosign_dev1__Source_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -327,7 +323,6 @@
     <fields>
         <fullName>echosign_dev1__Target_Document_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Target Document Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -351,7 +346,6 @@
     <fields>
         <fullName>echosign_dev1__Target_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Target Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

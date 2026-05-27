@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>資料對應</value>
+    </caseValues>
+    <fields>
+        <label>快取的輸入類型</label>
+        <name>echosign_dev1__Cached_Input_Type__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want this data mapping to run by default for all agreements sent. You can override the default if you specify a different data mapping to use with a specific agreement or agreement template. --></help>
+        <label>是否要預設資料對應?</label>
+        <name>echosign_dev1__Default_Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>說明</label>
+        <name>echosign_dev1__Description__c</name>
+    </fields>
+    <fields>
+        <label>合併欄位 CSV</label>
+        <name>echosign_dev1__Merge_Field_CSV__c</name>
+    </fields>
+    <fields>
+        <label>通知使用者發生錯誤</label>
+        <name>echosign_dev1__Notify_User_of_Errors__c</name>
+        <relationshipLabel>資料對應</relationshipLabel>
+    </fields>
+    <nameFieldLabel>資料對應名稱</nameFieldLabel>
+</CustomObjectTranslation>

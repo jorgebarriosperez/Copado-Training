@@ -158,7 +158,6 @@
         <fullName>echosign_dev1__Disable__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -167,7 +166,6 @@
         <fullName>echosign_dev1__Do_No_Overwrite_Existing__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Do Not Overwrite Existing</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -176,7 +174,6 @@
         <fullName>echosign_dev1__Do_Not_Write_Empty__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Do Not Write Empty</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -196,7 +193,6 @@
     <fields>
         <fullName>echosign_dev1__Input_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Input Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -220,7 +216,6 @@
     <fields>
         <fullName>echosign_dev1__Map_on_Events__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Map on Events</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -320,7 +315,6 @@
     <fields>
         <fullName>echosign_dev1__SIGN_Object_Mapping__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Adobe Sign Object Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Object_Mapping__c</referenceTo>
         <relationshipLabel>Adobe Sign Field Mappings</relationshipLabel>
@@ -345,7 +339,6 @@
     <fields>
         <fullName>echosign_dev1__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

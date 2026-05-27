@@ -190,7 +190,6 @@
     <fields>
         <fullName>echosign_dev1__Date__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Date</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -235,7 +234,6 @@
     <fields>
         <fullName>echosign_dev1__Event_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Event Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -493,7 +491,6 @@
         <fullName>echosign_dev1__Recipient__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient</label>
         <referenceTo>echosign_dev1__SIGN_Recipients__c</referenceTo>
         <relationshipLabel>Agreement Events</relationshipLabel>
@@ -505,7 +502,6 @@
     <fields>
         <fullName>echosign_dev1__SIGN_Agreement__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement</label>
         <referenceTo>echosign_dev1__SIGN_Agreement__c</referenceTo>
         <relationshipLabel>Agreement Events</relationshipLabel>

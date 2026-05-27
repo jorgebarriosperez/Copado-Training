@@ -170,7 +170,6 @@
     <fields>
         <fullName>echosign_dev1__Agreement_Template__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement Template</label>
         <referenceTo>echosign_dev1__Agreement_Template__c</referenceTo>
         <relationshipName>Recipient_Templates</relationshipName>
@@ -184,7 +183,6 @@
         <fullName>echosign_dev1__Contact_Recipient__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient - Contact</label>
         <referenceTo>Contact</referenceTo>
         <relationshipLabel>Add Recipients</relationshipLabel>
@@ -198,7 +196,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Check this box if you do not want a blank placeholder recipient to be created on the agreement page if no record is found based on the selected criteria.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Check this box if you do not want a blank placeholder recipient to be created on the agreement page if no record is found based on the selected criteria.</inlineHelpText>
         <label>Do Not Create Blank Recipient Row</label>
         <trackTrending>false</trackTrending>
@@ -243,7 +240,6 @@
         <fullName>echosign_dev1__Lead_Recipient__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient - Lead</label>
         <referenceTo>Lead</referenceTo>
         <relationshipLabel>Add Recipients</relationshipLabel>
@@ -278,7 +274,6 @@
     <fields>
         <fullName>echosign_dev1__Password__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Password</label>
         <length>175</length>
         <maskChar>asterisk</maskChar>
@@ -290,7 +285,6 @@
     <fields>
         <fullName>echosign_dev1__Phone_Verification_Country_Code__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Phone Verification Country Code</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -577,7 +571,6 @@
         <fullName>echosign_dev1__Recipient_Message__c</fullName>
         <deprecated>false</deprecated>
         <description>Set a unique message for the recipient.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Set a unique message for the recipient.</inlineHelpText>
         <label>Recipient Message</label>
         <length>131072</length>
@@ -588,7 +581,6 @@
     <fields>
         <fullName>echosign_dev1__Recipient_Role__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient Role</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -652,7 +644,6 @@
     <fields>
         <fullName>echosign_dev1__Recipient_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -715,7 +706,6 @@
     <fields>
         <fullName>echosign_dev1__Related_Selection_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Related Selection Field</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -739,7 +729,6 @@
     <fields>
         <fullName>echosign_dev1__Related_Selection_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Related Selection Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -763,7 +752,6 @@
     <fields>
         <fullName>echosign_dev1__Signer_Verification_Method__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Signer Verification Method</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -807,7 +795,6 @@
     <fields>
         <fullName>echosign_dev1__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source of Recipient</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -868,7 +855,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</inlineHelpText>
         <label>Uniform Index</label>
         <trackTrending>false</trackTrending>
@@ -878,7 +864,6 @@
         <fullName>echosign_dev1__User_Recipient__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Recipient - User</label>
         <referenceTo>User</referenceTo>
         <relationshipName>Recipient_Templates</relationshipName>

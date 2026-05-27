@@ -31,4 +31,44 @@
         <default>false</default>
         <label>Place Order</label>
     </standardValue>
+    <standardValue>
+        <fullName>Order To Asset</fullName>
+        <default>false</default>
+        <label>Order To Asset</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order Item Summary To Asset</fullName>
+        <default>false</default>
+        <label>Order Item Summary To Asset</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order To Billing Schedule</fullName>
+        <default>false</default>
+        <label>Order To Billing Schedule</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sindicación de catálogo</fullName>
+        <default>false</default>
+        <label>Sindicación de catálogo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pago de suscripción</fullName>
+        <default>false</default>
+        <label>Pago de suscripción</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelar</fullName>
+        <default>false</default>
+        <label>Cancelar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Crédito de pago</fullName>
+        <default>false</default>
+        <label>Crédito de pago</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Servicio de entrega de Commerce</fullName>
+        <default>false</default>
+        <label>Servicio de entrega de Commerce</label>
+    </standardValue>
 </StandardValueSet>

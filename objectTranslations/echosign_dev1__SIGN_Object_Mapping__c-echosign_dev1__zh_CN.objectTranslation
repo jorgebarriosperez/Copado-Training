@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Object Mapping --></value>
+    </caseValues>
+    <fields>
+        <label>显示标签</label>
+        <name>echosign_dev1__Display_Label__c</name>
+    </fields>
+    <fields>
+        <label>字段 API 名称</label>
+        <name>echosign_dev1__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label>全限定 API</label>
+        <name>echosign_dev1__Fully_Qualified_API__c</name>
+    </fields>
+    <fields>
+        <label>Adobe Sign 数据映射</label>
+        <name>echosign_dev1__SIGN_Data_Mapping__c</name>
+        <relationshipLabel>Adobe Sign 对象映射</relationshipLabel>
+    </fields>
+    <nameFieldLabel><!-- Object API Name --></nameFieldLabel>
+</CustomObjectTranslation>

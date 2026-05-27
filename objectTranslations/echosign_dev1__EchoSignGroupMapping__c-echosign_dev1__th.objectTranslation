@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>การแมปกลุ่ม EchoSign</value>
+    </caseValues>
+    <fields>
+        <label>กลุ่ม Adobe Sign</label>
+        <name>echosign_dev1__Group_Key__c</name>
+    </fields>
+    <fields>
+        <label>โปรไฟล์ของ Salesforce</label>
+        <name>echosign_dev1__Profile_Id__c</name>
+    </fields>
+    <fields>
+        <label>ซิงค์ การเลือก</label>
+        <name>echosign_dev1__Sync__c</name>
+    </fields>
+    <nameFieldLabel>ชื่อการแมปกลุ่ม Echosign</nameFieldLabel>
+</CustomObjectTranslation>

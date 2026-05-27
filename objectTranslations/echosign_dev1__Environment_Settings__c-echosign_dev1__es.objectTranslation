@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Adobe Sign Environment Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Adobe Sign Environment Settings</value>
+    </caseValues>
+    <fields>
+        <label>URL de configuración de API</label>
+        <name>echosign_dev1__Config_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>Configurar URL de API de OAuth</label>
+        <name>echosign_dev1__Config_Oauth_API_URL__c</name>
+    </fields>
+    <fields>
+        <label>URL de configuración</label>
+        <name>echosign_dev1__Config_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set to Production, Stage, AWSPreview, Preview or Demo. Leave blank to stay on production. --></help>
+        <label>Nombre del entorno</label>
+        <name>echosign_dev1__Environment_Name__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

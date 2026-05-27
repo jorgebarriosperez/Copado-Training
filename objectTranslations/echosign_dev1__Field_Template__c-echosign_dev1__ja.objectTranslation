@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データを契約フィールドにマッピング</value>
+    </caseValues>
+    <fields>
+        <help><!-- Select Target Agreement Field. --></help>
+        <label>対象の契約フィールド</label>
+        <name>echosign_dev1__Agreement_Field__c</name>
+    </fields>
+    <fields>
+        <label>合意テンプレート</label>
+        <name>echosign_dev1__Agreement_Template__c</name>
+        <relationshipLabel>データを契約フィールドにマッピング</relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Input a value for the target field. --></help>
+        <label>対象のフィールド値</label>
+        <name>echosign_dev1__Constant_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select a field from the master object to be the source field. --></help>
+        <label>主オブジェクトからソースフィールドを選択</label>
+        <name>echosign_dev1__Field_Value__c</name>
+    </fields>
+    <fields>
+        <label>マッピング方法</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Input Specific Value</masterLabel>
+            <translation><!-- Input Specific Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Select Master Object Field</masterLabel>
+            <translation><!-- Select Master Object Field --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>データを契約フィールド名にマッピング</nameFieldLabel>
+</CustomObjectTranslation>

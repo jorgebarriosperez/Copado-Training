@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>新增表單欄位範本名稱</value>
+    </caseValues>
+    <fields>
+        <label>合約</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>元件庫範本</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文件金鑰</label>
+        <name>echosign_dev1__Document_Key__c</name>
+    </fields>
+    <fields>
+        <label>上一次修改</label>
+        <name>echosign_dev1__Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label>參考類型</label>
+        <name>echosign_dev1__Reference_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form Field Layer</masterLabel>
+            <translation><!-- Form Field Layer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>類型</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form Field Layer</masterLabel>
+            <translation><!-- Form Field Layer --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>新增表單欄位範本</nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Agreement Notification --></value>
+    </caseValues>
+    <fields>
+        <label>协议事件类型</label>
+        <name>echosign_dev1__Agreement_Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>协议状态</label>
+        <name>echosign_dev1__Agreement_Status__c</name>
+    </fields>
+    <fields>
+        <label>协议</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>Adobe Sign 协议通知</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文档密钥</label>
+        <name>echosign_dev1__Document_Key__c</name>
+    </fields>
+    <fields>
+        <label>错误消息</label>
+        <name>echosign_dev1__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>通知类型</label>
+        <name>echosign_dev1__Notification_Type__c</name>
+        <picklistValues>
+            <masterLabel>AUTO_UPDATE</masterLabel>
+            <translation><!-- AUTO_UPDATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALLBACK</masterLabel>
+            <translation><!-- CALLBACK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>重试次数</label>
+        <name>echosign_dev1__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>状态</label>
+        <name>echosign_dev1__Status__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Agreement Notification --></nameFieldLabel>
+</CustomObjectTranslation>

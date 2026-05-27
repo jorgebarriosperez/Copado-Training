@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>แม่แบบไลบรารี</value>
+    </caseValues>
+    <fields>
+        <label>ข้อตกลง</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>แม่แบบไลบรารี</relationshipLabel>
+    </fields>
+    <fields>
+        <label>คีย์เอกสาร</label>
+        <name>echosign_dev1__Document_Key__c</name>
+    </fields>
+    <fields>
+        <label>ปรับเปลี่ยนล่าสุด</label>
+        <name>echosign_dev1__Last_Modified__c</name>
+    </fields>
+    <fields>
+        <label>ประเภทการอ้างอิง</label>
+        <name>echosign_dev1__Reference_Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form Field Layer</masterLabel>
+            <translation><!-- Form Field Layer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ประเภท</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document</masterLabel>
+            <translation><!-- Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Form Field Layer</masterLabel>
+            <translation><!-- Form Field Layer --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel>ชื่อแม่แบบไลบรารี</nameFieldLabel>
+</CustomObjectTranslation>

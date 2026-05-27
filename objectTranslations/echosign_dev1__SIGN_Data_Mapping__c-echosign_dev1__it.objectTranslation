@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Mapping dei dati</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Mapping dei dati</value>
+    </caseValues>
+    <fields>
+        <label>Tipo di input memorizzato nella cache</label>
+        <name>echosign_dev1__Cached_Input_Type__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want this data mapping to run by default for all agreements sent. You can override the default if you specify a different data mapping to use with a specific agreement or agreement template. --></help>
+        <label>Impost. mapping dati come predefinito?</label>
+        <name>echosign_dev1__Default_Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>Descrizione</label>
+        <name>echosign_dev1__Description__c</name>
+    </fields>
+    <fields>
+        <label>Unisci campi da CSV</label>
+        <name>echosign_dev1__Merge_Field_CSV__c</name>
+    </fields>
+    <fields>
+        <label>Notifica errori agli utenti</label>
+        <name>echosign_dev1__Notify_User_of_Errors__c</name>
+        <relationshipLabel>Mappature dei dati</relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nome mappatura dati</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

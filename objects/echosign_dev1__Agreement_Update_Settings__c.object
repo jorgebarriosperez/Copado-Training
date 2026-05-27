@@ -8,7 +8,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to attach audit report PDF to the agreement record after agreement transaction is completed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to attach audit report PDF to the agreement record after agreement transaction is completed.</inlineHelpText>
         <label>Add Audit Report</label>
         <trackTrending>false</trackTrending>
@@ -19,7 +18,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to add an URL link for signed PDF to the Agreement record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to add an URL link for signed PDF to the Agreement record.</inlineHelpText>
         <label>Add Signed PDF Url</label>
         <trackTrending>false</trackTrending>
@@ -30,7 +28,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to add latest PDF to an agreement record whenever an agreement is signed / approved / accepted / filled / delivered by the participant.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to add latest PDF to an agreement record whenever an agreement is signed / approved / accepted / filled / delivered by the participant.</inlineHelpText>
         <label>Add Signed PDF</label>
         <trackTrending>false</trackTrending>
@@ -41,7 +38,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to attach final agreement copy as separate PDFs for each document to the agreement record when agreement transaction is completed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to attach final agreement copy as separate PDFs for each document to the agreement record when agreement transaction is completed.</inlineHelpText>
         <label>Add Signed PDF as Separate Attachments</label>
         <trackTrending>false</trackTrending>
@@ -52,7 +48,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</inlineHelpText>
         <label>Add Supporting Files</label>
         <trackTrending>false</trackTrending>
@@ -63,7 +58,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to stop attaching intermediate signed documents.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to stop attaching intermediate signed documents.</inlineHelpText>
         <label>Hide Intermediate Documents</label>
         <trackTrending>false</trackTrending>
@@ -74,7 +68,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to show latest images of all pages of all the documents associated with an agreement.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to show latest images of all pages of all the documents associated with an agreement.</inlineHelpText>
         <label>Show Images</label>
         <trackTrending>false</trackTrending>
@@ -85,7 +78,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to update events of an agreement</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to update events of an agreement</inlineHelpText>
         <label>Update Agreement Events</label>
         <trackTrending>false</trackTrending>
@@ -96,7 +88,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</inlineHelpText>
         <label>Update Agreement Status</label>
         <trackTrending>false</trackTrending>

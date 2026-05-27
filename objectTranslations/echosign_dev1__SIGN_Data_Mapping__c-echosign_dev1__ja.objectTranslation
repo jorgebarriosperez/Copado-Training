@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>データマッピング</value>
+    </caseValues>
+    <fields>
+        <label>キャッシュ済み入力タイプ</label>
+        <name>echosign_dev1__Cached_Input_Type__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Check this box if you want this data mapping to run by default for all agreements sent. You can override the default if you specify a different data mapping to use with a specific agreement or agreement template. --></help>
+        <label>デフォルトのデータマッピング？</label>
+        <name>echosign_dev1__Default_Data_Mapping__c</name>
+    </fields>
+    <fields>
+        <label>説明</label>
+        <name>echosign_dev1__Description__c</name>
+    </fields>
+    <fields>
+        <label>フィールド CSV を結合</label>
+        <name>echosign_dev1__Merge_Field_CSV__c</name>
+    </fields>
+    <fields>
+        <label>ユーザにエラーを通知</label>
+        <name>echosign_dev1__Notify_User_of_Errors__c</name>
+        <relationshipLabel>データマッピング</relationshipLabel>
+    </fields>
+    <nameFieldLabel>データマッピング名</nameFieldLabel>
+</CustomObjectTranslation>

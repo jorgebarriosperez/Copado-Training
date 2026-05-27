@@ -190,7 +190,6 @@
     <fields>
         <fullName>echosign_dev1__SIGN_Data_Mapping__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Adobe Sign Data Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Data_Mapping__c</referenceTo>
         <relationshipLabel>Adobe Sign Object Mappings</relationshipLabel>

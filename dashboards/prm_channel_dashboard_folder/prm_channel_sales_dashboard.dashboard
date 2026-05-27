@@ -25,6 +25,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Índice de conversión de candidatos</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -48,6 +49,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Oportunidades abiertas por etapa</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -71,6 +73,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Ingresos cerrados por trimestre</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -94,6 +97,7 @@
                 <showPicturesOnCharts>false</showPicturesOnCharts>
                 <showValues>false</showValues>
                 <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>false</sortLegendValues>
                 <title>Oportunidades abiertas por socio</title>
                 <useReportChart>true</useReportChart>
             </dashboardComponent>
@@ -143,6 +147,7 @@
                         <sortOrder>2</sortOrder>
                     </flexTableSortInfo>
                     <hideChatterPhotos>true</hideChatterPhotos>
+                    <useReportTableSetting>false</useReportTableSetting>
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <report>prm_channel_sales_reports_folder/prm_opportunity_by_amount</report>

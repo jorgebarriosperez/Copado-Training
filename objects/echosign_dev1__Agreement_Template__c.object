@@ -175,7 +175,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>Controls visibility of the Agreement Template.</description>
-        <externalId>false</externalId>
         <inlineHelpText>If checked, the Agreement Template is visible, else it is not.</inlineHelpText>
         <label>Active</label>
         <trackTrending>false</trackTrending>
@@ -185,7 +184,6 @@
         <fullName>echosign_dev1__Agreement_Type__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement Type</label>
         <referenceTo>echosign_dev1__Agreement_Type__c</referenceTo>
         <relationshipLabel>Agreement Templates</relationshipLabel>
@@ -199,7 +197,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Automatically send the agreement without displaying the send page. (e.g. triggered workflows) Make sure to add a recipient and a file attachment if using this option.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Automatically send the agreement without displaying the send page. (e.g. triggered workflows) Make sure to add a recipient and a file attachment if using this option.</inlineHelpText>
         <label>Auto Send</label>
         <trackTrending>false</trackTrending>
@@ -209,7 +206,6 @@
         <fullName>echosign_dev1__Automatic_Reminders__c</fullName>
         <deprecated>false</deprecated>
         <description>Send automatic reminders to signers.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Send automatic reminders to signers.</inlineHelpText>
         <label>Automatic Reminders</label>
         <required>false</required>
@@ -241,7 +237,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>On the Master object record, make this agreement template available to senders via the Chatter Feed Adobe Sign send for signature action.</description>
-        <externalId>false</externalId>
         <inlineHelpText>On the Master object record, make this agreement template available to senders via the Chatter Feed Adobe Sign send for signature action.</inlineHelpText>
         <label>Available for Publisher Actions</label>
         <trackTrending>false</trackTrending>
@@ -251,7 +246,6 @@
         <fullName>echosign_dev1__Confirm_Password__c</fullName>
         <deprecated>false</deprecated>
         <description>Confirm the password that you want the recipient to input.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Confirm the password that you want the recipient to input.</inlineHelpText>
         <label>Confirm Password</label>
         <length>175</length>
@@ -279,7 +273,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Select the data mapping to map Adobe Sign field inputs from the signed agreement back into Salesforce.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select the data mapping to map Adobe Sign field inputs from the signed agreement back into Salesforce.</inlineHelpText>
         <label>Data Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Data_Mapping__c</referenceTo>
@@ -307,7 +300,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Set as default template for new agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Set as default template for new agreements.</inlineHelpText>
         <label>Default</label>
         <trackTrending>false</trackTrending>
@@ -330,7 +322,6 @@
         <fullName>echosign_dev1__External_Signers_Verification_Method__c</fullName>
         <deprecated>false</deprecated>
         <description>Ensure that before external signers can view or sign the document, they have to verify their identity.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Ensure that before external signers can view or sign the document, they have to verify their identity.</inlineHelpText>
         <label>External Signers Verification Method</label>
         <required>false</required>
@@ -362,7 +353,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When enabled, the agreement or document is presented only to the sender to fill and sign. Post Send page can be used to forward the signed document.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When enabled, the agreement or document is presented only to the sender to fill and sign. Post Send page can be used to forward the signed document.</inlineHelpText>
         <label>Fill &amp; Sign</label>
         <trackTrending>false</trackTrending>
@@ -373,7 +363,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable hosted in-person signing.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable hosted in-person signing.</inlineHelpText>
         <label>Enable Hosted Signing</label>
         <trackTrending>false</trackTrending>
@@ -383,7 +372,6 @@
         <fullName>echosign_dev1__Internal_Signers_Verification_Method__c</fullName>
         <deprecated>false</deprecated>
         <description>Ensure that before internal signers can view or sign the document, they have to verify their identity.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Ensure that before internal signers can view or sign the document, they have to verify their identity.</inlineHelpText>
         <label>Internal Signers Verification Method</label>
         <required>false</required>
@@ -414,7 +402,6 @@
         <fullName>echosign_dev1__Language__c</fullName>
         <deprecated>false</deprecated>
         <description>Select the language of the recipients.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select the language of the recipients.</inlineHelpText>
         <label>Language</label>
         <required>false</required>
@@ -574,7 +561,6 @@
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
         <description>Select the merge mapping to merge Salesforce fields into the Adobe Sign agreement before it is sent for signature.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Select the merge mapping to merge Salesforce fields into the Adobe Sign agreement before it is sent for signature.</inlineHelpText>
         <label>Merge Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Merge_Mapping__c</referenceTo>
@@ -588,7 +574,6 @@
         <fullName>echosign_dev1__Message__c</fullName>
         <deprecated>false</deprecated>
         <description>Enter a message that will be sent to the recipients.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter a message that will be sent to the recipients.</inlineHelpText>
         <label>Message</label>
         <length>32768</length>
@@ -627,7 +612,6 @@
         <fullName>echosign_dev1__Password__c</fullName>
         <deprecated>false</deprecated>
         <description>Enter a password that you want the recipient to input.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enter a password that you want the recipient to input.</inlineHelpText>
         <label>View Password</label>
         <length>175</length>
@@ -652,7 +636,6 @@
     <fields>
         <fullName>echosign_dev1__Post_Sign_Redirect_URL__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Post Sign Redirect URL</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -663,7 +646,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable signers to preview and position fields on the document before agreement is sent for signature.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable signers to preview and position fields on the document before agreement is sent for signature.</inlineHelpText>
         <label>Enable Preview and Position Fields</label>
         <trackTrending>false</trackTrending>
@@ -674,7 +656,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When enabled, the agreement or document is presented only to the sender for signature.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When enabled, the agreement or document is presented only to the sender for signature.</inlineHelpText>
         <label>Sender Signs Only</label>
         <trackTrending>false</trackTrending>
@@ -684,7 +665,6 @@
         <fullName>echosign_dev1__Sender_User__c</fullName>
         <deprecated>false</deprecated>
         <description>When the agreement is auto sent or sent using an automated workflow, the agreement will be sent on behalf of the user specified by this field. If not specified, the current context user will be used as usual.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When the agreement is auto sent or sent using an automated workflow, the agreement will be sent on behalf of the user specified by this field. If not specified, the current context user will be used as usual.</inlineHelpText>
         <label>Send On Behalf Of</label>
         <required>false</required>
@@ -694,7 +674,6 @@
     <fields>
         <fullName>echosign_dev1__Sign_External_Password__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sign External Password</label>
         <length>175</length>
         <maskChar>asterisk</maskChar>
@@ -706,7 +685,6 @@
     <fields>
         <fullName>echosign_dev1__Sign_Internal_Password__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Sign Internal Password</label>
         <length>175</length>
         <maskChar>asterisk</maskChar>
@@ -720,7 +698,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Set a password the recipient needs to enter to sign the agreement.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Set a password the recipient needs to enter to sign the agreement.</inlineHelpText>
         <label>Password to Sign Agreement</label>
         <trackTrending>false</trackTrending>
@@ -743,7 +720,6 @@
         <fullName>echosign_dev1__Signature_Flow__c</fullName>
         <deprecated>false</deprecated>
         <description>Set the recipient order for signing documents.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Set the recipient order for signing documents.</inlineHelpText>
         <label>Signature Flow</label>
         <required>false</required>
@@ -769,7 +745,6 @@
         <fullName>echosign_dev1__Signature_Order__c</fullName>
         <deprecated>false</deprecated>
         <description>Enable the sender to also sign the agreement by selecting a signature order.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable the sender to also sign the agreement by selecting a signature order.</inlineHelpText>
         <label>Sender Signature Order</label>
         <required>false</required>
@@ -795,7 +770,6 @@
         <fullName>echosign_dev1__Signature_Type__c</fullName>
         <deprecated>false</deprecated>
         <description>Send for electronic signature or request written signature.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Send for electronic signature or request written signature.</inlineHelpText>
         <label>Signature Type</label>
         <required>false</required>
@@ -822,7 +796,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>The signed PDF that is sent to all parties is encrypted and this password will be required to open it. Don&apos;t lose the password as it is not recoverable.</description>
-        <externalId>false</externalId>
         <inlineHelpText>The signed PDF that is sent to all parties is encrypted and this password will be required to open it. Don&apos;t lose the password as it is not recoverable.</inlineHelpText>
         <label>Password protect the signed document</label>
         <trackTrending>false</trackTrending>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Object Mapping --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Object Mapping --></value>
+    </caseValues>
+    <fields>
+        <label>Exibir rótulo</label>
+        <name>echosign_dev1__Display_Label__c</name>
+    </fields>
+    <fields>
+        <label>Nome da API do campo</label>
+        <name>echosign_dev1__Field_API_Name__c</name>
+    </fields>
+    <fields>
+        <label>API totalmente qualificada</label>
+        <name>echosign_dev1__Fully_Qualified_API__c</name>
+    </fields>
+    <fields>
+        <label>Mapeamento de dados do Adobe Sign</label>
+        <name>echosign_dev1__SIGN_Data_Mapping__c</name>
+        <relationshipLabel>Mapeamentos de objetos do Adobe Sign</relationshipLabel>
+    </fields>
+    
+    <nameFieldLabel><!-- Object API Name --></nameFieldLabel>
+</CustomObjectTranslation>

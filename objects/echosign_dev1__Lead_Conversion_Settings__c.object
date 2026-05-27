@@ -7,7 +7,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When a Lead is converted to an Account, retain all previous agreements from the Lead with the Account record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When a Lead is converted to an Account, retain all previous agreements from the Lead with the Account record.</inlineHelpText>
         <label>Account Retain Agreement</label>
         <trackTrending>false</trackTrending>
@@ -18,7 +17,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When a Lead is converted to an Contact, retain all previous agreements from the Lead with the Contact record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When a Lead is converted to an Contact, retain all previous agreements from the Lead with the Contact record.</inlineHelpText>
         <label>Contact Retain Agreement</label>
         <trackTrending>false</trackTrending>
@@ -29,7 +27,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>When a Lead is converted to an Opportunity, retain all previous agreements from the Lead with the Opportunity record.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When a Lead is converted to an Opportunity, retain all previous agreements from the Lead with the Opportunity record.</inlineHelpText>
         <label>Opportunity Retain Agreement</label>
         <trackTrending>false</trackTrending>

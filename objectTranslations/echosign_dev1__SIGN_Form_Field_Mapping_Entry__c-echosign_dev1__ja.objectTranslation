@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Form Field Mapping Entry --></value>
+    </caseValues>
+    <fields>
+        <label>無効にする</label>
+        <name>echosign_dev1__Disable__c</name>
+    </fields>
+    <fields>
+        <label>フィールド</label>
+        <name>echosign_dev1__Field_Reference_Name__c</name>
+    </fields>
+    <fields>
+        <label>フォームフィールドマッピング</label>
+        <name>echosign_dev1__Form_Field_Mapping__c</name>
+        <relationshipLabel>フォームフィールドマッピングのエントリ</relationshipLabel>
+    </fields>
+    <fields>
+        <label>索引</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>オブジェクト</label>
+        <name>echosign_dev1__Object_Reference_Path__c</name>
+    </fields>
+    <fields>
+        <label>ソースタイプ</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Constant</masterLabel>
+            <translation><!-- Constant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Object Field</masterLabel>
+            <translation><!-- Salesforce Object Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>値</label>
+        <name>echosign_dev1__Value__c</name>
+    </fields>
+    <nameFieldLabel><!-- Form Field Mapping Entry Name --></nameFieldLabel>
+</CustomObjectTranslation>

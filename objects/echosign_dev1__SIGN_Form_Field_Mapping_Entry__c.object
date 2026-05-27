@@ -159,7 +159,6 @@
         <fullName>echosign_dev1__Disable__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -178,7 +177,6 @@
     <fields>
         <fullName>echosign_dev1__Form_Field_Mapping__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Form Field Mapping</label>
         <referenceTo>echosign_dev1__SIGN_Form_Field_Mapping__c</referenceTo>
         <relationshipLabel>Form Field Mapping Entries</relationshipLabel>
@@ -204,7 +202,6 @@
     <fields>
         <fullName>echosign_dev1__Object_Reference_Path__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Object</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -213,7 +210,6 @@
     <fields>
         <fullName>echosign_dev1__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Source Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -237,7 +233,6 @@
     <fields>
         <fullName>echosign_dev1__Value__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Value</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- PersonalInfo_EPIM --></label>
+        <name>PersonalInfo_EPIM</name>
+    </fieldSets>
+    <fields>
+        <help><!-- Check this box so that others in this Salesforce organization can send Adobe Sign agreements on behalf of this user. --></help>
+        <label>Adobe Sign 允許以其他使用者身份傳送</label>
+        <name>echosign_dev1__EchoSign_Allow_Delegated_Sending__c</name>
+    </fields>
+    <fields>
+        <help><!-- This checkbox indicates that the user&apos;s email address has been validated in Adobe Sign API. --></help>
+        <label>已驗證 Adobe Sign 電子郵件</label>
+        <name>echosign_dev1__EchoSign_Email_Verified__c</name>
+    </fields>
+    <webLinks>
+        <label>同步 Adobe Sign 使用者</label>
+        <name>echosign_dev1__Sync_EchoSign_User</name>
+    </webLinks>
+</CustomObjectTranslation>

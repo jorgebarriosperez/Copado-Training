@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>添加文件附件</value>
+    </caseValues>
+    <fields>
+        <label>协议模板</label>
+        <name>echosign_dev1__Agreement_Template__c</name>
+        <relationshipLabel>添加文件附件</relationshipLabel>
+    </fields>
+    <fields>
+        <label>附件文档</label>
+        <name>echosign_dev1__Attachment_Document_Names__c</name>
+    </fields>
+    <fields>
+        <label>附件文档 ID 的</label>
+        <name>echosign_dev1__Attachment_Document__c</name>
+    </fields>
+    <fields>
+        <label>选择决定者</label>
+        <name>echosign_dev1__Attachment_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>文件选择来自主对象</label>
+        <name>echosign_dev1__Attachment_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>索引</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>附件源类型</label>
+        <name>echosign_dev1__Master_Source_Type__c</name>
+        <picklistValues>
+            <masterLabel>Attachments</masterLabel>
+            <translation><!-- Attachments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Files</masterLabel>
+            <translation><!-- Files --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>报价文档选择判断方式</label>
+        <name>echosign_dev1__Quote_Document_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>来自报价的报价文档选择</label>
+        <name>echosign_dev1__Quote_Document_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>All Documents</masterLabel>
+            <translation><!-- All Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Latest Document</masterLabel>
+            <translation><!-- Latest Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Document</masterLabel>
+            <translation><!-- Oldest Document --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>引用选择决定者</label>
+        <name>echosign_dev1__Quote_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>引用选择来自业务机会</label>
+        <name>echosign_dev1__Quote_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest Quote</masterLabel>
+            <translation><!-- Latest Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest Quote</masterLabel>
+            <translation><!-- Oldest Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>相关收件人关系</label>
+        <name>echosign_dev1__Related_Recipient_Relationship__c</name>
+    </fields>
+    <fields>
+        <label>相关选择字段</label>
+        <name>echosign_dev1__Related_Selection_Field__c</name>
+        <picklistValues>
+            <masterLabel>Created Date</masterLabel>
+            <translation><!-- Created Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Last Modified Date</masterLabel>
+            <translation><!-- Last Modified Date --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>相关选择类型</label>
+        <name>echosign_dev1__Related_Selection_Type__c</name>
+        <picklistValues>
+            <masterLabel>Latest</masterLabel>
+            <translation><!-- Latest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oldest</masterLabel>
+            <translation><!-- Oldest --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>附件类型</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Document from Content</masterLabel>
+            <translation><!-- Document from Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from EchoSign Library</masterLabel>
+            <translation><!-- Document from EchoSign Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Library</masterLabel>
+            <translation><!-- Document from Library --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Document from Master Object</masterLabel>
+            <translation><!-- Document from Master Object --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Master Quote</masterLabel>
+            <translation><!-- Quote Document from Master Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Document from Opportunity Quote</masterLabel>
+            <translation><!-- Quote Document from Opportunity Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Runtime Variable</masterLabel>
+            <translation><!-- Runtime Variable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>变量名称</label>
+        <name>echosign_dev1__Variable_Name__c</name>
+    </fields>
+    <nameFieldLabel>添加文件附件名称</nameFieldLabel>
+</CustomObjectTranslation>

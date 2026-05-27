@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Attachment Mutex --></value>
+    </caseValues>
+    <fields>
+        <label>添付ファイルタイプ</label>
+        <name>echosign_dev1__Attachment_Type__c</name>
+    </fields>
+    <fields>
+        <label>mutex キー</label>
+        <name>echosign_dev1__Mutex_Key__c</name>
+    </fields>
+    <fields>
+        <label>親 ID</label>
+        <name>echosign_dev1__Parent_Id__c</name>
+    </fields>
+    <fields>
+        <label>バージョン ID</label>
+        <name>echosign_dev1__Version_Id__c</name>
+    </fields>
+    <nameFieldLabel><!-- Attachment Mutex Name --></nameFieldLabel>
+</CustomObjectTranslation>

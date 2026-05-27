@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Trigger --></value>
+    </caseValues>
+    <fields>
+        <label>계약</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>Adobe Sign 트리거</relationshipLabel>
+    </fields>
+    <fields>
+        <label>오류 메시지</label>
+        <name>echosign_dev1__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>비동기적으로 처리</label>
+        <name>echosign_dev1__Process_Asynchronously__c</name>
+    </fields>
+    <fields>
+        <label>다시 시도 횟수</label>
+        <name>echosign_dev1__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label>상태</label>
+        <name>echosign_dev1__Status__c</name>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Queued</masterLabel>
+            <translation><!-- Queued --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Trigger Name --></nameFieldLabel>
+</CustomObjectTranslation>

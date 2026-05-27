@@ -6,5 +6,5 @@
     <mayForecastManagerShare>false</mayForecastManagerShare>
     <name>Customer Support, International</name>
     <opportunityAccessLevel>Edit</opportunityAccessLevel>
-    <parentRole>SVPCustomerServiceSupport</parentRole>
+    <parentRole>COO</parentRole>
 </Role>

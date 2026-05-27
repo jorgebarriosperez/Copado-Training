@@ -7,7 +7,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>When an Adobe Sign merge mapping is used for an agreement, attach the merged document to the agreement record after the agreement is sent.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When an Adobe Sign merge mapping is used for an agreement, attach the merged document to the agreement record after the agreement is sent.</inlineHelpText>
         <label>Attach Merged Document</label>
         <trackTrending>false</trackTrending>
@@ -18,7 +17,6 @@
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
         <description>When an Adobe Sign merge mapping is used for an agreement, remove the original template document from the agreement record after the agreement is sent.</description>
-        <externalId>false</externalId>
         <inlineHelpText>When an Adobe Sign merge mapping is used for an agreement, remove the original template document from the agreement record after the agreement is sent.</inlineHelpText>
         <label>Remove Original Document</label>
         <trackTrending>false</trackTrending>

@@ -245,7 +245,6 @@
     <fields>
         <fullName>Conection__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
         <label>Conection</label>
         <referenceTo>Prueba_1__c</referenceTo>
         <relationshipLabel>Cases</relationshipLabel>
@@ -346,7 +345,6 @@
     </fields>
     <fields>
         <fullName>PotentialLiability__c</fullName>
-        <externalId>false</externalId>
         <label>Potential Liability</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -378,7 +376,6 @@
     </fields>
     <fields>
         <fullName>Product__c</fullName>
-        <externalId>false</externalId>
         <label>Product</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -445,7 +442,6 @@
     </fields>
     <fields>
         <fullName>SLAViolation__c</fullName>
-        <externalId>false</externalId>
         <label>SLA Violation</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -499,7 +495,6 @@
     </fields>
     <fields>
         <fullName>Support_Department__c</fullName>
-        <externalId>false</externalId>
         <label>Support Department</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

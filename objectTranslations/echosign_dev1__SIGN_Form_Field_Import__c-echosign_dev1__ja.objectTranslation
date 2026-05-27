@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Form Field Import --></value>
+    </caseValues>
+    <fields>
+        <label>契約書</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>フォームフィールドの読み込み</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Salesforce から Adobe Sign へのデータマッピング</label>
+        <name>echosign_dev1__Data_Mapping__c</name>
+        <relationshipLabel>フォームフィールドの読み込み</relationshipLabel>
+    </fields>
+    <fields>
+        <label>文書キー</label>
+        <name>echosign_dev1__Document_Key__c</name>
+    </fields>
+    <fields>
+        <label>重複するフォームフィールド</label>
+        <name>echosign_dev1__Duplicate_Form_Fields__c</name>
+    </fields>
+    <fields>
+        <label>フォームフィールド</label>
+        <name>echosign_dev1__Form_Fields__c</name>
+    </fields>
+    <fields>
+        <label>タイプ</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Agreement</masterLabel>
+            <translation><!-- Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text Entry</masterLabel>
+            <translation><!-- Text Entry --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Form Field Import Name --></nameFieldLabel>
+</CustomObjectTranslation>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Agreement Notification --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Agreement Notification --></value>
+    </caseValues>
+    <fields>
+        <label>Tipo de evento do contrato</label>
+        <name>echosign_dev1__Agreement_Event_Type__c</name>
+    </fields>
+    <fields>
+        <label>Status do contrato</label>
+        <name>echosign_dev1__Agreement_Status__c</name>
+    </fields>
+    <fields>
+        <label>Contrato</label>
+        <name>echosign_dev1__Agreement__c</name>
+        <relationshipLabel>Notificação de contrato do Adobe Sign</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Chave do documento</label>
+        <name>echosign_dev1__Document_Key__c</name>
+    </fields>
+    <fields>
+        <label>Mensagem de erro</label>
+        <name>echosign_dev1__Error_Message__c</name>
+    </fields>
+    <fields>
+        <label>Tipo de notificação</label>
+        <name>echosign_dev1__Notification_Type__c</name>
+        <picklistValues>
+            <masterLabel>AUTO_UPDATE</masterLabel>
+            <translation><!-- AUTO_UPDATE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALLBACK</masterLabel>
+            <translation><!-- CALLBACK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Contagem novas tentativas</label>
+        <name>echosign_dev1__Retry_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>echosign_dev1__Status__c</name>
+        <picklistValues>
+            <masterLabel>Created</masterLabel>
+            <translation><!-- Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed</masterLabel>
+            <translation><!-- Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Success</masterLabel>
+            <translation><!-- Success --></translation>
+        </picklistValues>
+    </fields>
+    
+    <nameFieldLabel><!-- Agreement Notification --></nameFieldLabel>
+</CustomObjectTranslation>

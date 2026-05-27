@@ -7,7 +7,6 @@
         <fullName>echosign_dev1__Cancel_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cancel Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -16,7 +15,6 @@
         <fullName>echosign_dev1__Cancel_Draft__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Cancel (Draft)</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -25,7 +23,6 @@
         <fullName>echosign_dev1__Delete_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Delete Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -34,7 +31,6 @@
         <fullName>echosign_dev1__Disable_Agreement_Review_Logo__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Agreement Review Logo</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -43,7 +39,6 @@
         <fullName>echosign_dev1__Disable_Bulk_Cancel_Agreement__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Bulk Cancel Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -52,7 +47,6 @@
         <fullName>echosign_dev1__Disable_Bulk_Delete_Agreement__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Bulk Delete Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -61,7 +55,6 @@
         <fullName>echosign_dev1__Disable_Bulk_Send_Agreement__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Bulk Send Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -70,7 +63,6 @@
         <fullName>echosign_dev1__Disable_Bulk_Send_Reminder__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Bulk Send Reminder</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -79,7 +71,6 @@
         <fullName>echosign_dev1__Disable_Bulk_Update_Agreement__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Disable Bulk Update Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -89,7 +80,6 @@
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
         <description>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</description>
-        <externalId>false</externalId>
         <inlineHelpText>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</inlineHelpText>
         <label>Disable In Flight Host Sign</label>
         <trackTrending>false</trackTrending>
@@ -99,7 +89,6 @@
         <fullName>echosign_dev1__Enable_On_Load_Action__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Enable On Load Action</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -108,7 +97,6 @@
         <fullName>echosign_dev1__Host_Send_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Host Send Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -117,7 +105,6 @@
         <fullName>echosign_dev1__Save_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Save Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -126,7 +113,6 @@
         <fullName>echosign_dev1__Send_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Send Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -135,7 +121,6 @@
         <fullName>echosign_dev1__Send_Reminder__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Send Reminder</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -144,7 +129,6 @@
         <fullName>echosign_dev1__Update_Status__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Update Status</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -153,7 +137,6 @@
         <fullName>echosign_dev1__View_Agreement__c</fullName>
         <defaultValue>true</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>View Agreement</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Form Field Mapping --></value>
+    </caseValues>
+    <fields>
+        <label>Salesforce - Adobe Sign 데이터 매핑</label>
+        <name>echosign_dev1__Data_Mapping__c</name>
+        <relationshipLabel>Adobe Sign 양식 필드 매핑</relationshipLabel>
+    </fields>
+    <fields>
+        <label>사용 안 함</label>
+        <name>echosign_dev1__Disable__c</name>
+    </fields>
+    <fields>
+        <label>대상 문서 필드</label>
+        <name>echosign_dev1__Form_Field_Name__c</name>
+    </fields>
+    <fields>
+        <label>색인</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>입력 유형</label>
+        <name>echosign_dev1__Input_Type__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation><!-- List --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Target Field --></nameFieldLabel>
+</CustomObjectTranslation>

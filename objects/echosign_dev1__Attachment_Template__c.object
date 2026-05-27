@@ -159,7 +159,6 @@
     <fields>
         <fullName>echosign_dev1__Agreement_Template__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement Template</label>
         <referenceTo>echosign_dev1__Agreement_Template__c</referenceTo>
         <relationshipName>Attachment_Templates</relationshipName>
@@ -194,7 +193,6 @@
     <fields>
         <fullName>echosign_dev1__Attachment_Selection_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Selection Determined By</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -218,7 +216,6 @@
     <fields>
         <fullName>echosign_dev1__Attachment_Selection_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>File Selection from Master Object</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -259,7 +256,6 @@
     <fields>
         <fullName>echosign_dev1__Master_Source_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Attachment Source Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -284,7 +280,6 @@
     <fields>
         <fullName>echosign_dev1__Quote_Document_Selection_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quote Document Selection Determined By</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -308,7 +303,6 @@
     <fields>
         <fullName>echosign_dev1__Quote_Document_Selection_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quote Document Selection from Quote</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -337,7 +331,6 @@
     <fields>
         <fullName>echosign_dev1__Quote_Selection_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quote Selection Determined By</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -361,7 +354,6 @@
     <fields>
         <fullName>echosign_dev1__Quote_Selection_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Quote Selection from Opportunity</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -396,7 +388,6 @@
     <fields>
         <fullName>echosign_dev1__Related_Selection_Field__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Related Selection Field</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -420,7 +411,6 @@
     <fields>
         <fullName>echosign_dev1__Related_Selection_Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Related Selection Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -444,7 +434,6 @@
     <fields>
         <fullName>echosign_dev1__Type__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Attachment Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

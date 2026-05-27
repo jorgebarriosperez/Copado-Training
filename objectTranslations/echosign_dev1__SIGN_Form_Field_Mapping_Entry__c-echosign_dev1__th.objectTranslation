@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Form Field Mapping Entry --></value>
+    </caseValues>
+    <fields>
+        <label>ปิดใช้งาน</label>
+        <name>echosign_dev1__Disable__c</name>
+    </fields>
+    <fields>
+        <label>ฟิลด์</label>
+        <name>echosign_dev1__Field_Reference_Name__c</name>
+    </fields>
+    <fields>
+        <label>การแมปฟิลด์แบบฟอร์ม</label>
+        <name>echosign_dev1__Form_Field_Mapping__c</name>
+        <relationshipLabel>รายการการแมปฟิลด์แบบฟอร์ม</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ดัชนี</label>
+        <name>echosign_dev1__Index__c</name>
+    </fields>
+    <fields>
+        <label>ออบเจกต์</label>
+        <name>echosign_dev1__Object_Reference_Path__c</name>
+    </fields>
+    <fields>
+        <label>ประเภทแหล่งที่มา</label>
+        <name>echosign_dev1__Type__c</name>
+        <picklistValues>
+            <masterLabel>Constant</masterLabel>
+            <translation><!-- Constant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Object Field</masterLabel>
+            <translation><!-- Salesforce Object Field --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>ค่า</label>
+        <name>echosign_dev1__Value__c</name>
+    </fields>
+    <nameFieldLabel><!-- Form Field Mapping Entry Name --></nameFieldLabel>
+</CustomObjectTranslation>

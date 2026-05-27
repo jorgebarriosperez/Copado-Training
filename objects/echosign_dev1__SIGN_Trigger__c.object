@@ -159,7 +159,6 @@
         <fullName>echosign_dev1__Agreement__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement</label>
         <referenceTo>echosign_dev1__SIGN_Agreement__c</referenceTo>
         <relationshipLabel>Adobe Sign Triggers</relationshipLabel>
@@ -171,7 +170,6 @@
     <fields>
         <fullName>echosign_dev1__Error_Message__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Error Message</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -182,7 +180,6 @@
         <fullName>echosign_dev1__Process_Asynchronously__c</fullName>
         <defaultValue>false</defaultValue>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Process Asynchronously</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -203,7 +200,6 @@
     <fields>
         <fullName>echosign_dev1__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

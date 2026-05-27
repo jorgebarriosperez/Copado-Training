@@ -157,7 +157,6 @@
         <fullName>checboxnew66__c</fullName>
         <defaultValue>true</defaultValue>
         <description>desdc akkjakjlaskjlaskjl</description>
-        <externalId>false</externalId>
         <inlineHelpText>help tex</inlineHelpText>
         <label>checboxnew66</label>
         <trackHistory>false</trackHistory>
@@ -168,7 +167,6 @@
         <fullName>checboxnew777__c</fullName>
         <defaultValue>true</defaultValue>
         <description>test</description>
-        <externalId>false</externalId>
         <inlineHelpText>test</inlineHelpText>
         <label>checboxnew777</label>
         <trackHistory>false</trackHistory>

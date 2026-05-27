@@ -180,7 +180,6 @@
     <fields>
         <fullName>echosign_dev1__Agreement__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Agreement</label>
         <referenceTo>echosign_dev1__SIGN_Agreement__c</referenceTo>
         <relationshipLabel>AdobeSign_Agreement_Notification</relationshipLabel>
@@ -205,7 +204,6 @@
     <fields>
         <fullName>echosign_dev1__Error_Message__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Error Message</label>
         <length>32000</length>
         <trackTrending>false</trackTrending>
@@ -216,7 +214,6 @@
         <fullName>echosign_dev1__Notification_Type__c</fullName>
         <deprecated>false</deprecated>
         <description>This value will classify the notification type that whether it is inserted from push agreement callback or normal sign notification.</description>
-        <externalId>false</externalId>
         <label>Notification Type</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -254,7 +251,6 @@
     <fields>
         <fullName>echosign_dev1__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>

@@ -170,7 +170,6 @@
     <fields>
         <fullName>echosign_dev1__PrivateMessage__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>PrivateMessage</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -180,7 +179,6 @@
     <fields>
         <fullName>echosign_dev1__Roles__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Roles</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -271,7 +269,6 @@
     <fields>
         <fullName>echosign_dev1__SecurityOptions__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>SecurityOptions</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -328,7 +325,6 @@
     <fields>
         <fullName>echosign_dev1__Status__c</fullName>
         <deprecated>false</deprecated>
-        <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
