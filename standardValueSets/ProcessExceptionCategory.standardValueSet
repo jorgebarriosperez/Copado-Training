@@ -71,4 +71,9 @@
         <default>false</default>
         <label>Servicio de entrega de Commerce</label>
     </standardValue>
+    <standardValue>
+        <fullName>Orquestación de resumen de pedido</fullName>
+        <default>false</default>
+        <label>Orquestación de resumen de pedido</label>
+    </standardValue>
 </StandardValueSet>
