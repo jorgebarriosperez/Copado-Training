@@ -50,6 +50,7 @@
         <members>EmployeeUser</members>
         <members>EncryptionKey</members>
         <members>EnhancedNotes</members>
+        <members>EnterpriseApi</members>
         <members>Entitlement</members>
         <members>Essentials</members>
         <members>Event</members>
