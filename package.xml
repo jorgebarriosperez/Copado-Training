@@ -34,8 +34,10 @@
         <members>CustomerDataPlatform</members>
         <members>CustomizablePropensityScoring</members>
         <members>DataDotCom</members>
+        <members>DataMask</members>
         <members>Deployment</members>
         <members>DevHub</members>
+        <members>DigitalWallet</members>
         <members>Discovery</members>
         <members>DocumentChecklist</members>
         <members>DxGlobalTerms</members>
