@@ -26,9 +26,11 @@
     <enableEscalateQfiToCaseInternal>false</enableEscalateQfiToCaseInternal>
     <enableEscalateQfiToCaseNetworks>false</enableEscalateQfiToCaseNetworks>
     <enableExtNetworksCaseFeedEnabled>false</enableExtNetworksCaseFeedEnabled>
+    <enableModernSlackSwarming>false</enableModernSlackSwarming>
     <enableMultiLangSolnSrchCSS>false</enableMultiLangSolnSrchCSS>
     <enableMultiLangSolnSrchPKB>false</enableMultiLangSolnSrchPKB>
     <enableMultiLangSolution>false</enableMultiLangSolution>
+    <enableSlackSwarmingPhasedRollout>false</enableSlackSwarmingPhasedRollout>
     <enableSolutionCategory>false</enableSolutionCategory>
     <enableSolutionInlineCategory>true</enableSolutionInlineCategory>
     <enableSolutionShortSummary>true</enableSolutionShortSummary>
