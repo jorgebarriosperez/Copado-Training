@@ -7,7 +7,7 @@
         <twoFactorAuthentication>true</twoFactorAuthentication>
         <useStepUp>true</useStepUp>
     </action>
-    <active>false</active>
+    <active>true</active>
     <description>La política predeterminada para restringir exportaciones de informes de gran tamaño aplicando la autenticación de incremento.</description>
     <developerName>sfdc_default_ReportExport_Protection</developerName>
     <eventName>ReportEvent</eventName>
