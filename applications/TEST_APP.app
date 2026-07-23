@@ -6,13 +6,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <tabs>standard-Chatter</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Idea</tabs>
-    <tabs>standard-IdeaTheme</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
+    <label>TEST_APP</label>
     <tabs>Prueba_Tab_2__c</tabs>
     <tabs>Prueba_1__c</tabs>
 </CustomApplication>
