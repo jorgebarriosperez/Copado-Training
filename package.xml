@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Jorge_UAT</members>
+        <members>LWCDevConsole__LWC_Developer_Console</members>
+        <members>TEST_APP</members>
+        <members>agf__Agile_Accelerator</members>
+        <members>agf__Agile_Accelerator_LEX</members>
+        <members>standard__AllTabSet</members>
+        <members>standard__AppLauncher</members>
+        <members>standard__Approvals</members>
+        <members>standard__Chatter</members>
+        <members>standard__Community</members>
+        <members>standard__Content</members>
+        <members>standard__DataGovernanceConsole</members>
+        <members>standard__DataManager</members>
+        <members>standard__FlowsApp</members>
+        <members>standard__Insights</members>
+        <members>standard__LightningBolt</members>
+        <members>standard__LightningInstrumentation</members>
+        <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
+        <members>standard__MSJApp</members>
+        <members>standard__Marketing</members>
+        <members>standard__Platform</members>
+        <members>standard__Sales</members>
+        <members>standard__SalesCloudMobile</members>
+        <members>standard__SalesforceCMS</members>
+        <members>standard__Service</members>
+        <members>standard__ServiceConsole</members>
+        <members>standard__Shield</members>
+        <members>standard__Sites</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Jorge_Turbo</members>
         <name>PermissionSet</name>
     </types>
     <version>67.0</version>

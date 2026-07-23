@@ -163,6 +163,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <preferences>
         <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
@@ -180,8 +181,8 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Prueba_1__c</tabs>
     <tabs>Prueba_Tab_2__c</tabs>
+    <tabs>Prueba_1__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Prueba_1__c</tab>

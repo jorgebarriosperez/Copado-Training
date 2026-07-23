@@ -5,6 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Agile Accelerator</label>
     <logo>agf__GUS/agf__Agile_Accelerator_270_x_72.png</logo>
     <tabs>standard-Chatter</tabs>
@@ -21,4 +22,5 @@
     <tabs>agf__ADM_Theme__c</tabs>
     <tabs>agf__ADM_Work_Status__c</tabs>
     <tabs>agf__QA_Hierarchy__c</tabs>
+    <tabs>Prueba_1__c</tabs>
 </CustomApplication>

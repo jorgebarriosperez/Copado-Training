@@ -5,6 +5,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-Account</tabs>
     <tabs>standard-Contact</tabs>
@@ -12,6 +13,6 @@
     <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Prueba_1__c</tabs>
     <tabs>Prueba_Tab_2__c</tabs>
+    <tabs>Prueba_1__c</tabs>
 </CustomApplication>
