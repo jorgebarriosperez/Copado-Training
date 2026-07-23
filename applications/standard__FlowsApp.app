@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
-    <tabs>standard-Chatter</tabs>
-    <tabs>standard-Contact</tabs>
-    <tabs>standard-Account</tabs>
-    <tabs>standard-Idea</tabs>
-    <tabs>standard-IdeaTheme</tabs>
-    <tabs>standard-report</tabs>
-    <tabs>standard-Dashboard</tabs>
-    <tabs>Prueba_Tab_2__c</tabs>
-    <tabs>Prueba_1__c</tabs>
+    <label>FlowsApp</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-FlowRecord</tabs>
+    <tabs>standard-Monitor</tabs>
+    <tabs>standard-ActionHub</tabs>
+    <tabs>standard-FlowLogs</tabs>
+    <tabs>standard-GlobalFlowResources</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>FlowsApp_UtilityBar</utilityBar>
 </CustomApplication>
