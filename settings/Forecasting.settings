@@ -139,6 +139,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -295,6 +315,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -387,6 +412,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -543,6 +588,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -633,6 +683,26 @@
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -795,6 +865,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -888,6 +963,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1044,6 +1139,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1134,6 +1234,26 @@
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1296,6 +1416,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1389,6 +1514,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -1545,6 +1690,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1635,6 +1785,26 @@
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1797,6 +1967,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -1890,6 +2065,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2046,6 +2241,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2136,6 +2336,26 @@
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2298,6 +2518,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2391,6 +2616,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -2547,6 +2792,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2637,6 +2887,26 @@
         <opportunityListFieldsLabelMappings>
             <field>FULL_NAME</field>
             <label>Owner Full Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2799,6 +3069,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -2892,6 +3167,26 @@
             <label>Owner Full Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -3048,6 +3343,11 @@
             <field>OPPORTUNITY.PROBABILITY</field>
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -3144,6 +3444,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -3297,6 +3617,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -3391,6 +3716,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -3550,6 +3895,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -3647,6 +3997,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -3804,6 +4174,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -3901,6 +4276,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -4054,6 +4449,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -4148,6 +4548,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -4307,6 +4727,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -4404,6 +4829,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -4557,6 +5002,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -4653,6 +5103,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -4806,6 +5276,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -4902,6 +5377,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -5055,6 +5550,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -5151,6 +5651,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -5304,6 +5824,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -5398,6 +5923,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -5557,6 +6102,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -5654,6 +6204,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -5811,6 +6381,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -5908,6 +6483,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -6061,6 +6656,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -6155,6 +6755,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -6314,6 +6934,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -6411,6 +7036,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -6564,6 +7209,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -6660,6 +7310,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -6813,6 +7483,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -6909,6 +7584,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -7062,6 +7757,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -7158,6 +7858,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -7311,6 +8031,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -7405,6 +8130,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -7564,6 +8309,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -7661,6 +8411,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -7818,6 +8588,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -7915,6 +8690,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -8068,6 +8863,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -8162,6 +8962,26 @@
         <opportunityListFieldsLabelMappings>
             <field>TERR2_NAME</field>
             <label>Territory Name</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -8321,6 +9141,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -8418,6 +9243,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -8571,6 +9416,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -8667,6 +9517,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -8820,6 +9690,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
@@ -8916,6 +9791,26 @@
             <label>Territory Name</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>AgentActivity</field>
+            <label>Agent Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>CriticalInsights</field>
+            <label>Alerts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>SalesMethodology</field>
+            <label>Sales Methodology</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>ActivityHeatmap</field>
+            <label>Activity</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>Contacts</field>
+            <label>Contacts</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>CONTRACT.CONTRACT_NUMBER</field>
             <label>Contract Number</label>
         </opportunityListFieldsLabelMappings>
@@ -9069,6 +9964,11 @@
             <field>FORECAST_CATEGORY</field>
             <field>FULL_NAME</field>
             <field>TERR2_NAME</field>
+            <field>AgentActivity</field>
+            <field>CriticalInsights</field>
+            <field>SalesMethodology</field>
+            <field>ActivityHeatmap</field>
+            <field>Contacts</field>
         </opportunityListFieldsSelectedSettings>
         <opportunityListFieldsUnselectedSettings>
             <field>CONTRACT.CONTRACT_NUMBER</field>

@@ -66,6 +66,7 @@
         <members>Forecasting</members>
         <members>Formula</members>
         <members>GRCIntelligenceUdd</members>
+        <members>GenerativeCampaigns</members>
         <members>GoogleApps</members>
         <members>HerokuAppLink</members>
         <members>HighVelocitySales</members>
@@ -151,6 +152,7 @@
         <members>TransactableMarketplacePrivateOffer</members>
         <members>TrialOrg</members>
         <members>UIBundle</members>
+        <members>UiWidget</members>
         <members>UserEngagement</members>
         <members>UserInterface</members>
         <members>UserManagement</members>
