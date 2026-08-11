@@ -6376,10 +6376,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>BypassMFAForUiLogins</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ChatterFileLink</name>
     </userPermissions>
     <userPermissions>
