@@ -167,16 +167,6 @@
         <fullName>Title</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>All_Partner_Fund_Claims</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Partner Fund Claims</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Partner_Fund_Claims</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Partner Fund Claims</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Request</customTabListAdditionalFields>
         <customTabListAdditionalFields>ChannelPartner</customTabListAdditionalFields>

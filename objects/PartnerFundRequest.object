@@ -189,16 +189,6 @@
     <fields>
         <fullName>TotalReimbursedFcs</fullName>
     </fields>
-    <listViews>
-        <fullName>All_Partner_Fund_Requests</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Partner Fund Requests</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Partner_Fund_Requests</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Partner Fund Requests</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Allocation</customTabListAdditionalFields>
         <customTabListAdditionalFields>Budget</customTabListAdditionalFields>

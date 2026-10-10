@@ -212,10 +212,5 @@
     <fields>
         <fullName>Type</fullName>
     </fields>
-    <listViews>
-        <fullName>Refund</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos</label>
-    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

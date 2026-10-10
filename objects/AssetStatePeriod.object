@@ -133,6 +133,9 @@
         <fullName>Amount</fullName>
     </fields>
     <fields>
+        <fullName>ApplUnitPriceUpliftPct</fullName>
+    </fields>
+    <fields>
         <fullName>AssetId</fullName>
         <type>MasterDetail</type>
     </fields>
@@ -159,6 +162,9 @@
         <fullName>Quantity</fullName>
     </fields>
     <fields>
+        <fullName>RampUpliftType</fullName>
+    </fields>
+    <fields>
         <fullName>StartDate</fullName>
     </fields>
     <fields>
@@ -167,11 +173,6 @@
     <fields>
         <fullName>UnitPriceUplift</fullName>
     </fields>
-    <listViews>
-        <fullName>AssetStatePeriod</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Asset</customTabListAdditionalFields>
         <customTabListAdditionalFields>StartDate</customTabListAdditionalFields>

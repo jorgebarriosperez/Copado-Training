@@ -183,10 +183,5 @@
     <fields>
         <fullName>Status</fullName>
     </fields>
-    <listViews>
-        <fullName>DigitalWallet</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos</label>
-    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

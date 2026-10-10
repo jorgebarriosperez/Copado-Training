@@ -151,16 +151,6 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <listViews>
-        <fullName>All_Channel_Programs</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Channel Programs</label>
-    </listViews>
-    <listViews>
-        <fullName>My_Channel_Programs</fullName>
-        <filterScope>Mine</filterScope>
-        <label>My Channel Programs</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Category</customTabListAdditionalFields>
         <customTabListAdditionalFields>IsActive</customTabListAdditionalFields>

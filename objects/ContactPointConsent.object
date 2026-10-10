@@ -191,11 +191,6 @@
         <fullName>PrivacyConsentStatus</fullName>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>All_ContactPointConsents</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos Consentimientos de puntos de contacto</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ContactPoint</customTabListAdditionalFields>
         <customTabListAdditionalFields>DataUsePurpose</customTabListAdditionalFields>

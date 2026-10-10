@@ -120,16 +120,6 @@
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
-    <listViews>
-        <fullName>Mis_cuentas_gestionadas_externas</fullName>
-        <filterScope>Mine</filterScope>
-        <label>Mis cuentas gestionadas externas</label>
-    </listViews>
-    <listViews>
-        <fullName>Todas_las_cuentas_gestionadas_externas</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todas las cuentas gestionadas externas</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>ManagedBy</customTabListAdditionalFields>
         <customTabListAdditionalFields>Target</customTabListAdditionalFields>

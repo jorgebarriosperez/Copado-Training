@@ -87,6 +87,7 @@
         <members>LeadConfig</members>
         <members>LightningExperience</members>
         <members>LiveAgent</members>
+        <members>MCETransformations</members>
         <members>Macro</members>
         <members>MailMerge</members>
         <members>Meetings</members>

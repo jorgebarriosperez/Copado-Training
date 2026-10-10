@@ -160,11 +160,6 @@
         <inlineHelpText>The unit of time that works with Offset to determine the communication timing.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
-    <listViews>
-        <fullName>All_CommSubscriptionTimings</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todas las Temporizaciones de suscripciones de comunicación</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>Unit</customTabListAdditionalFields>
         <customTabListAdditionalFields>Offset</customTabListAdditionalFields>

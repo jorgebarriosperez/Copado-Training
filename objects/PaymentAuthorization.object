@@ -194,10 +194,5 @@
     <fields>
         <fullName>TotalPaymentCaptureAmount</fullName>
     </fields>
-    <listViews>
-        <fullName>PaymentAuthorization</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos</label>
-    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

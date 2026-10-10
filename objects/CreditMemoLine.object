@@ -248,6 +248,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>TotalAppliedRefundAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TotalUnappliedRefundAmount</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Type</fullName>
         <trackHistory>false</trackHistory>
     </fields>

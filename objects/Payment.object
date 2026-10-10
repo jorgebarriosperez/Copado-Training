@@ -237,10 +237,5 @@
     <fields>
         <fullName>Type</fullName>
     </fields>
-    <listViews>
-        <fullName>Payment</fullName>
-        <filterScope>Everything</filterScope>
-        <label>Todos</label>
-    </listViews>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
