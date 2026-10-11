@@ -27,7 +27,6 @@
         <members>ConnectedApp</members>
         <members>Content</members>
         <members>Contract</members>
-        <members>ConversationServiceIntegration</members>
         <members>ConversationalIntelligence</members>
         <members>Currency</members>
         <members>CustomAddressField</members>

@@ -6664,6 +6664,16 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>OutboundEngmtContentRsrc</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>PartnerFundAllocation</object>
         <viewAllFields>false</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
@@ -7966,6 +7976,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-OutboundEngmtContentRsrc</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PartnerFundAllocation</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -8760,6 +8774,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>PlatformWebIdeUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
@@ -8873,6 +8891,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>UseOmnichannelInventoryAPIs</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseOrderManagementSetupAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
