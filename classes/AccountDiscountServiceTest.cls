@@ -4,7 +4,7 @@ private class AccountDiscountServiceTest {
     @IsTest
     static void testCalculateDiscountTiers() {
         Test.startTest();
-        Decimal highDiscount = AccountDiscountService.calculateDiscount(900000);
+        Decimal highDiscount = AccountDiscountService.calculateDiscount(800000);
         Decimal midDiscount = AccountDiscountService.calculateDiscount(600000);
         Decimal lowDiscount = AccountDiscountService.calculateDiscount(100000);
         Decimal nullDiscount = AccountDiscountService.calculateDiscount(null);
