@@ -1,17 +1,12 @@
 public with sharing class AccountDiscountService {
-    
-    /**
-     * Calculates the discount rate based on annual revenue.
-     * @param annualRevenue The annual revenue of the account.
-     * @return Discount percentage (Decimal).
-     */
+
     public static Decimal calculateDiscount(Decimal annualRevenue) {
         if (annualRevenue == null || annualRevenue < 0) {
             return 0.0;
         }
         
-        if (annualRevenue >= 1000000) {
-            return 0.20; // 20% discount for revenue >= $1M
+        if (annualRevenue >= 3000000) {
+            return 0.20; // 20x% discount for revenue >= $1M
         } else if (annualRevenue >= 500000) {
             return 0.10; // 10% discount for revenue >= $500K
         } else {
