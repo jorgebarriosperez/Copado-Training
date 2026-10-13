@@ -4,7 +4,7 @@ private class AccountDiscountServiceTest {
     @IsTest
     static void testCalculateDiscountTiers() {
         Test.startTest();
-        Decimal highDiscount = AccountDiscountService.calculateDiscount(1500000);
+        Decimal highDiscount = AccountDiscountService.calculateDiscount(900000);
         Decimal midDiscount = AccountDiscountService.calculateDiscount(600000);
         Decimal lowDiscount = AccountDiscountService.calculateDiscount(100000);
         Decimal nullDiscount = AccountDiscountService.calculateDiscount(null);
@@ -38,7 +38,6 @@ private class AccountDiscountServiceTest {
         AccountDiscountService.applyDiscountToAccount(null);
         Test.stopTest();
 
-        // Pass condition: No exception thrown on null input
         System.assert(true, 'Handled null account gracefully without throwing an error');
     }
 }
