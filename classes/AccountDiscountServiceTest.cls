@@ -38,7 +38,6 @@ private class AccountDiscountServiceTest {
         AccountDiscountService.applyDiscountToAccount(null);
         Test.stopTest();
 
-        // Pass condition: No exception thrown on null input
         System.assert(true, 'Handled null account gracefully without throwing an error');
     }
 }
