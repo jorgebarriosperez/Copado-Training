@@ -5,8 +5,8 @@ public with sharing class AccountDiscountService {
             return 0.0;
         }
         
-        if (annualRevenue >= 2000000) {
-            return 0.20; // 20% discount for revenue >= $1M
+        if (annualRevenue >= 3000000) {
+            return 0.20; // 20x% discount for revenue >= $1M
         } else if (annualRevenue >= 500000) {
             return 0.10; // 10% discount for revenue >= $500K
         } else {
