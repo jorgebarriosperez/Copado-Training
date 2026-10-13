@@ -11,7 +11,6 @@ private class AccountDiscountServiceTest {
         Decimal negativeDiscount = AccountDiscountService.calculateDiscount(-500);
         Test.stopTest();
 
-        // Assertions
         System.assertEquals(0.20, highDiscount, 'Expected 20% discount for revenue >= 1M');
         System.assertEquals(0.10, midDiscount, 'Expected 10% discount for revenue >= 500K');
         System.assertEquals(0.05, lowDiscount, 'Expected 5% discount for low revenue');
@@ -39,7 +38,6 @@ private class AccountDiscountServiceTest {
         AccountDiscountService.applyDiscountToAccount(null);
         Test.stopTest();
 
-        // Pass condition: No exception thrown on null input
         System.assert(true, 'Handled null account gracefully without throwing an error');
     }
 }
